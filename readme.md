@@ -106,13 +106,9 @@ cd working_solution
 pip install -r requirements.txt
 ```
 
-4. Set up environment variables:
-```bash
-# Create a .env file with your API keys
-GEMINI_API_KEY=your_api_key_here
-```
 
-5. Create required directories:
+
+4. Create required directories:
 ```bash
 mkdir uploads exports
 ```

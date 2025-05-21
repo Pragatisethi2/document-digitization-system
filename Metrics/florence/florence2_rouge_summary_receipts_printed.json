@@ -1,0 +1,13 @@
+{
+    "avg_rouge1_precision": 0.09345381755926029,
+    "avg_rouge1_recall": 0.12914520014050196,
+    "avg_rouge1_f1": 0.09203048026361642,
+    "avg_rouge2_precision": 0.01970634326296584,
+    "avg_rouge2_recall": 0.025156316408521694,
+    "avg_rouge2_f1": 0.019331643589967463,
+    "avg_rougeL_precision": 0.057943342815005114,
+    "avg_rougeL_recall": 0.08688490539133582,
+    "avg_rougeL_f1": 0.05890086617553514,
+    "avg_inference_time": 2.228845751285553,
+    "avg_memory_usage": 693.01689453125
+}

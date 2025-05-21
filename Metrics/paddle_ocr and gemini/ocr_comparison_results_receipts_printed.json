@@ -1,0 +1,2278 @@
+[
+  {
+    "image_id": 0,
+    "filename": "0.jpg",
+    "ground_truth": [
+      {
+        "label": "shop",
+        "text": "WALMART"
+      },
+      {
+        "label": "total",
+        "text": "TOTAL 5.11"
+      },
+      {
+        "label": "item",
+        "text": "FRAP 001200010451 F 5.48 N"
+      },
+      {
+        "label": "item",
+        "text": "BANANAS 000000004011KF 0.41 lb @ 1 lb /0.49 0.20 N"
+      },
+      {
+        "label": "date_time",
+        "text": "08/20/10 13:12:01"
+      }
+    ],
+    "gemini": {
+      "text": "WAL-MART\nALWAYS LOW PRICES.\nAlways\nSUPERCENTER\nOPEN 24 HOURS\nMANAGER. TBA\n(515) 986 - 1783\nST# 5748 OP# 00000158 TE# 14 TR# 03178\nBANANAS 000000004011KF 0.20 N\n0.41 lb \u0398 1 lb /0.49\nFRAP 001200010451 F 5.48 N\nDISCOUNT GIVEN 0.57\nSUBTOTAL 5.11\nTOTAL 5.11\nCASH TEND 11.00\nCHANGE DUE 5.89\n# ITEMS SOLD 2\nTC# 5679 8348 6485 7828 2003\nTHANK YOU FOR SHOPPING WITH US\nNATHANIEL BUSH\nShop at Walmart & Get\nYour Back to School List for Less.\n08/20/10 13:12:01",
+      "inference_time": 4.688337087631226,
+      "rouge_scores": {
+        "rouge1": 0.38775510204081637,
+        "rouge2": 0.25,
+        "rougeL": 0.22448979591836735,
+        "per_label": {
+          "shop": {
+            "rouge1": 0.024999999999999998,
+            "rouge2": 0.0,
+            "rougeL": 0.024999999999999998
+          },
+          "total": {
+            "rouge1": 0.04938271604938272,
+            "rouge2": 0.02531645569620253,
+            "rougeL": 0.04938271604938272
+          },
+          "item": {
+            "rouge1": 0.3010752688172043,
+            "rouge2": 0.21978021978021975,
+            "rougeL": 0.17204301075268819
+          },
+          "date_time": {
+            "rouge1": 0.04938271604938272,
+            "rouge2": 0.02531645569620253,
+            "rougeL": 0.04938271604938272
+          }
+        }
+      }
+    },
+    "paddle": {
+      "text": "WAL*MART\nALWAYS LOW PRICES.\nAlways\nSUPERCENTER\nOPEN 24 HOURS\nMANAGERTBA\n515986-1783\nBANANAS\n000000004011KF\n0.411b\n11b /0.49\n0.20N\nFRAP\n001200010451F\n5.48N\nDISCOUNT GIVEN\n0.57\nSUBTOTAL\n5.11\nTOTAL\n5.11\nCASHTEND\n11.00\nCHANGE DUE\n5.89\n#ITEMS SOLD2\nTC#.56798348648578282003\nTHANK YOU FOR SHOPPING WITH US\nNATHANIEL BUSH\nShop at Walmart & Get\nYour Back to School List for Less\n08/20/10\n13:12:01",
+      "inference_time": 1.4807968139648438,
+      "rouge_scores": {
+        "rouge1": 0.24,
+        "rouge2": 0.08219178082191782,
+        "rougeL": 0.16,
+        "per_label": {
+          "shop": {
+            "rouge1": 0.03508771929824561,
+            "rouge2": 0.0,
+            "rougeL": 0.03508771929824561
+          },
+          "total": {
+            "rouge1": 0.0689655172413793,
+            "rouge2": 0.03571428571428572,
+            "rougeL": 0.0689655172413793
+          },
+          "item": {
+            "rouge1": 0.1142857142857143,
+            "rouge2": 0.02941176470588235,
+            "rougeL": 0.08571428571428572
+          },
+          "date_time": {
+            "rouge1": 0.0689655172413793,
+            "rouge2": 0.03571428571428572,
+            "rougeL": 0.0689655172413793
+          }
+        }
+      }
+    }
+  },
+  {
+    "image_id": 1,
+    "filename": "1.jpg",
+    "ground_truth": [
+      {
+        "label": "total",
+        "text": "TOTAL $38.68"
+      },
+      {
+        "label": "item",
+        "text": "MINI-PEARL TOMATOES.. 2.49"
+      },
+      {
+        "label": "item",
+        "text": "PKG SHREDDED MOZZARELLA LITE T 3.99"
+      },
+      {
+        "label": "item",
+        "text": "EGGS 1 DOZ ORGANIC BROWN. 3.79"
+      },
+      {
+        "label": "item",
+        "text": "BEANS GARBANZO 0.89"
+      },
+      {
+        "label": "item",
+        "text": "GROCERY NON TAXABLE 0.98 2@ 0.49"
+      },
+      {
+        "label": "item",
+        "text": "A-AVOCADOS HASS BAG 4CT 3.99"
+      },
+      {
+        "label": "item",
+        "text": "SPROUTED CA STYLE 2.99"
+      },
+      {
+        "label": "item",
+        "text": "BANANAS ORGANIC 0.87 3EA @ 0.29/EA"
+      },
+      {
+        "label": "item",
+        "text": "CREAMY SALTED PEANUT BUTTER 2.49"
+      },
+      {
+        "label": "item",
+        "text": "WHL WHT PITA BREAD 1.69"
+      },
+      {
+        "label": "item",
+        "text": "GROCERY NON TAXABLE 1.38 2 2@ 0.69"
+      },
+      {
+        "label": "item",
+        "text": "R-CARROTS SHREDDED 10 OZ 1.29"
+      },
+      {
+        "label": "shop",
+        "text": "TRADER JOE'S"
+      },
+      {
+        "label": "item",
+        "text": "A-APPLE BAG JAZZ 2 LB 2.99"
+      },
+      {
+        "label": "item",
+        "text": "A-PEPPER BELL EACH XL RED 0.99"
+      },
+      {
+        "label": "item",
+        "text": "R-CUCUMBERS PERSIAN 1 LB 1.99"
+      },
+      {
+        "label": "item",
+        "text": "TOMATOES CRUSHED NO SALT 1.59"
+      },
+      {
+        "label": "item",
+        "text": "TOMATOES WHOLE NO SALT W/BASIL 1.59"
+      },
+      {
+        "label": "date_time",
+        "text": "06-28-2014 12:34PM"
+      },
+      {
+        "label": "item",
+        "text": "ORGANIC OLD FASHIONED OATMEAL 2.69"
+      }
+    ],
+    "gemini": {
+      "text": "TRADER JOE'S\n2001 Greenville Ave\nDallas TX 75206\nStore #403 (469) 334-0614\nOPEN 8:00AM TO 9:00PM DAILY\nR-CARROTS SHREDDED 10 OZ  1.29\nR-CUCUMBERS PERSIAN 1 LB  1.99\nTOMATOES CRUSHED NO SALT  1.59\nTOMATOES WHOLE NO SALT W/BASIL  1.59\nORGANIC OLD FASHIONED OATMEAL  2.69\nMINI-PEARL TOMATOES..  2.49\nPKG SHREDDED MOZZARELLA LITE T  3.99\nEGGS 1 DOZ ORGANIC BROWN.  3.79\nBEANS GARBANZO  0.89\nSPROUTED CA STYLE  2.99\nA-AVOCADOS HASS BAG 4CT  3.99\nA-APPLE BAG JAZZ 2 LB  2.99\nA-PEPPER BELL EACH XL RED  0.99\nGROCERY NON TAXABLE  0.98\n2 @ 0.49\nBANANAS ORGANIC  0.87\n3EA @ 0.29/EA\nCREAMY SALTED PEANUT BUTTER  2.49\nWHL WHT PITA BREAD  1.69\nGROCERY NON TAXABLE  1.38\n2 @ 0.69\nSUBTOTAL  $38.68\nTOTAL  $38.68\nCASH  $40.00\nCHANGE  $1.32\nITEMS 22  Higgins, Ryan\n06-28-2014 12:34PM 0403 04 1346 4683\nTHANK YOU FOR SHOPPING AT\nTRADER JOE'S\nwww.traderjoes.com",
+      "inference_time": 5.330823659896851,
+      "rouge_scores": {
+        "rouge1": 0.8376068376068376,
+        "rouge2": 0.7413793103448276,
+        "rougeL": 0.4017094017094017,
+        "per_label": {
+          "total": {
+            "rouge1": 0.029197080291970802,
+            "rouge2": 0.014814814814814815,
+            "rougeL": 0.029197080291970802
+          },
+          "item": {
+            "rouge1": 0.807017543859649,
+            "rouge2": 0.7433628318584071,
+            "rougeL": 0.39473684210526316
+          },
+          "shop": {
+            "rouge1": 0.029197080291970802,
+            "rouge2": 0.014814814814814815,
+            "rougeL": 0.029197080291970802
+          },
+          "date_time": {
+            "rouge1": 0.029197080291970802,
+            "rouge2": 0.014814814814814815,
+            "rougeL": 0.029197080291970802
+          }
+        }
+      }
+    },
+    "paddle": {
+      "text": "TRADER JOE'S\n2001 Greenvi1le Ave\nDallas TX 75206\nStore #403-469334-0614\nOPEN 8:0OAM TO 9:OOPM DAILY\n1.29\nR-CARROTS SHREDDED 10 OZ\n1.99\nR-CUCUMBERS PERSIAN 1 LB\n1.59\nTOMATOES CRUSHED NO SALT\n1.59\nTOMATOES WHOLE NO SALT W/BASIL\n2.69\nORGANIC OLD FASHIONED OATMEAL\n2.49\nMINI-PEARL TOMATOES.\n3.99\nPKG SHREDDED MOZZARELLA LITE T\n3.79\nEGGS 1 DOZ ORGANIC BROWN\n0.89\nBEANS GARBANZO\n2.99\nSPROUTED CA STYLE\n3.99\nA-AVOCADOS HASS BAG 4CT\n2.99\nA-APPLE BAG JAZZ 2 LB\n0.99\nA-PEPPER BELL EACH XL RED\n0.98\nGROCERY NON TAXABLE\n2@0.49\n0.87\nBANANAS ORGANIC\n3EA@0.29/EA\n2.49\nCREAMY SALTED PEANUT BUTTER\n1.69\nWHL WHT PITA BREAD\n1.38\nGROCERY NON TAXABLE\n2@0.69\n$38.68\nSUBTOTAL\n$38.68\nTOTAL\n$40.00\nCASH\n$1.32\nCHANGE\nHiggins,Ryan\nITEMS 22\n06-28-2014 12:34PM 0403 04 1346 4683\nTHANK YOU FOR SHOPPING AT\nTRADER JOE'S\nwww.traderjoes.com",
+      "inference_time": 2.280698537826538,
+      "rouge_scores": {
+        "rouge1": 0.8070175438596491,
+        "rouge2": 0.4778761061946903,
+        "rougeL": 0.29824561403508776,
+        "per_label": {
+          "total": {
+            "rouge1": 0.030534351145038167,
+            "rouge2": 0.0,
+            "rougeL": 0.015267175572519083
+          },
+          "item": {
+            "rouge1": 0.7747747747747747,
+            "rouge2": 0.4727272727272727,
+            "rougeL": 0.2882882882882883
+          },
+          "shop": {
+            "rouge1": 0.030534351145038167,
+            "rouge2": 0.015503875968992248,
+            "rougeL": 0.030534351145038167
+          },
+          "date_time": {
+            "rouge1": 0.030534351145038167,
+            "rouge2": 0.015503875968992248,
+            "rougeL": 0.030534351145038167
+          }
+        }
+      }
+    }
+  },
+  {
+    "image_id": 10,
+    "filename": "10.jpg",
+    "ground_truth": [
+      {
+        "label": "item",
+        "text": "SMOKED VIENNAS 500GR 33.99 A"
+      },
+      {
+        "label": "shop",
+        "text": "SPAR"
+      },
+      {
+        "label": "total",
+        "text": "TOTAL FOR 14 ITEMS 338.16"
+      },
+      {
+        "label": "item",
+        "text": "PEALED PEACHES 400G 82.99 A"
+      },
+      {
+        "label": "item",
+        "text": "MILKY BAR CHOC 80GR 16.99 A"
+      },
+      {
+        "label": "item",
+        "text": "LAZENBY WORCESTER SALICE 125ML 17.99 A"
+      },
+      {
+        "label": "item",
+        "text": "MEDITERRANEAN MIX 1KG 44.99 *"
+      },
+      {
+        "label": "item",
+        "text": "SPAR COOKING OIL 375ML 14.99 *"
+      },
+      {
+        "label": "item",
+        "text": "F/L ENGLISH CUCUMB 1'S 12.99 *"
+      },
+      {
+        "label": "item",
+        "text": "NESTLE AERO 85GR 20.99 A"
+      },
+      {
+        "label": "item",
+        "text": "CADBURY DAIRY MI 80 GR 16.99 A"
+      },
+      {
+        "label": "date_time",
+        "text": "23.02.21 16:17"
+      },
+      {
+        "label": "item",
+        "text": "CARRIER BAG 24L 1\"S 0.75 A"
+      },
+      {
+        "label": "item",
+        "text": "BANANAS LOOSE 17KG 0.596kg @ 15.99 R /kg 9.53 *"
+      },
+      {
+        "label": "item",
+        "text": "GRAPES MIXED TUB TUB 24.99 *"
+      },
+      {
+        "label": "item",
+        "text": "TASTIC RICE 500GR 11.99 *"
+      },
+      {
+        "label": "item",
+        "text": "BLACK CAT SMOOTH 270GR 27.99 A"
+      }
+    ],
+    "gemini": {
+      "text": "SPAR\nTel: 036-4481240\nemail: bergspar@telkomsa.net\nVAT No: 4450102696\nNLA REG NO: KZN 032577\nR\nLAZENBY WORCESTER SAUCE 125ML  17.99 A\nMILKY BAR CHOC  80GR  16.99 A\nSMOKED VIENNAS  500GR  33.99 A\nPEALED PEACHES  400G  82.99 A\nMEDITERRANEAN MIX  1KG  44.99 *\nSPAR COOKING OIL  375ML  14.99 *\nF/L ENGLISH CUCUMB  1'S  12.99 *\nNESTLE AERO  85GR  20.99 A\nCADBURY DAIRY MI  80GR  16.99 A\nGRAPES MIXED TUB  TUB  24.99 *\nTASTIC RICE  500GR  11.99 *\nBLACK CAT SMOOTH  270GR  27.99 A\nCARRIER BAG 24L  1'S  0.75 A\nBANANAS LOOSE  17KG\n0.596kg @ 15.99 R/kg  9.53 *\nTOTAL FOR 14 ITEMS  338.16\nTENDERED Nedbank  338.16\nTAX INVOICE\nVAT rate  excl.  TAX  incl.\n0.00%  119.48  0.00  119.48 *\n15.00%  190.16  28.52  218.68 A\nSLIP / TILL / CASHIER / DATE / TIME\n3780  005  101  23.02.21  16:17\nCASHIER NAME: SWAZI\nPlease Retain Slip\nThank You For Shopping With Us! :)\nFollow us on Facebook: Spar Bergville",
+      "inference_time": 5.91320538520813,
+      "rouge_scores": {
+        "rouge1": 0.7168141592920354,
+        "rouge2": 0.6160714285714286,
+        "rougeL": 0.4336283185840708,
+        "per_label": {
+          "item": {
+            "rouge1": 0.6697247706422018,
+            "rouge2": 0.6111111111111112,
+            "rougeL": 0.4495412844036697
+          },
+          "shop": {
+            "rouge1": 0.014084507042253521,
+            "rouge2": 0.0,
+            "rougeL": 0.014084507042253521
+          },
+          "total": {
+            "rouge1": 0.06849315068493152,
+            "rouge2": 0.05555555555555556,
+            "rougeL": 0.06849315068493152
+          },
+          "date_time": {
+            "rouge1": 0.027972027972027972,
+            "rouge2": 0.014184397163120567,
+            "rougeL": 0.027972027972027972
+          }
+        }
+      }
+    },
+    "paddle": {
+      "text": "SPAR\nTe1036-4481240\nemail :bergspar@telkomsa.net\nVAT No4450102696\nNLA REG NOKZN 032577\n17.99 A\nLAZENBY WORCESTER SAUCE 125ML\n80GR\n16.99 A\nMILKY BAR CHOC\n500GR\n33.99 A\nSMOKED VIENNAS\n400G\n82.99A\nPEALED PEACHES\n1KG\n44.99*\nMEDITERRANEAN MIX\n375ML\n14.99 *\nSPAR COOKING OIL\n1'S\n12.99*\nF/L ENGLISH CUCUMB\n85GR\n20.99A\nNESTLE AERO\n80GR\n16.99 A\nCADBURY DAIRY MI\nTUB\n24.99*\nGRAPES MIXED TUB\n500GR\n11.99*\nTASTIC RICE\n270GR\n27.99 A\nBLACK CAT SMOOTH\nCARRIER BAG 24L\n1'S\n0.75 A\nBANANAS LOOSE\n17KG\n0.596kg@\n15.99R\n/kg\n9.53*\nTOTAL\nFOR 14 ITEMS\n338.16\nTENDERED Nedbank\n338.16\nTAX INVOICE\nVAT rate\nexcl.\nTAX\nincl.\n0.00%\n119.48\n0.00\n119.48*\n15.00%\n190.16\n28.52\n218.68 A\nSLIP\nTILL\n/CASHIER\nDATE\nTIME\n3780\n005\n101\n23.02.21\n16:17\nCASHIER NAME:SWAZI\nPlease Retain Slip\nThank You For Shopping With Us)\nFollow us on Facebook: Spar Bergville",
+      "inference_time": 2.201561212539673,
+      "rouge_scores": {
+        "rouge1": 0.7031963470319635,
+        "rouge2": 0.4516129032258065,
+        "rougeL": 0.31050228310502287,
+        "per_label": {
+          "item": {
+            "rouge1": 0.6540284360189573,
+            "rouge2": 0.42105263157894735,
+            "rougeL": 0.3222748815165877
+          },
+          "shop": {
+            "rouge1": 0.014814814814814815,
+            "rouge2": 0.0,
+            "rougeL": 0.014814814814814815
+          },
+          "total": {
+            "rouge1": 0.07194244604316546,
+            "rouge2": 0.058394160583941604,
+            "rougeL": 0.07194244604316546
+          },
+          "date_time": {
+            "rouge1": 0.029411764705882353,
+            "rouge2": 0.014925373134328356,
+            "rougeL": 0.029411764705882353
+          }
+        }
+      }
+    }
+  },
+  {
+    "image_id": 11,
+    "filename": "11.jpg",
+    "ground_truth": [
+      {
+        "label": "item",
+        "text": "*WT PLUMS BLACK CV 2.15 B"
+      },
+      {
+        "label": "item",
+        "text": "* CAGE FREE ALL WHIT 3.69 B"
+      },
+      {
+        "label": "shop",
+        "text": "WHOLE FOODS MARKET"
+      },
+      {
+        "label": "item",
+        "text": "* PL TORTILLA'S 6.99 B"
+      },
+      {
+        "label": "item",
+        "text": "* BLACK BEANS 1.29 B"
+      },
+      {
+        "label": "item",
+        "text": "* Frozen Mangoes 16o 2.99 B"
+      },
+      {
+        "label": "item",
+        "text": "* Whole Strawberries 2.99 B"
+      },
+      {
+        "label": "item",
+        "text": "* OG LF COTTAGE CHEE 3.49 B"
+      },
+      {
+        "label": "item",
+        "text": "* MAHI MAHI FILLETS 8.99 B"
+      },
+      {
+        "label": "item",
+        "text": "* California Harvest 2.69 B"
+      }
+    ],
+    "gemini": {
+      "text": "WHOLE\nFOODS\nMARKET\nSHARON RD.\nPL TORTILLA'S\n6.99 B\nCAGE FREE ALL WHIT\n3.69 B\nBLACK BEANS\n1.29 B\nFrozen Mangoes 160\n2.99 B\nWhole Strawberries\n2.99 B\nOG LF COTTAGE CHEE\n3.49 B\nMAHI MAHI FILLETS\n8.99 B\n$2 off (1) WC Fill\n2.00-\nCalifornia Harvest\n2.69 B\n1.08 lb @ 1.99/lb\nTARE = .01\nPLUMS BLACK CV\n2.15 B\nITEM = 4040\nNHP SLICED OVEN RO\n3.99 B\nNHP SLICED HICKORY\n3.99 B\n1.64 lb @ 1.99/lb\nTARE = .01\nGALA APPLES OG\n3.26 B\nITEM = 94135\n**** TAX .93 BAL 45.44",
+      "inference_time": 3.786693811416626,
+      "rouge_scores": {
+        "rouge1": 0.6666666666666667,
+        "rouge2": 0.6015037593984962,
+        "rougeL": 0.5037037037037038,
+        "per_label": {
+          "item": {
+            "rouge1": 0.6363636363636365,
+            "rouge2": 0.5846153846153848,
+            "rougeL": 0.515151515151515
+          },
+          "shop": {
+            "rouge1": 0.06593406593406592,
+            "rouge2": 0.0449438202247191,
+            "rougeL": 0.06593406593406592
+          }
+        }
+      }
+    },
+    "paddle": {
+      "text": "WHOLE\nFOODS\nMARRKET\nSHARON RD.\nPL TORTILLA'S\n6.99B\nCAGE FREE ALL WHIT\n3.69B\nBLACK BEANS\n1.29B\nFrozen Mansoes 160\n2.99B\nWhole Strawberries\n2.99B\n1\nOG LF COTTAGE CHEE\n3.49B\n*\nMAHI MAHI FILLETS\n8.99B\n#VC\n$2 off(1WC Fill\n2.00-\nCalifornia Harvest\n2.69B\n1.081b@1.99/1b\nTARE=.01\n#WT\nPLUMS BLACK CV\n2.15B\nITEM=4040\nNHP SLICED OVEN RO\n3.99B\nNHP SLICED HICKORY\n3.99B\n1.641b@1.99/1b\nTARE=.01\nWT\nGALA APPLES OG\n3.26B\nITEM=94135\n****TAX\n93\nBAL\n45.44",
+      "inference_time": 1.7018108367919922,
+      "rouge_scores": {
+        "rouge1": 0.4444444444444445,
+        "rouge2": 0.2782608695652174,
+        "rougeL": 0.30769230769230765,
+        "per_label": {
+          "item": {
+            "rouge1": 0.42105263157894735,
+            "rouge2": 0.26785714285714285,
+            "rougeL": 0.31578947368421045
+          },
+          "shop": {
+            "rouge1": 0.0547945205479452,
+            "rouge2": 0.028169014084507046,
+            "rougeL": 0.0547945205479452
+          }
+        }
+      }
+    }
+  },
+  {
+    "image_id": 12,
+    "filename": "12.jpg",
+    "ground_truth": [
+      {
+        "label": "date_time",
+        "text": "10/20/07 13:48:43"
+      },
+      {
+        "label": "item",
+        "text": "TOOTHBRUSH 003500055500 0.96 X"
+      },
+      {
+        "label": "item",
+        "text": "WOMEN SLIPPE 009725614790 9.86 X"
+      },
+      {
+        "label": "total",
+        "text": "TOTAL 18.75"
+      },
+      {
+        "label": "item",
+        "text": "SW FIGURES 065356920144 6.63 X"
+      },
+      {
+        "label": "shop",
+        "text": "WALMART"
+      }
+    ],
+    "gemini": {
+      "text": "WALMART\nSave money. Live better.\n\nWE SELL FOR LESS\nALWAYS\nMANAGER DAPHNE SESSION\n(636) 536 - 4601\nCHESTERFIELD, MO 63005\nST# 2600 OP# 00001855 TE# 17 TR# 03359\nSW FIGURES 065356920144     6.63 X\nTOOTHBRUSH 003500055500     0.96 X\nSUBTOTAL                  7.59\nWOMEN SLIPPE 009725614790     9.86 X\nSUBTOTAL                  17.45\nTAX 1        3.100 %       0.54\nTAX 3        4.350 %       0.76\nTOTAL                     18.75\nMCARD TEND                 18.75\nACCOUNT #3546\nAPPROVAL #007190\nTRANS ID -\nVALIDATION -\nPAYMENT SERVICE - A\nCHANGE DUE          0.00\n# ITEMS SOLD 3\nTC# 9489 7094 6487 3073 3651\nWal-Mart exclusive Eagles CD\navailable October 30th!\n10/20/07          13:48:43\n***CUSTOMER COPY***",
+      "inference_time": 4.643306255340576,
+      "rouge_scores": {
+        "rouge1": 0.3454545454545455,
+        "rouge2": 0.2407407407407407,
+        "rougeL": 0.2181818181818182,
+        "per_label": {
+          "date_time": {
+            "rouge1": 0.043010752688172046,
+            "rouge2": 0.02197802197802198,
+            "rougeL": 0.043010752688172046
+          },
+          "item": {
+            "rouge1": 0.2666666666666667,
+            "rouge2": 0.21359223300970873,
+            "rougeL": 0.17142857142857143
+          },
+          "total": {
+            "rouge1": 0.043010752688172046,
+            "rouge2": 0.02197802197802198,
+            "rougeL": 0.043010752688172046
+          },
+          "shop": {
+            "rouge1": 0.02173913043478261,
+            "rouge2": 0.0,
+            "rougeL": 0.02173913043478261
+          }
+        }
+      }
+    },
+    "paddle": {
+      "text": "WAL*MART\nSave money.Live better.\nWE SELL FOR LESS\nALWAYS\nMANAGER DAPHNE SESSION\n636536-4601\nCHESTERFIELD,MO 63005\nST#26000P#00001855 TE#17TR#03359\nSWFIGURES\n065356920144\n6.63X\nTOOTHBRUSH\n003500055500\n0.96X\nSUBTOTAL\n7.59\nWOMEN SLIPPE009725614790\n9.86X\nSUBTOTAL\n17.45\nTAX 1\n3.100%\n0.54\nTAX 3\n4.350%\n0.76\nTOTAL\n18.75\nMCARD TEND\n18.75\nACCOUNT #3546\nAPPR0VAL #007190\nTRANS ID\n-\nVALIDATION\nPAYMENT SERVICE\n-A\nCHANGE DUE\n0.00\n#ITEMS SOLD 3\nTC#9489 7094 6487 3073 3651\nWal-Mart exclusive Eagles CD\navailable October 30th\n10/20/07\n13:48:43\n**CUSTOMER COPY***",
+      "inference_time": 1.704545021057129,
+      "rouge_scores": {
+        "rouge1": 0.19148936170212763,
+        "rouge2": 0.06521739130434784,
+        "rougeL": 0.1276595744680851,
+        "per_label": {
+          "date_time": {
+            "rouge1": 0.05194805194805195,
+            "rouge2": 0.026666666666666665,
+            "rougeL": 0.05194805194805195
+          },
+          "item": {
+            "rouge1": 0.0898876404494382,
+            "rouge2": 0.022988505747126436,
+            "rougeL": 0.06741573033707865
+          },
+          "total": {
+            "rouge1": 0.05194805194805195,
+            "rouge2": 0.026666666666666665,
+            "rougeL": 0.05194805194805195
+          },
+          "shop": {
+            "rouge1": 0.02631578947368421,
+            "rouge2": 0.0,
+            "rougeL": 0.02631578947368421
+          }
+        }
+      }
+    }
+  },
+  {
+    "image_id": 13,
+    "filename": "13.jpg",
+    "ground_truth": [
+      {
+        "label": "shop",
+        "text": "Walmart"
+      },
+      {
+        "label": "item",
+        "text": "GIFT CARD 087458604333 50.00 0"
+      },
+      {
+        "label": "date_time",
+        "text": "08/11/17 19:22:40"
+      },
+      {
+        "label": "total",
+        "text": "TOTAL 50.00"
+      }
+    ],
+    "gemini": {
+      "text": "Here's a transcription of the text from the image:\n\nID #:  A1SWOY8KCW\n\nWalmart\nSave money. Live better.\n\n(843) 292 - 0362\nMANAGER MICHAEL REIGHARD\n2014 S IRBY ST\nFLORENCE SC 29505\n\n51# 02703 OP# 009049 TER 49 TR# 07142\nGIFT CARD 087458604383  50.00  0\nSUBTOTAL  50.00\nTOTAL  50.00\nCASH TEND  60.00\nCHANGE DUE  10.00\n\n50.00\nSHOP CARD ACTIVATION\nACCOUNT 613968546249/292\nAPPR. CODE - 792986\nREF #0083742\n\nBeg Bal Tran Amt End Bal\n0.00  50.00  50.00\n08/11/17  19:19:31\n\nTC# 9736 5895 9237 / 2333 1932\n\nLow Prices You Can Trust. Every Day.\n08/11/17  19:22:40\nStore receipts on your phone. Walmart Pay.",
+      "inference_time": 4.173544645309448,
+      "rouge_scores": {
+        "rouge1": 0.169811320754717,
+        "rouge2": 0.07692307692307691,
+        "rougeL": 0.1320754716981132,
+        "per_label": {
+          "shop": {
+            "rouge1": 0.020618556701030924,
+            "rouge2": 0.0,
+            "rougeL": 0.020618556701030924
+          },
+          "item": {
+            "rouge1": 0.07920792079207921,
+            "rouge2": 0.04040404040404041,
+            "rougeL": 0.07920792079207921
+          },
+          "date_time": {
+            "rouge1": 0.04081632653061225,
+            "rouge2": 0.020833333333333332,
+            "rougeL": 0.04081632653061225
+          },
+          "total": {
+            "rouge1": 0.04081632653061225,
+            "rouge2": 0.020833333333333332,
+            "rougeL": 0.04081632653061225
+          }
+        }
+      }
+    },
+    "paddle": {
+      "text": "ID#\n.1SWQY8KCH\nWalmart\nSave money.Live better\n8432920362\nMANAGER MICHAEL EEIGHARD\n2014SR8YST\nORENCE SC29505\n51#0230P#00949E49TR 0/142\nGIFTCARD\n08/458604333\n50.00\nSUBIOIAL\n50.00\nTOTAI\n50.0\nCASHTN)\n60.00\nCHANGED\n10.00\nSHOP.CARI ACIIVAIION\n50.00\nACCOUNI 613968546249/29\nAPPR.C0DE792986\nREF0083742\nBeg Bal\nran Am\nEnd Bal\n0.00\n50.00\n50.00\n08/11/17\n19:19:31\nICH97365895923/23331932\nLow Pr ices You Ca Trust Eyery Day.\n08/11/17\n19.40\nStore teceipls o your rne Walnart P\nay",
+      "inference_time": 1.553173542022705,
+      "rouge_scores": {
+        "rouge1": 0.1095890410958904,
+        "rouge2": 0.0,
+        "rougeL": 0.0821917808219178,
+        "per_label": {
+          "shop": {
+            "rouge1": 0.03125,
+            "rouge2": 0.0,
+            "rougeL": 0.03125
+          },
+          "item": {
+            "rouge1": 0.029411764705882353,
+            "rouge2": 0.0,
+            "rougeL": 0.029411764705882353
+          },
+          "date_time": {
+            "rouge1": 0.03076923076923077,
+            "rouge2": 0.0,
+            "rougeL": 0.03076923076923077
+          },
+          "total": {
+            "rouge1": 0.03076923076923077,
+            "rouge2": 0.0,
+            "rougeL": 0.03076923076923077
+          }
+        }
+      }
+    }
+  },
+  {
+    "image_id": 14,
+    "filename": "14.jpg",
+    "ground_truth": [
+      {
+        "label": "total",
+        "text": "TOTAL 26.60"
+      },
+      {
+        "label": "item",
+        "text": "VFUS ENG POM 005100024543 F 7.48 N"
+      },
+      {
+        "label": "date_time",
+        "text": "05/04/17 19:54:18"
+      },
+      {
+        "label": "item",
+        "text": "LINT ROLLER2 005114123488 5.78 X"
+      },
+      {
+        "label": "item",
+        "text": "DAWN ORIG 003700011045 5.97 X"
+      },
+      {
+        "label": "item",
+        "text": "EQUATE LINER 068113186503 3.88 X"
+      },
+      {
+        "label": "shop",
+        "text": "Walmart"
+      },
+      {
+        "label": "item",
+        "text": "5OYD PKGTAPE 007535307841 1.12 X"
+      },
+      {
+        "label": "item",
+        "text": "5OYD PKGTAPE 007535307841 1.12 X"
+      }
+    ],
+    "gemini": {
+      "text": "See back of receipt for your chance\nto win $1000\nID #: 7LORX4K8PJX\nWalmart\nSave money. Live better.\n(937) 644 - 2800\nMANAGER CHRISTOPHER WOOD\n555 COLEMANS CROSSING BLVD\nMARYSVILLE OH 43040\nST# 01595 OP# 007573 TE# 10 TR# 08890\nEQUATE LINER 068113186503 3.88 X\nVFUS ENG POM 005100024543 F 7.48 N\nDAWN ORIG 003700011045 5.97 X\n50YD PKGTAPE 007535307841 1.12 X\n50YD PKGTAPE 007535307841 1.12 X\nLINT ROLLER2 005114123488 5.78 X\nSUBTOTAL 25.35\nTAX 1 7.000 % 1.25\nTOTAL 26.60\nDEBIT TEND 26.60\nCHANGE DUE 0.00\nEFT DEBIT 26.60 PAY FROM PRIMARY\nACCOUNT # **** **** **** 8371\nREF # 712400283994\nNETWORK ID. 0069 APPR CODE 868483\nTERMINAL # SC010087\n05/04/17 19:54:16\n# ITEMS SOLD 6\nTC# 7535 0523 2384 1061 368\n05/04/17 19:54:18\nStore receipts on your phone. Walmart Pay.",
+      "inference_time": 7.296052932739258,
+      "rouge_scores": {
+        "rouge1": 0.440251572327044,
+        "rouge2": 0.33121019108280253,
+        "rougeL": 0.25157232704402516,
+        "per_label": {
+          "total": {
+            "rouge1": 0.03225806451612903,
+            "rouge2": 0.01639344262295082,
+            "rougeL": 0.03225806451612903
+          },
+          "item": {
+            "rouge1": 0.3896103896103896,
+            "rouge2": 0.3157894736842105,
+            "rougeL": 0.2597402597402597
+          },
+          "date_time": {
+            "rouge1": 0.03225806451612903,
+            "rouge2": 0.01639344262295082,
+            "rougeL": 0.03225806451612903
+          },
+          "shop": {
+            "rouge1": 0.016260162601626018,
+            "rouge2": 0.0,
+            "rougeL": 0.016260162601626018
+          }
+        }
+      }
+    },
+    "paddle": {
+      "text": "JOY XHAHT\nSee back of receipt for your chance\nto win $1000\nwovaewweh\nID#\n7L0RX4K8PJX\nWalmart\nSave money.Live better.\n937644-2800\nMANAGER CHRISTOPHER WOOD\n555 COLEMANS CROSSING BLVII\nMARYSVILLE OH 43040\n06880\nST#015950P#007573TE#10TR\n38\nX\nEQUATE LINER068113186503\n7.48\nVFUS ENG POM 005100024543\n5.\n.97\nDAWN ORIG\n003700011045\n1\n50YD PKGTAPE 007535307841\n1\n50YD PKGTAPE 007535307841\n5\nLINT R0LLER2 005114123488\n25.\n35\nSUBTOTAL\n1.\n25\nTAX 1\n7.000%\nTOTAL\n6.60\nDEBIT TEND\n0.00\nCHANGE DUE\nPAY FROM PRIMARY\nEFT DEBIT\n26.60TOTAL PURCHASE\nS\n************371\nACCOUNT#\nREF#712400283994\nNETW0RK ID. 0069 APPR C0DE 868483\nWooora\nTERMINAL#SC010087\ns0165p\n19:54:16\n05/04/17\n#ITEMS SOLD6\nTC#7535052323841061 368\n05/04/17\n19:54:18\nWalmart P\nStore receipts an your phone.\nay.",
+      "inference_time": 2.3387205600738525,
+      "rouge_scores": {
+        "rouge1": 0.273972602739726,
+        "rouge2": 0.125,
+        "rougeL": 0.1506849315068493,
+        "per_label": {
+          "total": {
+            "rouge1": 0.01801801801801802,
+            "rouge2": 0.0,
+            "rougeL": 0.01801801801801802
+          },
+          "item": {
+            "rouge1": 0.2269503546099291,
+            "rouge2": 0.11510791366906474,
+            "rougeL": 0.15602836879432624
+          },
+          "date_time": {
+            "rouge1": 0.03603603603603604,
+            "rouge2": 0.018348623853211007,
+            "rougeL": 0.03603603603603604
+          },
+          "shop": {
+            "rouge1": 0.018181818181818184,
+            "rouge2": 0.0,
+            "rougeL": 0.018181818181818184
+          }
+        }
+      }
+    }
+  },
+  {
+    "image_id": 15,
+    "filename": "15.jpg",
+    "ground_truth": [
+      {
+        "label": "date_time",
+        "text": "07/22/16 20:53:11"
+      },
+      {
+        "label": "shop",
+        "text": "Walmart"
+      },
+      {
+        "label": "item",
+        "text": "DIABETES 068113131172H 12.58 N"
+      },
+      {
+        "label": "total",
+        "text": "TOTAL 12.58"
+      }
+    ],
+    "gemini": {
+      "text": "See back of receipt for your chance\nto win $1000\nID #: 7JYY2JWOK3Y\n\nWalmart\nSave money. Live better.\n\n(714) 799 - 0020\nMANAGER YVONNE THOMAS\n13331 BEACH BLVD\nWESTMINSTER CA 92683\n\nST# 02495 OP# 006969 TE# 79 TR# 01526\nDIABETES 068113131172H\nSUBTOTAL 12.58\nTOTAL 12.58\nTEND 12.58\n\nVisa Credit **** **** **** 3670 I\nAPPROVAL # 222235\nREF # 620500604401\nTRANS ID 586205139884060\nVALIDATION - 76LK\nPAYMENT SERVICE - E\n\nAID A0000000031010\nTC 9E0FAC9A809E5D92\nTERMINAL # 281767447\n*NO SIGNATURE REQUIRED\n\n07/22/16 20:53:11\nCHANGE DUE 0.00\n\n# ITEMS SOLD 1\n\nTC# 7503 0129 1089 7649 4115\n\nLow Prices You Can Trust. Every Day.\n07/22/16 20:53:11\n\n***CUSTOMER COPY***\n\nSavings Catcher! Scan with Walmart app",
+      "inference_time": 4.750158786773682,
+      "rouge_scores": {
+        "rouge1": 0.14545454545454545,
+        "rouge2": 0.05555555555555555,
+        "rougeL": 0.10909090909090909,
+        "per_label": {
+          "date_time": {
+            "rouge1": 0.038834951456310676,
+            "rouge2": 0.019801980198019802,
+            "rougeL": 0.038834951456310676
+          },
+          "shop": {
+            "rouge1": 0.0196078431372549,
+            "rouge2": 0.0,
+            "rougeL": 0.0196078431372549
+          },
+          "item": {
+            "rouge1": 0.05714285714285714,
+            "rouge2": 0.019417475728155338,
+            "rougeL": 0.05714285714285714
+          },
+          "total": {
+            "rouge1": 0.038834951456310676,
+            "rouge2": 0.019801980198019802,
+            "rougeL": 0.038834951456310676
+          }
+        }
+      }
+    },
+    "paddle": {
+      "text": "86W.WD\nto win $1000\nID\n7JYY2JW0K3Y\nebeotiig\nshsboo\nWalmart\nW.eb\nSave money.Live better.\nuq on\n714799-0020\nMANAGER YVONNE THOMAS\n11609l\n13331 BEACH BLVD\norsiw\nWESTMINSTER CA 92683\nDIABETES\n068113131172H\n12.58N\nSUBTOTAL\n12.58\nTOTAL\n12.58\nioitto\nVISA TEND\n12.58\nat10\n \n3670\nI1\nVisa Credit\nHOYA\nAHT\nAPPROVAL#222235\nREF#620500604401\nTRANS ID-586205139884060\nVALIDATION -76LK\nPAYMENT SERVICE -E\nW.woh\nAID A0000000031010\nTC 9E0FAC9A809E5D92\nxds2s\nTERMINAL281767447\nw.ooote\n*NO SIGNATURE REQUIRED\n07/22/16\n20:53:11\nCHANGE DUE\n0.00\n#ITEMS SOLD1\nTC#75030129108976494115\nLow Prices You Can Trust.Every Day\n07/22/16\n20:53:11\n*CUSTOMER COPY***\nSavings Catcher! Scan with Walmart app\nUOXXMAHT",
+      "inference_time": 2.389308452606201,
+      "rouge_scores": {
+        "rouge1": 0.16161616161616163,
+        "rouge2": 0.061855670103092786,
+        "rougeL": 0.1212121212121212,
+        "per_label": {
+          "date_time": {
+            "rouge1": 0.04347826086956522,
+            "rouge2": 0.02222222222222222,
+            "rougeL": 0.04347826086956522
+          },
+          "shop": {
+            "rouge1": 0.02197802197802198,
+            "rouge2": 0.0,
+            "rougeL": 0.02197802197802198
+          },
+          "item": {
+            "rouge1": 0.06382978723404256,
+            "rouge2": 0.021739130434782608,
+            "rougeL": 0.06382978723404256
+          },
+          "total": {
+            "rouge1": 0.04347826086956522,
+            "rouge2": 0.02222222222222222,
+            "rougeL": 0.04347826086956522
+          }
+        }
+      }
+    }
+  },
+  {
+    "image_id": 16,
+    "filename": "16.jpg",
+    "ground_truth": [
+      {
+        "label": "date_time",
+        "text": "11/13/17 12:34:04"
+      },
+      {
+        "label": "item",
+        "text": "ASST 27 063099656595 4.88 X"
+      },
+      {
+        "label": "shop",
+        "text": "Walmart"
+      },
+      {
+        "label": "item",
+        "text": "CUTIE CAR 063099656644 12.88 X"
+      },
+      {
+        "label": "item",
+        "text": "6 WING PLATE 020108870398 3.98 P"
+      },
+      {
+        "label": "total",
+        "text": "TOTAL 23.19"
+      }
+    ],
+    "gemini": {
+      "text": "See back of receipt for your chance\nto win $1000\nID #: 7L2T9WJM25F\nWalmart\nSave money. Live better.\n(701) 223 - 3066\nMANAGER TIM MORRIS\n2717 ROCK ISLAND PL\nBISMARCK ND 58504\nST# 01534 OP# 009048 TE# 48 TR# 04455\n6 WING PLATE 020108870398 3.98 P\nASST 27 063099656595 4.88 X\nCUTIE CAR 063099656644 12.88 X\nSUBTOTAL 21.74\nTAX 1 6.500 % 1.15\nTAX 4 7.500 % 0.30\nTOTAL 23.19\nDEBIT TEND 23.19\nCHANGE DUE 0.00\nEFT DEBIT PAY FROM PRIMARY\n23.19 TOTAL PURCHASE\nUS DEBIT **** **** **** 2696 I 0\nREF # 731700494718\nNETWORK ID. 0081 APPR CODE 936886\nUS DEBIT\nAID A0000000980840\nTC 58B77239DA5B3B44\n*NO SIGNATURE REQUIRED\nTERMINAL # SC011090\n11/13/17 12:34:04\n# ITEMS SOLD 3\nTC# 2188 7274 6444 1567 3762\nLow Prices You Can Trust. Every Day.\n11/13/17 12:34:11\nStore receipts on your phone. Walmart P\nay.",
+      "inference_time": 5.8626015186309814,
+      "rouge_scores": {
+        "rouge1": 0.2745098039215686,
+        "rouge2": 0.19867549668874174,
+        "rougeL": 0.1568627450980392,
+        "per_label": {
+          "date_time": {
+            "rouge1": 0.02985074626865672,
+            "rouge2": 0.015151515151515152,
+            "rougeL": 0.02985074626865672
+          },
+          "item": {
+            "rouge1": 0.21621621621621626,
+            "rouge2": 0.19178082191780824,
+            "rougeL": 0.14864864864864863
+          },
+          "shop": {
+            "rouge1": 0.015037593984962407,
+            "rouge2": 0.0,
+            "rougeL": 0.015037593984962407
+          },
+          "total": {
+            "rouge1": 0.02985074626865672,
+            "rouge2": 0.015151515151515152,
+            "rougeL": 0.02985074626865672
+          }
+        }
+      }
+    },
+    "paddle": {
+      "text": "See back of receipt for your chance\nto win $1000\nID#\n7L2T9WJM25F\nWalmart\nSave money.Live better.\n701223-3066\nMANAGER TIM MORRIS\n2717 ROCK ISLAND PI\nBISMARCK ND 58504\n6WING PLATE 020108870398\n3.98P\nASST27\n063099656595\n4.88\nCUTIE CAR\n063099656644\n12.88X\nSUBTOTAL\n21.74\nTAX 1\n6.500%\n1.15\nTAX4\n7.500%\n0.30\nTOTAL\n23.19\nDEBIT TEND\n23.19\nCHANGE DUE\n0.00\nEFT DEBIT\nPAY FROM PRIMARY\n23.19\nTOTAL PURCHASE\nUS DEBIT\n********2696I0\nREF#731700494718\nNETWORK ID.0081 APPR C0DE 936886\nUS DEBIT\nAID A0000000980840\nTC58B77239DA5B3B44\n*NO SIGNATURE REQUIRED\nTERMINAL#SC011090\n11/13/1712:34:04\n#ITEMS SOLD3\nTC#21887274 6444 15673762\nLow Prices You Can Trust.Every Day.\n11/13/17\n12:34:11\nStore receipts on your phone.Walmart P\nay.",
+      "inference_time": 1.8491692543029785,
+      "rouge_scores": {
+        "rouge1": 0.1951219512195122,
+        "rouge2": 0.08264462809917356,
+        "rougeL": 0.11382113821138212,
+        "per_label": {
+          "date_time": {
+            "rouge1": 0.019230769230769232,
+            "rouge2": 0.0,
+            "rougeL": 0.019230769230769232
+          },
+          "item": {
+            "rouge1": 0.13559322033898305,
+            "rouge2": 0.06896551724137932,
+            "rougeL": 0.10169491525423728
+          },
+          "shop": {
+            "rouge1": 0.01941747572815534,
+            "rouge2": 0.0,
+            "rougeL": 0.01941747572815534
+          },
+          "total": {
+            "rouge1": 0.038461538461538464,
+            "rouge2": 0.0196078431372549,
+            "rougeL": 0.038461538461538464
+          }
+        }
+      }
+    }
+  },
+  {
+    "image_id": 17,
+    "filename": "17.jpg",
+    "ground_truth": [
+      {
+        "label": "total",
+        "text": "TOTAL 38.68"
+      },
+      {
+        "label": "item",
+        "text": "CAMPARI TOM 073447501213 I 2.98 R"
+      },
+      {
+        "label": "item",
+        "text": "OSCRAN POM 003120027015 F 2.00 R"
+      },
+      {
+        "label": "shop",
+        "text": "Walmart"
+      },
+      {
+        "label": "item",
+        "text": "BANANAS 000000004011KI 1.75 lb @ 1 lb /0.54 0.95 R"
+      },
+      {
+        "label": "item",
+        "text": "BEVERAGE 003120002133 F 2.00 R"
+      },
+      {
+        "label": "item",
+        "text": "STRWBRY CC 076471782200 F 0.96 Y"
+      },
+      {
+        "label": "date_time",
+        "text": "01/15/17 14:26:03"
+      },
+      {
+        "label": "item",
+        "text": "INJECTR CLNR 004980710003 8.87 X"
+      },
+      {
+        "label": "item",
+        "text": "HAND CLEANER 004125100005 1.67 X"
+      },
+      {
+        "label": "item",
+        "text": "SH NYLON COL 007417024836 2.97 X"
+      },
+      {
+        "label": "item",
+        "text": "PILLS WHITE 068113113619 F 1.00Y"
+      },
+      {
+        "label": "item",
+        "text": "AVOCADO 000000004046KI 4 AT 1 FOR 0.44 1.76 R"
+      },
+      {
+        "label": "item",
+        "text": "HARD SALAMI 020533960343 F 3.43 Y"
+      },
+      {
+        "label": "item",
+        "text": "44500982114 004450098211 F 3.98 Y"
+      },
+      {
+        "label": "item",
+        "text": "KFT SINGLES 002100061526 F 3.78 Y"
+      }
+    ],
+    "gemini": {
+      "text": "See back of receipt for your chance\nto win $1000\nID #: 7KZGF1SL2FF\nWalmart\nSave money. Live better.\n( 970 ) 259 - 8755\nMANAGER MIKE NEIDLINGER\n1155 S CAMINO DEL RIO\nDURANGO CO 81303\nST# 02270 OP# 000144 TE# 02 TR# 03080\nBANANAS 000000004011KI\n1.75 1b @ 1 lb /0.54 0.95 R\nBEVERAGE 003120002133 F 2.00 R\nOS CRAN POM 003120027015 F 2.00 R\nSTRWBRY CC 076471782200 F 0.96 Y\nCAMPARI TOM 073447501213 I 2.98 R\nKFT SINGLES 002100061526 F 3.78 Y\n44500982114 004450098211 F 3.98 Y\nHARD SALAMI 020533960343 F 3.43 Y\nAVOCADO 000000004046KI\n4 AT 1 FOR 0.44 1.76 R\nPILLS WHITE 068113113619 F 1.00 Y\nSH NYLON COL 007417024836 2.97 X\nHAND CLEANER 004125100005 1.67 X\nINJECTR CLNR 004980710003 8.87 X\nSUBTOTAL 36.35\nTAX 1 7.900 % 1.07\nTAX 2 5.000 % 1.14\nTAX 5 2.900 % 0.12\nTOTAL 38.68\nCASH TEND 40.68\nCHANGE DUE 2.00\n# ITEMS SOLD 16\nTC# 3041 7466 0669 7952 272\n01/15/17 14:26:03",
+      "inference_time": 6.06931471824646,
+      "rouge_scores": {
+        "rouge1": 0.6835443037974683,
+        "rouge2": 0.5787234042553191,
+        "rougeL": 0.27004219409282704,
+        "per_label": {
+          "total": {
+            "rouge1": 0.02580645161290323,
+            "rouge2": 0.013071895424836602,
+            "rougeL": 0.02580645161290323
+          },
+          "item": {
+            "rouge1": 0.6551724137931035,
+            "rouge2": 0.5739130434782609,
+            "rougeL": 0.2672413793103448
+          },
+          "shop": {
+            "rouge1": 0.012987012987012988,
+            "rouge2": 0.0,
+            "rougeL": 0.012987012987012988
+          },
+          "date_time": {
+            "rouge1": 0.02580645161290323,
+            "rouge2": 0.013071895424836602,
+            "rougeL": 0.02580645161290323
+          }
+        }
+      }
+    },
+    "paddle": {
+      "text": "to win $1000\nID#7KZGF1SL2FF\nWalmart\nSave money.Live better.\n970259-8755\nMANAGER MIKE NEIDL INGER\n1155 S CAMINO DEL RIO\nDURANGO CO 81303\nST#02270 0P#000144TE#02\nTR#03080\nBANANAS\n000000004011KI\n1.75 1b11b/0.54\n0.95R\nBEVERAGE\n003120002133\n2.00R\nOS CRAN POM C\n003120027015\n2.00\nR\nSTRWBRY CC\n076471782200\n0.96\nY\nCAMPARI TOM\n073447501213\n2.98R\nKFT SINGLES\n002100061526\n3.78\nY\n44500982114\n004450098211\n3.98\nY\nHARD SALAMI\n020533960343\n3.43\nY\nAVOCADO\n000000004046KI\n4AT1FOR\n0.44\n1.76R\nPILLS WHITE\n068113113619\n1.00\nY\nSH NYLON COL 007417024836\n2.97\nHAND CLEANER 004125100005\n1.67X\nINJECTR CLNR 004980710003\n8.87\nX\nSUBTOTAL\n36.35\nTAX1\n7.900%\n1.07\nTAX 2\n5.000%\n1.14\nTAX 5\n2.900%\n0.12\nTOTAL\n38.68\nCASHTEND\n40.68\nCHANGE DUE\n2.00\n#ITEMS SOLD16\nTC#3041 7466 06697952 272\n01/15/17\n14:26:03",
+      "inference_time": 2.518350601196289,
+      "rouge_scores": {
+        "rouge1": 0.5656565656565656,
+        "rouge2": 0.3469387755102041,
+        "rougeL": 0.1919191919191919,
+        "per_label": {
+          "total": {
+            "rouge1": 0.034482758620689655,
+            "rouge2": 0.017543859649122806,
+            "rougeL": 0.034482758620689655
+          },
+          "item": {
+            "rouge1": 0.528497409326425,
+            "rouge2": 0.33507853403141363,
+            "rougeL": 0.18652849740932642
+          },
+          "shop": {
+            "rouge1": 0.017391304347826087,
+            "rouge2": 0.0,
+            "rougeL": 0.017391304347826087
+          },
+          "date_time": {
+            "rouge1": 0.034482758620689655,
+            "rouge2": 0.017543859649122806,
+            "rougeL": 0.034482758620689655
+          }
+        }
+      }
+    }
+  },
+  {
+    "image_id": 18,
+    "filename": "18.jpg",
+    "ground_truth": [
+      {
+        "label": "item",
+        "text": "GV VEG OIL 007874221000 F 7.82 N"
+      },
+      {
+        "label": "item",
+        "text": "GREAT VALUE 007874206203 F 2.84 N"
+      },
+      {
+        "label": "item",
+        "text": "GAIN LFE 003700077007 6.97 X"
+      },
+      {
+        "label": "item",
+        "text": "GAIN 003700076954 4.94 X"
+      },
+      {
+        "label": "item",
+        "text": "SNICKER FS 004000050533 F 3.78 X"
+      },
+      {
+        "label": "item",
+        "text": "SPREADS 002740026499 F 3.46 0"
+      },
+      {
+        "label": "item",
+        "text": "CRNBRY SAUCE 003120001605 F 1.58 0"
+      },
+      {
+        "label": "item",
+        "text": "GV 20Z MINI 007874219999 2.97 X"
+      },
+      {
+        "label": "item",
+        "text": "BATTERIES 001280051783 10.97 X"
+      },
+      {
+        "label": "item",
+        "text": "HY RSTLEG PM 035497333521H 9.97 N"
+      },
+      {
+        "label": "item",
+        "text": "GAIN 003700082365 1.97 X"
+      },
+      {
+        "label": "item",
+        "text": "CHERRIES 004326880002 F 1.78 X"
+      },
+      {
+        "label": "item",
+        "text": "MIXED CHOC 004000047587 F 13.24 X"
+      },
+      {
+        "label": "item",
+        "text": "GDBR FS 6PK 003400029305 F 4.76 X"
+      },
+      {
+        "label": "item",
+        "text": "GV WATER 007874235191 F 0.98 N"
+      },
+      {
+        "label": "item",
+        "text": "GV WATER 007874235191 F 0.98 N"
+      },
+      {
+        "label": "item",
+        "text": "GREAT VALUE 007874206203 F 2.84 N"
+      },
+      {
+        "label": "shop",
+        "text": "Walmart"
+      },
+      {
+        "label": "item",
+        "text": "EGGS 6CT 007874212709 F 0.9 0"
+      },
+      {
+        "label": "date_time",
+        "text": "10/31/21 10:08:22"
+      },
+      {
+        "label": "total",
+        "text": "TOTAL 86.35"
+      }
+    ],
+    "gemini": {
+      "text": "Give us feedback @ survey.walmart.com\nThank you! ID #:700137157NX5\nWalmart\n863-318-0752 Mgr: MARK\n7450 CYPRESS GARDENS BLVD\nWINTER HAVEN FL 33884\nST# 03347 OP# 009036 TE# 36 TR# 05386\nGV WATER 007874235191 F 0.98 N\nGV WATER 007874235191 F 0.98 N\nGREAT VALUE 007874206203 F 2.84 N\nGAIN LFE 007874206203 F 2.84 N\nGAIN 003700077007 6.97 X\nGV VEG OIL 003700076954 4.94 X\nSNICKER FS 007874221000 F 7.82 N\nGDBR FS 6PK 004000050533 F 3.78 X\nMIXED CHOC 003400029305 F 4.76 X\nCHERRIES 004000047587 F 13.24 X\nGAIN 003700082365 1.97 X\nHY RSTLEG PM 035497333521H 1.97 X\nBATTERIES 001280051783 10.97 X\nGV 20Z MINI 007874219999 2.97 X\nCRNBRY SAUCE 003120001605 F 1.58 0\nSPREADS 002740026499 F 3.46 0\nEGGS 6CT 007874212709 F 0.90 0\nSUBTOTAL 82.75\nTAX 1 7.000 % 3.60\nTOTAL 86.35\nDEBIT TEND 86.35\nCHANGE DUE 0.00\nEFT DEBIT PAY FROM PRIMARY\n86.35 TOTAL PURCHASE\nFIFTHTHIRD DEBIT ** **** **** 9832 I 0\nREF # 130400725877\nNETWORK ID. 0076 APPR CODE 001740\nUS Debit\nAID A0000000042203\nAAC A8FABF3D0FD07485\nTERMINAL # SC011151\n10/31/21 10:08:22\n# ITEMS SOLD 18\nTC# 7563 1623 3938 0953 7373\nLow Prices You Can Trust. Every Day.\n10/31/21 10:08:26",
+      "inference_time": 7.409375429153442,
+      "rouge_scores": {
+        "rouge1": 0.6712328767123288,
+        "rouge2": 0.5517241379310345,
+        "rougeL": 0.30136986301369867,
+        "per_label": {
+          "item": {
+            "rouge1": 0.6480836236933799,
+            "rouge2": 0.5473684210526316,
+            "rougeL": 0.2926829268292683
+          },
+          "shop": {
+            "rouge1": 0.010695187165775402,
+            "rouge2": 0.0,
+            "rougeL": 0.010695187165775402
+          },
+          "date_time": {
+            "rouge1": 0.021276595744680854,
+            "rouge2": 0.010752688172043012,
+            "rougeL": 0.021276595744680854
+          },
+          "total": {
+            "rouge1": 0.021276595744680854,
+            "rouge2": 0.010752688172043012,
+            "rougeL": 0.021276595744680854
+          }
+        }
+      }
+    },
+    "paddle": {
+      "text": "Give us feedback  survey.walmart.com\nThank you! ID #7QD13715/NX5\n863-318-0752 Mgr:MARK\n7450 CYPRESS GARDENS BLVD\nST#033470P#009036TE36TR#05386\nWINTER HAVEN FL33884\nGVWATER\nGVWAIER\n007874235191F\nGREAT VALUE\n007874235191F\n0.98N\nGREAT VALUE\n007874206203F\n0.98 N\nGAIN LFE\n007874206203 F\n2.84N\nGAIN\n003700077007\n2.84N\nGVVEG On\n003700076954\n6.97\nSNICKER ES\n007874221000F\n4.94X\n004000050533\n7.82N\nGDBR FS 6PK\n003400029305 F\n3.78\nMIXED CHOC\n4.76X\nCHERRIES\n004000047587F\n13.24X\nGAIN\n004326880002F\n1.78\n003700082355\n1.97X\nBATTERIES\n9.97N\nGV20Z MINI\n001280051783\n10.97X\nCRNBRY SAUCE\n007874219999\n2.97\nSPREADS\n003120001605\n1.580\nEGGS6CT\n002740026499\n3.460\n007874212709F\n0.900\nSUBTOTAL\n82.75\nTAX1\n7.000%\n3.60\nDetauyayor\nTOTAL\n86.35\nDEBIT TEND\n86.35\nCHANGE DUE\n0.00\nEFI DEBIT\nPAY FROM PRIMARY\n86.35TOTAL PURCHASE\nFIFIHIHIRD DEBI *x ** ****\n9832I0\nREF#130400725877\nNETWORK ID.0076 APPR CODE 001740\nUS Debit\nAID A0000000042203\nAAC A8FABF3D0FD07485\nTERMINAL#SCO11151\n10/31/2110:08:22\n#ITEMS SOLD 18\nIC#75631623393809537373\n10/31/21\n10:08:26",
+      "inference_time": 2.5646846294403076,
+      "rouge_scores": {
+        "rouge1": 0.35042735042735046,
+        "rouge2": 0.1293103448275862,
+        "rougeL": 0.1452991452991453,
+        "per_label": {
+          "item": {
+            "rouge1": 0.3318777292576419,
+            "rouge2": 0.12334801762114536,
+            "rougeL": 0.13973799126637554
+          },
+          "shop": {
+            "rouge1": 0.0,
+            "rouge2": 0.0,
+            "rougeL": 0.0
+          },
+          "date_time": {
+            "rouge1": 0.015384615384615385,
+            "rouge2": 0.0,
+            "rougeL": 0.015384615384615385
+          },
+          "total": {
+            "rouge1": 0.03076923076923077,
+            "rouge2": 0.015625,
+            "rougeL": 0.03076923076923077
+          }
+        }
+      }
+    }
+  },
+  {
+    "image_id": 19,
+    "filename": "19.jpg",
+    "ground_truth": [
+      {
+        "label": "item",
+        "text": "RED GRAPE 000000004023 KF 2.51 lb @ 1 lb /1.44 3.61 N"
+      },
+      {
+        "label": "item",
+        "text": "FIBER CHOICE 036926600094 12.94 N"
+      },
+      {
+        "label": "item",
+        "text": "GRILL COVER 471288396027 14.97 X"
+      },
+      {
+        "label": "shop",
+        "text": "Walmart"
+      },
+      {
+        "label": "total",
+        "text": "TOTAL 35.05"
+      },
+      {
+        "label": "item",
+        "text": "CELERY HEART 003338365301 2.48 N"
+      },
+      {
+        "label": "date_time",
+        "text": "10/16/21 11:22:45"
+      }
+    ],
+    "gemini": {
+      "text": "Give us feedback @survey.walmart.com\nThank you! ID #:7QDRJJ99F3X\nWalmart\n863-676-9425 Mgr: EURIEL\n2000 STATE ROAD 60 E\nLAKE WALES FL 33898\nST# 00859 OP# 009026 TE# 26 TR# 02422\nGRILL COVER 471288396027 14.97 X\nFIBER CHOICE 036926600094 12.94 N\nCELERY HEART 003338365301 F 2.48 N\nRED GRAPE 000000004023KF\n2.51 lb 1 lb/1.44 3.61 N\nSUBTOTAL 34.00\nTAX 1 7.000 % 1.05\nTOTAL 35.05\nSHOPPING CARD TEND 35.05\nCHANGE DUE 0.00\nSHOP.CARD REDEMPTION 35.05\nACCOUNT ************0246\nBeg Bal Tran Amt End Bal\n157.29 35.05 122.24\n# ITEMS SOLD 4\nTC# 6949 6652 6669 8007 1705\nLow Prices You Can Trust. Every Day.\n10/16/21 11:22:45",
+      "inference_time": 4.616896152496338,
+      "rouge_scores": {
+        "rouge1": 0.4090909090909091,
+        "rouge2": 0.26153846153846155,
+        "rougeL": 0.1818181818181818,
+        "per_label": {
+          "item": {
+            "rouge1": 0.3464566929133858,
+            "rouge2": 0.24,
+            "rougeL": 0.15748031496062992
+          },
+          "shop": {
+            "rouge1": 0.0196078431372549,
+            "rouge2": 0.0,
+            "rougeL": 0.0196078431372549
+          },
+          "total": {
+            "rouge1": 0.038834951456310676,
+            "rouge2": 0.019801980198019802,
+            "rougeL": 0.038834951456310676
+          },
+          "date_time": {
+            "rouge1": 0.038834951456310676,
+            "rouge2": 0.019801980198019802,
+            "rougeL": 0.038834951456310676
+          }
+        }
+      }
+    },
+    "paddle": {
+      "text": "juodean oi\n14.97X\n12.94N\n2.48N\nRED GRAPE\n2.511b1lb/1.44\nSUBTOTAL\n3.61N\n7.000%\n34.00\nTAX1\nTOTAL\n1.05\nSHOPPING CARD TEND\n35.05\n35.05\nCHANGE DUE\n0.00\nSHOP.CARD REDEMPTION\n35.05\nACCOUNT\nBeg Bal\nTran Amt\nEnd Bal\n157.29\n35.05\n122.24\n#ITEMS SOLD 4\nTC#69496652 6669 8007 1705\n10/16/21\n11:22:45\nJOY2WRHT",
+      "inference_time": 1.3854010105133057,
+      "rouge_scores": {
+        "rouge1": 0.15584415584415587,
+        "rouge2": 0.053333333333333344,
+        "rougeL": 0.15584415584415587,
+        "per_label": {
+          "item": {
+            "rouge1": 0.05555555555555555,
+            "rouge2": 0.028571428571428574,
+            "rougeL": 0.05555555555555555
+          },
+          "shop": {
+            "rouge1": 0.0,
+            "rouge2": 0.0,
+            "rougeL": 0.0
+          },
+          "total": {
+            "rouge1": 0.08333333333333333,
+            "rouge2": 0.0,
+            "rougeL": 0.08333333333333333
+          },
+          "date_time": {
+            "rouge1": 0.08333333333333333,
+            "rouge2": 0.04347826086956522,
+            "rougeL": 0.08333333333333333
+          }
+        }
+      }
+    }
+  },
+  {
+    "image_id": 2,
+    "filename": "2.jpg",
+    "ground_truth": [
+      {
+        "label": "date_time",
+        "text": "10/18/20 11:30:46"
+      },
+      {
+        "label": "total",
+        "text": "TOTAL 49.90"
+      },
+      {
+        "label": "item",
+        "text": "M ATHLETICS 019104567781 24.97 X"
+      },
+      {
+        "label": "shop",
+        "text": "Waalmart"
+      },
+      {
+        "label": "item",
+        "text": "GV OATMEAL 007874243408 F 1.76 0"
+      },
+      {
+        "label": "item",
+        "text": "DEXAS 15X20 008429710921 12.97 X"
+      },
+      {
+        "label": "item",
+        "text": "OT 200Z TUM 081236803115 6.74 X"
+      }
+    ],
+    "gemini": {
+      "text": "Give us feedback @survey.walmart.com\nThank you! ID #:7PB65JWCFZ2\nWalmart ><\n949-498-6669 Mgr: MICHAEL\n951 AVENIDA PICO\nSAN CLEMENTE CA 92673\nST# 02527 OP# 009045 TE# 45 TR# 06193\nGV OATMEAL 007874243408 F 1.76 0\nOT 200Z TUM 081236803115 6.74 X\nM ATHLETICS 019104567781 24.97 X\nDEXAS 15X20 008429710921 12.97 X\nSUBTOTAL 46.44\nTAX 1 7.750 % 3.46\nTOTAL 49.90\nDEBIT TEND 49.90\nCHANGE DUE 0.00\nPAY FROM PRIMARY\nEFT DEBIT 49.90 TOTAL PURCHASE **** **** **** 9689 \u0399\u039f\nUS DEBIT\nREF # 029200639128\nNETWORK ID. 0056 APPR CODE 461500\nUS DEBIT\nAID A0000000980840\nAAC 7756F4EB82B54EED\nTERMINAL # SC011004\n10/18/20 11:30:42\n# ITEMS SOLD 4\nTC# 2400 4776 4305 8847 1471\nW+\nIntroducing Walmart+\nJoin today at walmart.com/plus\nLow Prices You Can Trust. Every Day.\n10/18/20 11:30:46",
+      "inference_time": 5.076582908630371,
+      "rouge_scores": {
+        "rouge1": 0.3611111111111111,
+        "rouge2": 0.28169014084507044,
+        "rougeL": 0.16666666666666666,
+        "per_label": {
+          "date_time": {
+            "rouge1": 0.033613445378151266,
+            "rouge2": 0.017094017094017096,
+            "rougeL": 0.033613445378151266
+          },
+          "total": {
+            "rouge1": 0.033613445378151266,
+            "rouge2": 0.017094017094017096,
+            "rougeL": 0.033613445378151266
+          },
+          "item": {
+            "rouge1": 0.31654676258992803,
+            "rouge2": 0.26277372262773724,
+            "rougeL": 0.17266187050359713
+          },
+          "shop": {
+            "rouge1": 0.0,
+            "rouge2": 0.0,
+            "rougeL": 0.0
+          }
+        }
+      }
+    },
+    "paddle": {
+      "text": "Give us feedback @ survey.walmart.com\nThank you!ID#:7PB65JWCFZ2\nWalmart\n949-498-6669 Mgr:MICHAEL\n951 AVENIDA PICO\nSAN CLEMENTE CA 92673\nST#02527OP#009045 TE#45 TR#06193\nGV OATMEAL\n007874243408F\n1.760\nOT 200Z TUM\n081236803115\n6.74X\nM ATHLETICS\n019104567781\n24.97X\nDEXAS 15X20\n008429710921\n12.97\nSUBTOTAL\n46.44\nTAX1\n7.750%\n3.46\nTOTAL\n49.90\nDEBIT TEND\n49.90\nCHANGE DUE\n0.00\nEFT DEBIT\nPAY FROM PRIMARY\n49.90\nTOTAL PURCHASE\nUS DEBIT\n***********9689I0\nREF#029200639128\nNETW0RK ID.0056 APPR C0DE 461500\nUSDEBIT\nAID A0000000980840\nAAC 7756F4EB82B54EED\nTERMINAL #SC011004\n10/18/20\n11:30:42\n#ITEMS SOLD 4\nTC#2400 47764305 8847 1471\nW\nIntroducing Walmart+\nJoin Loday at walmarL.com/plus\nLow Prices You Can Trust. Every Day.\n10/18/20\n11:30:46",
+      "inference_time": 2.003763198852539,
+      "rouge_scores": {
+        "rouge1": 0.272,
+        "rouge2": 0.17886178861788618,
+        "rougeL": 0.11199999999999999,
+        "per_label": {
+          "date_time": {
+            "rouge1": 0.039999999999999994,
+            "rouge2": 0.020408163265306124,
+            "rougeL": 0.039999999999999994
+          },
+          "total": {
+            "rouge1": 0.039999999999999994,
+            "rouge2": 0.020408163265306124,
+            "rougeL": 0.039999999999999994
+          },
+          "item": {
+            "rouge1": 0.21666666666666667,
+            "rouge2": 0.15254237288135594,
+            "rougeL": 0.11666666666666664
+          },
+          "shop": {
+            "rouge1": 0.0,
+            "rouge2": 0.0,
+            "rougeL": 0.0
+          }
+        }
+      }
+    }
+  },
+  {
+    "image_id": 3,
+    "filename": "3.jpg",
+    "ground_truth": [
+      {
+        "label": "item",
+        "text": "TATER TOTS 001312000026 F 2.96 O"
+      },
+      {
+        "label": "item",
+        "text": "HARD/PROV/DC 007874219410 F 2.68 0"
+      },
+      {
+        "label": "item",
+        "text": "STOK LT SWT 004127102774 F 4.42 T"
+      },
+      {
+        "label": "item",
+        "text": "AVO VERDE 061611206143 F 2.98 N"
+      },
+      {
+        "label": "item",
+        "text": "APPLE 3 BAG 084747300184 F 6.47 N"
+      },
+      {
+        "label": "item",
+        "text": "DV RSE OIL M 001111101220 6.94 X"
+      },
+      {
+        "label": "item",
+        "text": "ACCESSORY 007515161216 0.97 X"
+      },
+      {
+        "label": "item",
+        "text": "CHEEZE IT 002410053523 F 4.00 0 WAS 4.54 YOU SAVED 0.64"
+      },
+      {
+        "label": "item",
+        "text": "RITZ 004400088210 F 2.78 N"
+      },
+      {
+        "label": "item",
+        "text": "GV HNY GRMS 007874207253 F 1.28 N"
+      },
+      {
+        "label": "shop",
+        "text": "Walmart"
+      },
+      {
+        "label": "date_time",
+        "text": "04/27/19 12:59:46"
+      },
+      {
+        "label": "item",
+        "text": "PEANUT BUTTR 005150025499 F 5.44 0"
+      },
+      {
+        "label": "item",
+        "text": "HARD/PROV/DC 007874219410 F 2.68 O"
+      },
+      {
+        "label": "item",
+        "text": "SNACK BARS 002190848816 F 4.98 T"
+      },
+      {
+        "label": "item",
+        "text": "HRI CL PEP 003120507000 F 5.88 0"
+      },
+      {
+        "label": "item",
+        "text": "HRI 12 U SG 003120535000 F 5.88 0"
+      },
+      {
+        "label": "item",
+        "text": "HRI CL CHS 003120506000 F 5.88-0"
+      },
+      {
+        "label": "item",
+        "text": "HRI CL CHS 003120506000 F 5.88 0"
+      },
+      {
+        "label": "item",
+        "text": "HRI CL CHS 003120506000 F 5.88 0"
+      },
+      {
+        "label": "item",
+        "text": "GV SLIDERS 007874201525 2.98 X"
+      },
+      {
+        "label": "item",
+        "text": "BAGELS 001376402801 F 4.56 0"
+      },
+      {
+        "label": "item",
+        "text": "GALE 000000000003K 32.00 T"
+      },
+      {
+        "label": "item",
+        "text": "BTS DRY BLON 501072452746 6.58 X"
+      },
+      {
+        "label": "item",
+        "text": "ROLLS 007874219415 F 1.28 0"
+      },
+      {
+        "label": "item",
+        "text": "EARBUDS 068113100946 4.88 X"
+      },
+      {
+        "label": "item",
+        "text": "RUFFLES 002840020942 F 250 N"
+      },
+      {
+        "label": "item",
+        "text": "SC BCN CHDDR 007874202906 F 6.98 0"
+      },
+      {
+        "label": "item",
+        "text": "ABF THINBRST 022451710972 F 9.72 0"
+      },
+      {
+        "label": "total",
+        "text": "TOTAL 144.02"
+      },
+      {
+        "label": "item",
+        "text": "TR HS FRM 4 002240062190 2.74 X"
+      }
+    ],
+    "gemini": {
+      "text": "See back of receipt for your chance\nto win $1000 ID#:7N5N1V1XCQDQ\nWalmart\n317-851-1102 Mar: JAMIE BROOKSHIRE\n882 S. STATE ROAD 135\nGREENWOOD IN 46143\nST# 05483 OP# 001436 TE# 09 TR# 06976\nSNACK BARS 001436000026 F 2.96 0\nHARD/PROV/DC 007874219410 F 2.68 0\nTATER TOTS 001312000026 F 2.68 0\nHRI CL CHS 002190848816 F 4.98 T\nHRI CL CHS 003120506000 F 5.88 0\nHRI CL CHS 003120506000 F 5.88 0\n** VOIDED ENTRY **\nHRI 12 U SG 003120535000 F 5.88-0\nHRI CL PEP 003120506000 F 5.88 0\nEARBUDS 068113100946 4.88 X\nSC BCN CHDDR 007874202906 F 6.98 0\nABF THINBRST 022451710972 F 9.72 0\nHARD/PROV/DC 007874219410 F 2.68 D\nDV RSE OIL M 001111101220 5.94 X\nAPPLE 3 BAG 084747300184 F 6.47 N\nSTOK LT SWT 004127102774 F 4.42 T\nPEANUT BUTTR 005150026499 F 5.44 0\nAVO VERDE 061611206143 F 2.98 N\nROLLS 007874219415 F 1.28 0\nBTS DRY BLON 501072462746 6.58 X\nGALE 000000000003K 32.00 T\nTR HS FRM 4 002240062190 2.74 X\nBAGELS 001376402801 F 4.66 0\nGV SLIDERS 007874201525 2.98 X\nACCESSORY 007515161216 0.97 X\nCHEEZE IT 002410053523 F 4.00 0\nWAS 4.54 YOU SAVED 0.64\nRITZ 004400088210 F 2.78 N\nRUFFLES 002840020942 F 2.50 N\nGV HNY GRMS 007874207263 F 1.28 N\nSUBTOTAL 139.44\nTAX 1 7.000 % 4.68\nTOTAL 144.02\nCASH TEND 150.02\nCHANGE DUE 6.00\n#ITEMS SOLD 26\nTC# 0783 5080 4072 3416 2495 5\n04/27/19 12:59:46\nScan with Walmart app to save receipts",
+      "inference_time": 8.250305891036987,
+      "rouge_scores": {
+        "rouge1": 0.8067632850241544,
+        "rouge2": 0.6796116504854368,
+        "rougeL": 0.26570048309178745,
+        "per_label": {
+          "item": {
+            "rouge1": 0.7921760391198044,
+            "rouge2": 0.6781326781326782,
+            "rougeL": 0.26894865525672373
+          },
+          "shop": {
+            "rouge1": 0.008368200836820083,
+            "rouge2": 0.0,
+            "rougeL": 0.008368200836820083
+          },
+          "date_time": {
+            "rouge1": 0.016666666666666666,
+            "rouge2": 0.008403361344537815,
+            "rougeL": 0.016666666666666666
+          },
+          "total": {
+            "rouge1": 0.016666666666666666,
+            "rouge2": 0.008403361344537815,
+            "rougeL": 0.016666666666666666
+          }
+        }
+      }
+    },
+    "paddle": {
+      "text": "Walmart'\n882S.STATE ROAD 135\nGREENWOOD IN 46143\n2.96\n2.680\nHRI CL CHS\n4.98T\nHRI CL CHS\n003120506000\nF\n5.880\nVOIDED ENTRY\n003120506000F\n6.880\n5.88-0\nHRI CL PEP\n5.88\nEARBUDS\n003120507000F\n5.88\n0\nSC BCN CHDDR 007874202906F\n068113100946\n4.88\n6.98\nX\nABF THINBRST 022461710972F\n0\nHARD/PR0V/DC 007874219410\n9.72\nDVRSE 0IL M 001111101220\n2.\n68\n94\n-\nAPPLE3BAG 084747300184\nX\nSTOK LT SWT004127102774\n6\n47\nPEANUT BUTTR 005150025499\n4.\n42\nAVO VERDE\n44\n061611206143\n-\nROLLS\n98\n007874219415\n1.\nBTS DRY BL0N 501072452746\nGALE\nX\n000000000003K\n32.\nTR HS FRM 4\n002240062190\n00\n2.7\n74\nBAGELS\n001376402801\n4.66\nX\nGVSLIDERS\n007874201525\n0\n2.98\nACCESSORY\n007515161216\nX\n0.97\nCHEEZE IT\n002410053523F\nX\n4.000\nWAS4.54YOU SAVED0.64\nRITZ\n004400088210F\n2.78N\nRUFFLES\n002840020942\n2.50\nN\nGV HNY GRMS\n007874207263\nF\n1.28N\nSUBTOTAL\n139.44\nTAX1\n7.000%\n4.58\nTOTAL\n144.02\nCASHTEND\n160.02\nCHANGE DUE\n6.00\n#ITEMS SOLD26\nTC#0783 5080 4072 3416 2495 5\n04/27/19\n12:59:46\nScan with Walmart app to save receipts",
+      "inference_time": 3.2664899826049805,
+      "rouge_scores": {
+        "rouge1": 0.5,
+        "rouge2": 0.21472392638036808,
+        "rougeL": 0.17682926829268292,
+        "per_label": {
+          "item": {
+            "rouge1": 0.4767801857585139,
+            "rouge2": 0.20560747663551404,
+            "rougeL": 0.1671826625386997
+          },
+          "shop": {
+            "rouge1": 0.013071895424836602,
+            "rouge2": 0.0,
+            "rougeL": 0.013071895424836602
+          },
+          "date_time": {
+            "rouge1": 0.025974025974025976,
+            "rouge2": 0.013157894736842105,
+            "rougeL": 0.025974025974025976
+          },
+          "total": {
+            "rouge1": 0.025974025974025976,
+            "rouge2": 0.013157894736842105,
+            "rougeL": 0.025974025974025976
+          }
+        }
+      }
+    }
+  },
+  {
+    "image_id": 4,
+    "filename": "4.jpg",
+    "ground_truth": [
+      {
+        "label": "item",
+        "text": "SW HRO FGHTR 063050940732 6.94 T"
+      },
+      {
+        "label": "shop",
+        "text": "Walmart"
+      },
+      {
+        "label": "date_time",
+        "text": "12/08/15 12:39:26"
+      },
+      {
+        "label": "total",
+        "text": "TOTAL 7.43"
+      }
+    ],
+    "gemini": {
+      "text": "Walmart\nSave money. Live better.\n( 712 ) 366 - 3326\nMANAGER DONALD MONEYMAKER\n3201 MANAWA CENTRE DR\nCOUNCIL BLUFFS IA 51501\nST# 01965 OP# 002031 TE# 20 TR# 05145\nSW HRO FGHTR 063050940732\n6.94 T\nSUBTOTAL\n6.94\nTAX 1 7.000 %\n0.49\nTOTAL\n7.43\nDEBIT TEND\n7.43\nCHANGE DUE\n0.00\nEFT DEBIT 7.43\nPAY FROM PRIMARY\nACCOUNT # ************* S\nREF # 534200381755\nNETWORK ID. 0056 APPR CODE 087193\nTERMINAL # MX995026\n12/08/15 12:39:24\n# ITEMS SOLD 1\nTC# 3261 4114 0323 3051 6498\nNEW STORE HOURS\nOpen 6am to midnight 7 days a week.\n12/08/15 12:39:26\nSavings Catcher! Scan with Walmart app",
+      "inference_time": 4.352317571640015,
+      "rouge_scores": {
+        "rouge1": 0.20754716981132076,
+        "rouge2": 0.13461538461538458,
+        "rougeL": 0.1509433962264151,
+        "per_label": {
+          "item": {
+            "rouge1": 0.11881188118811882,
+            "rouge2": 0.10101010101010102,
+            "rougeL": 0.11881188118811882
+          },
+          "shop": {
+            "rouge1": 0.020833333333333332,
+            "rouge2": 0.0,
+            "rougeL": 0.020833333333333332
+          },
+          "date_time": {
+            "rouge1": 0.041237113402061855,
+            "rouge2": 0.021052631578947368,
+            "rougeL": 0.041237113402061855
+          },
+          "total": {
+            "rouge1": 0.041237113402061855,
+            "rouge2": 0.021052631578947368,
+            "rougeL": 0.041237113402061855
+          }
+        }
+      }
+    },
+    "paddle": {
+      "text": "Walmart\nSave money. Live better.\n712366-3326\nMANAGER DONALD MONEYMAKER\n3201 MANAWA CENTRE DR\nCOUNCIL BLUFFS IA51501\nST#019650P#002031 TE#20TR#05145\nSW HR0 FGHTR 063050940732\nSUBTOTAL\n6.94\nTAX1\n7.000%\n6.94\n0.49\nDEBIT TEND\nTOTAL\n7.43\nCHANGEDUE\n7.43\n0.00\nEFT DEBIT\n7.43TOTAL PURCHASE\nPAY FROM PRIMARY\nACCOUNT #\nREF#534200381755\nNETWORK ID.0056 APPR C0DE 087193\nTERMINAL#MX995026\n12/08/15\n12:39:24\n#ITEMS SOLD1\nTC#3261 4114 0323 3051 6498\nNEW STORE HOURS\nOpen 6am to midnisht 7 days a week.\n12/08/15\n12:39:26\nSavings Catcher! Scan with Walmart app\n.io",
+      "inference_time": 1.6097323894500732,
+      "rouge_scores": {
+        "rouge1": 0.19999999999999998,
+        "rouge2": 0.06818181818181818,
+        "rougeL": 0.13333333333333333,
+        "per_label": {
+          "item": {
+            "rouge1": 0.09411764705882351,
+            "rouge2": 0.024096385542168672,
+            "rougeL": 0.09411764705882351
+          },
+          "shop": {
+            "rouge1": 0.024999999999999998,
+            "rouge2": 0.0,
+            "rougeL": 0.024999999999999998
+          },
+          "date_time": {
+            "rouge1": 0.04938271604938272,
+            "rouge2": 0.02531645569620253,
+            "rougeL": 0.04938271604938272
+          },
+          "total": {
+            "rouge1": 0.04938271604938272,
+            "rouge2": 0.02531645569620253,
+            "rougeL": 0.04938271604938272
+          }
+        }
+      }
+    }
+  },
+  {
+    "image_id": 5,
+    "filename": "5.jpg",
+    "ground_truth": [
+      {
+        "label": "item",
+        "text": "KITL SEA SALT POT CHP $1.29 F"
+      },
+      {
+        "label": "date_time",
+        "text": "02/10/2021 07:10 PM"
+      },
+      {
+        "label": "total",
+        "text": "Total : $28.28"
+      },
+      {
+        "label": "shop",
+        "text": "WHOLE FOODS MARKET"
+      },
+      {
+        "label": "item",
+        "text": "CHEF PLATE MEAL $10 2 @ $10.00 ea $20.00 F"
+      },
+      {
+        "label": "item",
+        "text": "BRAIDED BRIOCHE $6.99 F"
+      }
+    ],
+    "gemini": {
+      "text": "WHOLE FOODS\nMARKET\n\nSunnyvale SVL 408-419-1290\n150 E Mc Kinley Ave\nSunnyvale, CA 94086\n\nKTTL SEA SALT POT CHP     $1.29 F\nBRAIDED BRIOCHE           $6.99 F\nCHEF PLATE MEAL $10       $20.00 F\n2                        @ $10.00 ea\nSubtotal:                  $28.28\nNet Sales:                 $28.28\nTotal:                     $28.28\nSold Items:                 4\nPaid:\n\nRETURNS: We are now accepting returns on\npurchases with the following conditions:\nReturns will only be accepted on purchases\nmade on or after 9/15/2020. All returns\nrequire a receipt. No returns on items\npurchased after 90 days. For additional\ninformation please visit wfm.com/returns.\n****************************************\n\nEarn 5% Back at Whole Foods Market\nwith the Amazon Prime Rewards Visa.\nLearn more at amazon.com/amazonvisa\n****************************************\n\nHOW WAS YOUR SHOPPING EXPERIENCE?\nGo to: http://www.wfm.com/feedback\nENTER FOR A CHANCE TO WIN A $250 GIFT CARD\n908 6387 02/10/2021 07:10 PM\n\n63011070790806387021020210\n6KTHQW62ZD\n\nThanks for shopping at Whole Foods Market",
+      "inference_time": 6.905287981033325,
+      "rouge_scores": {
+        "rouge1": 0.3272727272727273,
+        "rouge2": 0.24539877300613497,
+        "rougeL": 0.1575757575757576,
+        "per_label": {
+          "item": {
+            "rouge1": 0.24203821656050956,
+            "rouge2": 0.2064516129032258,
+            "rougeL": 0.16560509554140126
+          },
+          "date_time": {
+            "rouge1": 0.04285714285714286,
+            "rouge2": 0.028985507246376812,
+            "rougeL": 0.04285714285714286
+          },
+          "total": {
+            "rouge1": 0.028776978417266185,
+            "rouge2": 0.014598540145985401,
+            "rougeL": 0.028776978417266185
+          },
+          "shop": {
+            "rouge1": 0.04285714285714286,
+            "rouge2": 0.028985507246376812,
+            "rougeL": 0.04285714285714286
+          }
+        }
+      }
+    },
+    "paddle": {
+      "text": "WHOLE FOODS\nMARKET\nSunnyvale SVL 408-419-1290\n150 E Mc Kin1ey Ave\nSunnyvale,CA 94086\n$1.29F\nKTTL SEA SALT POT CHP\n$6.99F\nBRAIDED BRIOCHE\nCHEF PLATE MEAL $10\n$20.00F\n2\n@$10.00 ea\nSubtotal:\n$28.28\n$28.28\nNet Sales:\n$28.28\nTotal:\nSold Items:\n4\nPaid:\nRETURNs: We are now accepting returns on\npurchases with the following conditions:\nReturns wi11 only be accepted on purchases\nmade on or after 9/15/2020.A11 returns\nreguire a receipt. No returns on items\npurchased after 90 days. For additional\ninformation please visit wfm.com/returns\nEarn 5% Back at Whole Foods Market\nwith the Amazon Prime Rewards Visa.\nLearn more at amazon.com/amazonvisa\n***x******x\nHOW WAS YOUR SHOPPING EXPERIENCE?\nGoto:http://www.wfm.com/feedback\n908638702/10/2021 07:10PM\n63011070790806387021020210\n6KTHQW62ZD",
+      "inference_time": 3.0676684379577637,
+      "rouge_scores": {
+        "rouge1": 0.2589928057553957,
+        "rouge2": 0.16058394160583941,
+        "rougeL": 0.15827338129496404,
+        "per_label": {
+          "item": {
+            "rouge1": 0.1984732824427481,
+            "rouge2": 0.13953488372093023,
+            "rougeL": 0.16793893129770993
+          },
+          "date_time": {
+            "rouge1": 0.0,
+            "rouge2": 0.0,
+            "rougeL": 0.0
+          },
+          "total": {
+            "rouge1": 0.035398230088495575,
+            "rouge2": 0.0,
+            "rougeL": 0.017699115044247787
+          },
+          "shop": {
+            "rouge1": 0.052631578947368425,
+            "rouge2": 0.03571428571428572,
+            "rougeL": 0.052631578947368425
+          }
+        }
+      }
+    }
+  },
+  {
+    "image_id": 6,
+    "filename": "6.JPG",
+    "ground_truth": [
+      {
+        "label": "date_time",
+        "text": "26/01/2015 16:14"
+      },
+      {
+        "label": "item",
+        "text": "1 Woman 0"
+      },
+      {
+        "label": "item",
+        "text": "1 Mineral Water 13, 000"
+      },
+      {
+        "label": "item",
+        "text": "2 Ham Cheese 74, 000"
+      },
+      {
+        "label": "item",
+        "text": "1 Black & White 72, 000"
+      },
+      {
+        "label": "shop",
+        "text": "MOMI TOY'S CREPERIE"
+      },
+      {
+        "label": "total",
+        "text": "TOTAL 175, 000"
+      },
+      {
+        "label": "item",
+        "text": "1 Ice Java Tea 16, 000"
+      }
+    ],
+    "gemini": {
+      "text": "MOMI & TOY'S\nCR\u00caPERIE\n\nLippo Mall Kemang, L\nKemang VI No. 6\nmomiantoys_ind (inst\n@indmomi (twitter)\nCheck: 3850\n\nPax: 1         OP:Gunawan       Gunawan\nPOS Title:Cashier\nRcpt#:A15000001363            26/01/2015 16:13\n\n1 Woman                                       0\n2 Ham Cheese                              74,000\n1 Ice Java Tea                             16,000\n1 Mineral Water                            13,000\n1 Black & White                            72,000\nSUBTOTAL                                   175,000\nTOTAL                                      175,000\nCASH                                       200,000\nChange                                      25,000\n\nClosed Bill\n26/01/2015 16:14\n\nThank you for tasting\nour \"Meltingly Crepe\"",
+      "inference_time": 4.497906923294067,
+      "rouge_scores": {
+        "rouge1": 0.43298969072164956,
+        "rouge2": 0.2736842105263158,
+        "rougeL": 0.22680412371134018,
+        "per_label": {
+          "date_time": {
+            "rouge1": 0.059701492537313446,
+            "rouge2": 0.03076923076923077,
+            "rougeL": 0.059701492537313446
+          },
+          "item": {
+            "rouge1": 0.3595505617977528,
+            "rouge2": 0.25287356321839083,
+            "rougeL": 0.22471910112359555
+          },
+          "shop": {
+            "rouge1": 0.05882352941176471,
+            "rouge2": 0.030303030303030304,
+            "rougeL": 0.05882352941176471
+          },
+          "total": {
+            "rouge1": 0.029411764705882356,
+            "rouge2": 0.0,
+            "rougeL": 0.029411764705882356
+          }
+        }
+      }
+    },
+    "paddle": {
+      "text": "MOMICTOY'S\nCREPERIE\nLippo Ma11Kemang,\nKemang VI No.\n6\nmomiantoys_ind (inst\n@indmomi(twitter)\nCheck:3850\nPax:1\nOP:Gunawan\nGunawan\nPOS Title:Cashier\nRcpt#:A15000001363\n26/01/2015 16:13\n1 Woman\n0\n2 Ham Cheese\n74,000\n1\nIce Java Tea\n16,000\nMineral Water\n13,000\n1Black & White\n72,000\nSUBTOTAL\n175,000\nTOTAL\n175.000\nCASH\n200,000\nChange\n25,000\nClosed Bi11\n26/01/201516:14\nThank you for tasting\nour \"Meltingly Crepe",
+      "inference_time": 1.563605546951294,
+      "rouge_scores": {
+        "rouge1": 0.36363636363636365,
+        "rouge2": 0.18604651162790697,
+        "rougeL": 0.25,
+        "per_label": {
+          "date_time": {
+            "rouge1": 0.03448275862068965,
+            "rouge2": 0.0,
+            "rougeL": 0.03448275862068965
+          },
+          "item": {
+            "rouge1": 0.325,
+            "rouge2": 0.20512820512820512,
+            "rougeL": 0.25
+          },
+          "shop": {
+            "rouge1": 0.03389830508474576,
+            "rouge2": 0.0,
+            "rougeL": 0.03389830508474576
+          },
+          "total": {
+            "rouge1": 0.03389830508474576,
+            "rouge2": 0.0,
+            "rougeL": 0.03389830508474576
+          }
+        }
+      }
+    }
+  },
+  {
+    "image_id": 7,
+    "filename": "7.jpg",
+    "ground_truth": [
+      {
+        "label": "item",
+        "text": "6 WING PLATE 020108870398 3.98 P"
+      },
+      {
+        "label": "date_time",
+        "text": "11/13/17 12:34:11"
+      },
+      {
+        "label": "item",
+        "text": "ASST 27 063099656595 4.88 X"
+      },
+      {
+        "label": "item",
+        "text": "CUTIE CAR 063099656644 12.88 X"
+      },
+      {
+        "label": "shop",
+        "text": "Walmart"
+      },
+      {
+        "label": "total",
+        "text": "TOTAL 23.19"
+      }
+    ],
+    "gemini": {
+      "text": "See back of receipt for your chance\nto win $1000\nID #: 7L2T9WJM25F\nWalmart\nSave money. Live better.\n( 701 ) 223 - 3066\nMANAGER TIM MORRIS\n2717 ROCK ISLAND PL\nBISMARCK ND 58504\nST# 01534 OP# 009048 TE# 48 TR# 04455\n6 WING PLATE 020108870398 3.98 P\nASST 27 063099656595 4.88 X\nCUTIE CAR 063099656644 12.88 X\nSUBTOTAL 21.74\nTAX 1 6.500 % 1.15\nTAX 4 7.500 % 0.30\nTOTAL 23.19\nDEBIT TEND 23.19\nCHANGE DUE 0.00\nEFT DEBIT 23.19 PAY FROM PRIMARY\nUS DEBIT **** **** **** 2696 1 0\nREF # 731700494718\nNETWORK ID. 0081 APPR CODE 936886\nUS DEBIT\nAID A0000000980840\nTC 58B77239DA5B3B44\n*NO SIGNATURE REQUIRED\nTERMINAL # SC011090\n11/13/17 12:34:04\n# ITEMS SOLD 3\nTC# 2188 7274 6444 1567 3762\nLow Prices You Can Trust. Every Day.\n11/13/17 12:34:11\nStore receipts on your phone. Walmart P\nay.",
+      "inference_time": 5.650817394256592,
+      "rouge_scores": {
+        "rouge1": 0.2781456953642384,
+        "rouge2": 0.21476510067114093,
+        "rougeL": 0.23841059602649006,
+        "per_label": {
+          "item": {
+            "rouge1": 0.21917808219178084,
+            "rouge2": 0.20833333333333334,
+            "rougeL": 0.21917808219178084
+          },
+          "date_time": {
+            "rouge1": 0.030303030303030307,
+            "rouge2": 0.015384615384615384,
+            "rougeL": 0.030303030303030307
+          },
+          "shop": {
+            "rouge1": 0.015267175572519085,
+            "rouge2": 0.0,
+            "rougeL": 0.015267175572519085
+          },
+          "total": {
+            "rouge1": 0.030303030303030307,
+            "rouge2": 0.015384615384615384,
+            "rougeL": 0.030303030303030307
+          }
+        }
+      }
+    },
+    "paddle": {
+      "text": "See back of receipt for your chance\nto win $1000\nID#\n7L2T9WJM25F\nWalmart\nSave money.Live better.\n701223-3066\nMANAGER TIM MORRIS\n2717 ROCK ISLAND PI\nBISMARCK ND 58504\n6WING PLATE 020108870398\n3.98P\nASST27\n063099656595\n4.88\nCUTIE CAR\n063099656644\n12.88X\nSUBTOTAL\n21.74\nTAX 1\n6.500%\n1.15\nTAX4\n7.500%\n0.30\nTOTAL\n23.19\nDEBIT TEND\n23.19\nCHANGE DUE\n0.00\nEFT DEBIT\nPAY FROM PRIMARY\n23.19\nTOTAL PURCHASE\nUS DEBIT\n********2696I0\nREF#731700494718\nNETWORK ID.0081 APPR C0DE 936886\nUS DEBIT\nAID A0000000980840\nTC58B77239DA5B3B44\n*NO SIGNATURE REQUIRED\nTERMINAL#SC011090\n11/13/1712:34:04\n#ITEMS SOLD3\nTC#21887274 6444 15673762\nLow Prices You Can Trust.Every Day.\n11/13/17\n12:34:11\nStore receipts on your phone.Walmart P\nay.",
+      "inference_time": 1.9309008121490479,
+      "rouge_scores": {
+        "rouge1": 0.2113821138211382,
+        "rouge2": 0.09917355371900825,
+        "rougeL": 0.14634146341463417,
+        "per_label": {
+          "item": {
+            "rouge1": 0.13559322033898305,
+            "rouge2": 0.06896551724137932,
+            "rougeL": 0.11864406779661019
+          },
+          "date_time": {
+            "rouge1": 0.038461538461538464,
+            "rouge2": 0.0196078431372549,
+            "rougeL": 0.038461538461538464
+          },
+          "shop": {
+            "rouge1": 0.01941747572815534,
+            "rouge2": 0.0,
+            "rougeL": 0.01941747572815534
+          },
+          "total": {
+            "rouge1": 0.038461538461538464,
+            "rouge2": 0.0196078431372549,
+            "rougeL": 0.038461538461538464
+          }
+        }
+      }
+    }
+  },
+  {
+    "image_id": 8,
+    "filename": "8.jpg",
+    "ground_truth": [
+      {
+        "label": "item",
+        "text": "E 6333561 KS DICED TOM 6.49 E"
+      },
+      {
+        "label": "item",
+        "text": "404609 ECO HALF PAN 6.49 A"
+      },
+      {
+        "label": "shop",
+        "text": "Costco WHOLESALE"
+      },
+      {
+        "label": "date_time",
+        "text": "04/20/2016 15:00"
+      },
+      {
+        "label": "item",
+        "text": "E 22101 MONT JACK 2# 4.45 E"
+      },
+      {
+        "label": "item",
+        "text": "E 263423 CHPD ONION 3.59 E"
+      },
+      {
+        "label": "item",
+        "text": "E 55992 GRND TURKEY 18.47 E"
+      },
+      {
+        "label": "item",
+        "text": "E 77053 GRAPE TOMATO 6.29 E"
+      },
+      {
+        "label": "item",
+        "text": "3 @ 4.29 E 878137 18 CT EGGS 12.87 E"
+      },
+      {
+        "label": "item",
+        "text": "E 967596 JACKORGSALSA 2.97 E"
+      },
+      {
+        "label": "item",
+        "text": "E 673919 FF BS BREAST 23.99 E"
+      },
+      {
+        "label": "total",
+        "text": "**** TOTAL 89.13"
+      }
+    ],
+    "gemini": {
+      "text": "COSTCO\nWHOLESALE\nThornton #629\n16375 N. Washington St.\nThornton, CO 80023\n2X Member 111826278335\nE 673919 FF BS BREAST 23.99 E\nE 633561 KS DICED TOM 6.49 E\nE 967596 JACKORGSALSA 2.97 E\n3 @ 4.29\nE 878137 18CT EGGS 12.87 E\nE 77053 GRAPE TOMATO 6.29 E\n404609 ECO HALF PAN 6.49 A\nE 55992 GRND TURKEY 18.47 E\nE 263423 CHPD ONION 3.59 E\nE 22101 MONT JACK 2# 4.45 E\nSUBTOTAL 85.61\nTAX 3.52\n**** TOTAL 89.13\nCheck/Member Prntd 89.13\nCHANGE 0.00\nA 8.50% TAX 0.55\nE 3.75% TAX 2.97\nTOTAL TAX 3.52\nTOTAL NUMBER OF ITEMS SOLD - 11\n04/20/2016 15:00 629 4 172 14\nOP#: 14 Name: PEPPER\nThank You!\nPlease Come Again\nWhse: 629 Trm: 4 Trn:172 OP:14",
+      "inference_time": 4.977437973022461,
+      "rouge_scores": {
+        "rouge1": 0.6666666666666666,
+        "rouge2": 0.5978260869565217,
+        "rougeL": 0.26881720430107525,
+        "per_label": {
+          "item": {
+            "rouge1": 0.6222222222222222,
+            "rouge2": 0.5955056179775281,
+            "rougeL": 0.2666666666666667
+          },
+          "shop": {
+            "rouge1": 0.032520325203252036,
+            "rouge2": 0.01652892561983471,
+            "rougeL": 0.032520325203252036
+          },
+          "date_time": {
+            "rouge1": 0.032520325203252036,
+            "rouge2": 0.01652892561983471,
+            "rougeL": 0.032520325203252036
+          },
+          "total": {
+            "rouge1": 0.032520325203252036,
+            "rouge2": 0.01652892561983471,
+            "rougeL": 0.032520325203252036
+          }
+        }
+      }
+    },
+    "paddle": {
+      "text": "COSTCO\nWHOLESALE\nThornton #629\n16375 N. Washington St.\nThornton,CO 80023\n2XMember 111826278335\n23.99E\nE\n673919 FF BS BREAST\n6.49E\nE\n633561KS DICED TOM\n2.97E\nE\n967596 JACKORGSALSA\n34.29\n12.87E\nE\n878137 18CT EGGS\n6.29E\nE\n77053 GRAPE TOMATO\n6.49A\n404609 EC0HALF PAN\n18.47E\nE\n55992 GRND TURKEY\n3.59E\nE\n263423 CHPD ONION\n4.45E\nE\n22101 MONT JACK 2#\nSUBTOTAL\n85.61\n3.52\nTAX\n89.3\nTOTAL\nCheck/Member Prntd\n89.13\nCHANGE\n0.00\nA8.50%TAX\n0.55\nE3.75%TAX\n2.97\n3.52\nTOTAL TAX\nTOTAL NUMBER OF ITEMS SOLD=\n11\n04/20/201615:00629417214\nOP#14 Name:PEPPER\nThankYou!\nPlease Come Again\nWhse:629 Trm:4 Trn:172 0P:14",
+      "inference_time": 1.9658472537994385,
+      "rouge_scores": {
+        "rouge1": 0.49367088607594933,
+        "rouge2": 0.2820512820512821,
+        "rougeL": 0.189873417721519,
+        "per_label": {
+          "item": {
+            "rouge1": 0.4605263157894737,
+            "rouge2": 0.27999999999999997,
+            "rougeL": 0.17105263157894737
+          },
+          "shop": {
+            "rouge1": 0.04210526315789474,
+            "rouge2": 0.02150537634408602,
+            "rougeL": 0.04210526315789474
+          },
+          "date_time": {
+            "rouge1": 0.0,
+            "rouge2": 0.0,
+            "rougeL": 0.0
+          },
+          "total": {
+            "rouge1": 0.04210526315789474,
+            "rouge2": 0.0,
+            "rougeL": 0.04210526315789474
+          }
+        }
+      }
+    }
+  },
+  {
+    "image_id": 9,
+    "filename": "9.jpg",
+    "ground_truth": [
+      {
+        "label": "shop",
+        "text": "WinCo FOODS"
+      },
+      {
+        "label": "item",
+        "text": "SUNBEAN BUNS 7763306333 1.98 FS"
+      },
+      {
+        "label": "item",
+        "text": "EYE RND STK FP 20148200000 8.24 FS"
+      },
+      {
+        "label": "date_time",
+        "text": "09/08/14 11:16:24"
+      },
+      {
+        "label": "item",
+        "text": "BEEF FOR STEW 20254300000 10.48 FS"
+      },
+      {
+        "label": "item",
+        "text": "PORK 1/2 LOIN 20323300000 8.12 FS"
+      },
+      {
+        "label": "item",
+        "text": "B/BEST S STEAK 4497921020 1.00 FS"
+      },
+      {
+        "label": "item",
+        "text": "N/YORK TX GRLC 7045900558 2.18 FS"
+      },
+      {
+        "label": "item",
+        "text": "PORK LOIN CHOP 20337400000 9.91 FS"
+      },
+      {
+        "label": "item",
+        "text": "CHICKEN WINGS 26840100000 5.39 FS"
+      },
+      {
+        "label": "item",
+        "text": "PICSWEET BLEND 7056096902 2.68 FS 2 @ 1.34"
+      },
+      {
+        "label": "item",
+        "text": "PICSWEET GREENS 7056087677 2.56 FS 2 @ 1.28"
+      },
+      {
+        "label": "item",
+        "text": "WINCO HOMO MILK 7055240600 2.48 FS"
+      },
+      {
+        "label": "item",
+        "text": "EGGS 7003837280 1.37 FS"
+      },
+      {
+        "label": "item",
+        "text": "HUNTS MANWICH 2700044212 1.64 FS 2@ .82"
+      },
+      {
+        "label": "item",
+        "text": "DM SPAG SAUCE 2400052363 .71 FS"
+      },
+      {
+        "label": "item",
+        "text": "RESERS POT SLD 7111719300 .98 FS"
+      },
+      {
+        "label": "item",
+        "text": "TURKEY FRANK 4222281210 .88 FS"
+      },
+      {
+        "label": "item",
+        "text": "CHIKEN WINGS 26840100000 5.48 FS"
+      },
+      {
+        "label": "item",
+        "text": "KEEB TOWNHOUSE 3010010055 1.98 FS"
+      },
+      {
+        "label": "item",
+        "text": "L\\D OATMEL CRM 2430004101 1.25 FS"
+      },
+      {
+        "label": "item",
+        "text": "L/D NUTTY BARS 2430004120 1.25 FS"
+      },
+      {
+        "label": "item",
+        "text": "EGGO WAFFLE 3800037435 1.96 FS"
+      },
+      {
+        "label": "item",
+        "text": "THNDRBRD CHIX BR 3737101318 5.98 FS"
+      },
+      {
+        "label": "item",
+        "text": "DIET LN GRND B 20167400000 10.87 FS"
+      },
+      {
+        "label": "total",
+        "text": "TOTAL 121.92"
+      },
+      {
+        "label": "item",
+        "text": "WINCO NOODLES 7055280303 1.68 FS 2 @ .84"
+      },
+      {
+        "label": "item",
+        "text": "O/M HAM 4470001903 3.99 FS"
+      },
+      {
+        "label": "item",
+        "text": "KRFT DELUXE MAC 2100065886 3.64 FS 2 @ 1.82"
+      },
+      {
+        "label": "item",
+        "text": "LINKS MILD 74295503660 5.78 FS"
+      },
+      {
+        "label": "item",
+        "text": "DRUMSTICKS 26841800000 9.91 FS"
+      },
+      {
+        "label": "item",
+        "text": "BAR S MEAT FRNK 1590013401 .88 FS"
+      },
+      {
+        "label": "item",
+        "text": "WINCO SNDWCH WT 7055200115 .91 FS"
+      },
+      {
+        "label": "item",
+        "text": "DM PNAPL CHNKY 2400000164 1.96 FS 2 @ .98"
+      }
+    ],
+    "gemini": {
+      "text": "WinCo\nFOODS\nThe Supermarket Low Price Leader\nwww.wincofoods.com\n800 S Cockrell Hill Rd\nDuncanville, TX 75137\nStore #0124\nCashier: Yolanda R\n09/08/14\n11:16:24\nN/YORK TX GRLC 7045900558\nCHICKEN WINGS 26840100000\nPICSWEET BLEND 7056096902\n2 1.34\nPICSWEET GREENS 7056087677\n2 1.28\nCHICKEN WINGS 26840100000\nDIET LN GRND B 20167400000\nPORK LOIN CHOP 20337400000\nDRUMSTICKS 26841800000\nEYE RND STK FP 20148200000\nEYE RND STK FP 20148200000\nBEEF FOR STEW 20254300000\nPORK 1/2 LOIN 20323300000\nB/BEST S STEAK 4497921020\nBAR S MEAT FRNK 1590013401\nO/M HAM 4470001903\nWINCO NOODLES 7055280303\n2 .84\nTNDRBRD CHIX BR 3737101318\nKRFT DELUXE MAC 2100065886\n2 1.82\nEGGO WAFFLE 3800037435\nL/D NUTTY BARS 2430004120\nL/D OATMEAL CRM 2430004101\nLINKS MILD 74295503660\nKEEB TOWNHOUSE 3010010055\nTURKEY FRANK 4222281210\nRESERS POT SLD 7111719300\nDM SPAG SAUCE 2400052363\nHUNTS MANWICH 2700044212\n2 .82\nDM PNAPL CHNKY 2400000164\n2 .98\nSUNBEAN BUNS 7763306333\nWINCO SNDWCH WT 7055200115\nWINCO HOMO MILK 7055240600\nEGGS 7003837280\nSUBTOTAL\nTOTAL TAX\nTOTAL\n2.18 FS\n5.39 FS\n2.68 FS\n2.56 FS\n5.48 FS\n10.87 FS\n9.91 FS\n5.32 FS\n8.39 FS\n8.24 FS\n10.48 FS\n8.12 FS\n1.00 FS\n.88 FS\n3.99 FS\n1.68 FS\n5.98 FS\n3.64 FS\n1.96 FS\n1.25 FS\n1.25 FS\n5.78 FS\n1.98 FS\n.88 FS\n.98 FS\n.71 FS\n1.64 FS\n1.96 FS\n1.98 FS\n.91 FS\n2.48 FS\n1.37 FS\n121.92\n.00\n121.92",
+      "inference_time": 7.6953089237213135,
+      "rouge_scores": {
+        "rouge1": 0.9055690072639225,
+        "rouge2": 0.5644768856447689,
+        "rougeL": 0.25181598062953997,
+        "per_label": {
+          "shop": {
+            "rouge1": 0.01785714285714286,
+            "rouge2": 0.00900900900900901,
+            "rougeL": 0.01785714285714286
+          },
+          "item": {
+            "rouge1": 0.8894348894348894,
+            "rouge2": 0.562962962962963,
+            "rougeL": 0.24570024570024568
+          },
+          "date_time": {
+            "rouge1": 0.01785714285714286,
+            "rouge2": 0.00900900900900901,
+            "rougeL": 0.01785714285714286
+          },
+          "total": {
+            "rouge1": 0.01785714285714286,
+            "rouge2": 0.0,
+            "rougeL": 0.01785714285714286
+          }
+        }
+      }
+    },
+    "paddle": {
+      "text": "WinCo\nFOODS\nwww.wincofoods.com\nStore #0124\n09/08/14\n11:16:24\nN/YORK TX GRLC\n2.18FS\n5.39FS\nPICSWEET BLEND\n201.34\n2.68FS\n2.56FS\n201.28\n5.48FS\n10.87FS\nPORK LOIN CHOP 20337400000\n26841800000\n9.91FS\nDRUMSTICKS\n5.32FS\nEYE RND STK FP 20148200000\n8.39FS\nEYE RND STKFP 20148200000\n10.48FS\n8.24FS\nBEEF F0R STEW 20254300000\nPORK 1/2 L0IN 20323300000\n8.12FS\n1.00FS\nB/BESTS STEAK 4497921020\n3.99FS\n.88FS\nO/M HAM\n4470001903\n7055280303\n1.68FS\nWINCO NOODLES\n2.84\n5.98FS\nTNDRBRD CHIX BR 3737101318\n3.64FS\nKRFT DELUXE MAC 2100065886\n21.82\nEGGO WAFFLE\n3800037435\n1.96FS\nL/D NUTTY BARS\n62430004120\n1.25FS\nL\\D 0ATMEAL CRM 2430004101\n1.25FS\nLINKS MILD\n74295503660\n5.78FS\nKEEB TOWNHOUSE\n3010010055\n1.98FS\nTURKEY FRANK\n4222281210\n88FS\nRESERS POT SLD\n7111719300\n98FS\nDM SPAG SAUCE\n2400052363\n.71FS\nHUNTS MANWICH\n2700044212\n1.64FS\n2.82\nDM PNAPL CHNKY\n2400000164\n1.96FS\n2.98\nSUNBEAN BUNS\n7763306333\nWINCO SNDWCH WT 7055200115\n1.98FS\nWINCO HOMO MILK 7055240600\n91FS\n2.48FS\nEGGS\n7003837280\nSUBTOTAL\n1.37FS\n121.92\nTOTAL TAX\n.00\nTOTAL\n121.92",
+      "inference_time": 2.561640739440918,
+      "rouge_scores": {
+        "rouge1": 0.5357142857142857,
+        "rouge2": 0.32934131736526945,
+        "rougeL": 0.18452380952380956,
+        "per_label": {
+          "shop": {
+            "rouge1": 0.027210884353741496,
+            "rouge2": 0.013793103448275862,
+            "rougeL": 0.027210884353741496
+          },
+          "item": {
+            "rouge1": 0.5090909090909091,
+            "rouge2": 0.3170731707317073,
+            "rougeL": 0.17575757575757578
+          },
+          "date_time": {
+            "rouge1": 0.027210884353741496,
+            "rouge2": 0.013793103448275862,
+            "rougeL": 0.027210884353741496
+          },
+          "total": {
+            "rouge1": 0.027210884353741496,
+            "rouge2": 0.013793103448275862,
+            "rougeL": 0.027210884353741496
+          }
+        }
+      }
+    }
+  }
+]

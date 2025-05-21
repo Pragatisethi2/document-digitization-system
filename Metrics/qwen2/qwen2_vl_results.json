@@ -1,0 +1,1049 @@
+{
+  "model": "/kaggle/input/qwen2-vl/transformers/7b-instruct/1",
+  "results": [
+    {
+      "image_id": 0,
+      "filename": "0.jpg",
+      "ocr_result": "system\nYou are a helpful assistant.\nuser\nExtract all the text from this receipt image. Include all items, prices, totals, and the store name.\nassistant\nWAL-MART\nALWAYS LOW PRICES.\n\nSUPERCENTER\nOPEN 24 HOURS\nMANAGER: TBA\n( 515 ) 986 - 1783\n\nST# 5748 OP# 00000158 TE# 14 TR# 03178\nBANANAS 0.41 lb @ 1 lb / 0.49 0.20 N\nFRAP 001200010451 F 5.48 N\n\nDISCOUNT GIVEN 0.57\nSUBTOTAL 5.11\nTOTAL 5.11\nCASH TEND 11.00\nCHANGE DUE 5.89\n\n# ITEMS SOLD 2\n\nTC# 5679 8348 6485 7828 2003\n\nTHANK YOU FOR SHOPPING WITH US\nNATHANIEL BUSH\nShop at Walmart & Get\nYour Back to School List for Less.\n08/20/10 13:12:01",
+      "ground_truth": [
+        "WALMART",
+        "TOTAL 5.11",
+        "FRAP 001200010451 F 5.48 N",
+        "BANANAS 000000004011KF 0.41 lb @ 1 lb /0.49 0.20 N",
+        "08/20/10 13:12:01"
+      ],
+      "rouge_scores": {
+        "rouge1": 0.29752066115702486,
+        "rouge2": 0.20168067226890754,
+        "rougeL": 0.1818181818181818,
+        "per_label": {
+          "item": {
+            "rouge1": 0.22413793103448273,
+            "rouge2": 0.1754385964912281,
+            "rougeL": 0.13793103448275862
+          },
+          "total": {
+            "rouge1": 0.038461538461538464,
+            "rouge2": 0.0196078431372549,
+            "rougeL": 0.038461538461538464
+          },
+          "shop": {
+            "rouge1": 0.01941747572815534,
+            "rouge2": 0.0,
+            "rougeL": 0.01941747572815534
+          },
+          "date_time": {
+            "rouge1": 0.038461538461538464,
+            "rouge2": 0.0196078431372549,
+            "rougeL": 0.038461538461538464
+          }
+        },
+        "debug": {
+          "reference_sample": "walmart total 511 frap 001200010451 f 548 n bananas 000000004011kf 041 lb  1 lb 049 020 n 082010 131...",
+          "prediction_sample": "system you are a helpful assistant user extract all the text from this receipt image include all ite...",
+          "reference_length": 103,
+          "prediction_length": 547
+        }
+      },
+      "inference_time": 30.362857818603516
+    },
+    {
+      "image_id": 1,
+      "filename": "1.jpg",
+      "ocr_result": "system\nYou are a helpful assistant.\nuser\nExtract all the text from this receipt image. Include all items, prices, totals, and the store name.\nassistant\nTRADER JOE'S\n\n2001 Greenville Ave\nDallas TX 75206\nStore #403 - (469) 334-0614\n\nOPEN 8:00AM TO 9:00PM DAILY\n\nR-CARROTS SHREDDED 10 OZ 1.29\nR-CUCUMBERS PERSIAN 1 LB 1.99\nTOMATOES CRUSHED NO SALT 1.59\nTOMATOES WHOLE NO SALT W/BASIL 1.59\nORGANIC OLD FASHIONED OATMEAL 2.69\nMINI-PEARL TOMATOES... 2.49\nPKG SHREDDED MOZZARELLA LITE T 3.99\nEGGS 1 DOZ ORGANIC BROWN. 3.79\nBEANS GARLANZO 0.89\nSPROUTED CA STYLE 2.99\nA-AVOCADOS HASS BAG 4CT 3.99\nA-APPLE BAG JAZZ 2 LB 2.99\nA-PEPPER BELL EACH XL RED 0.99\nGROCERY NON TAXABLE 0.98\n2 @ 0.49\nBANANAS ORGANIC 0.87\n3EA @ 0.29/EA\nCREAMY SALTED PEANUT BUTTER 2.49\nWHL WHT PITA BREAD 1.69\nGROCERY NON TAXABLE 2 @ 0.69\n\nSUBTOTAL $38.68\nTOTAL $38.68\nCASH $40.00\nCHANGE $1.32\n\nITEMS 22\n06-28-2014 12:34PM 0403 04 1346 4683\n\nTHANK YOU FOR SHOPPING AT\nTRADER JOE'S\nwww.traderjoes.com",
+      "ground_truth": [
+        "TOTAL $38.68",
+        "MINI-PEARL TOMATOES.. 2.49",
+        "PKG SHREDDED MOZZARELLA LITE T 3.99",
+        "EGGS 1 DOZ ORGANIC BROWN. 3.79",
+        "BEANS GARBANZO 0.89",
+        "GROCERY NON TAXABLE 0.98 2@ 0.49",
+        "A-AVOCADOS HASS BAG 4CT 3.99",
+        "SPROUTED CA STYLE 2.99",
+        "BANANAS ORGANIC 0.87 3EA @ 0.29/EA",
+        "CREAMY SALTED PEANUT BUTTER 2.49",
+        "WHL WHT PITA BREAD 1.69",
+        "GROCERY NON TAXABLE 1.38 2 2@ 0.69",
+        "R-CARROTS SHREDDED 10 OZ 1.29",
+        "TRADER JOE'S",
+        "A-APPLE BAG JAZZ 2 LB 2.99",
+        "A-PEPPER BELL EACH XL RED 0.99",
+        "R-CUCUMBERS PERSIAN 1 LB 1.99",
+        "TOMATOES CRUSHED NO SALT 1.59",
+        "TOMATOES WHOLE NO SALT W/BASIL 1.59",
+        "06-28-2014 12:34PM",
+        "ORGANIC OLD FASHIONED OATMEAL 2.69"
+      ],
+      "rouge_scores": {
+        "rouge1": 0.75,
+        "rouge2": 0.6456692913385826,
+        "rougeL": 0.35937499999999994,
+        "per_label": {
+          "item": {
+            "rouge1": 0.72,
+            "rouge2": 0.6451612903225806,
+            "rougeL": 0.344
+          },
+          "total": {
+            "rouge1": 0.025157232704402517,
+            "rouge2": 0.012738853503184714,
+            "rougeL": 0.025157232704402517
+          },
+          "shop": {
+            "rouge1": 0.025157232704402517,
+            "rouge2": 0.012738853503184714,
+            "rougeL": 0.025157232704402517
+          },
+          "date_time": {
+            "rouge1": 0.025157232704402517,
+            "rouge2": 0.012738853503184714,
+            "rougeL": 0.025157232704402517
+          }
+        },
+        "debug": {
+          "reference_sample": "total 3868 minipearl tomatoes 249 pkg shredded mozzarella lite t 399 eggs 1 doz organic brown 379 be...",
+          "prediction_sample": "system you are a helpful assistant user extract all the text from this receipt image include all ite...",
+          "reference_length": 548,
+          "prediction_length": 892
+        }
+      },
+      "inference_time": 47.877885818481445
+    },
+    {
+      "image_id": 10,
+      "filename": "10.jpg",
+      "ocr_result": "system\nYou are a helpful assistant.\nuser\nExtract all the text from this receipt image. Include all items, prices, totals, and the store name.\nassistant\nHere is the extracted text from the receipt:\n\n---\n\n**SPAR**\n\nTel: 036-4481240\nEmail: bergspar@telkomsa.net\nVAT No: 4450102696\nNLA REG NO: KZN 032577\n\n---\n\n**LAZENBY WORCESTER SAUCE 125ML** 17.99 A\n**MILKY BAR CHOC 80GR** 16.99 A\n**SMOKED VIENNAS 500GR** 33.99 A\n**PEALED PEACHES 400G** 82.99 A\n**MEDITERRANEAN MIX 1KG** 44.99 *\n**SPAR COOKING OIL 375ML** 14.99 *\n**F/L ENGLISH CUCUM 1'S** 12.99 *\n**NESTLE AERO 85GR** 20.99 A\n**CADBURY DAIRY MI 80GR** 16.99 A\n**GRAPE MIXED TUB TUB** 24.99 *\n**TASTIC RICE 500GR** 11.99 *\n**BLACK CAT SMOOTH 270GR** 27.99 A\n**CARRIER BAG 24L 1'S** 0.75 A\n**BANANAS LOOSE 17KG** 9.53 *\n**0.596kg @ 15.99 R /kg** 9.53 *\n\n**TOTAL FOR 14 ITEMS** 338.16\n**TENDERED** Nedbank 338.16\n\n---\n\n**TAX INVOICE**\n\n**VAT rate** excl. incl.\n0.00% 119.48 0.00 119.48 *\n15.00% 190.16 28.52 218.68 A\n\n---\n\n**SLIP / TILL / CASHIER / DATE / TIME**\n3780 005 101 23.02.21 16:17\n\n**CASHIER NAME: SWAZI**\nPlease Retain Slip\nThank You For Shopping With Us! :)\n\nFollow us on Facebook: Spar Bergville",
+      "ground_truth": [
+        "SMOKED VIENNAS 500GR 33.99 A",
+        "SPAR",
+        "TOTAL FOR 14 ITEMS 338.16",
+        "PEALED PEACHES 400G 82.99 A",
+        "MILKY BAR CHOC 80GR 16.99 A",
+        "LAZENBY WORCESTER SALICE 125ML 17.99 A",
+        "MEDITERRANEAN MIX 1KG 44.99 *",
+        "SPAR COOKING OIL 375ML 14.99 *",
+        "F/L ENGLISH CUCUMB 1'S 12.99 *",
+        "NESTLE AERO 85GR 20.99 A",
+        "CADBURY DAIRY MI 80 GR 16.99 A",
+        "23.02.21 16:17",
+        "CARRIER BAG 24L 1\"S 0.75 A",
+        "BANANAS LOOSE 17KG 0.596kg @ 15.99 R /kg 9.53 *",
+        "GRAPES MIXED TUB TUB 24.99 *",
+        "TASTIC RICE 500GR 11.99 *",
+        "BLACK CAT SMOOTH 270GR 27.99 A"
+      ],
+      "rouge_scores": {
+        "rouge1": 0.6254826254826255,
+        "rouge2": 0.5369649805447471,
+        "rougeL": 0.37065637065637064,
+        "per_label": {
+          "item": {
+            "rouge1": 0.5816733067729083,
+            "rouge2": 0.5301204819277109,
+            "rougeL": 0.38247011952191234
+          },
+          "total": {
+            "rouge1": 0.055865921787709494,
+            "rouge2": 0.04519774011299435,
+            "rougeL": 0.055865921787709494
+          },
+          "shop": {
+            "rouge1": 0.011428571428571429,
+            "rouge2": 0.0,
+            "rougeL": 0.011428571428571429
+          },
+          "date_time": {
+            "rouge1": 0.022727272727272724,
+            "rouge2": 0.011494252873563216,
+            "rougeL": 0.022727272727272724
+          }
+        },
+        "debug": {
+          "reference_sample": "smoked viennas 500gr 3399 a spar total for 14 items 33816 pealed peaches 400g 8299 a milky bar choc ...",
+          "prediction_sample": "system you are a helpful assistant user extract all the text from this receipt image include all ite...",
+          "reference_length": 447,
+          "prediction_length": 974
+        }
+      },
+      "inference_time": 67.941415309906
+    },
+    {
+      "image_id": 11,
+      "filename": "11.jpg",
+      "ocr_result": "system\nYou are a helpful assistant.\nuser\nExtract all the text from this receipt image. Include all items, prices, totals, and the store name.\nassistant\nWHOLE\nFOODS\nMARKET\nSHARON RD.\n\n* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *",
+      "ground_truth": [
+        "*WT PLUMS BLACK CV 2.15 B",
+        "* CAGE FREE ALL WHIT 3.69 B",
+        "WHOLE FOODS MARKET",
+        "* PL TORTILLA'S 6.99 B",
+        "* BLACK BEANS 1.29 B",
+        "* Frozen Mangoes 16o 2.99 B",
+        "* Whole Strawberries 2.99 B",
+        "* OG LF COTTAGE CHEE 3.49 B",
+        "* MAHI MAHI FILLETS 8.99 B",
+        "* California Harvest 2.69 B"
+      ],
+      "rouge_scores": {
+        "rouge1": 0.10389610389610389,
+        "rouge2": 0.05333333333333333,
+        "rougeL": 0.10389610389610389,
+        "per_label": {
+          "item": {
+            "rouge1": 0.05405405405405406,
+            "rouge2": 0.0,
+            "rougeL": 0.05405405405405406
+          },
+          "shop": {
+            "rouge1": 0.18181818181818182,
+            "rouge2": 0.12903225806451613,
+            "rougeL": 0.18181818181818182
+          }
+        },
+        "debug": {
+          "reference_sample": "wt plums black cv 215 b  cage free all whit 369 b whole foods market  pl tortillas 699 b  black bean...",
+          "prediction_sample": "system you are a helpful assistant user extract all the text from this receipt image include all ite...",
+          "reference_length": 236,
+          "prediction_length": 174
+        }
+      },
+      "inference_time": 89.73262047767639
+    },
+    {
+      "image_id": 12,
+      "filename": "12.jpg",
+      "ocr_result": "system\nYou are a helpful assistant.\nuser\nExtract all the text from this receipt image. Include all items, prices, totals, and the store name.\nassistant\nWAL-MART\nSave money. Live better.\n\nWE SELL FOR LESS\nALWAYS\nMANAGER DAPHNE SESSION\n( 636 ) 536 - 4601\nCHESTERFIELD, MO 63005\n\nST# 2600 DP# 00001855 TE# 17 TR# 03359\nSW FIGURES 065356920144\nTOOTHBRUSH 0.96 X\nSUBTOTAL 7.59\n\nWOMEN SLIPPE 009725614790\nSUBTOTAL 17.45\n\nTAX 1 3.100 % 0.54\nTAX 3 4.350 % 0.76\nTOTAL 18.75\n\nMCARD TEND 18.75\n\nACCOUNT #3546\nAPPROVAL #007190\nTRANS ID -\nVALIDATION -\nPAYMENT SERVICE - A\nCHANGE DUE 0.00\n\n# ITEMS SOLD 3\n\nTC# 9489 7094 6487 3073 3651\nWal-Mart exclusive Eagles CD\navailable October 30th!\n10/20/07 13:48:43\n\n***CUSTOMER COPY***",
+      "ground_truth": [
+        "10/20/07 13:48:43",
+        "TOOTHBRUSH 003500055500 0.96 X",
+        "WOMEN SLIPPE 009725614790 9.86 X",
+        "TOTAL 18.75",
+        "SW FIGURES 065356920144 6.63 X",
+        "WALMART"
+      ],
+      "rouge_scores": {
+        "rouge1": 0.21538461538461537,
+        "rouge2": 0.10937499999999997,
+        "rougeL": 0.13846153846153847,
+        "per_label": {
+          "date_time": {
+            "rouge1": 0.035398230088495575,
+            "rouge2": 0.018018018018018018,
+            "rougeL": 0.035398230088495575
+          },
+          "total": {
+            "rouge1": 0.035398230088495575,
+            "rouge2": 0.018018018018018018,
+            "rougeL": 0.035398230088495575
+          },
+          "item": {
+            "rouge1": 0.14400000000000002,
+            "rouge2": 0.08130081300813008,
+            "rougeL": 0.096
+          },
+          "shop": {
+            "rouge1": 0.01785714285714286,
+            "rouge2": 0.0,
+            "rougeL": 0.01785714285714286
+          }
+        },
+        "debug": {
+          "reference_sample": "102007 134843 toothbrush 003500055500 096 x women slippe 009725614790 986 x total 1875 sw figures 06...",
+          "prediction_sample": "system you are a helpful assistant user extract all the text from this receipt image include all ite...",
+          "reference_length": 124,
+          "prediction_length": 655
+        }
+      },
+      "inference_time": 38.127978801727295
+    },
+    {
+      "image_id": 13,
+      "filename": "13.jpg",
+      "ocr_result": "system\nYou are a helpful assistant.\nuser\nExtract all the text from this receipt image. Include all items, prices, totals, and the store name.\nassistant\nHere is the text extracted from the receipt:\n\n```\nWalmart\nSave money. Live better.\n\n(843) 292 - 0362\nMANAGER MICHAEL REIGHARD\n2014 S TRYB ST\nFLORENCE, SC 29505\n\nS# 02/03 OP# 009049 T#49 TR# 07142\nGIFT CARD 50.00 0\nSUBTOTAL 50.00\nCASH TENDER 60.00\nCHANGE DUE 10.00\n\nSHOP.CARD ACTIVATION\nACCOUNT 613968546249/292\nAPPR. CODE - 792986\nREF #0083742\n\nBeg Bal Tran Amt End Bal\n0.00 50.00 50.00\n08/11/17 19:19:31\n\nTC# 9736 5895 9237 2333 1932\n\nLow Prices You Can Trust. Every Day.\n08/11/17 19:22:40\nStore receipts on your phone. Walmart Pay.\n```",
+      "ground_truth": [
+        "Walmart",
+        "GIFT CARD 087458604333 50.00 0",
+        "08/11/17 19:22:40",
+        "TOTAL 50.00"
+      ],
+      "rouge_scores": {
+        "rouge1": 0.14754098360655737,
+        "rouge2": 0.05,
+        "rougeL": 0.11475409836065574,
+        "per_label": {
+          "item": {
+            "rouge1": 0.06837606837606837,
+            "rouge2": 0.034782608695652174,
+            "rougeL": 0.06837606837606837
+          },
+          "total": {
+            "rouge1": 0.03508771929824561,
+            "rouge2": 0.0,
+            "rougeL": 0.03508771929824561
+          },
+          "shop": {
+            "rouge1": 0.017699115044247787,
+            "rouge2": 0.0,
+            "rougeL": 0.017699115044247787
+          },
+          "date_time": {
+            "rouge1": 0.03508771929824561,
+            "rouge2": 0.01785714285714286,
+            "rougeL": 0.03508771929824561
+          }
+        },
+        "debug": {
+          "reference_sample": "walmart gift card 087458604333 5000 0 081117 192240 total 5000",
+          "prediction_sample": "system you are a helpful assistant user extract all the text from this receipt image include all ite...",
+          "reference_length": 62,
+          "prediction_length": 632
+        }
+      },
+      "inference_time": 31.289188623428345
+    },
+    {
+      "image_id": 14,
+      "filename": "14.jpg",
+      "ocr_result": "Error: CUDA out of memory. Tried to allocate 55.90 GiB. GPU 0 has a total capacity of 14.74 GiB of which 3.30 GiB is free. Process 2820 has 11.44 GiB memory in use. Of the allocated memory 11.21 GiB is allocated by PyTorch, and 114.93 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)",
+      "ground_truth": [
+        "TOTAL 26.60",
+        "VFUS ENG POM 005100024543 F 7.48 N",
+        "05/04/17 19:54:18",
+        "LINT ROLLER2 005114123488 5.78 X",
+        "DAWN ORIG 003700011045 5.97 X",
+        "EQUATE LINER 068113186503 3.88 X",
+        "Walmart",
+        "5OYD PKGTAPE 007535307841 1.12 X",
+        "5OYD PKGTAPE 007535307841 1.12 X"
+      ],
+      "rouge_scores": {
+        "rouge1": 0.018518518518518517,
+        "rouge2": 0.0,
+        "rougeL": 0.018518518518518517,
+        "per_label": {
+          "item": {
+            "rouge1": 0.0,
+            "rouge2": 0.0,
+            "rougeL": 0.0
+          },
+          "total": {
+            "rouge1": 0.027397260273972605,
+            "rouge2": 0.0,
+            "rougeL": 0.027397260273972605
+          },
+          "shop": {
+            "rouge1": 0.0,
+            "rouge2": 0.0,
+            "rougeL": 0.0
+          },
+          "date_time": {
+            "rouge1": 0.0,
+            "rouge2": 0.0,
+            "rougeL": 0.0
+          }
+        },
+        "debug": {
+          "reference_sample": "total 2660 vfus eng pom 005100024543 f 748 n 050417 195418 lint roller2 005114123488 578 x dawn orig...",
+          "prediction_sample": "error cuda out of memory tried to allocate 5590 gib gpu 0 has a total capacity of 1474 gib of which ...",
+          "reference_length": 223,
+          "prediction_length": 486
+        }
+      },
+      "inference_time": 2.7001287937164307
+    },
+    {
+      "image_id": 15,
+      "filename": "15.jpg",
+      "ocr_result": "system\nYou are a helpful assistant.\nuser\nExtract all the text from this receipt image. Include all items, prices, totals, and the store name.\nassistant\nHere is the extracted text from the receipt:\n\n```\nWalmart\nSave money. Live better.\n\n( 714 ) 799 - 0020\nMANAGER YVONNE THOMAS\n13331 BEACH BLVD\nWESTMINSTER CA 92683\n\nST# 02495 DP# 006969 TE# 79 TR# 01626\nDIABETES 068113131172H 12.58 N\nSUBTOTAL 12.58\nTOTAL 12.58\nVISA TEND\n\nVisa Credit\n*** **** **** **** 3670 I 1\nAPPROVAL # 222235\nREF # 620600604401\nTRANS ID - 686206139884060\nVALIDATION - 76LK\nPAYMENT SERVICE - E\n\nAID A00000000031010\nTC 9E0FAC9A809E6D92\nTERMINAL # 281767477\n*NO SIGNATURE REQUIRED\n\n07/22/16 20:53:11\nCHANGE DUE 0.00\n\n# ITEMS SOLD 1\n\nTC% 7503 0129 1089 7649 4115\n\nLow Prices You Can Trust. Every Day.\n07/22/16 20:53:11\n\n***CUSTOMER COPY***\n\nSavings Catcher! Scan with Walmart app\n```",
+      "ground_truth": [
+        "07/22/16 20:53:11",
+        "Walmart",
+        "DIABETES 068113131172H 12.58 N",
+        "TOTAL 12.58"
+      ],
+      "rouge_scores": {
+        "rouge1": 0.1343283582089552,
+        "rouge2": 0.07575757575757576,
+        "rougeL": 0.1044776119402985,
+        "per_label": {
+          "date_time": {
+            "rouge1": 0.031496062992125984,
+            "rouge2": 0.016,
+            "rougeL": 0.031496062992125984
+          },
+          "total": {
+            "rouge1": 0.031496062992125984,
+            "rouge2": 0.016,
+            "rougeL": 0.031496062992125984
+          },
+          "item": {
+            "rouge1": 0.06201550387596899,
+            "rouge2": 0.047244094488188976,
+            "rougeL": 0.06201550387596899
+          },
+          "shop": {
+            "rouge1": 0.015873015873015872,
+            "rouge2": 0.0,
+            "rougeL": 0.015873015873015872
+          }
+        },
+        "debug": {
+          "reference_sample": "072216 205311 walmart diabetes 068113131172h 1258 n total 1258",
+          "prediction_sample": "system you are a helpful assistant user extract all the text from this receipt image include all ite...",
+          "reference_length": 62,
+          "prediction_length": 772
+        }
+      },
+      "inference_time": 43.315916538238525
+    },
+    {
+      "image_id": 16,
+      "filename": "16.jpg",
+      "ocr_result": "system\nYou are a helpful assistant.\nuser\nExtract all the text from this receipt image. Include all items, prices, totals, and the store name.\nassistant\nWalmart\n\nSave money. Live better.\n\n( 701 ) 223 - 3066\nMANAGER TIM MORRIS\n2717 ROCK ISLAND PL\nBISMARCK ND 58504\n\nST# 01534 0P# 009048 TE# 48 TR# 04455\n\n6 WING PLATE 020108870398 3.98 P\nASST 27 063099656595 4.88 X\nCUTIE CAR 063099656644 12.88 X\n\nSUBTOTAL 21.74\n\nTAX 1 6.500 % 1.15\nTAX 4 7.500 % 0.30\nTOTAL 23.19\n\nDEBIT TEND 23.19\nCHANGE DUE 0.00\n\nEFT DEBIT PAY FROM PRIMARY\n23.19 TOTAL PURCHASE\n\nUS DEBIT 2696 I 0\nREF # 731700494718\nNETWORK ID. 0081 APPR CODE 936886\n\nUS DEBIT\nAID A0000000980840\nTC 58B77239DA5B3B44\n*NO SIGNATURE REQUIRED\nTERMINAL # SC011090\n\n11/13/17 12:34:04\n# ITEMS SOLD 3\nTC# 2188 7274 6444 1567 3762\n\nLow Prices You Can Trust. Every Day.\n11/13/17 12:34:11\nStore receipts on your phone. Walmart Pay.",
+      "ground_truth": [
+        "11/13/17 12:34:04",
+        "ASST 27 063099656595 4.88 X",
+        "Walmart",
+        "CUTIE CAR 063099656644 12.88 X",
+        "6 WING PLATE 020108870398 3.98 P",
+        "TOTAL 23.19"
+      ],
+      "rouge_scores": {
+        "rouge1": 0.2545454545454546,
+        "rouge2": 0.18404907975460122,
+        "rougeL": 0.14545454545454545,
+        "per_label": {
+          "date_time": {
+            "rouge1": 0.0273972602739726,
+            "rouge2": 0.013888888888888888,
+            "rougeL": 0.0273972602739726
+          },
+          "total": {
+            "rouge1": 0.0273972602739726,
+            "rouge2": 0.013888888888888888,
+            "rougeL": 0.0273972602739726
+          },
+          "item": {
+            "rouge1": 0.19999999999999998,
+            "rouge2": 0.17721518987341772,
+            "rougeL": 0.125
+          },
+          "shop": {
+            "rouge1": 0.013793103448275862,
+            "rouge2": 0.0,
+            "rougeL": 0.013793103448275862
+          }
+        },
+        "debug": {
+          "reference_sample": "111317 123404 asst 27 063099656595 488 x walmart cutie car 063099656644 1288 x 6 wing plate 02010887...",
+          "prediction_sample": "system you are a helpful assistant user extract all the text from this receipt image include all ite...",
+          "reference_length": 121,
+          "prediction_length": 811
+        }
+      },
+      "inference_time": 53.36095976829529
+    },
+    {
+      "image_id": 17,
+      "filename": "17.jpg",
+      "ocr_result": "system\nYou are a helpful assistant.\nuser\nExtract all the text from this receipt image. Include all items, prices, totals, and the store name.\nassistant\nWalmart\nSave money. Live better.\n\n( 970 ) 259 - 8755\nMANAGER MIKE NEIDLINGER\n1156 S CAMINO DEL RIO\nDURANGO CO 81303\n\nST# 02270  OP# 000144  TE# 02  TR# 03080\n\nBANANAS\n000000004011KI\n1.75 lb @ 1 lb / 0.64\n0.95 R\n\nBEVERAGE\n003120002133 F\n2.00 R\n\nOS CRAN POM\n003120027015 F\n2.00 R\n\nSTRWBRY CC\n076471782200 Y\n0.96 Y\n\nCAMPARI TOM\n073447501213 I\n2.98 R\n\nKFT SINGLES\n002100061526 F\n3.78 Y\n\n44500982114\n0044500982114 F\n3.98 Y\n\nHARD SALAMI\n020533960343 F\n3.43 Y\n\nAVOCADO\n000000004046KI\n4 AT 1 FOR 0.44\n1.76 R\n\nPILLS WHITE\n068113113619 F\n1.00 Y\n\nSH NYLON COL\n07417024836 F\n2.97 X\n\nHAND CLEANER\n04125100005 F\n1.67 Y\n\nINJECTR CLNR\n004980710003 F\n8.87 Y\n\nSUBTOTAL\n36.35\n\nTAX 1 7.900 % 1.07\nTAX 2 5.000 % 1.14\nTAX 5 2.900 % 0.12\n\nTOTAL\n38.68\n\nCASH TEND\n40.68\n\nCHANGE DUE\n2.00\n\n# ITEMS SOLD 16\n\nTC# 3041 7466 0669 7952 272\n\n01/15/17\n14:26:03\n\nThank you",
+      "ground_truth": [
+        "TOTAL 38.68",
+        "CAMPARI TOM 073447501213 I 2.98 R",
+        "OSCRAN POM 003120027015 F 2.00 R",
+        "Walmart",
+        "BANANAS 000000004011KI 1.75 lb @ 1 lb /0.54 0.95 R",
+        "BEVERAGE 003120002133 F 2.00 R",
+        "STRWBRY CC 076471782200 F 0.96 Y",
+        "01/15/17 14:26:03",
+        "INJECTR CLNR 004980710003 8.87 X",
+        "HAND CLEANER 004125100005 1.67 X",
+        "SH NYLON COL 007417024836 2.97 X",
+        "PILLS WHITE 068113113619 F 1.00Y",
+        "AVOCADO 000000004046KI 4 AT 1 FOR 0.44 1.76 R",
+        "HARD SALAMI 020533960343 F 3.43 Y",
+        "44500982114 004450098211 F 3.98 Y",
+        "KFT SINGLES 002100061526 F 3.78 Y"
+      ],
+      "rouge_scores": {
+        "rouge1": 0.5960784313725489,
+        "rouge2": 0.450592885375494,
+        "rougeL": 0.2823529411764706,
+        "per_label": {
+          "item": {
+            "rouge1": 0.5680000000000001,
+            "rouge2": 0.45161290322580644,
+            "rougeL": 0.272
+          },
+          "total": {
+            "rouge1": 0.023121387283236997,
+            "rouge2": 0.011695906432748537,
+            "rougeL": 0.023121387283236997
+          },
+          "shop": {
+            "rouge1": 0.011627906976744186,
+            "rouge2": 0.0,
+            "rougeL": 0.011627906976744186
+          },
+          "date_time": {
+            "rouge1": 0.023121387283236997,
+            "rouge2": 0.011695906432748537,
+            "rougeL": 0.023121387283236997
+          }
+        },
+        "debug": {
+          "reference_sample": "total 3868 campari tom 073447501213 i 298 r oscran pom 003120027015 f 200 r walmart bananas 00000000...",
+          "prediction_sample": "system you are a helpful assistant user extract all the text from this receipt image include all ite...",
+          "reference_length": 476,
+          "prediction_length": 910
+        }
+      },
+      "inference_time": 71.07077503204346
+    },
+    {
+      "image_id": 18,
+      "filename": "18.jpg",
+      "ocr_result": "system\nYou are a helpful assistant.\nuser\nExtract all the text from this receipt image. Include all items, prices, totals, and the store name.\nassistant\nHere is the extracted text from the receipt:\n\n---\n\nWalmart\n\n863-318-0752 Mgr:MARK\n7450 CYPRESS GARDENS BLVD\nWINTER HAVEN FL 33884\n\nST# 03347 OP# 009036 TE# 36 TR# 05386\n\nGV WATER\n007874235191 F 0.98 N\nGV WATER\n00784235191 F 0.98 N\nGREAT VALUE\n007874206203 F 2.84 N\nGREAT VALUE\n007874206203 F 2.84 N\nGAIN LIFE\n003700077007 F 6.97 X\nGV VEG OIL\n007874076954 F 4.94 X\nSNICKER FS\n004000050533 F 7.82 N\nQDBR FS GPK\n003400029305 F 4.76 X\nMIXED CHOC\n004000047587 F 13.24 X\nCHERRIES\n004326880032 F 1.78 X\nGAIN\n003700082365 F 1.97 X\nHY RSTLEG PM\n03549733521H F 9.97 N\nBATTERIES\n001280051783 F 10.97 X\nGV 20Z MINI\n007874219999 F 2.97 X\nCRNBRY SAUCE\n003120001605 F 1.58 0\nSPREADS\n002740026499 F 3.46 0\nEGGS 6CT\n007874212709 F 0.90 0\n\nSUBTOTAL\n82.75\n\nTAX 1 7.000 %\n3.60\n\nTOTAL\n86.35\n\nDEBIT TEND\n86.35\n\nCHANGE DUE\n0.00\n\nPAY FROM PRIMARY\n86.35 TOTAL PURCHASE\n\nFIFTHTHIRD DEBIT ** **** **** 9832 I 0\n\nREF # 130400725877\n\nNETWORK ID. 0076 APPR CODE 001740\n\nUS Debit\nAID A0000000042203\nAAC A8FABF3D0FD07485\n\nTERMINAL # SC011151\n\n10/31/21 10:08:22\n# ITEMS SOLD 18\n\nIC# 7563 1623 3938 0953 7373\n\nLow Prices You Can Trust. Every Day.\n10/31/21 10:08:26\n\n---\n\nThis receipt details a purchase made at Walmart, including various items and their prices, tax, and total amount paid.",
+      "ground_truth": [
+        "GV VEG OIL 007874221000 F 7.82 N",
+        "GREAT VALUE 007874206203 F 2.84 N",
+        "GAIN LFE 003700077007 6.97 X",
+        "GAIN 003700076954 4.94 X",
+        "SNICKER FS 004000050533 F 3.78 X",
+        "SPREADS 002740026499 F 3.46 0",
+        "CRNBRY SAUCE 003120001605 F 1.58 0",
+        "GV 20Z MINI 007874219999 2.97 X",
+        "BATTERIES 001280051783 10.97 X",
+        "HY RSTLEG PM 035497333521H 9.97 N",
+        "GAIN 003700082365 1.97 X",
+        "CHERRIES 004326880002 F 1.78 X",
+        "MIXED CHOC 004000047587 F 13.24 X",
+        "GDBR FS 6PK 003400029305 F 4.76 X",
+        "GV WATER 007874235191 F 0.98 N",
+        "GV WATER 007874235191 F 0.98 N",
+        "GREAT VALUE 007874206203 F 2.84 N",
+        "Walmart",
+        "EGGS 6CT 007874212709 F 0.9 0",
+        "10/31/21 10:08:22",
+        "TOTAL 86.35"
+      ],
+      "rouge_scores": {
+        "rouge1": 0.5529411764705883,
+        "rouge2": 0.42603550295857995,
+        "rougeL": 0.2529411764705883,
+        "per_label": {
+          "item": {
+            "rouge1": 0.5313432835820896,
+            "rouge2": 0.42042042042042044,
+            "rougeL": 0.23880597014925375
+          },
+          "total": {
+            "rouge1": 0.016949152542372885,
+            "rouge2": 0.008547008547008546,
+            "rougeL": 0.016949152542372885
+          },
+          "shop": {
+            "rouge1": 0.00851063829787234,
+            "rouge2": 0.0,
+            "rougeL": 0.00851063829787234
+          },
+          "date_time": {
+            "rouge1": 0.016949152542372885,
+            "rouge2": 0.008547008547008546,
+            "rougeL": 0.016949152542372885
+          }
+        },
+        "debug": {
+          "reference_sample": "gv veg oil 007874221000 f 782 n great value 007874206203 f 284 n gain lfe 003700077007 697 x gain 00...",
+          "prediction_sample": "system you are a helpful assistant user extract all the text from this receipt image include all ite...",
+          "reference_length": 580,
+          "prediction_length": 1312
+        }
+      },
+      "inference_time": 78.55563879013062
+    },
+    {
+      "image_id": 19,
+      "filename": "19.jpg",
+      "ocr_result": "system\nYou are a helpful assistant.\nuser\nExtract all the text from this receipt image. Include all items, prices, totals, and the store name.\nassistant\nWalmart\n\n863-676-9425 Mgr:EURIEL\n2000 STATE ROAD 60 E\nLAKE WALES FL 33898\n\nST# 00859 OP# 009026 TE# 26 TR# 02422\nGRILL COVER 471288396027 14.97 X\nGRILL COVER 036926600094 12.94 N\nCELEBRITY HEART 003338365301 F 2.48 N\nRED GRAPE 000000004023KF 3.61 N\n\nSUBTOTAL 34.00\nTAX 1 7.00%\nTOTAL 35.05\n\nSHOPPING CARD TEND 35.05\nCHANGE DUE 0.00\n\nSHOP.CARD REDEMPTION 35.05\n\nACCOUNT **********0246\n\nBeg Bal Tran Amt End Bal\n157.29 35.05 122.24\n\n# ITEMS SOLD 4\n\nTC# 6949 6652 6669 8007 1705\n\nLow Prices You Can Trust. Every Day.\n10/16/21 11:22:45",
+      "ground_truth": [
+        "RED GRAPE 000000004023 KF 2.51 lb @ 1 lb /1.44 3.61 N",
+        "FIBER CHOICE 036926600094 12.94 N",
+        "GRILL COVER 471288396027 14.97 X",
+        "Walmart",
+        "TOTAL 35.05",
+        "CELERY HEART 003338365301 2.48 N",
+        "10/16/21 11:22:45"
+      ],
+      "rouge_scores": {
+        "rouge1": 0.3076923076923077,
+        "rouge2": 0.1702127659574468,
+        "rougeL": 0.15384615384615385,
+        "per_label": {
+          "item": {
+            "rouge1": 0.24637681159420288,
+            "rouge2": 0.14705882352941177,
+            "rougeL": 0.13043478260869568
+          },
+          "total": {
+            "rouge1": 0.03508771929824561,
+            "rouge2": 0.01785714285714286,
+            "rougeL": 0.03508771929824561
+          },
+          "shop": {
+            "rouge1": 0.017699115044247787,
+            "rouge2": 0.0,
+            "rougeL": 0.017699115044247787
+          },
+          "date_time": {
+            "rouge1": 0.03508771929824561,
+            "rouge2": 0.01785714285714286,
+            "rougeL": 0.03508771929824561
+          }
+        },
+        "debug": {
+          "reference_sample": "red grape 000000004023 kf 251 lb  1 lb 144 361 n fiber choice 036926600094 1294 n grill cover 471288...",
+          "prediction_sample": "system you are a helpful assistant user extract all the text from this receipt image include all ite...",
+          "reference_length": 178,
+          "prediction_length": 626
+        }
+      },
+      "inference_time": 37.6072256565094
+    },
+    {
+      "image_id": 2,
+      "filename": "2.jpg",
+      "ocr_result": "system\nYou are a helpful assistant.\nuser\nExtract all the text from this receipt image. Include all items, prices, totals, and the store name.\nassistant\nHere is the extracted text from the receipt:\n\n```\nGive us feedback @ survey.walmart.com\nThank you! ID #: 7PB65JWCFZ2\n\nWalmart\n949-498-6669 Mgr:MICHAEL\n951 AVENIDA PICO\nSAN CLEMENTE CA 92673\n\nST# 02527 OP# 009045 TE# 45 TR# 06193\n\nGV OATMEAL 007874243408 F 1.76 0\nOT 200Z TUM 081236803115 6.74 X\nM ATHLETICS 019104567781 24.97 X\nDAXAS 15X20 008429710921 12.97 X\n\nSUBTOTAL 46.44\n\nTAX 1 7.750 % 3.46\n\nTOTAL 49.90\n\nDEBIT TEND 49.90\n\nCHANGE DUE 0.00\n\nEFT DEBIT PAY FROM PRIMARY 49.90\n\nTOTAL PURCHASE 49.90\n\nUS DEBIT ****** ****** 9689 I 0\n\nREF # 029200639128\n\nNETWORK ID. 0056 APPR CODE 461500\n\nUS DEBIT AID 00000000980840\n\nAAC 7756F4EB82854EED\n\nTERMINAL # SC011004\n\n10/18/20 11:30:42\n\nTC# 2400 4776 4305 8847 1471\n\nWalmart+\nIntroducing Walmart+\n\nLow Prices You Can Trust. Every Day.\n10/18/20 11:30:46\n```",
+      "ground_truth": [
+        "10/18/20 11:30:46",
+        "TOTAL 49.90",
+        "M ATHLETICS 019104567781 24.97 X",
+        "Waalmart",
+        "GV OATMEAL 007874243408 F 1.76 0",
+        "DEXAS 15X20 008429710921 12.97 X",
+        "OT 200Z TUM 081236803115 6.74 X"
+      ],
+      "rouge_scores": {
+        "rouge1": 0.29069767441860467,
+        "rouge2": 0.22352941176470587,
+        "rougeL": 0.1511627906976744,
+        "per_label": {
+          "date_time": {
+            "rouge1": 0.027210884353741496,
+            "rouge2": 0.013793103448275862,
+            "rougeL": 0.027210884353741496
+          },
+          "total": {
+            "rouge1": 0.027210884353741496,
+            "rouge2": 0.013793103448275862,
+            "rougeL": 0.027210884353741496
+          },
+          "item": {
+            "rouge1": 0.25149700598802394,
+            "rouge2": 0.20606060606060606,
+            "rougeL": 0.14371257485029942
+          },
+          "shop": {
+            "rouge1": 0.0,
+            "rouge2": 0.0,
+            "rougeL": 0.0
+          }
+        },
+        "debug": {
+          "reference_sample": "101820 113046 total 4990 m athletics 019104567781 2497 x waalmart gv oatmeal 007874243408 f 176 0 de...",
+          "prediction_sample": "system you are a helpful assistant user extract all the text from this receipt image include all ite...",
+          "reference_length": 160,
+          "prediction_length": 863
+        }
+      },
+      "inference_time": 41.343271255493164
+    },
+    {
+      "image_id": 3,
+      "filename": "3.jpg",
+      "ocr_result": "system\nYou are a helpful assistant.\nuser\nExtract all the text from this receipt image. Include all items, prices, totals, and the store name.\nassistant\nHere is the extracted text from the receipt:\n\n```\nWalmart\n\n317-851-1102  Mr: JAMIE BROOKSHIRE\n882 S. STATE ROAD 136\nGREENWOOD IN 46143\n\nST# 05483  DP# 001436  TE# 09  TR# 06976\n\nTATER TOTS  001312000026  F  2.96  0\nHARD/PROV/DC  007874219410  F  2.68  T\nSNACK BARS  002190848816  F  4.98  T\nHRI CL CHS  003120606000  F  6.88  0\nHRI CL CHS  003120606000  F  6.88  0\n**VOIDED ENTRY**\nHRI CL CHS  003120606000  F  6.88  0\nHRI 12 U SG  003120636000  F  6.88  0\nHRI CL PEP  003120607000  F  6.88  0\nEARBUDS  068113100946  F  4.88  X\nS BCN CHDDR  007874202906  F  6.98  T\nABF THINBRST  022451710972  F  9.72  X\nHARD/PROV/DC  007874219410  F  2.68  D\nDV RSE OIL M  001111101220  F  6.94  X\nAPPLE 3 BAG  084747300184  F  6.47  N\nSTOK LT SWT  004127102774  F  4.42  T\nPEANUT BUTTR  006150026499  F  6.44  T\nAVO VERDE  06161206143  F  2.98  N\nROLLS  007874219416  F  1.28  0\nBTS DRY BLON  601072452746  F  6.68  T\nGALE  000000000003K  F  32.00  T\nTR HS FAM 4  002240062190  F  2.74  X\nBAGELS  001376402801  F  4.66  0\nGV SLIDERS  007874201526  F  2.98  0\nACCESSORY  007615161216  F  0.97  0\nCHEEZE IT  002410083623  F  4.00  0\nWAS 4.64  YOU SAVED 0.64\nRITZ  004400088210  F  2.78  N\nRUFFLES  002840020942  F  2.60  N\nGV ANY GRMS  007874207263  F  1.28  N\n\nSUBTOTAL  139.44\nTAX  7.00%\nTOTAL  144.02\nCASH TEND  160.02\nCHANGE DUE  6.00\n\nTC# 0783 5080 4072",
+      "ground_truth": [
+        "TATER TOTS 001312000026 F 2.96 O",
+        "HARD/PROV/DC 007874219410 F 2.68 0",
+        "STOK LT SWT 004127102774 F 4.42 T",
+        "AVO VERDE 061611206143 F 2.98 N",
+        "APPLE 3 BAG 084747300184 F 6.47 N",
+        "DV RSE OIL M 001111101220 6.94 X",
+        "ACCESSORY 007515161216 0.97 X",
+        "CHEEZE IT 002410053523 F 4.00 0 WAS 4.54 YOU SAVED 0.64",
+        "RITZ 004400088210 F 2.78 N",
+        "GV HNY GRMS 007874207253 F 1.28 N",
+        "Walmart",
+        "04/27/19 12:59:46",
+        "PEANUT BUTTR 005150025499 F 5.44 0",
+        "HARD/PROV/DC 007874219410 F 2.68 O",
+        "SNACK BARS 002190848816 F 4.98 T",
+        "HRI CL PEP 003120507000 F 5.88 0",
+        "HRI 12 U SG 003120535000 F 5.88 0",
+        "HRI CL CHS 003120506000 F 5.88-0",
+        "HRI CL CHS 003120506000 F 5.88 0",
+        "HRI CL CHS 003120506000 F 5.88 0",
+        "GV SLIDERS 007874201525 2.98 X",
+        "BAGELS 001376402801 F 4.56 0",
+        "GALE 000000000003K 32.00 T",
+        "BTS DRY BLON 501072452746 6.58 X",
+        "ROLLS 007874219415 F 1.28 0",
+        "EARBUDS 068113100946 4.88 X",
+        "RUFFLES 002840020942 F 250 N",
+        "SC BCN CHDDR 007874202906 F 6.98 0",
+        "ABF THINBRST 022451710972 F 9.72 0",
+        "TOTAL 144.02",
+        "TR HS FRM 4 002240062190 2.74 X"
+      ],
+      "rouge_scores": {
+        "rouge1": 0.674473067915691,
+        "rouge2": 0.44705882352941173,
+        "rougeL": 0.25761124121779855,
+        "per_label": {
+          "item": {
+            "rouge1": 0.6682464454976303,
+            "rouge2": 0.44761904761904764,
+            "rougeL": 0.2606635071090047
+          },
+          "total": {
+            "rouge1": 0.015810276679841896,
+            "rouge2": 0.00796812749003984,
+            "rougeL": 0.015810276679841896
+          },
+          "shop": {
+            "rouge1": 0.007936507936507936,
+            "rouge2": 0.0,
+            "rougeL": 0.007936507936507936
+          },
+          "date_time": {
+            "rouge1": 0.0,
+            "rouge2": 0.0,
+            "rougeL": 0.0
+          }
+        },
+        "debug": {
+          "reference_sample": "tater tots 001312000026 f 296 o hardprovdc 007874219410 f 268 0 stok lt swt 004127102774 f 442 t avo...",
+          "prediction_sample": "system you are a helpful assistant user extract all the text from this receipt image include all ite...",
+          "reference_length": 923,
+          "prediction_length": 1303
+        }
+      },
+      "inference_time": 98.01530241966248
+    },
+    {
+      "image_id": 4,
+      "filename": "4.jpg",
+      "ocr_result": "system\nYou are a helpful assistant.\nuser\nExtract all the text from this receipt image. Include all items, prices, totals, and the store name.\nassistant\nWalmart\nSave money. Live better.\n\n( 712 ) 366 - 3326\nMANAGER DONALD MONEYMAKER\n3201 MANAWA CENTRE DR\nCOUNCIL BLUFFS IA 51101\n\nST# 01965 OP# 002031 TE# 20 TR# 05145\nSW HRO FGHTR 063080940732 6.94 T\nSUBTOTAL 6.94\nTAX 1 7.000 % 0.49\nTOTAL 7.43\nDEBIT TEND 7.43\nCHANGE DUE 0.00\n\nEFT DEBIT PAY FROM PRIMARY\n7.43 TOTAL PURCHASE\nACCOUNT # ****** ****** ****** S\nREF # 534200381766\nNETWORK ID. 0066 APPR CODE 087193\nTERMINAL # MX996026\n\n12/08/15 12:39:24\n\n# ITEMS SOLD 1\n\nTC# 3261 4114 0323 3051 6498\n\nNEW STORE HOURS\nOpen 6am to midnight 7 days a week.\n12/08/15 12:39:26\n\nSavings Catcher! Scan with Walmart app",
+      "ground_truth": [
+        "SW HRO FGHTR 063050940732 6.94 T",
+        "Walmart",
+        "12/08/15 12:39:26",
+        "TOTAL 7.43"
+      ],
+      "rouge_scores": {
+        "rouge1": 0.15037593984962405,
+        "rouge2": 0.07633587786259542,
+        "rougeL": 0.10526315789473685,
+        "per_label": {
+          "item": {
+            "rouge1": 0.07812499999999999,
+            "rouge2": 0.047619047619047616,
+            "rougeL": 0.07812499999999999
+          },
+          "total": {
+            "rouge1": 0.03225806451612903,
+            "rouge2": 0.01639344262295082,
+            "rougeL": 0.03225806451612903
+          },
+          "shop": {
+            "rouge1": 0.016260162601626018,
+            "rouge2": 0.0,
+            "rougeL": 0.016260162601626018
+          },
+          "date_time": {
+            "rouge1": 0.03225806451612903,
+            "rouge2": 0.01639344262295082,
+            "rougeL": 0.03225806451612903
+          }
+        },
+        "debug": {
+          "reference_sample": "sw hro fghtr 063050940732 694 t walmart 120815 123926 total 743",
+          "prediction_sample": "system you are a helpful assistant user extract all the text from this receipt image include all ite...",
+          "reference_length": 63,
+          "prediction_length": 688
+        }
+      },
+      "inference_time": 28.6646511554718
+    },
+    {
+      "image_id": 5,
+      "filename": "5.jpg",
+      "ocr_result": "Error: CUDA out of memory. Tried to allocate 228.00 MiB. GPU 0 has a total capacity of 14.74 GiB of which 136.12 MiB is free. Process 2820 has 14.61 GiB memory in use. Of the allocated memory 14.35 GiB is allocated by PyTorch, and 130.10 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)",
+      "ground_truth": [
+        "KITL SEA SALT POT CHP $1.29 F",
+        "02/10/2021 07:10 PM",
+        "Total : $28.28",
+        "WHOLE FOODS MARKET",
+        "CHEF PLATE MEAL $10 2 @ $10.00 ea $20.00 F",
+        "BRAIDED BRIOCHE $6.99 F"
+      ],
+      "rouge_scores": {
+        "rouge1": 0.0202020202020202,
+        "rouge2": 0.0,
+        "rougeL": 0.0202020202020202,
+        "per_label": {
+          "item": {
+            "rouge1": 0.0,
+            "rouge2": 0.0,
+            "rougeL": 0.0
+          },
+          "total": {
+            "rouge1": 0.027397260273972605,
+            "rouge2": 0.0,
+            "rougeL": 0.027397260273972605
+          },
+          "shop": {
+            "rouge1": 0.0,
+            "rouge2": 0.0,
+            "rougeL": 0.0
+          },
+          "date_time": {
+            "rouge1": 0.0,
+            "rouge2": 0.0,
+            "rougeL": 0.0
+          }
+        },
+        "debug": {
+          "reference_sample": "kitl sea salt pot chp 129 f 02102021 0710 pm total  2828 whole foods market chef plate meal 10 2  10...",
+          "prediction_sample": "error cuda out of memory tried to allocate 22800 mib gpu 0 has a total capacity of 1474 gib of which...",
+          "reference_length": 134,
+          "prediction_length": 489
+        }
+      },
+      "inference_time": 3.585326910018921
+    },
+    {
+      "image_id": 6,
+      "filename": "6.JPG",
+      "ocr_result": "Error: CUDA out of memory. Tried to allocate 5.73 GiB. GPU 0 has a total capacity of 14.74 GiB of which 1.08 GiB is free. Process 2820 has 13.66 GiB memory in use. Of the allocated memory 13.50 GiB is allocated by PyTorch, and 36.99 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)",
+      "ground_truth": [
+        "26/01/2015 16:14",
+        "1 Woman 0",
+        "1 Mineral Water 13, 000",
+        "2 Ham Cheese 74, 000",
+        "1 Black & White 72, 000",
+        "MOMI TOY'S CREPERIE",
+        "TOTAL 175, 000",
+        "1 Ice Java Tea 16, 000"
+      ],
+      "rouge_scores": {
+        "rouge1": 0.038834951456310676,
+        "rouge2": 0.0,
+        "rougeL": 0.038834951456310676,
+        "per_label": {
+          "date_time": {
+            "rouge1": 0.0,
+            "rouge2": 0.0,
+            "rougeL": 0.0
+          },
+          "total": {
+            "rouge1": 0.027027027027027032,
+            "rouge2": 0.0,
+            "rougeL": 0.027027027027027032
+          },
+          "item": {
+            "rouge1": 0.021052631578947368,
+            "rouge2": 0.0,
+            "rougeL": 0.021052631578947368
+          },
+          "shop": {
+            "rouge1": 0.0,
+            "rouge2": 0.0,
+            "rougeL": 0.0
+          }
+        },
+        "debug": {
+          "reference_sample": "26012015 1614 1 woman 0 1 mineral water 13 000 2 ham cheese 74 000 1 black  white 72 000 momi toys c...",
+          "prediction_sample": "error cuda out of memory tried to allocate 573 gib gpu 0 has a total capacity of 1474 gib of which 1...",
+          "reference_length": 143,
+          "prediction_length": 484
+        }
+      },
+      "inference_time": 0.8584721088409424
+    },
+    {
+      "image_id": 7,
+      "filename": "7.jpg",
+      "ocr_result": "system\nYou are a helpful assistant.\nuser\nExtract all the text from this receipt image. Include all items, prices, totals, and the store name.\nassistant\nWalmart\n\nSave money. Live better.\n\n( 701 ) 223 - 3066\nMANAGER TIM MORRIS\n2717 ROCK ISLAND PL\nBISMARCK ND 58504\n\nST# 01534 0P# 009048 TE# 48 TR# 04455\n\n6 WING PLATE 020108870398 3.98 P\nASST 27 063099656595 4.88 X\nCUTIE CAR 063099656644 12.88 X\n\nSUBTOTAL 21.74\n\nTAX 1 6.500 % 1.15\nTAX 4 7.500 % 0.30\nTOTAL 23.19\n\nDEBIT TEND 23.19\nCHANGE DUE 0.00\n\nEFT DEBIT PAY FROM PRIMARY\n23.19 TOTAL PURCHASE\n\nUS DEBIT 2696 I 0\nREF # 731700494718\nNETWORK ID. 0081 APPR CODE 936886\n\nUS DEBIT\nAID A0000000980840\nTC 58B77239DA5B3B44\n*NO SIGNATURE REQUIRED\nTERMINAL # SC011090\n\n11/13/17 12:34:04\n# ITEMS SOLD 3\nTC# 2188 7274 6444 1567 3762\n\nLow Prices You Can Trust. Every Day.\n11/13/17 12:34:11\nStore receipts on your phone. Walmart Pay.",
+      "ground_truth": [
+        "6 WING PLATE 020108870398 3.98 P",
+        "11/13/17 12:34:11",
+        "ASST 27 063099656595 4.88 X",
+        "CUTIE CAR 063099656644 12.88 X",
+        "Walmart",
+        "TOTAL 23.19"
+      ],
+      "rouge_scores": {
+        "rouge1": 0.2545454545454546,
+        "rouge2": 0.19631901840490798,
+        "rougeL": 0.21818181818181817,
+        "per_label": {
+          "item": {
+            "rouge1": 0.19999999999999998,
+            "rouge2": 0.18987341772151897,
+            "rougeL": 0.19999999999999998
+          },
+          "total": {
+            "rouge1": 0.0273972602739726,
+            "rouge2": 0.013888888888888888,
+            "rougeL": 0.0273972602739726
+          },
+          "shop": {
+            "rouge1": 0.013793103448275862,
+            "rouge2": 0.0,
+            "rougeL": 0.013793103448275862
+          },
+          "date_time": {
+            "rouge1": 0.0273972602739726,
+            "rouge2": 0.013888888888888888,
+            "rougeL": 0.0273972602739726
+          }
+        },
+        "debug": {
+          "reference_sample": "6 wing plate 020108870398 398 p 111317 123411 asst 27 063099656595 488 x cutie car 063099656644 1288...",
+          "prediction_sample": "system you are a helpful assistant user extract all the text from this receipt image include all ite...",
+          "reference_length": 121,
+          "prediction_length": 811
+        }
+      },
+      "inference_time": 53.10851311683655
+    },
+    {
+      "image_id": 8,
+      "filename": "8.jpg",
+      "ocr_result": "Error: image has wrong mode",
+      "ground_truth": [
+        "E 6333561 KS DICED TOM 6.49 E",
+        "404609 ECO HALF PAN 6.49 A",
+        "Costco WHOLESALE",
+        "04/20/2016 15:00",
+        "E 22101 MONT JACK 2# 4.45 E",
+        "E 263423 CHPD ONION 3.59 E",
+        "E 55992 GRND TURKEY 18.47 E",
+        "E 77053 GRAPE TOMATO 6.29 E",
+        "3 @ 4.29 E 878137 18 CT EGGS 12.87 E",
+        "E 967596 JACKORGSALSA 2.97 E",
+        "E 673919 FF BS BREAST 23.99 E",
+        "**** TOTAL 89.13"
+      ],
+      "rouge_scores": {
+        "rouge1": 0.0,
+        "rouge2": 0.0,
+        "rougeL": 0.0,
+        "per_label": {
+          "item": {
+            "rouge1": 0.0,
+            "rouge2": 0.0,
+            "rougeL": 0.0
+          },
+          "total": {
+            "rouge1": 0.0,
+            "rouge2": 0.0,
+            "rougeL": 0.0
+          },
+          "shop": {
+            "rouge1": 0.0,
+            "rouge2": 0.0,
+            "rougeL": 0.0
+          },
+          "date_time": {
+            "rouge1": 0.0,
+            "rouge2": 0.0,
+            "rougeL": 0.0
+          }
+        },
+        "debug": {
+          "reference_sample": "e 6333561 ks diced tom 649 e 404609 eco half pan 649 a costco wholesale 04202016 1500 e 22101 mont j...",
+          "prediction_sample": "error image has wrong mode",
+          "reference_length": 294,
+          "prediction_length": 26
+        }
+      },
+      "inference_time": 0.004715681076049805
+    },
+    {
+      "image_id": 9,
+      "filename": "9.jpg",
+      "ocr_result": "system\nYou are a helpful assistant.\nuser\nExtract all the text from this receipt image. Include all items, prices, totals, and the store name.\nassistant\nThe receipt is from WinCo Foods, located at 800 S Cockrell Hill Rd, Duncanville, TX 75137, Store #0124. The cashier is Yolanda R, and the transaction took place on 09/08/14 at 11:16:24.\n\nHere is the breakdown of the items and prices:\n\n1. N/York TX GRLC: 7045900598 - 2.18 FS\n2. Chicken Wings: 26840100000 - 5.39 FS\n3. PICSWEET BLEND: 7056096902 - 2.68 FS\n4. PICSWEET GREENS: 7056087671 - 2.56 FS\n5. Chicken Wings: 26840100090 - 5.48 FS\n6. Diet LN GRND B: 20167400000 - 10.87 FS\n7. Pork Loin Chop: 20337400000 - 9.91 FS\n8. Drumsticks: 26841800000 - 5.32 FS\n9. Eye Rnd Stk FP: 20148200000 - 8.39 FS\n10. Eye Rnd Stk FP: 20148200000 - 8.24 FS\n11. Beef For Stew: 20254300000 - 10.48 FS\n12. B/Best S Steak: 4497921020 - 8.12 FS\n13. Bar S Meat Frnk: 1590013401 - 1.00 FS\n14. O/M Ham: 4470001903 -.88 FS\n15. Winco Noodles: 7055280303 - 1.68 FS\n16. Tndrbrd Chix Br: 3737101318 - 5.96 FS\n17. Krft Deluxe Mac: 2100065886 - 3.64 FS\n18. Eggo Waffle: 3800037435 - 1.96 FS\n19. L/D Nutty Bars: 2430004120 - 1.25 FS\n20. L/D Oatmeal CRM: 2430004101 - 1.25 FS\n21. Links Mild: 74295503660 - 5.78 FS\n22. Keeb Townhouse: 3010010055 - 1.98 FS\n23. Turkey Frank: 4222281210 -.88 FS\n24. Resers Pot Sld: 7111719300 -.98 FS\n25. DM Spag Sauce: 24000052363 -.71 FS\n26. Hunts Manwich: 2700044212 - 1.64 FS\n27. DM Pnapl Chinky: 2400000164 - 1.96 FS\n28. Sunbean Buns: 7763306333 - 1.98 FS\n29. Winco Sndwch WT: 7055200115 -.91 FS\n30. Winco Homo Milk: 7055240600 - 2.48 FS\n31. Eggs: 7003837280 - 1.37 FS\n\nSubtotal: 121.92\nTotal Tax:.00\nTotal: 121.92",
+      "ground_truth": [
+        "WinCo FOODS",
+        "SUNBEAN BUNS 7763306333 1.98 FS",
+        "EYE RND STK FP 20148200000 8.24 FS",
+        "09/08/14 11:16:24",
+        "BEEF FOR STEW 20254300000 10.48 FS",
+        "PORK 1/2 LOIN 20323300000 8.12 FS",
+        "B/BEST S STEAK 4497921020 1.00 FS",
+        "N/YORK TX GRLC 7045900558 2.18 FS",
+        "PORK LOIN CHOP 20337400000 9.91 FS",
+        "CHICKEN WINGS 26840100000 5.39 FS",
+        "PICSWEET BLEND 7056096902 2.68 FS 2 @ 1.34",
+        "PICSWEET GREENS 7056087677 2.56 FS 2 @ 1.28",
+        "WINCO HOMO MILK 7055240600 2.48 FS",
+        "EGGS 7003837280 1.37 FS",
+        "HUNTS MANWICH 2700044212 1.64 FS 2@ .82",
+        "DM SPAG SAUCE 2400052363 .71 FS",
+        "RESERS POT SLD 7111719300 .98 FS",
+        "TURKEY FRANK 4222281210 .88 FS",
+        "CHIKEN WINGS 26840100000 5.48 FS",
+        "KEEB TOWNHOUSE 3010010055 1.98 FS",
+        "L\\D OATMEL CRM 2430004101 1.25 FS",
+        "L/D NUTTY BARS 2430004120 1.25 FS",
+        "EGGO WAFFLE 3800037435 1.96 FS",
+        "THNDRBRD CHIX BR 3737101318 5.98 FS",
+        "DIET LN GRND B 20167400000 10.87 FS",
+        "TOTAL 121.92",
+        "WINCO NOODLES 7055280303 1.68 FS 2 @ .84",
+        "O/M HAM 4470001903 3.99 FS",
+        "KRFT DELUXE MAC 2100065886 3.64 FS 2 @ 1.82",
+        "LINKS MILD 74295503660 5.78 FS",
+        "DRUMSTICKS 26841800000 9.91 FS",
+        "BAR S MEAT FRNK 1590013401 .88 FS",
+        "WINCO SNDWCH WT 7055200115 .91 FS",
+        "DM PNAPL CHNKY 2400000164 1.96 FS 2 @ .98"
+      ],
+      "rouge_scores": {
+        "rouge1": 0.7094017094017093,
+        "rouge2": 0.5107296137339056,
+        "rougeL": 0.26068376068376065,
+        "per_label": {
+          "item": {
+            "rouge1": 0.6926406926406927,
+            "rouge2": 0.508695652173913,
+            "rougeL": 0.2510822510822511
+          },
+          "total": {
+            "rouge1": 0.014336917562724013,
+            "rouge2": 0.007220216606498195,
+            "rougeL": 0.014336917562724013
+          },
+          "shop": {
+            "rouge1": 0.014336917562724013,
+            "rouge2": 0.007220216606498195,
+            "rougeL": 0.014336917562724013
+          },
+          "date_time": {
+            "rouge1": 0.014336917562724013,
+            "rouge2": 0.0,
+            "rougeL": 0.014336917562724013
+          }
+        },
+        "debug": {
+          "reference_sample": "winco foods sunbean buns 7763306333 198 fs eye rnd stk fp 20148200000 824 fs 090814 111624 beef for ...",
+          "prediction_sample": "system you are a helpful assistant user extract all the text from this receipt image include all ite...",
+          "reference_length": 1065,
+          "prediction_length": 1509
+        }
+      },
+      "inference_time": 86.84342050552368
+    }
+  ]
+}

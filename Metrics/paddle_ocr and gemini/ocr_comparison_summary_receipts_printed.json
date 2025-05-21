@@ -1,0 +1,15 @@
+{
+  "total_images": 20,
+  "gemini": {
+    "avg_rouge1": 0.48671289981776367,
+    "avg_rouge2": 0.3748056897890629,
+    "avg_rougeL": 0.2455639469091114,
+    "avg_inference_time": 5.597313797473907
+  },
+  "paddle": {
+    "avg_rouge1": 0.3516885990320339,
+    "avg_rouge2": 0.18366029712673743,
+    "avg_rougeL": 0.1758123458848105,
+    "avg_inference_time": 2.0968934416770937
+  }
+}

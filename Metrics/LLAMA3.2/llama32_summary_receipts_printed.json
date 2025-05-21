@@ -1,0 +1,16 @@
+{
+  "model": "meta-llama/Llama-3.2-11B-Vision-Instruct",
+  "num_images_processed": 20,
+  "avg_scores": {
+    "rouge1": 0.34270068691693434,
+    "rouge2": 0.18773127723224672,
+    "rougeL": 0.17669216047251915
+  },
+  "avg_inference_time": 32.77350598573685,
+  "per_label_avg_scores": {
+    "date_time": 0.025980788588972282,
+    "shop": 0.029366173738319668,
+    "item": 0.2936957460327523,
+    "total": 0.03191584779934516
+  }
+}

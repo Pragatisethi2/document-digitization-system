@@ -1,0 +1,22 @@
+RECEIPT
+
+Payer: Annie Greens
+Payee: ABC Furniture Co
+Address: 5 Any Street
+Good Suburb
+Forrest Town X2204Y
+
+Address: 101 Tree Store
+Leafy Vale
+Forrest Town X1203Y
+web address: www.xyzfurniture.com
+
+Date of Payment: 41215
+Phone: 98712345678
+Reference AG500
+Fax 98712345678
+Receipt Number: 1020
+Email abcfurn@all.mail.com
+Amount of Payment:$352.25
+web address www.abcfurn.all.com
+Purpose of Payment: For 2 single pine beds - style 394

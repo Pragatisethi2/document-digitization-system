@@ -1,0 +1,407 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document Digitization</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f3f4f6;
+            margin: 0;
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+        }
+
+        .header {
+            text-align: center;
+            margin-bottom: 40px;
+        }
+
+        .header h1 {
+            color: #1f2937;
+            font-size: 2.5rem;
+            margin-bottom: 10px;
+        }
+
+        .header p {
+            color: #6b7280;
+        }
+
+        .card {
+            background: white;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            padding: 24px;
+            margin-bottom: 24px;
+        }
+
+        .section-title {
+            color: #374151;
+            font-size: 1.5rem;
+            margin-bottom: 16px;
+        }
+
+        .field-input {
+            display: flex;
+            gap: 8px;
+            margin-bottom: 16px;
+        }
+
+        .field-input input {
+            flex: 1;
+            padding: 8px 12px;
+            border: 1px solid #d1d5db;
+            border-radius: 4px;
+        }
+
+        .field-tags {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 8px;
+            margin-bottom: 16px;
+        }
+
+        .field-tag {
+            background: #e0f2fe;
+            color: #0369a1;
+            padding: 4px 12px;
+            border-radius: 16px;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+
+        .field-tag button {
+            background: none;
+            border: none;
+            color: #0369a1;
+            cursor: pointer;
+            padding: 0;
+            font-size: 16px;
+        }
+
+        .upload-area {
+            border: 2px dashed #d1d5db;
+            border-radius: 8px;
+            padding: 32px;
+            text-align: center;
+            cursor: pointer;
+        }
+
+        .upload-area.dragover {
+            border-color: #3b82f6;
+            background: #f0f9ff;
+        }
+
+        .upload-icon {
+            font-size: 2rem;
+            color: #9ca3af;
+            margin-bottom: 16px;
+        }
+
+        .file-info {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            background: #f9fafb;
+            padding: 12px;
+            border-radius: 4px;
+            margin-top: 16px;
+        }
+
+        .button {
+            background: #3b82f6;
+            color: white;
+            padding: 8px 16px;
+            border-radius: 4px;
+            border: none;
+            cursor: pointer;
+            font-size: 1rem;
+        }
+
+        .button:disabled {
+            background: #d1d5db;
+            cursor: not-allowed;
+        }
+
+        .button:hover:not(:disabled) {
+            background: #2563eb;
+        }
+
+        .results {
+            display: none;
+        }
+
+        .results.show {
+            display: block;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-bottom: 16px;
+        }
+
+        th, td {
+            padding: 12px;
+            text-align: left;
+            border-bottom: 1px solid #e5e7eb;
+        }
+
+        th {
+            background: #f9fafb;
+            font-weight: 600;
+            color: #374151;
+        }
+
+        .download-section {
+            margin-top: 24px;
+            padding-top: 24px;
+            border-top: 1px solid #e5e7eb;
+        }
+
+        .download-buttons {
+            display: flex;
+            gap: 12px;
+            flex-wrap: wrap;
+        }
+
+        .download-button {
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+            background: #f3f4f6;
+            color: #374151;
+            padding: 8px 16px;
+            border-radius: 4px;
+            text-decoration: none;
+            transition: background-color 0.2s;
+        }
+
+        .download-button:hover {
+            background: #e5e7eb;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header class="header">
+            <h1>Document Digitization</h1>
+            <p>Upload your document and let AI extract the information</p>
+        </header>
+
+        <main>
+            <div class="card">
+                <div class="section">
+                    <h2 class="section-title">1. Select Fields to Extract</h2>
+                    <div class="field-input">
+                        <input type="text" id="fieldInput" placeholder="Add a field and press Enter">
+                    </div>
+                    <div class="field-tags" id="fieldTags"></div>
+                </div>
+
+                <div class="section">
+                    <h2 class="section-title">2. Upload Document</h2>
+                    <div class="upload-area" id="uploadArea">
+                        <input type="file" id="fileInput" accept=".pdf,.png,.jpg,.jpeg" style="display: none;">
+                        <div id="uploadPrompt">
+                            <i class="fas fa-cloud-upload-alt upload-icon"></i>
+                            <p>Drag and drop your file here or</p>
+                            <button class="button" onclick="document.getElementById('fileInput').click()">
+                                Browse Files
+                            </button>
+                        </div>
+                        <div id="fileInfo" style="display: none;" class="file-info">
+                            <div style="display: flex; align-items: center; gap: 12px;">
+                                <i class="fas fa-file-alt" style="color: #3b82f6;"></i>
+                                <span id="fileName"></span>
+                            </div>
+                            <button onclick="removeFile()" style="background: none; border: none; color: #ef4444; cursor: pointer;">
+                                <i class="fas fa-times"></i>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <div style="text-align: center; margin-top: 24px;">
+                    <button id="processButton" class="button" disabled onclick="processDocument()">
+                        Process Document
+                    </button>
+                </div>
+            </div>
+
+            <div id="results" class="card results">
+                <h2 class="section-title">Extracted Data</h2>
+                <div class="table-container">
+                    <table id="resultsTable">
+                        <thead>
+                            <tr id="tableHeader"></tr>
+                        </thead>
+                        <tbody>
+                            <tr id="tableData"></tr>
+                        </tbody>
+                    </table>
+                </div>
+
+                <div id="downloadSection" class="download-section" style="display: none;">
+                    <h3 class="section-title" style="font-size: 1.2rem;">Download Formats</h3>
+                    <div class="download-buttons" id="downloadButtons"></div>
+                </div>
+            </div>
+        </main>
+    </div>
+
+    <script>
+        let selectedFile = null;
+        let fields = [];
+
+        // Field handling
+        document.getElementById('fieldInput').addEventListener('keypress', function(e) {
+            if (e.key === 'Enter') {
+                const field = this.value.trim();
+                if (field && !fields.includes(field)) {
+                    fields.push(field);
+                    this.value = '';
+                    updateFieldTags();
+                    updateProcessButton();
+                }
+            }
+        });
+
+        function removeField(field) {
+            fields = fields.filter(f => f !== field);
+            updateFieldTags();
+            updateProcessButton();
+        }
+
+        function updateFieldTags() {
+            const container = document.getElementById('fieldTags');
+            container.innerHTML = fields.map(field => `
+                <div class="field-tag">
+                    <span>${field}</span>
+                    <button onclick="removeField('${field}')">&times;</button>
+                </div>
+            `).join('');
+        }
+
+        // File handling
+        const uploadArea = document.getElementById('uploadArea');
+        const fileInput = document.getElementById('fileInput');
+
+        uploadArea.addEventListener('dragover', (e) => {
+            e.preventDefault();
+            uploadArea.classList.add('dragover');
+        });
+
+        uploadArea.addEventListener('dragleave', () => {
+            uploadArea.classList.remove('dragover');
+        });
+
+        uploadArea.addEventListener('drop', (e) => {
+            e.preventDefault();
+            uploadArea.classList.remove('dragover');
+            const file = e.dataTransfer.files[0];
+            handleFile(file);
+        });
+
+        fileInput.addEventListener('change', (e) => {
+            const file = e.target.files[0];
+            handleFile(file);
+        });
+
+        function handleFile(file) {
+            if (file && isAllowedFile(file)) {
+                selectedFile = file;
+                document.getElementById('uploadPrompt').style.display = 'none';
+                document.getElementById('fileInfo').style.display = 'flex';
+                document.getElementById('fileName').textContent = file.name;
+                updateProcessButton();
+            }
+        }
+
+        function removeFile() {
+            selectedFile = null;
+            fileInput.value = '';
+            document.getElementById('uploadPrompt').style.display = 'block';
+            document.getElementById('fileInfo').style.display = 'none';
+            updateProcessButton();
+        }
+
+        function isAllowedFile(file) {
+            const allowedTypes = ['.png', '.jpg', '.jpeg', '.pdf'];
+            return allowedTypes.some(type => file.name.toLowerCase().endsWith(type));
+        }
+
+        function updateProcessButton() {
+            const button = document.getElementById('processButton');
+            button.disabled = !selectedFile || fields.length === 0;
+        }
+
+        async function processDocument() {
+            const button = document.getElementById('processButton');
+            button.disabled = true;
+            button.textContent = 'Processing...';
+
+            const formData = new FormData();
+            formData.append('file', selectedFile);
+            formData.append('fields', fields.join(','));
+
+            try {
+                const response = await fetch('/upload', {
+                    method: 'POST',
+                    body: formData
+                });
+                const data = await response.json();
+
+                if (response.ok) {
+                    displayResults(data.data, data.exports);
+                } else {
+                    alert(data.error || 'An error occurred');
+                }
+            } catch (error) {
+                alert('An error occurred while processing the document');
+            } finally {
+                button.disabled = false;
+                button.textContent = 'Process Document';
+            }
+        }
+
+        function displayResults(data, exports) {
+            const results = document.getElementById('results');
+            results.classList.add('show');
+
+            // Update table header
+            const headerRow = document.getElementById('tableHeader');
+            headerRow.innerHTML = fields.map(field => 
+                `<th>${field}</th>`
+            ).join('');
+
+            // Update table data
+            const dataRow = document.getElementById('tableData');
+            dataRow.innerHTML = fields.map(field => 
+                `<td>${data[field] || ''}</td>`
+            ).join('');
+
+            // Update download section
+            const downloadSection = document.getElementById('downloadSection');
+            const downloadButtons = document.getElementById('downloadButtons');
+            
+            if (exports) {
+                downloadButtons.innerHTML = Object.entries(exports).map(([format, filename]) => `
+                    <a href="/download/${filename}" class="download-button">
+                        <i class="fas fa-download"></i>
+                        Download ${format.toUpperCase()}
+                    </a>
+                `).join('');
+                downloadSection.style.display = 'block';
+            }
+        }
+    </script>
+</body>
+</html> 

@@ -1,0 +1,14 @@
+{
+  "model": "/kaggle/input/qwen2-vl/transformers/7b-instruct/1",
+  "num_images_processed": 20,
+  "avg_rouge1": 0.3071230027062357,
+  "avg_rouge2": 0.21788219162923972,
+  "avg_rougeL": 0.16392459904667725,
+  "avg_inference_time": 45.21831322908402,
+  "per_label_avg_scores": {
+    "item": 0.26557693674975347,
+    "total": 0.02751879872061721,
+    "shop": 0.019660409538499585,
+    "date_time": 0.02063614223034085
+  }
+}

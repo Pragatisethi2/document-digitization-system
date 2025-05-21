@@ -1,0 +1,2949 @@
+{
+  "model": "meta-llama/Llama-3.2-11B-Vision-Instruct",
+  "results": [
+    {
+      "image_id": 0,
+      "filename": "0.jpg",
+      "ocr_result": "\nWAL*MART\nALWAYS LOW PRICES.\nSUPERCENTER\nOPEN 24 HOURS\nMANAGER - TBA\n( 515 ) 986 - 1783\nST# 5748 OP# 00000158 TE# 14 TR# 03178\nBANANAS\n0.41 lb\n0.20 N\nFRAP\n1 lb /0.49\n5.48 N\nDISCOUNT GIVEN\nSUBTOTAL\nTOTAL\nCASH TEND\nCHANGE DUE\n# ITEMS SOLD 2\nTC# 5679 8348 6485 7828 2003\nTHANK YOU FOR SHOPPING WITH US\nNATHANIEL BUSH\nShop at Walmart & Get\nYour Back to School List for Less.\n08/20/10 13:12:01",
+      "filter_result": "\n* Total amount paid: $5.11\n* Items purchased:\n\t+ Bananas: 0.41 lb\n\t+ Frap: 1 lb /0.49\n* Shop name: Walmart",
+      "ground_truth": [
+        {
+          "label": "shop",
+          "text": "WALMART"
+        },
+        {
+          "label": "total",
+          "text": "TOTAL 5.11"
+        },
+        {
+          "label": "item",
+          "text": "FRAP 001200010451 F 5.48 N"
+        },
+        {
+          "label": "item",
+          "text": "BANANAS 000000004011KF 0.41 lb @ 1 lb /0.49 0.20 N"
+        },
+        {
+          "label": "date_time",
+          "text": "08/20/10 13:12:01"
+        }
+      ],
+      "rouge_scores": {
+        "rouge1": 0.33707865168539325,
+        "rouge2": 0.13793103448275862,
+        "rougeL": 0.2247191011235955,
+        "per_label": {
+          "shop": {
+            "rouge1": 0.028169014084507043,
+            "rouge2": 0.0,
+            "rougeL": 0.028169014084507043
+          },
+          "total": {
+            "rouge1": 0.02777777777777778,
+            "rouge2": 0.0,
+            "rougeL": 0.02777777777777778
+          },
+          "item": {
+            "rouge1": 0.2619047619047619,
+            "rouge2": 0.12195121951219513,
+            "rougeL": 0.16666666666666669
+          },
+          "date_time": {
+            "rouge1": 0.05555555555555556,
+            "rouge2": 0.02857142857142857,
+            "rougeL": 0.05555555555555556
+          }
+        },
+        "debug": {
+          "total_reference_chars": 103,
+          "total_prediction_chars": 364,
+          "normalized_reference_sample": "walmart total 511 frap 001200010451 f 548 n bananas 000000004011kf 041 lb  1 lb 049 020 n 082010 131...",
+          "normalized_prediction_sample": "walmart always low prices supercenter open 24 hours manager  tba  515  986  1783 st 5748 op 00000158...",
+          "labels_found": [
+            "shop",
+            "total",
+            "item",
+            "date_time"
+          ]
+        }
+      },
+      "ocr_metrics": {
+        "before": {
+          "memory": {
+            "rss": 4127.63671875,
+            "vms": 42961.61328125
+          },
+          "cuda": {
+            "allocated": 9309.107421875,
+            "reserved": 9502.0,
+            "max_allocated": 9309.107421875
+          },
+          "timestamp": 1747785707.6342986
+        },
+        "after": {
+          "memory": {
+            "rss": 4333.890625,
+            "vms": 45721.3359375
+          },
+          "cuda": {
+            "allocated": 9331.5927734375,
+            "reserved": 10952.0,
+            "max_allocated": 10558.3154296875
+          },
+          "timestamp": 1747785734.3674808
+        },
+        "inference_time": 26.733182191848755
+      },
+      "filter_metrics": {
+        "before": {
+          "memory": {
+            "rss": 4333.890625,
+            "vms": 44537.3359375
+          },
+          "cuda": {
+            "allocated": 9317.232421875,
+            "reserved": 9536.0,
+            "max_allocated": 10558.3154296875
+          },
+          "timestamp": 1747785734.7606406
+        },
+        "after": {
+          "memory": {
+            "rss": 4392.06640625,
+            "vms": 46002.7578125
+          },
+          "cuda": {
+            "allocated": 9331.59228515625,
+            "reserved": 10962.0,
+            "max_allocated": 10558.61279296875
+          },
+          "timestamp": 1747785742.2868202
+        },
+        "inference_time": 7.526179552078247
+      }
+    },
+    {
+      "image_id": 1,
+      "filename": "1.jpg",
+      "ocr_result": "\nTrader Joe's\n2001 Greenville Ave\nDallas TX 75206\nStore #403 - (469) 334-0614\n\nOPEN 8:00AM TO 9:00PM DAILY\n\nR-Carrots Shredded 10 oz 1.29\nR-Cucumbers Persian 1 lb 1.99\nTomatoes Crushed No Salt 1.59\nTomatoes Whole No Salt w/Basil 1.59\nOrganic Old Fashioned Oatmeal 2.49\nMint-Pearl Tomatoes 3.99\nPKG Shredded Mozzarella Lite T 3.79\nEggs 1 Doz Organic Brown 0.89\nBeans Garbanzo 2.99\nSprouted CA Style 3.99\nAvocados Hass Bag 4CT 2.99\nApple Bag Jazz 2 lb 0.99\nPepper Bell Each XL Red 0.98\nGrocery Non Taxable 2 @ 0.49 0.87\nBananas Organic 3EA 2.49\nCreamy Salted Peanut Butter 1.69\nWHL WHT Pita Bread 1.38\nGrocery Non Tax",
+      "filter_result": "\n* **Shop Name:** Trader Joe's\n* **Total Amount Paid:** $38.68\n* **Items:**\n\t+ R-Carrots Shredded 10 oz: $1.29\n\t+ R-Cucumbers Persian 1 lb: $1.99\n\t+ Tomatoes Crushed No Salt: $1.59\n\t+ Tomatoes Whole No Salt w/Basil: $1.59\n\t+ Organic Old Fashioned Oatmeal: $2.49\n\t+ Mint-Pearl Tomatoes: $3.99\n\t+ PKG Shredded Mozzarella Lite T: $3.79\n\t+ Eggs 1 Doz Organic Brown: $0.89\n\t+ Beans Garbanzo: $2.99\n\t+ Sprouted CA Style: $3.99\n\t+ A-Avocados Hass Bag 4CT: $2.99\n\t+ A-Apple Bag Jazz 2 lb: $0.99\n\t+ A-Pepper Bell Each XL Red: $0.98\n\t+ Bananas Organic: $0.87\n\t+ 3EA: $2.49\n\t+ Creamy Salted Peanut Butter:",
+      "ground_truth": [
+        {
+          "label": "total",
+          "text": "TOTAL $38.68"
+        },
+        {
+          "label": "item",
+          "text": "MINI-PEARL TOMATOES.. 2.49"
+        },
+        {
+          "label": "item",
+          "text": "PKG SHREDDED MOZZARELLA LITE T 3.99"
+        },
+        {
+          "label": "item",
+          "text": "EGGS 1 DOZ ORGANIC BROWN. 3.79"
+        },
+        {
+          "label": "item",
+          "text": "BEANS GARBANZO 0.89"
+        },
+        {
+          "label": "item",
+          "text": "GROCERY NON TAXABLE 0.98 2@ 0.49"
+        },
+        {
+          "label": "item",
+          "text": "A-AVOCADOS HASS BAG 4CT 3.99"
+        },
+        {
+          "label": "item",
+          "text": "SPROUTED CA STYLE 2.99"
+        },
+        {
+          "label": "item",
+          "text": "BANANAS ORGANIC 0.87 3EA @ 0.29/EA"
+        },
+        {
+          "label": "item",
+          "text": "CREAMY SALTED PEANUT BUTTER 2.49"
+        },
+        {
+          "label": "item",
+          "text": "WHL WHT PITA BREAD 1.69"
+        },
+        {
+          "label": "item",
+          "text": "GROCERY NON TAXABLE 1.38 2 2@ 0.69"
+        },
+        {
+          "label": "item",
+          "text": "R-CARROTS SHREDDED 10 OZ 1.29"
+        },
+        {
+          "label": "shop",
+          "text": "TRADER JOE'S"
+        },
+        {
+          "label": "item",
+          "text": "A-APPLE BAG JAZZ 2 LB 2.99"
+        },
+        {
+          "label": "item",
+          "text": "A-PEPPER BELL EACH XL RED 0.99"
+        },
+        {
+          "label": "item",
+          "text": "R-CUCUMBERS PERSIAN 1 LB 1.99"
+        },
+        {
+          "label": "item",
+          "text": "TOMATOES CRUSHED NO SALT 1.59"
+        },
+        {
+          "label": "item",
+          "text": "TOMATOES WHOLE NO SALT W/BASIL 1.59"
+        },
+        {
+          "label": "date_time",
+          "text": "06-28-2014 12:34PM"
+        },
+        {
+          "label": "item",
+          "text": "ORGANIC OLD FASHIONED OATMEAL 2.69"
+        }
+      ],
+      "rouge_scores": {
+        "rouge1": 0.8333333333333333,
+        "rouge2": 0.5247524752475247,
+        "rougeL": 0.3137254901960784,
+        "per_label": {
+          "total": {
+            "rouge1": 0.0,
+            "rouge2": 0.0,
+            "rougeL": 0.0
+          },
+          "item": {
+            "rouge1": 0.8383838383838383,
+            "rouge2": 0.5408163265306122,
+            "rougeL": 0.32323232323232326
+          },
+          "shop": {
+            "rouge1": 0.03738317757009346,
+            "rouge2": 0.01904761904761905,
+            "rougeL": 0.03738317757009346
+          },
+          "date_time": {
+            "rouge1": 0.0,
+            "rouge2": 0.0,
+            "rougeL": 0.0
+          }
+        },
+        "debug": {
+          "total_reference_chars": 548,
+          "total_prediction_chars": 581,
+          "normalized_reference_sample": "total 3868 minipearl tomatoes 249 pkg shredded mozzarella lite t 399 eggs 1 doz organic brown 379 be...",
+          "normalized_prediction_sample": "trader joes 2001 greenville ave dallas tx 75206 store 403  469 3340614 open 800am to 900pm daily rca...",
+          "labels_found": [
+            "total",
+            "item",
+            "shop",
+            "date_time"
+          ]
+        }
+      },
+      "ocr_metrics": {
+        "before": {
+          "memory": {
+            "rss": 4392.56640625,
+            "vms": 44786.7578125
+          },
+          "cuda": {
+            "allocated": 9317.232421875,
+            "reserved": 9536.0,
+            "max_allocated": 10558.61279296875
+          },
+          "timestamp": 1747785742.7268136
+        },
+        "after": {
+          "memory": {
+            "rss": 4392.56640625,
+            "vms": 46002.7578125
+          },
+          "cuda": {
+            "allocated": 9331.59326171875,
+            "reserved": 10976.0,
+            "max_allocated": 10558.61279296875
+          },
+          "timestamp": 1747785777.0019002
+        },
+        "inference_time": 34.275086641311646
+      },
+      "filter_metrics": {
+        "before": {
+          "memory": {
+            "rss": 4392.56640625,
+            "vms": 44786.7578125
+          },
+          "cuda": {
+            "allocated": 9317.232421875,
+            "reserved": 9536.0,
+            "max_allocated": 10558.61279296875
+          },
+          "timestamp": 1747785777.399539
+        },
+        "after": {
+          "memory": {
+            "rss": 4392.56640625,
+            "vms": 46002.7578125
+          },
+          "cuda": {
+            "allocated": 9331.59375,
+            "reserved": 10976.0,
+            "max_allocated": 10558.61279296875
+          },
+          "timestamp": 1747785811.8725746
+        },
+        "inference_time": 34.47303557395935
+      }
+    },
+    {
+      "image_id": 10,
+      "filename": "10.jpg",
+      "ocr_result": "\nThe text on the grocery store bill is as follows:\n\n**SPAR**\n**Tel: 036-4481240**\n**email: bergspar@telkomsa.net**\n**VAT No: 4450102696**\n**NLA REG NO: KZN 032577**\n\n**Items and Prices:**\n\n* Lazenby Worcester Sauce 125ml: R17.99\n* Milky Bar Choc: R16.99\n* Smoked Viennas: R33.99\n* Pealed Peaches: R82.99\n* Mediterranean Mix: R44.99\n* Spar Cooking Oil: R14.99\n* F/L English Cucumber: R12.99\n* Nestle Aero: R20.99\n* Cadbury Dairy Milk: R16.99\n* Grapes Mixed Tub: R24.99\n* Tastic Rice: R11.99\n* Black Cat Smooth: R27.99\n* Carrier Bag 24L: R0.75\n* Bananas Loose: R9.53\n\n**Total for 14 Items:** R338.16\n\n**Tendered:** R338.16\n\n**Tax Invoice:**\n\n* VAT rate: 0.00%\n",
+      "filter_result": "\nThe total amount paid was R338.16, the items purchased were:\n\u2022 Lazenby Worcester Sauce 125ml\n\u2022 Milky Bar Choc\n\u2022 Smoked Viennas\n\u2022 Pealed Peaches\n\u2022 Mediterranean Mix\n\u2022 Spar Cooking Oil\n\u2022 F/L English Cucumb\n\u2022 Nestle Aero\n\u2022 Cadbury Dairy MI\n\u2022 Grapes Mixed Tub\n\u2022 Tastic Rice\n\u2022 Black Cat Smooth\n\u2022 Carrier Bag 24L\n\u2022 Bananas Loose\n\nThe shop name is Spar.",
+      "ground_truth": [
+        {
+          "label": "item",
+          "text": "SMOKED VIENNAS 500GR 33.99 A"
+        },
+        {
+          "label": "shop",
+          "text": "SPAR"
+        },
+        {
+          "label": "total",
+          "text": "TOTAL FOR 14 ITEMS 338.16"
+        },
+        {
+          "label": "item",
+          "text": "PEALED PEACHES 400G 82.99 A"
+        },
+        {
+          "label": "item",
+          "text": "MILKY BAR CHOC 80GR 16.99 A"
+        },
+        {
+          "label": "item",
+          "text": "LAZENBY WORCESTER SALICE 125ML 17.99 A"
+        },
+        {
+          "label": "item",
+          "text": "MEDITERRANEAN MIX 1KG 44.99 *"
+        },
+        {
+          "label": "item",
+          "text": "SPAR COOKING OIL 375ML 14.99 *"
+        },
+        {
+          "label": "item",
+          "text": "F/L ENGLISH CUCUMB 1'S 12.99 *"
+        },
+        {
+          "label": "item",
+          "text": "NESTLE AERO 85GR 20.99 A"
+        },
+        {
+          "label": "item",
+          "text": "CADBURY DAIRY MI 80 GR 16.99 A"
+        },
+        {
+          "label": "date_time",
+          "text": "23.02.21 16:17"
+        },
+        {
+          "label": "item",
+          "text": "CARRIER BAG 24L 1\"S 0.75 A"
+        },
+        {
+          "label": "item",
+          "text": "BANANAS LOOSE 17KG 0.596kg @ 15.99 R /kg 9.53 *"
+        },
+        {
+          "label": "item",
+          "text": "GRAPES MIXED TUB TUB 24.99 *"
+        },
+        {
+          "label": "item",
+          "text": "TASTIC RICE 500GR 11.99 *"
+        },
+        {
+          "label": "item",
+          "text": "BLACK CAT SMOOTH 270GR 27.99 A"
+        }
+      ],
+      "rouge_scores": {
+        "rouge1": 0.45977011494252873,
+        "rouge2": 0.26744186046511625,
+        "rougeL": 0.28735632183908044,
+        "per_label": {
+          "item": {
+            "rouge1": 0.4216867469879518,
+            "rouge2": 0.24390243902439024,
+            "rougeL": 0.2891566265060241
+          },
+          "shop": {
+            "rouge1": 0.02222222222222222,
+            "rouge2": 0.0,
+            "rougeL": 0.02222222222222222
+          },
+          "total": {
+            "rouge1": 0.0851063829787234,
+            "rouge2": 0.06521739130434782,
+            "rougeL": 0.0851063829787234
+          },
+          "date_time": {
+            "rouge1": 0.0,
+            "rouge2": 0.0,
+            "rougeL": 0.0
+          }
+        },
+        "debug": {
+          "total_reference_chars": 447,
+          "total_prediction_chars": 552,
+          "normalized_reference_sample": "smoked viennas 500gr 3399 a spar total for 14 items 33816 pealed peaches 400g 8299 a milky bar choc ...",
+          "normalized_prediction_sample": "the text on the grocery store bill is as follows spar tel 0364481240 email bergspartelkomsanet vat n...",
+          "labels_found": [
+            "item",
+            "shop",
+            "total",
+            "date_time"
+          ]
+        }
+      },
+      "ocr_metrics": {
+        "before": {
+          "memory": {
+            "rss": 4392.56640625,
+            "vms": 45202.7578125
+          },
+          "cuda": {
+            "allocated": 9317.232421875,
+            "reserved": 9536.0,
+            "max_allocated": 10558.61279296875
+          },
+          "timestamp": 1747785812.3258278
+        },
+        "after": {
+          "memory": {
+            "rss": 4392.56640625,
+            "vms": 46002.7578125
+          },
+          "cuda": {
+            "allocated": 9331.59326171875,
+            "reserved": 10976.0,
+            "max_allocated": 10558.61279296875
+          },
+          "timestamp": 1747785846.8981032
+        },
+        "inference_time": 34.57227540016174
+      },
+      "filter_metrics": {
+        "before": {
+          "memory": {
+            "rss": 4392.56640625,
+            "vms": 44786.7578125
+          },
+          "cuda": {
+            "allocated": 9317.232421875,
+            "reserved": 9536.0,
+            "max_allocated": 10558.61279296875
+          },
+          "timestamp": 1747785847.303272
+        },
+        "after": {
+          "memory": {
+            "rss": 4392.56640625,
+            "vms": 46002.7578125
+          },
+          "cuda": {
+            "allocated": 9331.5927734375,
+            "reserved": 10966.0,
+            "max_allocated": 10558.61279296875
+          },
+          "timestamp": 1747785863.006339
+        },
+        "inference_time": 15.703067064285278
+      }
+    },
+    {
+      "image_id": 11,
+      "filename": "11.jpg",
+      "ocr_result": "\nWhole Foods Market\nSharon Rd.\n\nPL TORTILLA'S 6.99 B\nCAGE FREE ALL WHIT 3.69 B\nBLACK BEANS 1.29 B\nFrozen Mangoes 16o 2.99 B\nWhole Strawberries 2.99 B\nOG LF COTTAGE CHEE 3.49 B\nMAHI MAHI FILLETS 8.99 B\n*VC $2 off (1) WC Fill 2.00-\nCalifornia Harvest 2.69 B\n1.08 lb @ 1.99 /lb TARE =.01\n*WT PLUMS BLACK CV 2.15 B\nITEM = 4040\nNHP SLICED OVEN RO 3.99 B\nNHP SLICED HICKORY 3.99 B\n1.64 lb @ 1.99 /lb TARE =.01\nWT GALA APPLES OG 3.26 B\nITEM = 94135\n\nTAX.93 BAL 45.44",
+      "filter_result": "\nHere is the extracted information from the grocery store bill:\n\n* Shop Name: Whole Foods Market\n* Total Amount Paid: $45.44",
+      "ground_truth": [
+        {
+          "label": "item",
+          "text": "*WT PLUMS BLACK CV 2.15 B"
+        },
+        {
+          "label": "item",
+          "text": "* CAGE FREE ALL WHIT 3.69 B"
+        },
+        {
+          "label": "shop",
+          "text": "WHOLE FOODS MARKET"
+        },
+        {
+          "label": "item",
+          "text": "* PL TORTILLA'S 6.99 B"
+        },
+        {
+          "label": "item",
+          "text": "* BLACK BEANS 1.29 B"
+        },
+        {
+          "label": "item",
+          "text": "* Frozen Mangoes 16o 2.99 B"
+        },
+        {
+          "label": "item",
+          "text": "* Whole Strawberries 2.99 B"
+        },
+        {
+          "label": "item",
+          "text": "* OG LF COTTAGE CHEE 3.49 B"
+        },
+        {
+          "label": "item",
+          "text": "* MAHI MAHI FILLETS 8.99 B"
+        },
+        {
+          "label": "item",
+          "text": "* California Harvest 2.69 B"
+        }
+      ],
+      "rouge_scores": {
+        "rouge1": 0.6762589928057554,
+        "rouge2": 0.6277372262773723,
+        "rougeL": 0.5035971223021584,
+        "per_label": {
+          "item": {
+            "rouge1": 0.6470588235294118,
+            "rouge2": 0.6119402985074627,
+            "rougeL": 0.5147058823529411
+          },
+          "shop": {
+            "rouge1": 0.06315789473684211,
+            "rouge2": 0.043010752688172046,
+            "rougeL": 0.06315789473684211
+          }
+        },
+        "debug": {
+          "total_reference_chars": 236,
+          "total_prediction_chars": 419,
+          "normalized_reference_sample": "wt plums black cv 215 b  cage free all whit 369 b whole foods market  pl tortillas 699 b  black bean...",
+          "normalized_prediction_sample": "whole foods market sharon rd pl tortillas 699 b cage free all whit 369 b black beans 129 b frozen ma...",
+          "labels_found": [
+            "item",
+            "shop"
+          ]
+        }
+      },
+      "ocr_metrics": {
+        "before": {
+          "memory": {
+            "rss": 4392.56640625,
+            "vms": 45202.7578125
+          },
+          "cuda": {
+            "allocated": 9317.232421875,
+            "reserved": 9536.0,
+            "max_allocated": 10558.61279296875
+          },
+          "timestamp": 1747785863.4400911
+        },
+        "after": {
+          "memory": {
+            "rss": 4392.56640625,
+            "vms": 46002.7578125
+          },
+          "cuda": {
+            "allocated": 9331.5927734375,
+            "reserved": 10972.0,
+            "max_allocated": 10558.61279296875
+          },
+          "timestamp": 1747785893.2057672
+        },
+        "inference_time": 29.765676021575928
+      },
+      "filter_metrics": {
+        "before": {
+          "memory": {
+            "rss": 4392.56640625,
+            "vms": 45202.7578125
+          },
+          "cuda": {
+            "allocated": 9317.232421875,
+            "reserved": 9536.0,
+            "max_allocated": 10558.61279296875
+          },
+          "timestamp": 1747785893.6010387
+        },
+        "after": {
+          "memory": {
+            "rss": 4392.56640625,
+            "vms": 46002.7578125
+          },
+          "cuda": {
+            "allocated": 9331.59228515625,
+            "reserved": 10960.0,
+            "max_allocated": 10558.61279296875
+          },
+          "timestamp": 1747785899.3678603
+        },
+        "inference_time": 5.766821622848511
+      }
+    },
+    {
+      "image_id": 12,
+      "filename": "12.jpg",
+      "ocr_result": "\nThe text in the image is a receipt from Walmart, which includes the following information:\n\n*   **Store Information**\n    *   Store name: Walmart\n    *   Store address: Chesterfield, MO 63005\n*   **Manager's Information**\n    *   Manager's name: Daphne Session\n    *   Phone number: 636-536-4601\n*   **Items Purchased**\n    *   SW Figures: $6.63\n    *   Toothbrush: $0.96\n    *   Women's Slippe: $9.86\n*   **Taxes**\n    *   Tax 1: $3.10\n    *   Tax 3: $4.35\n*   **Subtotal**\n    *   Subtotal: $17.45\n*   **Total**\n    *   Total: $18.75\n*   **Payment Method**\n    *   Payment service: A\n*   **Change Due**\n    *   Change due: $0.00\n*   **Items Sold**\n    *   # Items sold: 3\n*   **Barcode**\n    *   Barcode: 94897094648730733651\n*   **Date and Time**\n   ",
+      "filter_result": "\n* **Total Amount Paid:** $18.75\n* **Items Purchased:**\n\t+ Toothbrush: $0.96\n\t+ Women's Slipper: $17.45\n\t+ SW Figures: $6.63\n* **Shop Name:** Walmart",
+      "ground_truth": [
+        {
+          "label": "date_time",
+          "text": "10/20/07 13:48:43"
+        },
+        {
+          "label": "item",
+          "text": "TOOTHBRUSH 003500055500 0.96 X"
+        },
+        {
+          "label": "item",
+          "text": "WOMEN SLIPPE 009725614790 9.86 X"
+        },
+        {
+          "label": "total",
+          "text": "TOTAL 18.75"
+        },
+        {
+          "label": "item",
+          "text": "SW FIGURES 065356920144 6.63 X"
+        },
+        {
+          "label": "shop",
+          "text": "WALMART"
+        }
+      ],
+      "rouge_scores": {
+        "rouge1": 0.22680412371134023,
+        "rouge2": 0.06315789473684211,
+        "rougeL": 0.1443298969072165,
+        "per_label": {
+          "date_time": {
+            "rouge1": 0.0,
+            "rouge2": 0.0,
+            "rougeL": 0.0
+          },
+          "item": {
+            "rouge1": 0.17391304347826086,
+            "rouge2": 0.04444444444444445,
+            "rougeL": 0.10869565217391304
+          },
+          "total": {
+            "rouge1": 0.05,
+            "rouge2": 0.025641025641025647,
+            "rougeL": 0.05
+          },
+          "shop": {
+            "rouge1": 0.02531645569620253,
+            "rouge2": 0.0,
+            "rougeL": 0.02531645569620253
+          }
+        },
+        "debug": {
+          "total_reference_chars": 124,
+          "total_prediction_chars": 526,
+          "normalized_reference_sample": "102007 134843 toothbrush 003500055500 096 x women slippe 009725614790 986 x total 1875 sw figures 06...",
+          "normalized_prediction_sample": "the text in the image is a receipt from walmart which includes the following information  store info...",
+          "labels_found": [
+            "date_time",
+            "item",
+            "total",
+            "shop"
+          ]
+        }
+      },
+      "ocr_metrics": {
+        "before": {
+          "memory": {
+            "rss": 4392.56640625,
+            "vms": 45202.7578125
+          },
+          "cuda": {
+            "allocated": 9317.232421875,
+            "reserved": 9536.0,
+            "max_allocated": 10558.61279296875
+          },
+          "timestamp": 1747785899.8001275
+        },
+        "after": {
+          "memory": {
+            "rss": 4392.56640625,
+            "vms": 46002.7578125
+          },
+          "cuda": {
+            "allocated": 9331.59326171875,
+            "reserved": 10976.0,
+            "max_allocated": 10558.61279296875
+          },
+          "timestamp": 1747785934.4625344
+        },
+        "inference_time": 34.66240692138672
+      },
+      "filter_metrics": {
+        "before": {
+          "memory": {
+            "rss": 4392.56640625,
+            "vms": 44786.7578125
+          },
+          "cuda": {
+            "allocated": 9317.232421875,
+            "reserved": 9536.0,
+            "max_allocated": 10558.61279296875
+          },
+          "timestamp": 1747785934.8579926
+        },
+        "after": {
+          "memory": {
+            "rss": 4392.56640625,
+            "vms": 46002.7578125
+          },
+          "cuda": {
+            "allocated": 9331.59228515625,
+            "reserved": 10962.0,
+            "max_allocated": 10558.61279296875
+          },
+          "timestamp": 1747785944.198526
+        },
+        "inference_time": 9.340533256530762
+      }
+    },
+    {
+      "image_id": 13,
+      "filename": "13.jpg",
+      "ocr_result": "\nThe text in the image is a Walmart receipt. The text on the receipt includes:\n\n*   **Walmart logo**: The Walmart logo is displayed at the top of the receipt, featuring the company name and slogan \"Save money. Live better.\"\n*   **Store information**: The store number is listed as 843 292-0362, and the manager's name is Michael Reichard.\n*   **Date and time**: The date of the purchase is August 11, 2017, and the time is 19:19:31.\n*   **Transaction details**: The total amount of the purchase is $50.00, and the change due is $10.00.\n*   **Payment method**: The payment method used was a gift card, with a balance of $50.00.\n*   **Subtotal and tax**: The subtotal is $50.00, and the tax is $0.00.\n*   **Total**: The total amount of the purchase is $50.00.\n*   **Barcode**: A barcode is located at the bottom of the receipt, which can be scanned to access the receipt on the Walmart app.\n*   **QR code**: A QR code is also present at the bottom of the receipt, which can be",
+      "filter_result": "\n*   **Total Amount Paid:** $50.00\n*   **Items Purchased:**\n    *   Gift Card: $50.00\n*   **Shop Name:** Walmart",
+      "ground_truth": [
+        {
+          "label": "shop",
+          "text": "Walmart"
+        },
+        {
+          "label": "item",
+          "text": "GIFT CARD 087458604333 50.00 0"
+        },
+        {
+          "label": "date_time",
+          "text": "08/11/17 19:22:40"
+        },
+        {
+          "label": "total",
+          "text": "TOTAL 50.00"
+        }
+      ],
+      "rouge_scores": {
+        "rouge1": 0.06896551724137931,
+        "rouge2": 0.011627906976744186,
+        "rougeL": 0.06896551724137931,
+        "per_label": {
+          "shop": {
+            "rouge1": 0.012121212121212121,
+            "rouge2": 0.0,
+            "rougeL": 0.012121212121212121
+          },
+          "item": {
+            "rouge1": 0.03550295857988166,
+            "rouge2": 0.011976047904191616,
+            "rougeL": 0.03550295857988166
+          },
+          "date_time": {
+            "rouge1": 0.0,
+            "rouge2": 0.0,
+            "rougeL": 0.0
+          },
+          "total": {
+            "rouge1": 0.024096385542168676,
+            "rouge2": 0.0,
+            "rougeL": 0.024096385542168676
+          }
+        },
+        "debug": {
+          "total_reference_chars": 62,
+          "total_prediction_chars": 862,
+          "normalized_reference_sample": "walmart gift card 087458604333 5000 0 081117 192240 total 5000",
+          "normalized_prediction_sample": "the text in the image is a walmart receipt the text on the receipt includes  walmart logo the walmar...",
+          "labels_found": [
+            "shop",
+            "item",
+            "date_time",
+            "total"
+          ]
+        }
+      },
+      "ocr_metrics": {
+        "before": {
+          "memory": {
+            "rss": 4392.56640625,
+            "vms": 44754.7578125
+          },
+          "cuda": {
+            "allocated": 9317.232421875,
+            "reserved": 9536.0,
+            "max_allocated": 10558.61279296875
+          },
+          "timestamp": 1747785944.6257288
+        },
+        "after": {
+          "memory": {
+            "rss": 4392.56640625,
+            "vms": 45970.7578125
+          },
+          "cuda": {
+            "allocated": 9331.59326171875,
+            "reserved": 10976.0,
+            "max_allocated": 10558.61279296875
+          },
+          "timestamp": 1747785979.2824657
+        },
+        "inference_time": 34.656736850738525
+      },
+      "filter_metrics": {
+        "before": {
+          "memory": {
+            "rss": 4392.56640625,
+            "vms": 44786.7578125
+          },
+          "cuda": {
+            "allocated": 9317.232421875,
+            "reserved": 9536.0,
+            "max_allocated": 10558.61279296875
+          },
+          "timestamp": 1747785979.6799185
+        },
+        "after": {
+          "memory": {
+            "rss": 4392.56640625,
+            "vms": 46002.7578125
+          },
+          "cuda": {
+            "allocated": 9331.59228515625,
+            "reserved": 10962.0,
+            "max_allocated": 10558.61279296875
+          },
+          "timestamp": 1747785986.7370505
+        },
+        "inference_time": 7.057132005691528
+      }
+    },
+    {
+      "image_id": 14,
+      "filename": "14.jpg",
+      "ocr_result": "\nThe receipt is from Walmart and has the following information:\n\n*   **Store Information**\n    *   Store Name: Walmart\n    *   Store Number: 08890\n    *   Store Address: 555 Colemans Crossing Blvd, Marysville, OH 43040\n*   **Manager Information**\n    *   Manager Name: Christopher Wood\n    *   Phone Number: (937) 644-2800\n*   **Items Purchased**\n    *   Equate Liner: $3.88\n    *   Venus Eng Pom: $7.48\n    *   Dawn Orig: $5.97\n    *   50yd Pkg Tape: $1.12 (x2)\n    *   Lint Roller2: $1.25\n*   **Subtotal**: $26.60\n*   **Tax**: $1.25\n*   **Total**: $26.60\n*   **Debit Tend**: $26.60\n*   **Change Due**: $0.00\n*   **EFT Debit**: $26.60\n*   **Total Purchase**: $26.60\n*   **Account Number**: 712400283994\n*   **Ref Number",
+      "filter_result": "\nThe total amount paid is $26.60, the items purchased are:\n\u2022 Equate Liner\n\u2022 Venus Eng Pom\n\u2022 Dawn Orig\n\u2022 50YD PKGTAPE\n\u2022 50YD PKGTAPE\n\u2022 Lint Roller2\nThe shop name is Walmart.",
+      "ground_truth": [
+        {
+          "label": "total",
+          "text": "TOTAL 26.60"
+        },
+        {
+          "label": "item",
+          "text": "VFUS ENG POM 005100024543 F 7.48 N"
+        },
+        {
+          "label": "date_time",
+          "text": "05/04/17 19:54:18"
+        },
+        {
+          "label": "item",
+          "text": "LINT ROLLER2 005114123488 5.78 X"
+        },
+        {
+          "label": "item",
+          "text": "DAWN ORIG 003700011045 5.97 X"
+        },
+        {
+          "label": "item",
+          "text": "EQUATE LINER 068113186503 3.88 X"
+        },
+        {
+          "label": "shop",
+          "text": "Walmart"
+        },
+        {
+          "label": "item",
+          "text": "5OYD PKGTAPE 007535307841 1.12 X"
+        },
+        {
+          "label": "item",
+          "text": "5OYD PKGTAPE 007535307841 1.12 X"
+        }
+      ],
+      "rouge_scores": {
+        "rouge1": 0.2564102564102564,
+        "rouge2": 0.08695652173913045,
+        "rougeL": 0.11965811965811968,
+        "per_label": {
+          "total": {
+            "rouge1": 0.04878048780487806,
+            "rouge2": 0.024999999999999998,
+            "rougeL": 0.04878048780487806
+          },
+          "item": {
+            "rouge1": 0.21428571428571425,
+            "rouge2": 0.07272727272727272,
+            "rougeL": 0.12499999999999997
+          },
+          "date_time": {
+            "rouge1": 0.0,
+            "rouge2": 0.0,
+            "rougeL": 0.0
+          },
+          "shop": {
+            "rouge1": 0.02469135802469136,
+            "rouge2": 0.0,
+            "rougeL": 0.02469135802469136
+          }
+        },
+        "debug": {
+          "total_reference_chars": 223,
+          "total_prediction_chars": 516,
+          "normalized_reference_sample": "total 2660 vfus eng pom 005100024543 f 748 n 050417 195418 lint roller2 005114123488 578 x dawn orig...",
+          "normalized_prediction_sample": "the receipt is from walmart and has the following information  store information  store name walmart...",
+          "labels_found": [
+            "total",
+            "item",
+            "date_time",
+            "shop"
+          ]
+        }
+      },
+      "ocr_metrics": {
+        "before": {
+          "memory": {
+            "rss": 4392.56640625,
+            "vms": 44658.7578125
+          },
+          "cuda": {
+            "allocated": 9317.232421875,
+            "reserved": 9534.0,
+            "max_allocated": 10558.61279296875
+          },
+          "timestamp": 1747785987.4841905
+        },
+        "after": {
+          "memory": {
+            "rss": 4449.203125,
+            "vms": 45995.37890625
+          },
+          "cuda": {
+            "allocated": 9331.59326171875,
+            "reserved": 10976.0,
+            "max_allocated": 10558.61279296875
+          },
+          "timestamp": 1747786022.255265
+        },
+        "inference_time": 34.771074533462524
+      },
+      "filter_metrics": {
+        "before": {
+          "memory": {
+            "rss": 4449.203125,
+            "vms": 44843.37890625
+          },
+          "cuda": {
+            "allocated": 9317.232421875,
+            "reserved": 9536.0,
+            "max_allocated": 10558.61279296875
+          },
+          "timestamp": 1747786022.6529722
+        },
+        "after": {
+          "memory": {
+            "rss": 4449.203125,
+            "vms": 46059.37890625
+          },
+          "cuda": {
+            "allocated": 9331.59228515625,
+            "reserved": 10964.0,
+            "max_allocated": 10558.61279296875
+          },
+          "timestamp": 1747786032.584061
+        },
+        "inference_time": 9.93108868598938
+      }
+    },
+    {
+      "image_id": 15,
+      "filename": "15.jpg",
+      "ocr_result": "\nThe text on the receipt is as follows:\n\n**Walmart Receipt**\n\n*   **ID #**: 7JYY2JW0K3Y\n*   **Walmart Logo**: Save money. Live better.\n*   **Manager's Name and Address**: Yvonne Thomas, 13331 Beach Blvd, Westminster, CA 92683\n*   **Store Number**: 02495\n*   **Subtotal**: $12.58\n*   **Total**: $12.68\n*   **Visa Credit**: **** **** **** 3670 I 1\n*   **Approval #**: 222236\n*   **Ref #**: 62050604401\n*   **Trans ID**: 58620613984060\n*   **Validation**: 76LK\n*   **Payment Service**: E\n*   **AID**: A000000031010\n*   **TC**: 9E0FAC9A809E5D92\n*   **Terminal #**: 281767447\n*   **No Signature Required**\n*   **Date and Time**: 07/22/16 20:53:11\n*   **Change Due**: $0.00\n*   **Items",
+      "filter_result": "\nHere is the information extracted from the image:\n\n*   **Total Amount Paid:** $12.68\n*   **Items Sold:** 1\n*   **Shop Name:** Walmart",
+      "ground_truth": [
+        {
+          "label": "date_time",
+          "text": "07/22/16 20:53:11"
+        },
+        {
+          "label": "shop",
+          "text": "Walmart"
+        },
+        {
+          "label": "item",
+          "text": "DIABETES 068113131172H 12.58 N"
+        },
+        {
+          "label": "total",
+          "text": "TOTAL 12.58"
+        }
+      ],
+      "rouge_scores": {
+        "rouge1": 0.12345679012345681,
+        "rouge2": 0.02531645569620253,
+        "rougeL": 0.07407407407407407,
+        "per_label": {
+          "date_time": {
+            "rouge1": 0.05405405405405406,
+            "rouge2": 0.02777777777777778,
+            "rougeL": 0.05405405405405406
+          },
+          "shop": {
+            "rouge1": 0.0273972602739726,
+            "rouge2": 0.0,
+            "rougeL": 0.0273972602739726
+          },
+          "item": {
+            "rouge1": 0.02631578947368421,
+            "rouge2": 0.0,
+            "rougeL": 0.02631578947368421
+          },
+          "total": {
+            "rouge1": 0.05405405405405406,
+            "rouge2": 0.0,
+            "rougeL": 0.02702702702702703
+          }
+        },
+        "debug": {
+          "total_reference_chars": 62,
+          "total_prediction_chars": 491,
+          "normalized_reference_sample": "072216 205311 walmart diabetes 068113131172h 1258 n total 1258",
+          "normalized_prediction_sample": "the text on the receipt is as follows walmart receipt  id  7jyy2jw0k3y  walmart logo save money live...",
+          "labels_found": [
+            "date_time",
+            "shop",
+            "item",
+            "total"
+          ]
+        }
+      },
+      "ocr_metrics": {
+        "before": {
+          "memory": {
+            "rss": 4335.40234375,
+            "vms": 44729.3359375
+          },
+          "cuda": {
+            "allocated": 9317.232421875,
+            "reserved": 9536.0,
+            "max_allocated": 10558.61279296875
+          },
+          "timestamp": 1747786033.0191283
+        },
+        "after": {
+          "memory": {
+            "rss": 4392.546875,
+            "vms": 46002.7578125
+          },
+          "cuda": {
+            "allocated": 9331.59326171875,
+            "reserved": 10976.0,
+            "max_allocated": 10558.61279296875
+          },
+          "timestamp": 1747786067.693355
+        },
+        "inference_time": 34.67422676086426
+      },
+      "filter_metrics": {
+        "before": {
+          "memory": {
+            "rss": 4392.546875,
+            "vms": 45202.7578125
+          },
+          "cuda": {
+            "allocated": 9317.232421875,
+            "reserved": 9536.0,
+            "max_allocated": 10558.61279296875
+          },
+          "timestamp": 1747786068.0804021
+        },
+        "after": {
+          "memory": {
+            "rss": 4392.546875,
+            "vms": 46002.7578125
+          },
+          "cuda": {
+            "allocated": 9331.59228515625,
+            "reserved": 10962.0,
+            "max_allocated": 10558.61279296875
+          },
+          "timestamp": 1747786075.020592
+        },
+        "inference_time": 6.940189838409424
+      }
+    },
+    {
+      "image_id": 16,
+      "filename": "16.jpg",
+      "ocr_result": "\nThe receipt is from Walmart and has the following information:\n\n*   **Store Information**\n    *   Store Name: Walmart\n    *   Store Address: 2717 Rock Island Pl, Bismarck ND 58504\n*   **Manager Information**\n    *   Manager Name: Tim Morris\n    *   Manager Phone Number: (701) 223-3066\n*   **Purchase Information**\n    *   Date: 11/13/17\n    *   Time: 12:34:04\n    *   Items Sold: 3\n    *   Total Cost: $21.74\n*   **Payment Information**\n    *   Payment Method: EFT Debit\n    *   Total Purchase: $23.19\n    *   Change Due: $0.00\n*   **Tax Information**\n    *   Tax 1: 6.500%\n    *   Tax 4: 7.500%\n*   **Debit Information**\n    *   Debit Tend: $23.19\n    *   Change Due: $0.00",
+      "filter_result": "\n*   **Total Amount Paid:** $23.19\n*   **Items Purchased:**\n    *   6 Wing Plate\n    *   Cutie Car\n*   **Shop Name:** Walmart",
+      "ground_truth": [
+        {
+          "label": "date_time",
+          "text": "11/13/17 12:34:04"
+        },
+        {
+          "label": "item",
+          "text": "ASST 27 063099656595 4.88 X"
+        },
+        {
+          "label": "shop",
+          "text": "Walmart"
+        },
+        {
+          "label": "item",
+          "text": "CUTIE CAR 063099656644 12.88 X"
+        },
+        {
+          "label": "item",
+          "text": "6 WING PLATE 020108870398 3.98 P"
+        },
+        {
+          "label": "total",
+          "text": "TOTAL 23.19"
+        }
+      ],
+      "rouge_scores": {
+        "rouge1": 0.10416666666666667,
+        "rouge2": 0.0,
+        "rougeL": 0.08333333333333333,
+        "per_label": {
+          "date_time": {
+            "rouge1": 0.05194805194805195,
+            "rouge2": 0.0,
+            "rougeL": 0.05194805194805195
+          },
+          "item": {
+            "rouge1": 0.0,
+            "rouge2": 0.0,
+            "rougeL": 0.0
+          },
+          "shop": {
+            "rouge1": 0.02631578947368421,
+            "rouge2": 0.0,
+            "rougeL": 0.02631578947368421
+          },
+          "total": {
+            "rouge1": 0.05194805194805195,
+            "rouge2": 0.0,
+            "rougeL": 0.05194805194805195
+          }
+        },
+        "debug": {
+          "total_reference_chars": 121,
+          "total_prediction_chars": 489,
+          "normalized_reference_sample": "111317 123404 asst 27 063099656595 488 x walmart cutie car 063099656644 1288 x 6 wing plate 02010887...",
+          "normalized_prediction_sample": "the receipt is from walmart and has the following information  store information  store name walmart...",
+          "labels_found": [
+            "date_time",
+            "item",
+            "shop",
+            "total"
+          ]
+        }
+      },
+      "ocr_metrics": {
+        "before": {
+          "memory": {
+            "rss": 4392.546875,
+            "vms": 45202.7578125
+          },
+          "cuda": {
+            "allocated": 9317.232421875,
+            "reserved": 9536.0,
+            "max_allocated": 10558.61279296875
+          },
+          "timestamp": 1747786075.439942
+        },
+        "after": {
+          "memory": {
+            "rss": 4392.921875,
+            "vms": 46002.7578125
+          },
+          "cuda": {
+            "allocated": 9331.5927734375,
+            "reserved": 10972.0,
+            "max_allocated": 10558.61279296875
+          },
+          "timestamp": 1747786106.5925515
+        },
+        "inference_time": 31.1526095867157
+      },
+      "filter_metrics": {
+        "before": {
+          "memory": {
+            "rss": 4392.921875,
+            "vms": 44786.7578125
+          },
+          "cuda": {
+            "allocated": 9317.232421875,
+            "reserved": 9536.0,
+            "max_allocated": 10558.61279296875
+          },
+          "timestamp": 1747786106.974537
+        },
+        "after": {
+          "memory": {
+            "rss": 4392.921875,
+            "vms": 46002.7578125
+          },
+          "cuda": {
+            "allocated": 9331.59228515625,
+            "reserved": 10962.0,
+            "max_allocated": 10558.61279296875
+          },
+          "timestamp": 1747786114.6693132
+        },
+        "inference_time": 7.694776296615601
+      }
+    },
+    {
+      "image_id": 17,
+      "filename": "17.jpg",
+      "ocr_result": "\nThe text in the image is a Walmart receipt. The receipt includes the following information:\n\n*   **Store Information**\n    *   Store number: 02270\n    *   Store location: Durango, CO 81303\n*   **Manager Information**\n    *   Manager's name: Mike Neidlinger\n    *   Manager's phone number: (970) 259-8755\n*   **Receipt Number**\n    *   Receipt number: 7KZGF1SL2FF\n*   **Date and Time**\n    *   Date: 01/15/17\n    *   Time: 14:26:03\n*   **Items Purchased**\n    *   Bananas: 1 lb @ $0.95\n    *   Beverage: 2.00\n    *   Cran POM: 2.00\n    *   Strawberry CC: 2.00\n    *   Campari Tom: 2.98\n    *   KFT Singles: 3.78\n    *   Hard Salami: 3.98\n    *   Avocado: 3.43\n    *   Pills White: 1.76\n    *   SH Nylon Col: ",
+      "filter_result": "\nHere is the information extracted from the Walmart receipt:\n\n*   **Total Amount Paid:** $40.68\n*   **Items Purchased:**\n    *   Bananas (1.75 lb) - $0.95\n    *   Beverage (1 lb) - $2.00\n    *   Cran POM (2.00)\n    *   Strawberry CC (2.00)\n    *   Campari Tom (2.98)\n    *   KFT Singles (3.78)\n    *   Hard Salami (3.98)\n    *   Avocado (3.43)\n    *   4 at 1 for 0.44 (1.76)\n    *   Pills White (1.00)\n    *   SH Nylon Col (2.97)\n    *   Hand Cleaner (1.67)\n    *   Injectr Clnr (8.87)\n*   **Shop Name:** Walmart",
+      "ground_truth": [
+        {
+          "label": "total",
+          "text": "TOTAL 38.68"
+        },
+        {
+          "label": "item",
+          "text": "CAMPARI TOM 073447501213 I 2.98 R"
+        },
+        {
+          "label": "item",
+          "text": "OSCRAN POM 003120027015 F 2.00 R"
+        },
+        {
+          "label": "shop",
+          "text": "Walmart"
+        },
+        {
+          "label": "item",
+          "text": "BANANAS 000000004011KI 1.75 lb @ 1 lb /0.54 0.95 R"
+        },
+        {
+          "label": "item",
+          "text": "BEVERAGE 003120002133 F 2.00 R"
+        },
+        {
+          "label": "item",
+          "text": "STRWBRY CC 076471782200 F 0.96 Y"
+        },
+        {
+          "label": "date_time",
+          "text": "01/15/17 14:26:03"
+        },
+        {
+          "label": "item",
+          "text": "INJECTR CLNR 004980710003 8.87 X"
+        },
+        {
+          "label": "item",
+          "text": "HAND CLEANER 004125100005 1.67 X"
+        },
+        {
+          "label": "item",
+          "text": "SH NYLON COL 007417024836 2.97 X"
+        },
+        {
+          "label": "item",
+          "text": "PILLS WHITE 068113113619 F 1.00Y"
+        },
+        {
+          "label": "item",
+          "text": "AVOCADO 000000004046KI 4 AT 1 FOR 0.44 1.76 R"
+        },
+        {
+          "label": "item",
+          "text": "HARD SALAMI 020533960343 F 3.43 Y"
+        },
+        {
+          "label": "item",
+          "text": "44500982114 004450098211 F 3.98 Y"
+        },
+        {
+          "label": "item",
+          "text": "KFT SINGLES 002100061526 F 3.78 Y"
+        }
+      ],
+      "rouge_scores": {
+        "rouge1": 0.3558282208588957,
+        "rouge2": 0.08695652173913043,
+        "rougeL": 0.13496932515337423,
+        "per_label": {
+          "total": {
+            "rouge1": 0.0,
+            "rouge2": 0.0,
+            "rougeL": 0.0
+          },
+          "item": {
+            "rouge1": 0.3291139240506329,
+            "rouge2": 0.08974358974358974,
+            "rougeL": 0.12658227848101267
+          },
+          "shop": {
+            "rouge1": 0.024999999999999998,
+            "rouge2": 0.0,
+            "rougeL": 0.024999999999999998
+          },
+          "date_time": {
+            "rouge1": 0.04938271604938272,
+            "rouge2": 0.0,
+            "rougeL": 0.04938271604938272
+          }
+        },
+        "debug": {
+          "total_reference_chars": 476,
+          "total_prediction_chars": 511,
+          "normalized_reference_sample": "total 3868 campari tom 073447501213 i 298 r oscran pom 003120027015 f 200 r walmart bananas 00000000...",
+          "normalized_prediction_sample": "the text in the image is a walmart receipt the receipt includes the following information  store inf...",
+          "labels_found": [
+            "total",
+            "item",
+            "shop",
+            "date_time"
+          ]
+        }
+      },
+      "ocr_metrics": {
+        "before": {
+          "memory": {
+            "rss": 4392.921875,
+            "vms": 44786.7578125
+          },
+          "cuda": {
+            "allocated": 9317.232421875,
+            "reserved": 9536.0,
+            "max_allocated": 10558.61279296875
+          },
+          "timestamp": 1747786115.092272
+        },
+        "after": {
+          "memory": {
+            "rss": 4392.921875,
+            "vms": 46002.7578125
+          },
+          "cuda": {
+            "allocated": 9331.59326171875,
+            "reserved": 10976.0,
+            "max_allocated": 10558.61279296875
+          },
+          "timestamp": 1747786150.030176
+        },
+        "inference_time": 34.937903881073
+      },
+      "filter_metrics": {
+        "before": {
+          "memory": {
+            "rss": 4392.921875,
+            "vms": 44786.7578125
+          },
+          "cuda": {
+            "allocated": 9317.232421875,
+            "reserved": 9536.0,
+            "max_allocated": 10558.61279296875
+          },
+          "timestamp": 1747786150.416292
+        },
+        "after": {
+          "memory": {
+            "rss": 4392.921875,
+            "vms": 46002.7578125
+          },
+          "cuda": {
+            "allocated": 9331.59326171875,
+            "reserved": 10970.0,
+            "max_allocated": 10558.61279296875
+          },
+          "timestamp": 1747786177.5390413
+        },
+        "inference_time": 27.12274932861328
+      }
+    },
+    {
+      "image_id": 18,
+      "filename": "18.jpg",
+      "ocr_result": "\nWalmart\n863-318-0752 Mgr:MARK\n7450 CYPRESS GARDENS BLVD\nWINTER HAVEN FL 33884\nST# 03347 OPH 009036 TE# 36 TR# 05386\nGV WATER 007874235191 F 0.98 N\nGV WATER 007874235191 F 0.98 N\nGREAT VALUE 007874206203 F 2.84 N\nGREAT VALUE 007874206203 F 2.84 N\nGAIN LFE 003700076954 F 6.97 X\nGAIN 003700076954 F 4.94 N\nGV VEG OIL 007874221000 F 7.82 N\nSNICKER FS 00400005053 F 3.78 X\nGOBR FS SPK 003400029305 F 4.76 X\nMIXED CHOC 003400047587 F 13.24 X\nCHERRIES 004326880002 F 1.78 X\nGAIN 003700082365 F 1.97 N\nHY RSTLEG PM 035497333521H 9.97 X\n",
+      "filter_result": "\n* **Total Amount Paid:** $86.35\n* **Shop Name:** Walmart\n* **Items Purchased:**\n\t+ GV Water\n\t+ Great Value\n\t+ Gain\n\t+ GV Veg Oil\n\t+ Snicker FS\n\t+ GOBR FS SPK\n\t+ Mixed Choc\n\t+ Cherries\n\t+ Gain\n\t+ Hy Rstleg\n\t+ Batteries\n\t+ GV 20z Mini\n\t+ Crnbry Sauce\n\t+ Spreads\n\t+ Eggs 6ct",
+      "ground_truth": [
+        {
+          "label": "item",
+          "text": "GV VEG OIL 007874221000 F 7.82 N"
+        },
+        {
+          "label": "item",
+          "text": "GREAT VALUE 007874206203 F 2.84 N"
+        },
+        {
+          "label": "item",
+          "text": "GAIN LFE 003700077007 6.97 X"
+        },
+        {
+          "label": "item",
+          "text": "GAIN 003700076954 4.94 X"
+        },
+        {
+          "label": "item",
+          "text": "SNICKER FS 004000050533 F 3.78 X"
+        },
+        {
+          "label": "item",
+          "text": "SPREADS 002740026499 F 3.46 0"
+        },
+        {
+          "label": "item",
+          "text": "CRNBRY SAUCE 003120001605 F 1.58 0"
+        },
+        {
+          "label": "item",
+          "text": "GV 20Z MINI 007874219999 2.97 X"
+        },
+        {
+          "label": "item",
+          "text": "BATTERIES 001280051783 10.97 X"
+        },
+        {
+          "label": "item",
+          "text": "HY RSTLEG PM 035497333521H 9.97 N"
+        },
+        {
+          "label": "item",
+          "text": "GAIN 003700082365 1.97 X"
+        },
+        {
+          "label": "item",
+          "text": "CHERRIES 004326880002 F 1.78 X"
+        },
+        {
+          "label": "item",
+          "text": "MIXED CHOC 004000047587 F 13.24 X"
+        },
+        {
+          "label": "item",
+          "text": "GDBR FS 6PK 003400029305 F 4.76 X"
+        },
+        {
+          "label": "item",
+          "text": "GV WATER 007874235191 F 0.98 N"
+        },
+        {
+          "label": "item",
+          "text": "GV WATER 007874235191 F 0.98 N"
+        },
+        {
+          "label": "item",
+          "text": "GREAT VALUE 007874206203 F 2.84 N"
+        },
+        {
+          "label": "shop",
+          "text": "Walmart"
+        },
+        {
+          "label": "item",
+          "text": "EGGS 6CT 007874212709 F 0.9 0"
+        },
+        {
+          "label": "date_time",
+          "text": "10/31/21 10:08:22"
+        },
+        {
+          "label": "total",
+          "text": "TOTAL 86.35"
+        }
+      ],
+      "rouge_scores": {
+        "rouge1": 0.712871287128713,
+        "rouge2": 0.54,
+        "rougeL": 0.31683168316831684,
+        "per_label": {
+          "item": {
+            "rouge1": 0.7208121827411168,
+            "rouge2": 0.5538461538461539,
+            "rougeL": 0.32487309644670054
+          },
+          "shop": {
+            "rouge1": 0.020618556701030924,
+            "rouge2": 0.0,
+            "rougeL": 0.020618556701030924
+          },
+          "date_time": {
+            "rouge1": 0.0,
+            "rouge2": 0.0,
+            "rougeL": 0.0
+          },
+          "total": {
+            "rouge1": 0.0,
+            "rouge2": 0.0,
+            "rougeL": 0.0
+          }
+        },
+        "debug": {
+          "total_reference_chars": 580,
+          "total_prediction_chars": 509,
+          "normalized_reference_sample": "gv veg oil 007874221000 f 782 n great value 007874206203 f 284 n gain lfe 003700077007 697 x gain 00...",
+          "normalized_prediction_sample": "walmart 8633180752 mgrmark 7450 cypress gardens blvd winter haven fl 33884 st 03347 oph 009036 te 36...",
+          "labels_found": [
+            "item",
+            "shop",
+            "date_time",
+            "total"
+          ]
+        }
+      },
+      "ocr_metrics": {
+        "before": {
+          "memory": {
+            "rss": 4392.921875,
+            "vms": 44786.7578125
+          },
+          "cuda": {
+            "allocated": 9317.232421875,
+            "reserved": 9536.0,
+            "max_allocated": 10558.61279296875
+          },
+          "timestamp": 1747786177.9737828
+        },
+        "after": {
+          "memory": {
+            "rss": 4392.921875,
+            "vms": 46002.7578125
+          },
+          "cuda": {
+            "allocated": 9331.59326171875,
+            "reserved": 10976.0,
+            "max_allocated": 10558.61279296875
+          },
+          "timestamp": 1747786212.8650768
+        },
+        "inference_time": 34.89129400253296
+      },
+      "filter_metrics": {
+        "before": {
+          "memory": {
+            "rss": 4392.921875,
+            "vms": 44786.7578125
+          },
+          "cuda": {
+            "allocated": 9317.232421875,
+            "reserved": 9536.0,
+            "max_allocated": 10558.61279296875
+          },
+          "timestamp": 1747786213.2516243
+        },
+        "after": {
+          "memory": {
+            "rss": 4392.921875,
+            "vms": 46002.7578125
+          },
+          "cuda": {
+            "allocated": 9331.5927734375,
+            "reserved": 10966.0,
+            "max_allocated": 10558.61279296875
+          },
+          "timestamp": 1747786229.9707127
+        },
+        "inference_time": 16.719088315963745
+      }
+    },
+    {
+      "image_id": 19,
+      "filename": "19.jpg",
+      "ocr_result": "\nWalmart\n863-676-9425 Mgr:EURIEL\n2000 STATE ROAD 60 E\nLAKE WALES FL 33898\nST# 00859 OP# 009026 TE# 26 TR# 02422\nGRILL COVER 471288396027\nFIBER CHOICE 036926600094\nCELERY HEART 003338365801 F\nRED GRAPE 00000004023KF\nTAX 1 7.000 %\nSHOPPING CARD TEND\nCHANGE DUE\nSHOP. CARD REDEMPTION\nACCOUNT ************0246\nBeg Bal 157.29\nTran Amt 35.05\nEnd Bal 122.24\n# ITEMS SOLD 4\nTC# 6949 6652 6669 8007 1705\nLow Prices You Can Trust. Every Day.\n10/16/21 11:22:45",
+      "filter_result": "\n* **Total Amount Paid:** $35.05\n* **Items Purchased:**\n\t+ Grill Cover: $14.97\n\t+ Fiber Choice: $12.94\n\t+ Celery Heart: $2.48\n\t+ Red Grape: $3.61\n* **Shop Name:** Walmart",
+      "ground_truth": [
+        {
+          "label": "item",
+          "text": "RED GRAPE 000000004023 KF 2.51 lb @ 1 lb /1.44 3.61 N"
+        },
+        {
+          "label": "item",
+          "text": "FIBER CHOICE 036926600094 12.94 N"
+        },
+        {
+          "label": "item",
+          "text": "GRILL COVER 471288396027 14.97 X"
+        },
+        {
+          "label": "shop",
+          "text": "Walmart"
+        },
+        {
+          "label": "total",
+          "text": "TOTAL 35.05"
+        },
+        {
+          "label": "item",
+          "text": "CELERY HEART 003338365301 2.48 N"
+        },
+        {
+          "label": "date_time",
+          "text": "10/16/21 11:22:45"
+        }
+      ],
+      "rouge_scores": {
+        "rouge1": 0.28846153846153844,
+        "rouge2": 0.13725490196078433,
+        "rougeL": 0.13461538461538464,
+        "per_label": {
+          "item": {
+            "rouge1": 0.2222222222222222,
+            "rouge2": 0.12371134020618556,
+            "rougeL": 0.101010101010101
+          },
+          "shop": {
+            "rouge1": 0.027027027027027025,
+            "rouge2": 0.0,
+            "rougeL": 0.027027027027027025
+          },
+          "total": {
+            "rouge1": 0.02666666666666666,
+            "rouge2": 0.0,
+            "rougeL": 0.02666666666666666
+          },
+          "date_time": {
+            "rouge1": 0.05333333333333332,
+            "rouge2": 0.0273972602739726,
+            "rougeL": 0.05333333333333332
+          }
+        },
+        "debug": {
+          "total_reference_chars": 178,
+          "total_prediction_chars": 415,
+          "normalized_reference_sample": "red grape 000000004023 kf 251 lb  1 lb 144 361 n fiber choice 036926600094 1294 n grill cover 471288...",
+          "normalized_prediction_sample": "walmart 8636769425 mgreuriel 2000 state road 60 e lake wales fl 33898 st 00859 op 009026 te 26 tr 02...",
+          "labels_found": [
+            "item",
+            "shop",
+            "total",
+            "date_time"
+          ]
+        }
+      },
+      "ocr_metrics": {
+        "before": {
+          "memory": {
+            "rss": 4392.921875,
+            "vms": 44786.7578125
+          },
+          "cuda": {
+            "allocated": 9317.232421875,
+            "reserved": 9536.0,
+            "max_allocated": 10558.61279296875
+          },
+          "timestamp": 1747786230.3992093
+        },
+        "after": {
+          "memory": {
+            "rss": 4392.921875,
+            "vms": 46002.7578125
+          },
+          "cuda": {
+            "allocated": 9331.5927734375,
+            "reserved": 10972.0,
+            "max_allocated": 10558.61279296875
+          },
+          "timestamp": 1747786257.4294608
+        },
+        "inference_time": 27.030251502990723
+      },
+      "filter_metrics": {
+        "before": {
+          "memory": {
+            "rss": 4392.921875,
+            "vms": 44786.7578125
+          },
+          "cuda": {
+            "allocated": 9317.232421875,
+            "reserved": 9536.0,
+            "max_allocated": 10558.61279296875
+          },
+          "timestamp": 1747786257.8124707
+        },
+        "after": {
+          "memory": {
+            "rss": 4392.921875,
+            "vms": 46002.7578125
+          },
+          "cuda": {
+            "allocated": 9331.59228515625,
+            "reserved": 10962.0,
+            "max_allocated": 10558.61279296875
+          },
+          "timestamp": 1747786268.516899
+        },
+        "inference_time": 10.704428434371948
+      }
+    },
+    {
+      "image_id": 2,
+      "filename": "2.jpg",
+      "ocr_result": "\nWalmart\n949-498-6669 Mgr:MICHAEL\n951 AVENIDA PICO\nSAN CLEMENTE CA 92673\nST# 02527 OP# 009045 TE# 45 TR# 06193\nGV OATMEAL 00787424340B F\nOT 200Z TUM 081236803115\nM ATHLETICS 019104567781\nDEXAS 15X20 008429710921\nSUBTOTAL 46.44\nTAX 1 7.750 %\nTOTAL 49.90\nDEBIT TEND CHANGE DUE 0.00\nEFT DEBIT 49.90 TOTAL PURCHASE 9639 I 0\nUS DEBIT\nREF # 029200639128\nNETWORK ID. 0056 APPR CODE 461500\nUS DEBIT\nAID A0000000980840\nAAC 7756F4EB82B54EED\nTERMINAL # S001004\n# ITEMS SOLD 4\nTC# 2400 4776 4305 5847 1471\nIntroducing Walmart+\nJoin today at walmart.com/plus\nLow Prices You Can Trust. Every Day.\n10",
+      "filter_result": "\nHere is the information extracted from the Walmart receipt:\n\n*   **Total Amount Paid:** $49.90\n*   **Items Purchased:**\n    *   GV Oatmeal: $1.76\n    *   OT 200Z TUM: $6.74\n    *   M ATHLETICS: $24.97\n    *   DEXAS 15X20: $12.97\n*   **Shop Name:** Walmart",
+      "ground_truth": [
+        {
+          "label": "date_time",
+          "text": "10/18/20 11:30:46"
+        },
+        {
+          "label": "total",
+          "text": "TOTAL 49.90"
+        },
+        {
+          "label": "item",
+          "text": "M ATHLETICS 019104567781 24.97 X"
+        },
+        {
+          "label": "shop",
+          "text": "Waalmart"
+        },
+        {
+          "label": "item",
+          "text": "GV OATMEAL 007874243408 F 1.76 0"
+        },
+        {
+          "label": "item",
+          "text": "DEXAS 15X20 008429710921 12.97 X"
+        },
+        {
+          "label": "item",
+          "text": "OT 200Z TUM 081236803115 6.74 X"
+        }
+      ],
+      "rouge_scores": {
+        "rouge1": 0.26666666666666666,
+        "rouge2": 0.15254237288135594,
+        "rougeL": 0.11666666666666668,
+        "per_label": {
+          "date_time": {
+            "rouge1": 0.0,
+            "rouge2": 0.0,
+            "rougeL": 0.0
+          },
+          "total": {
+            "rouge1": 0.04210526315789474,
+            "rouge2": 0.02150537634408602,
+            "rougeL": 0.04210526315789474
+          },
+          "item": {
+            "rouge1": 0.24347826086956523,
+            "rouge2": 0.1415929203539823,
+            "rougeL": 0.12173913043478261
+          },
+          "shop": {
+            "rouge1": 0.0,
+            "rouge2": 0.0,
+            "rougeL": 0.0
+          }
+        },
+        "debug": {
+          "total_reference_chars": 160,
+          "total_prediction_chars": 561,
+          "normalized_reference_sample": "101820 113046 total 4990 m athletics 019104567781 2497 x waalmart gv oatmeal 007874243408 f 176 0 de...",
+          "normalized_prediction_sample": "walmart 9494986669 mgrmichael 951 avenida pico san clemente ca 92673 st 02527 op 009045 te 45 tr 061...",
+          "labels_found": [
+            "date_time",
+            "total",
+            "item",
+            "shop"
+          ]
+        }
+      },
+      "ocr_metrics": {
+        "before": {
+          "memory": {
+            "rss": 4392.921875,
+            "vms": 45202.7578125
+          },
+          "cuda": {
+            "allocated": 9317.232421875,
+            "reserved": 9536.0,
+            "max_allocated": 10558.61279296875
+          },
+          "timestamp": 1747786268.9332662
+        },
+        "after": {
+          "memory": {
+            "rss": 4392.921875,
+            "vms": 46002.7578125
+          },
+          "cuda": {
+            "allocated": 9331.59326171875,
+            "reserved": 10976.0,
+            "max_allocated": 10558.61279296875
+          },
+          "timestamp": 1747786303.7892923
+        },
+        "inference_time": 34.85602617263794
+      },
+      "filter_metrics": {
+        "before": {
+          "memory": {
+            "rss": 4392.921875,
+            "vms": 44786.7578125
+          },
+          "cuda": {
+            "allocated": 9317.232421875,
+            "reserved": 9536.0,
+            "max_allocated": 10558.61279296875
+          },
+          "timestamp": 1747786304.1825814
+        },
+        "after": {
+          "memory": {
+            "rss": 4392.921875,
+            "vms": 46002.7578125
+          },
+          "cuda": {
+            "allocated": 9331.5927734375,
+            "reserved": 10966.0,
+            "max_allocated": 10558.61279296875
+          },
+          "timestamp": 1747786318.5679371
+        },
+        "inference_time": 14.385355710983276
+      }
+    },
+    {
+      "image_id": 3,
+      "filename": "3.jpg",
+      "ocr_result": "\nHere is the text extracted from the image of the grocery store bill:\n\n**Header**\n* Walmart\n* See back of receipt for your chance to win $1000 ID #:7N5N1V1XC0DQ\n\n**Customer Information**\n* Name: Jamie Brookshire\n* Address: 882 S. State Road 135, Greenwood, IN 46143\n\n**Items Purchased**\n* ST# 05483 TATER TOTS\n* HARD/PROV/DC SNACK BARS\n* HRI CL CHS\n* HRI CL CHS\n* HRI CL CHS\n* HRI CL U SG\n* EARBUDS\n* SC BCN CHDR\n* ABF THINBRST\n* HARD/PROV/DC\n* DV RSE OIL\n* APPLE 3 BAG\n* STOK LT SUT\n* PEANUT BUTTR\n* PAVO VERDE\n* ROLLS\n* BOLTS DRY BLON\n* GALE\n* TR HS FAM 4\n* GAGELS\n* BV SLIDERS\n* ACCESSORY\n* CHEEZE IT\n* RITZ\n* RUFFLES\n* GV",
+      "filter_result": "\n**Grocery Store Bill Details**\n\n* **Total Amount Paid:** $6.00\n* **Shop Name:** Walmart\n* **Items Purchased:**\n\t+ Tater Tots\n\t+ Snack Bars\n\t+ Hard/Prov/DC\n\t+ Snack Bars\n\t+ HRI CL CHS\n\t+ HRI CL CHS\n\t+ HRI CL CHS\n\t+ HRI CL U SG\n\t+ HRI CL PEP\n\t+ Earbuds\n\t+ SC BCN CHDR\n\t+ ABF THINBRST\n\t+ HARD/PROV/DC\n\t+ DV RSE OIL M\n\t+ APPLE 3 BAG\n\t+ STOK LT SUT\n\t+ PEANUT BUTTR\n\t+ PAVO VERDE\n\t+ ROLLS\n\t+ BOLTS DRY BLON\n\t+ GALE\n\t+ TR HS FAM 4\n\t+ GAGELS\n\t+ BV SLIDERS\n\t+ ACCESSORY\n\t+ CHEEZE IT\n\t+ RITZ\n\t+ RUFFLES\n\t+ GV HNY GRMS",
+      "ground_truth": [
+        {
+          "label": "item",
+          "text": "TATER TOTS 001312000026 F 2.96 O"
+        },
+        {
+          "label": "item",
+          "text": "HARD/PROV/DC 007874219410 F 2.68 0"
+        },
+        {
+          "label": "item",
+          "text": "STOK LT SWT 004127102774 F 4.42 T"
+        },
+        {
+          "label": "item",
+          "text": "AVO VERDE 061611206143 F 2.98 N"
+        },
+        {
+          "label": "item",
+          "text": "APPLE 3 BAG 084747300184 F 6.47 N"
+        },
+        {
+          "label": "item",
+          "text": "DV RSE OIL M 001111101220 6.94 X"
+        },
+        {
+          "label": "item",
+          "text": "ACCESSORY 007515161216 0.97 X"
+        },
+        {
+          "label": "item",
+          "text": "CHEEZE IT 002410053523 F 4.00 0 WAS 4.54 YOU SAVED 0.64"
+        },
+        {
+          "label": "item",
+          "text": "RITZ 004400088210 F 2.78 N"
+        },
+        {
+          "label": "item",
+          "text": "GV HNY GRMS 007874207253 F 1.28 N"
+        },
+        {
+          "label": "shop",
+          "text": "Walmart"
+        },
+        {
+          "label": "date_time",
+          "text": "04/27/19 12:59:46"
+        },
+        {
+          "label": "item",
+          "text": "PEANUT BUTTR 005150025499 F 5.44 0"
+        },
+        {
+          "label": "item",
+          "text": "HARD/PROV/DC 007874219410 F 2.68 O"
+        },
+        {
+          "label": "item",
+          "text": "SNACK BARS 002190848816 F 4.98 T"
+        },
+        {
+          "label": "item",
+          "text": "HRI CL PEP 003120507000 F 5.88 0"
+        },
+        {
+          "label": "item",
+          "text": "HRI 12 U SG 003120535000 F 5.88 0"
+        },
+        {
+          "label": "item",
+          "text": "HRI CL CHS 003120506000 F 5.88-0"
+        },
+        {
+          "label": "item",
+          "text": "HRI CL CHS 003120506000 F 5.88 0"
+        },
+        {
+          "label": "item",
+          "text": "HRI CL CHS 003120506000 F 5.88 0"
+        },
+        {
+          "label": "item",
+          "text": "GV SLIDERS 007874201525 2.98 X"
+        },
+        {
+          "label": "item",
+          "text": "BAGELS 001376402801 F 4.56 0"
+        },
+        {
+          "label": "item",
+          "text": "GALE 000000000003K 32.00 T"
+        },
+        {
+          "label": "item",
+          "text": "BTS DRY BLON 501072452746 6.58 X"
+        },
+        {
+          "label": "item",
+          "text": "ROLLS 007874219415 F 1.28 0"
+        },
+        {
+          "label": "item",
+          "text": "EARBUDS 068113100946 4.88 X"
+        },
+        {
+          "label": "item",
+          "text": "RUFFLES 002840020942 F 250 N"
+        },
+        {
+          "label": "item",
+          "text": "SC BCN CHDDR 007874202906 F 6.98 0"
+        },
+        {
+          "label": "item",
+          "text": "ABF THINBRST 022451710972 F 9.72 0"
+        },
+        {
+          "label": "total",
+          "text": "TOTAL 144.02"
+        },
+        {
+          "label": "item",
+          "text": "TR HS FRM 4 002240062190 2.74 X"
+        }
+      ],
+      "rouge_scores": {
+        "rouge1": 0.3610108303249097,
+        "rouge2": 0.15272727272727274,
+        "rougeL": 0.16606498194945848,
+        "per_label": {
+          "item": {
+            "rouge1": 0.3602941176470589,
+            "rouge2": 0.15555555555555556,
+            "rougeL": 0.1691176470588235
+          },
+          "shop": {
+            "rouge1": 0.0196078431372549,
+            "rouge2": 0.0,
+            "rougeL": 0.0196078431372549
+          },
+          "date_time": {
+            "rouge1": 0.0,
+            "rouge2": 0.0,
+            "rougeL": 0.0
+          },
+          "total": {
+            "rouge1": 0.0,
+            "rouge2": 0.0,
+            "rougeL": 0.0
+          }
+        },
+        "debug": {
+          "total_reference_chars": 923,
+          "total_prediction_chars": 565,
+          "normalized_reference_sample": "tater tots 001312000026 f 296 o hardprovdc 007874219410 f 268 0 stok lt swt 004127102774 f 442 t avo...",
+          "normalized_prediction_sample": "here is the text extracted from the image of the grocery store bill header  walmart  see back of rec...",
+          "labels_found": [
+            "item",
+            "shop",
+            "date_time",
+            "total"
+          ]
+        }
+      },
+      "ocr_metrics": {
+        "before": {
+          "memory": {
+            "rss": 4392.921875,
+            "vms": 44786.7578125
+          },
+          "cuda": {
+            "allocated": 9317.232421875,
+            "reserved": 9536.0,
+            "max_allocated": 10558.61279296875
+          },
+          "timestamp": 1747786318.984927
+        },
+        "after": {
+          "memory": {
+            "rss": 4392.921875,
+            "vms": 46002.7578125
+          },
+          "cuda": {
+            "allocated": 9331.59326171875,
+            "reserved": 10976.0,
+            "max_allocated": 10558.61279296875
+          },
+          "timestamp": 1747786353.9243042
+        },
+        "inference_time": 34.939377307891846
+      },
+      "filter_metrics": {
+        "before": {
+          "memory": {
+            "rss": 4392.921875,
+            "vms": 44786.7578125
+          },
+          "cuda": {
+            "allocated": 9317.232421875,
+            "reserved": 9536.0,
+            "max_allocated": 10558.61279296875
+          },
+          "timestamp": 1747786354.3113062
+        },
+        "after": {
+          "memory": {
+            "rss": 4392.921875,
+            "vms": 46002.7578125
+          },
+          "cuda": {
+            "allocated": 9331.59375,
+            "reserved": 10976.0,
+            "max_allocated": 10558.61279296875
+          },
+          "timestamp": 1747786388.104974
+        },
+        "inference_time": 33.793667793273926
+      }
+    },
+    {
+      "image_id": 4,
+      "filename": "4.jpg",
+      "ocr_result": "\nWalmart\nSave money. Live better.\n( 712 ) 366 - 3326\nMANAGER DONALD MONEYMAKER\n3201 MANAWA CENTRE DR\nCOUNCIL BLUFFS IA 51601\nST# 01965 OP# 002031 TE# 20 TR# 05145\nSW HRO FGHTR 063060940732\nSUBTOTAL\nTAX 1\n7.000\nDEBIT TOTAL\n7.43\nCHANGE DUE\n0.00\nEFT DEBIT\n7.43\nPAY FROM PRIMARY\nACCOUNT # TOTAL PURCHASE\nREF # 534200381755\nNETWORK ID. 0056 APPR CODE 087193\nTERMINAL # MX996026\n12/08/15 12:39:24\n# ITEMS SOLD 1\nTC# 3261 4114 0323 3051 6498\nNEW STORE HOURS\nOpen 6am to midnight 7 days a week.\n12/08/15 12:39:26\nSavings Catcher Scan with Walmart app",
+      "filter_result": "\nHere is the information extracted from the image:\n\n*   **Total Amount Paid:** $7.43\n*   **Items Sold:** 1\n*   **Shop Name:** Walmart",
+      "ground_truth": [
+        {
+          "label": "item",
+          "text": "SW HRO FGHTR 063050940732 6.94 T"
+        },
+        {
+          "label": "shop",
+          "text": "Walmart"
+        },
+        {
+          "label": "date_time",
+          "text": "12/08/15 12:39:26"
+        },
+        {
+          "label": "total",
+          "text": "TOTAL 7.43"
+        }
+      ],
+      "rouge_scores": {
+        "rouge1": 0.15841584158415842,
+        "rouge2": 0.08080808080808081,
+        "rougeL": 0.099009900990099,
+        "per_label": {
+          "item": {
+            "rouge1": 0.0625,
+            "rouge2": 0.0425531914893617,
+            "rougeL": 0.0625
+          },
+          "shop": {
+            "rouge1": 0.02197802197802198,
+            "rouge2": 0.0,
+            "rougeL": 0.02197802197802198
+          },
+          "date_time": {
+            "rouge1": 0.04347826086956522,
+            "rouge2": 0.02222222222222222,
+            "rougeL": 0.04347826086956522
+          },
+          "total": {
+            "rouge1": 0.04347826086956522,
+            "rouge2": 0.02222222222222222,
+            "rougeL": 0.04347826086956522
+          }
+        },
+        "debug": {
+          "total_reference_chars": 63,
+          "total_prediction_chars": 513,
+          "normalized_reference_sample": "sw hro fghtr 063050940732 694 t walmart 120815 123926 total 743",
+          "normalized_prediction_sample": "walmart save money live better  712  366  3326 manager donald moneymaker 3201 manawa centre dr counc...",
+          "labels_found": [
+            "item",
+            "shop",
+            "date_time",
+            "total"
+          ]
+        }
+      },
+      "ocr_metrics": {
+        "before": {
+          "memory": {
+            "rss": 4392.921875,
+            "vms": 45202.7578125
+          },
+          "cuda": {
+            "allocated": 9317.232421875,
+            "reserved": 9536.0,
+            "max_allocated": 10558.61279296875
+          },
+          "timestamp": 1747786388.5376873
+        },
+        "after": {
+          "memory": {
+            "rss": 4392.921875,
+            "vms": 46002.7578125
+          },
+          "cuda": {
+            "allocated": 9331.5927734375,
+            "reserved": 10972.0,
+            "max_allocated": 10558.61279296875
+          },
+          "timestamp": 1747786420.3742247
+        },
+        "inference_time": 31.83653736114502
+      },
+      "filter_metrics": {
+        "before": {
+          "memory": {
+            "rss": 4392.921875,
+            "vms": 45202.7578125
+          },
+          "cuda": {
+            "allocated": 9317.232421875,
+            "reserved": 9536.0,
+            "max_allocated": 10558.61279296875
+          },
+          "timestamp": 1747786420.7540257
+        },
+        "after": {
+          "memory": {
+            "rss": 4392.921875,
+            "vms": 46002.7578125
+          },
+          "cuda": {
+            "allocated": 9331.59228515625,
+            "reserved": 10962.0,
+            "max_allocated": 10558.61279296875
+          },
+          "timestamp": 1747786427.83184
+        },
+        "inference_time": 7.077814340591431
+      }
+    },
+    {
+      "image_id": 5,
+      "filename": "5.jpg",
+      "ocr_result": "\nWhole Foods Market\nSunnyvale SVL 408-419-1290\n150 E McKinley Ave\nSunnyvale, CA 94086\nKTTL SEA SALT POT CHP $1.29 F\nBRAIDED BRIOCHE $6.99 F\nCHEF PLATE MEAL $10 @ $10.00 ea\nSubtotal: $20.00 F\nNet Sales: $28.28\nTotal: $28.28\nSold Items: 4\nPaid:\nRETURNS: We are now accepting returns on purchases with the following conditions:\nReturns will only be accepted on purchases made on or after 9/15/2020. All returns require a receipt. No returns on items purchased after 90 days. For additional information please visit wfm.com/returns.\nEarn 5% Back at Whole Foods Market with the Amazon Prime Rewards Visa. Learn more at amazon.com/amazonvisa\nHOW WAS YOUR SHOPPING EXPERIENCE?\nENTER FOR A CHANCE TO WIN A $250 GIFT CARD 908 6387 02/10/2021 07:10 PM\n630110790806387021020210\n6KTHQW62ZD",
+      "filter_result": "\n* **Total Amount Paid:** $28.28\n* **Items Purchased:**\n\t+ Kttl Sea Salt Pot CHP: $1.29\n\t+ Braided Brioche: $6.99\n\t+ Chef Plate Meal 2: $10.00\n\t+ Chef Plate Meal 2: $10.00\n* **Shop Name:** Whole Foods Market",
+      "ground_truth": [
+        {
+          "label": "item",
+          "text": "KITL SEA SALT POT CHP $1.29 F"
+        },
+        {
+          "label": "date_time",
+          "text": "02/10/2021 07:10 PM"
+        },
+        {
+          "label": "total",
+          "text": "Total : $28.28"
+        },
+        {
+          "label": "shop",
+          "text": "WHOLE FOODS MARKET"
+        },
+        {
+          "label": "item",
+          "text": "CHEF PLATE MEAL $10 2 @ $10.00 ea $20.00 F"
+        },
+        {
+          "label": "item",
+          "text": "BRAIDED BRIOCHE $6.99 F"
+        }
+      ],
+      "rouge_scores": {
+        "rouge1": 0.34210526315789475,
+        "rouge2": 0.25333333333333335,
+        "rougeL": 0.18421052631578946,
+        "per_label": {
+          "item": {
+            "rouge1": 0.25,
+            "rouge2": 0.2112676056338028,
+            "rougeL": 0.19444444444444445
+          },
+          "date_time": {
+            "rouge1": 0.047244094488188976,
+            "rouge2": 0.032,
+            "rougeL": 0.047244094488188976
+          },
+          "total": {
+            "rouge1": 0.031746031746031744,
+            "rouge2": 0.01612903225806452,
+            "rougeL": 0.031746031746031744
+          },
+          "shop": {
+            "rouge1": 0.047244094488188976,
+            "rouge2": 0.032,
+            "rougeL": 0.047244094488188976
+          }
+        },
+        "debug": {
+          "total_reference_chars": 134,
+          "total_prediction_chars": 735,
+          "normalized_reference_sample": "kitl sea salt pot chp 129 f 02102021 0710 pm total  2828 whole foods market chef plate meal 10 2  10...",
+          "normalized_prediction_sample": "whole foods market sunnyvale svl 4084191290 150 e mckinley ave sunnyvale ca 94086 kttl sea salt pot ...",
+          "labels_found": [
+            "item",
+            "date_time",
+            "total",
+            "shop"
+          ]
+        }
+      },
+      "ocr_metrics": {
+        "before": {
+          "memory": {
+            "rss": 4419.796875,
+            "vms": 45229.65625
+          },
+          "cuda": {
+            "allocated": 9317.232421875,
+            "reserved": 9536.0,
+            "max_allocated": 10558.61279296875
+          },
+          "timestamp": 1747786428.4430442
+        },
+        "after": {
+          "memory": {
+            "rss": 4434.33203125,
+            "vms": 46044.01171875
+          },
+          "cuda": {
+            "allocated": 9331.59326171875,
+            "reserved": 10976.0,
+            "max_allocated": 10558.61279296875
+          },
+          "timestamp": 1747786462.358862
+        },
+        "inference_time": 33.915817737579346
+      },
+      "filter_metrics": {
+        "before": {
+          "memory": {
+            "rss": 4434.33203125,
+            "vms": 45244.01171875
+          },
+          "cuda": {
+            "allocated": 9317.232421875,
+            "reserved": 9536.0,
+            "max_allocated": 10558.61279296875
+          },
+          "timestamp": 1747786462.742651
+        },
+        "after": {
+          "memory": {
+            "rss": 4434.453125,
+            "vms": 46044.01171875
+          },
+          "cuda": {
+            "allocated": 9331.59228515625,
+            "reserved": 10964.0,
+            "max_allocated": 10558.61279296875
+          },
+          "timestamp": 1747786475.363065
+        },
+        "inference_time": 12.620414018630981
+      }
+    },
+    {
+      "image_id": 6,
+      "filename": "6.JPG",
+      "ocr_result": "\nThe text on the receipt is as follows:\n\n**MOMI & TOY'S CR\u00caPERIE**\n\n**Lippo Mall Kemang, L Kemang VI No. 6**\n\n**Check: 3850**\n\n**Pax: 1**\n\n**OP: Gunawan**\n\n**POS Title: Cashier**\n\n**Rcpt#: A15000001363**\n\n**26/01/2015 16:13**\n\n**1 Woman 0**\n\n**2 Ham Cheese 74,000**\n\n**1 Ice Java Tea 16,000**\n\n**1 Mineral Water 13,000**\n\n**1 Black & White 72,000**\n\n**SUBTOTAL 175,000**\n\n**TOTAL 175,000**\n\n**CASH 200,000**\n\n**Change 25,000**\n\n**Closed Bill 26/01/2015 16:14**\n\n**Thank you for tasting our \"Meltingly Crepe\"**",
+      "filter_result": "\n*   **Total Amount Paid:** 200,000\n*   **Items:**\n    *   Woman\n    *   Ham Cheese\n    *   Ice Java Tea\n    *   Mineral Water\n    *   Black & White\n*   **Shop Name:** Momi & Toy's Creperie",
+      "ground_truth": [
+        {
+          "label": "date_time",
+          "text": "26/01/2015 16:14"
+        },
+        {
+          "label": "item",
+          "text": "1 Woman 0"
+        },
+        {
+          "label": "item",
+          "text": "1 Mineral Water 13, 000"
+        },
+        {
+          "label": "item",
+          "text": "2 Ham Cheese 74, 000"
+        },
+        {
+          "label": "item",
+          "text": "1 Black & White 72, 000"
+        },
+        {
+          "label": "shop",
+          "text": "MOMI TOY'S CREPERIE"
+        },
+        {
+          "label": "total",
+          "text": "TOTAL 175, 000"
+        },
+        {
+          "label": "item",
+          "text": "1 Ice Java Tea 16, 000"
+        }
+      ],
+      "rouge_scores": {
+        "rouge1": 0.4077669902912621,
+        "rouge2": 0.25742574257425743,
+        "rougeL": 0.21359223300970873,
+        "per_label": {
+          "date_time": {
+            "rouge1": 0.05479452054794521,
+            "rouge2": 0.028169014084507043,
+            "rougeL": 0.05479452054794521
+          },
+          "item": {
+            "rouge1": 0.3368421052631579,
+            "rouge2": 0.23655913978494622,
+            "rougeL": 0.2105263157894737
+          },
+          "shop": {
+            "rouge1": 0.054054054054054064,
+            "rouge2": 0.02777777777777778,
+            "rougeL": 0.054054054054054064
+          },
+          "total": {
+            "rouge1": 0.027027027027027032,
+            "rouge2": 0.0,
+            "rougeL": 0.027027027027027032
+          }
+        },
+        "debug": {
+          "total_reference_chars": 143,
+          "total_prediction_chars": 384,
+          "normalized_reference_sample": "26012015 1614 1 woman 0 1 mineral water 13 000 2 ham cheese 74 000 1 black  white 72 000 momi toys c...",
+          "normalized_prediction_sample": "the text on the receipt is as follows momi  toys crperie lippo mall kemang l kemang vi no 6 check 38...",
+          "labels_found": [
+            "date_time",
+            "item",
+            "shop",
+            "total"
+          ]
+        }
+      },
+      "ocr_metrics": {
+        "before": {
+          "memory": {
+            "rss": 4335.77734375,
+            "vms": 45145.3359375
+          },
+          "cuda": {
+            "allocated": 9317.232421875,
+            "reserved": 9536.0,
+            "max_allocated": 10558.61279296875
+          },
+          "timestamp": 1747786475.8095732
+        },
+        "after": {
+          "memory": {
+            "rss": 4392.95703125,
+            "vms": 46002.7578125
+          },
+          "cuda": {
+            "allocated": 9331.5927734375,
+            "reserved": 10972.0,
+            "max_allocated": 10558.61279296875
+          },
+          "timestamp": 1747786502.4631152
+        },
+        "inference_time": 26.653542041778564
+      },
+      "filter_metrics": {
+        "before": {
+          "memory": {
+            "rss": 4392.95703125,
+            "vms": 45202.7578125
+          },
+          "cuda": {
+            "allocated": 9317.232421875,
+            "reserved": 9536.0,
+            "max_allocated": 10558.61279296875
+          },
+          "timestamp": 1747786502.8447485
+        },
+        "after": {
+          "memory": {
+            "rss": 4392.95703125,
+            "vms": 46002.7578125
+          },
+          "cuda": {
+            "allocated": 9331.59228515625,
+            "reserved": 10962.0,
+            "max_allocated": 10558.61279296875
+          },
+          "timestamp": 1747786513.296492
+        },
+        "inference_time": 10.451743602752686
+      }
+    },
+    {
+      "image_id": 7,
+      "filename": "7.jpg",
+      "ocr_result": "\nThe receipt is from Walmart and has the following information:\n\n*   **Store Information**\n    *   Store Name: Walmart\n    *   Store Address: 2717 Rock Island Pl, Bismarck ND 58504\n*   **Manager Information**\n    *   Manager Name: Tim Morris\n    *   Manager Phone Number: (701) 223-3066\n*   **Purchase Information**\n    *   Date: 11/13/17\n    *   Time: 12:34:04\n    *   Items Sold: 3\n    *   Total Cost: $21.74\n*   **Payment Information**\n    *   Payment Method: EFT Debit\n    *   Total Purchase: $23.19\n    *   Change Due: $0.00\n*   **Tax Information**\n    *   Tax 1: 6.500%\n    *   Tax 4: 7.500%\n*   **Debit Information**\n    *   Debit Tend: $23.19\n    *   Change Due: $0.00",
+      "filter_result": "\n*   **Total Amount Paid:** $23.19\n*   **Items Purchased:**\n    *   6 Wing Plate\n    *   Cutie Car\n*   **Shop Name:** Walmart",
+      "ground_truth": [
+        {
+          "label": "item",
+          "text": "6 WING PLATE 020108870398 3.98 P"
+        },
+        {
+          "label": "date_time",
+          "text": "11/13/17 12:34:11"
+        },
+        {
+          "label": "item",
+          "text": "ASST 27 063099656595 4.88 X"
+        },
+        {
+          "label": "item",
+          "text": "CUTIE CAR 063099656644 12.88 X"
+        },
+        {
+          "label": "shop",
+          "text": "Walmart"
+        },
+        {
+          "label": "total",
+          "text": "TOTAL 23.19"
+        }
+      ],
+      "rouge_scores": {
+        "rouge1": 0.08333333333333333,
+        "rouge2": 0.0,
+        "rougeL": 0.0625,
+        "per_label": {
+          "item": {
+            "rouge1": 0.0,
+            "rouge2": 0.0,
+            "rougeL": 0.0
+          },
+          "date_time": {
+            "rouge1": 0.025974025974025976,
+            "rouge2": 0.0,
+            "rougeL": 0.025974025974025976
+          },
+          "shop": {
+            "rouge1": 0.02631578947368421,
+            "rouge2": 0.0,
+            "rougeL": 0.02631578947368421
+          },
+          "total": {
+            "rouge1": 0.05194805194805195,
+            "rouge2": 0.0,
+            "rougeL": 0.05194805194805195
+          }
+        },
+        "debug": {
+          "total_reference_chars": 121,
+          "total_prediction_chars": 489,
+          "normalized_reference_sample": "6 wing plate 020108870398 398 p 111317 123411 asst 27 063099656595 488 x cutie car 063099656644 1288...",
+          "normalized_prediction_sample": "the receipt is from walmart and has the following information  store information  store name walmart...",
+          "labels_found": [
+            "item",
+            "date_time",
+            "shop",
+            "total"
+          ]
+        }
+      },
+      "ocr_metrics": {
+        "before": {
+          "memory": {
+            "rss": 4392.95703125,
+            "vms": 45202.7578125
+          },
+          "cuda": {
+            "allocated": 9317.232421875,
+            "reserved": 9536.0,
+            "max_allocated": 10558.61279296875
+          },
+          "timestamp": 1747786513.7145681
+        },
+        "after": {
+          "memory": {
+            "rss": 4392.95703125,
+            "vms": 46002.7578125
+          },
+          "cuda": {
+            "allocated": 9331.5927734375,
+            "reserved": 10972.0,
+            "max_allocated": 10558.61279296875
+          },
+          "timestamp": 1747786545.046286
+        },
+        "inference_time": 31.33171796798706
+      },
+      "filter_metrics": {
+        "before": {
+          "memory": {
+            "rss": 4392.95703125,
+            "vms": 44786.7578125
+          },
+          "cuda": {
+            "allocated": 9317.232421875,
+            "reserved": 9536.0,
+            "max_allocated": 10558.61279296875
+          },
+          "timestamp": 1747786545.4279246
+        },
+        "after": {
+          "memory": {
+            "rss": 4392.95703125,
+            "vms": 46002.7578125
+          },
+          "cuda": {
+            "allocated": 9331.59228515625,
+            "reserved": 10962.0,
+            "max_allocated": 10558.61279296875
+          },
+          "timestamp": 1747786553.192237
+        },
+        "inference_time": 7.764312267303467
+      }
+    },
+    {
+      "image_id": 8,
+      "filename": "8.jpg",
+      "ocr_result": "\nThe text in the image is a receipt from Costco Wholesale. The receipt includes the following information:\n\n**Store Information**\n\n* Store Name: Costco Wholesale\n* Store Number: 629\n* Address: 16375 N. Washington St., Thornton, CO 80023\n\n**Date and Time**\n\n* Date: 07/20/2016\n* Time: 15:00\n\n**Member Information**\n\n* Member Number: 111826278335\n* Member Type: 2X\n\n**Items Purchased**\n\n* 2X Member: $23.99\n* FF BS BREAST: $6.49\n* KS DICED TOM: $2.97\n* JACKORGSA: $12.87\n* 18CT EGGS: $6.29\n* GRAPE TOMATO: $6.49\n* ECO HALF PAN: $18.47\n* GRND TURKEY: $3.59\n* CHPD ONION: $4.45\n* MONT JACK 2#: $85.61\n\n**Subtotal**: $89.13\n**Tax**: $3.52\n**Total**: $89.13\n\n**Payment Information**\n\n* Check/Member Prntd: $",
+      "filter_result": "\n**Grocery Store Bill Breakdown**\n\n* **Shop Name:** Costco\n* **Total Amount Paid:** $89.13\n\n**Items Purchased:**\n\n* 2X Member\n* 673919 FF BS BREAST\n* 633561 KS DICED TOM\n* 967596 JACKORGSALSA\n* 878137 18CT EGGS\n* 77053 GRAPE TOMATO\n* 404609 ECO HALF PAN\n* 55992 GRND TURKEY\n* 263423 CHPD ONION\n* 22101 MONT JACK 2#",
+      "ground_truth": [
+        {
+          "label": "item",
+          "text": "E 6333561 KS DICED TOM 6.49 E"
+        },
+        {
+          "label": "item",
+          "text": "404609 ECO HALF PAN 6.49 A"
+        },
+        {
+          "label": "shop",
+          "text": "Costco WHOLESALE"
+        },
+        {
+          "label": "date_time",
+          "text": "04/20/2016 15:00"
+        },
+        {
+          "label": "item",
+          "text": "E 22101 MONT JACK 2# 4.45 E"
+        },
+        {
+          "label": "item",
+          "text": "E 263423 CHPD ONION 3.59 E"
+        },
+        {
+          "label": "item",
+          "text": "E 55992 GRND TURKEY 18.47 E"
+        },
+        {
+          "label": "item",
+          "text": "E 77053 GRAPE TOMATO 6.29 E"
+        },
+        {
+          "label": "item",
+          "text": "3 @ 4.29 E 878137 18 CT EGGS 12.87 E"
+        },
+        {
+          "label": "item",
+          "text": "E 967596 JACKORGSALSA 2.97 E"
+        },
+        {
+          "label": "item",
+          "text": "E 673919 FF BS BREAST 23.99 E"
+        },
+        {
+          "label": "total",
+          "text": "**** TOTAL 89.13"
+        }
+      ],
+      "rouge_scores": {
+        "rouge1": 0.4276729559748428,
+        "rouge2": 0.16560509554140126,
+        "rougeL": 0.1509433962264151,
+        "per_label": {
+          "item": {
+            "rouge1": 0.3790849673202614,
+            "rouge2": 0.1456953642384106,
+            "rougeL": 0.13071895424836602
+          },
+          "shop": {
+            "rouge1": 0.04166666666666667,
+            "rouge2": 0.021276595744680854,
+            "rougeL": 0.04166666666666667
+          },
+          "date_time": {
+            "rouge1": 0.020833333333333336,
+            "rouge2": 0.0,
+            "rougeL": 0.020833333333333336
+          },
+          "total": {
+            "rouge1": 0.04166666666666667,
+            "rouge2": 0.021276595744680854,
+            "rougeL": 0.04166666666666667
+          }
+        },
+        "debug": {
+          "total_reference_chars": 294,
+          "total_prediction_chars": 579,
+          "normalized_reference_sample": "e 6333561 ks diced tom 649 e 404609 eco half pan 649 a costco wholesale 04202016 1500 e 22101 mont j...",
+          "normalized_prediction_sample": "the text in the image is a receipt from costco wholesale the receipt includes the following informat...",
+          "labels_found": [
+            "item",
+            "shop",
+            "date_time",
+            "total"
+          ]
+        }
+      },
+      "ocr_metrics": {
+        "before": {
+          "memory": {
+            "rss": 4393.08203125,
+            "vms": 44786.7578125
+          },
+          "cuda": {
+            "allocated": 9317.232421875,
+            "reserved": 9536.0,
+            "max_allocated": 10558.61279296875
+          },
+          "timestamp": 1747786553.616349
+        },
+        "after": {
+          "memory": {
+            "rss": 4393.08203125,
+            "vms": 46002.7578125
+          },
+          "cuda": {
+            "allocated": 9331.59326171875,
+            "reserved": 10976.0,
+            "max_allocated": 10558.61279296875
+          },
+          "timestamp": 1747786588.501831
+        },
+        "inference_time": 34.8854820728302
+      },
+      "filter_metrics": {
+        "before": {
+          "memory": {
+            "rss": 4393.08203125,
+            "vms": 44786.7578125
+          },
+          "cuda": {
+            "allocated": 9317.232421875,
+            "reserved": 9536.0,
+            "max_allocated": 10558.61279296875
+          },
+          "timestamp": 1747786588.8858192
+        },
+        "after": {
+          "memory": {
+            "rss": 4393.08203125,
+            "vms": 46002.7578125
+          },
+          "cuda": {
+            "allocated": 9331.5927734375,
+            "reserved": 10966.0,
+            "max_allocated": 10558.61279296875
+          },
+          "timestamp": 1747786606.9426334
+        },
+        "inference_time": 18.056814193725586
+      }
+    },
+    {
+      "image_id": 9,
+      "filename": "9.jpg",
+      "ocr_result": "\nThe text in the image is a receipt from WinCo Foods, a supermarket chain. The receipt includes the following information:\n\n**Store Information**\n\n* Store number: 0124\n* Address: 800 S Cockrell Hill Rd, Duncanville, TX 75137\n\n**Date and Time**\n\n* Date: 09/08/14\n* Time: 11:16:24\n\n**Cashier Information**\n\n* Cashier: Yolanda R\n\n**Items Purchased**\n\n* A list of items purchased, including:\n\t+ Chicken wings\n\t+ Pork loin chops\n\t+ Drumsticks\n\t+ Beef for stew\n\t+ Pork 1/2 loin\n\t+ Bar S meat frank\n\t+ O/M ham\n\t+ Winco noodles\n\t+ TnDRBRD CHIX BR\n\t+ Eggo waffle\n\t+ L/D nutty bars\n\t+ L/D oatmeal CRM\n\t+ Links mild\n\t+ KEEB TOWNHOUSE\n\t+ Turkey frank\n\t+ Resers pot SLD\n\t+ DM SPAG SAUCE\n\t+ Hunts manwich\n\t+ DM PNAPL CHNKY\n\t+ Sunbean buns\n\t+ Winco snOWCH",
+      "filter_result": "\n* **Shop Name:** WinCo Foods\n* **Total Amount Paid:** $121.92",
+      "ground_truth": [
+        {
+          "label": "shop",
+          "text": "WinCo FOODS"
+        },
+        {
+          "label": "item",
+          "text": "SUNBEAN BUNS 7763306333 1.98 FS"
+        },
+        {
+          "label": "item",
+          "text": "EYE RND STK FP 20148200000 8.24 FS"
+        },
+        {
+          "label": "date_time",
+          "text": "09/08/14 11:16:24"
+        },
+        {
+          "label": "item",
+          "text": "BEEF FOR STEW 20254300000 10.48 FS"
+        },
+        {
+          "label": "item",
+          "text": "PORK 1/2 LOIN 20323300000 8.12 FS"
+        },
+        {
+          "label": "item",
+          "text": "B/BEST S STEAK 4497921020 1.00 FS"
+        },
+        {
+          "label": "item",
+          "text": "N/YORK TX GRLC 7045900558 2.18 FS"
+        },
+        {
+          "label": "item",
+          "text": "PORK LOIN CHOP 20337400000 9.91 FS"
+        },
+        {
+          "label": "item",
+          "text": "CHICKEN WINGS 26840100000 5.39 FS"
+        },
+        {
+          "label": "item",
+          "text": "PICSWEET BLEND 7056096902 2.68 FS 2 @ 1.34"
+        },
+        {
+          "label": "item",
+          "text": "PICSWEET GREENS 7056087677 2.56 FS 2 @ 1.28"
+        },
+        {
+          "label": "item",
+          "text": "WINCO HOMO MILK 7055240600 2.48 FS"
+        },
+        {
+          "label": "item",
+          "text": "EGGS 7003837280 1.37 FS"
+        },
+        {
+          "label": "item",
+          "text": "HUNTS MANWICH 2700044212 1.64 FS 2@ .82"
+        },
+        {
+          "label": "item",
+          "text": "DM SPAG SAUCE 2400052363 .71 FS"
+        },
+        {
+          "label": "item",
+          "text": "RESERS POT SLD 7111719300 .98 FS"
+        },
+        {
+          "label": "item",
+          "text": "TURKEY FRANK 4222281210 .88 FS"
+        },
+        {
+          "label": "item",
+          "text": "CHIKEN WINGS 26840100000 5.48 FS"
+        },
+        {
+          "label": "item",
+          "text": "KEEB TOWNHOUSE 3010010055 1.98 FS"
+        },
+        {
+          "label": "item",
+          "text": "L\\D OATMEL CRM 2430004101 1.25 FS"
+        },
+        {
+          "label": "item",
+          "text": "L/D NUTTY BARS 2430004120 1.25 FS"
+        },
+        {
+          "label": "item",
+          "text": "EGGO WAFFLE 3800037435 1.96 FS"
+        },
+        {
+          "label": "item",
+          "text": "THNDRBRD CHIX BR 3737101318 5.98 FS"
+        },
+        {
+          "label": "item",
+          "text": "DIET LN GRND B 20167400000 10.87 FS"
+        },
+        {
+          "label": "total",
+          "text": "TOTAL 121.92"
+        },
+        {
+          "label": "item",
+          "text": "WINCO NOODLES 7055280303 1.68 FS 2 @ .84"
+        },
+        {
+          "label": "item",
+          "text": "O/M HAM 4470001903 3.99 FS"
+        },
+        {
+          "label": "item",
+          "text": "KRFT DELUXE MAC 2100065886 3.64 FS 2 @ 1.82"
+        },
+        {
+          "label": "item",
+          "text": "LINKS MILD 74295503660 5.78 FS"
+        },
+        {
+          "label": "item",
+          "text": "DRUMSTICKS 26841800000 9.91 FS"
+        },
+        {
+          "label": "item",
+          "text": "BAR S MEAT FRNK 1590013401 .88 FS"
+        },
+        {
+          "label": "item",
+          "text": "WINCO SNDWCH WT 7055200115 .91 FS"
+        },
+        {
+          "label": "item",
+          "text": "DM PNAPL CHNKY 2400000164 1.96 FS 2 @ .98"
+        }
+      ],
+      "rouge_scores": {
+        "rouge1": 0.36363636363636365,
+        "rouge2": 0.18305084745762712,
+        "rougeL": 0.13468013468013468,
+        "per_label": {
+          "shop": {
+            "rouge1": 0.037037037037037035,
+            "rouge2": 0.01886792452830189,
+            "rougeL": 0.037037037037037035
+          },
+          "item": {
+            "rouge1": 0.35051546391752575,
+            "rouge2": 0.17993079584775087,
+            "rougeL": 0.10996563573883161
+          },
+          "date_time": {
+            "rouge1": 0.037037037037037035,
+            "rouge2": 0.0,
+            "rougeL": 0.037037037037037035
+          },
+          "total": {
+            "rouge1": 0.0,
+            "rouge2": 0.0,
+            "rougeL": 0.0
+          }
+        },
+        "debug": {
+          "total_reference_chars": 1065,
+          "total_prediction_chars": 647,
+          "normalized_reference_sample": "winco foods sunbean buns 7763306333 198 fs eye rnd stk fp 20148200000 824 fs 090814 111624 beef for ...",
+          "normalized_prediction_sample": "the text in the image is a receipt from winco foods a supermarket chain the receipt includes the fol...",
+          "labels_found": [
+            "shop",
+            "item",
+            "date_time",
+            "total"
+          ]
+        }
+      },
+      "ocr_metrics": {
+        "before": {
+          "memory": {
+            "rss": 4393.08203125,
+            "vms": 44786.7578125
+          },
+          "cuda": {
+            "allocated": 9317.232421875,
+            "reserved": 9536.0,
+            "max_allocated": 10558.61279296875
+          },
+          "timestamp": 1747786607.3629696
+        },
+        "after": {
+          "memory": {
+            "rss": 4393.08203125,
+            "vms": 46002.7578125
+          },
+          "cuda": {
+            "allocated": 9331.59326171875,
+            "reserved": 10976.0,
+            "max_allocated": 10558.61279296875
+          },
+          "timestamp": 1747786642.2918644
+        },
+        "inference_time": 34.92889475822449
+      },
+      "filter_metrics": {
+        "before": {
+          "memory": {
+            "rss": 4393.08203125,
+            "vms": 44786.7578125
+          },
+          "cuda": {
+            "allocated": 9317.232421875,
+            "reserved": 9536.0,
+            "max_allocated": 10558.61279296875
+          },
+          "timestamp": 1747786642.6766431
+        },
+        "after": {
+          "memory": {
+            "rss": 4393.08203125,
+            "vms": 46002.7578125
+          },
+          "cuda": {
+            "allocated": 9331.591796875,
+            "reserved": 10960.0,
+            "max_allocated": 10558.61279296875
+          },
+          "timestamp": 1747786647.50302
+        },
+        "inference_time": 4.826376914978027
+      }
+    }
+  ]
+}

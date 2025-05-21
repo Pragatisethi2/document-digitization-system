@@ -1,0 +1,13 @@
+{
+    "model": "Qwen-2VL",
+    "avg_rouge1_precision": 0.8114120138147574,
+    "avg_rouge1_recall": 0.8567329619436951,
+    "avg_rouge1_f1": 0.8256470592912748,
+    "avg_rouge2_precision": 0.6106930778445463,
+    "avg_rouge2_recall": 0.6546994288537705,
+    "avg_rouge2_f1": 0.6285214678602782,
+    "avg_rougeL_precision": 0.5955143518636216,
+    "avg_rougeL_recall": 0.6331839797879604,
+    "avg_rougeL_f1": 0.6078712704137835,
+    "num_images_processed": 50
+}

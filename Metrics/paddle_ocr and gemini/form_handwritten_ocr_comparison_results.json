@@ -1,0 +1,102 @@
+{
+  "image10.jpg": {
+    "gemini": {
+      "text": "Hospital Patient Registration Form\nPlease fill out this form accurately. All information is confidential.\n\nFull Name: Shenya Jain\nDate of Birth (DD/MM/YYYY): 02/05/2012\nGender (M/F/O): M\nBlood Group: A+\nNationality: Indian\nAddress: Shikhahpure, Sanganer\nCity: Jaipur\nState/Province: Rajasthan\nPostal Code: 3020 29\nPhone Number: 9828114345\nEmail Address: shanya jain @ gmail .com\nEmergency Contact Name: Vitles Jain\nRelationship: Father\nEmergency Contact Phone: 9828114345\n\nMedical History (Answer Yes or No):\nCondition Yes/No\nDiabetes No\nHypertension No\nHeart Disease No\nAsthma No\nAllergies No\nOther (specify) No\n\nInsurance Provider: \nPolicy Number: 94149684325\nValid Till (DD/MM/YYYY): \n\nDeclaration\nI hereby declare that the information provided above is true and accurate to the best of my knowledge. I understand that providing\nfalse information may result in denial of medical services or legal consequences.\nSignature: Shenya\nDate: 04-05-2024",
+      "metrics": {
+        "rouge1_f1": 0.943661971830986,
+        "rouge2_f1": 0.8865248226950355,
+        "rougeL_f1": 0.9366197183098592
+      },
+      "processing_time": 4.398616313934326
+    },
+    "paddle": {
+      "text": "Hospital Patient Registration Form\nPlease fill out this form occurately.All information is confidential\nShenya Jain\nFull Name:\nDate of Birth (DD/MM/YYYY)\n0205/2012\nGender (M/F/O:\nM\nBlood Group:\n+\nNationality:\nIndian\nAddress:\nShi Khenpure, Saugauer\nCity:\nJoupu\nState/Province:\nKajasthen\nPostal Code:\n302029\nPhone Number:\n9828114345\nEmail Address:\nshauya jeiu @\nmoy.r.b\nEmergency Contact Name:\nVitlo Joi\nRelationship:\nFather\nEmergency Contact Phone:\n9828114345\nMedical History (Answer Yes or No)\nCondition\nYes/No\nDiabetes\nNo\nHypertension\nN.\nHeart Disease\nON\nAsthma\nNo\nAllergies\nNo\nOther specify\nNo\nInsurance Provider:\nPolicy Number:\n94149684325\nValid Till (DD/MM/YYYY:\nDeclaration\nhereby declare that the information provided above is true and accurate to the best of my knowledge.Tunderstand that providing\nfalse information may result in denial of medical services or legal consequences.\nSignature:\nshenyg\n04-05-2024\nDate:",
+      "metrics": {
+        "rouge1_f1": 0.8540925266903915,
+        "rouge2_f1": 0.7240143369175627,
+        "rougeL_f1": 0.8398576512455516
+      },
+      "processing_time": 2.8798887729644775
+    }
+  },
+  "image6.jpg": {
+    "gemini": {
+      "text": "Here's a text version of the image content:\n\n**Hospital Patient Registration Form**\nPlease fill out this form accurately. All information is confidential.\n\n**Full Name:** Virat Vaither\n**Date of Birth (DD/MM/YYYY):** 28-05-1992\n**Gender (M/F/O):** Male\n**Blood Group:** O+\n**Nationality:** Indian\n**Address:** Madhyam Marg, Manservar\n**City:** Jaipur\n**State/Province:** Rajasthan\n**Postal Code:** 302018\n**Phone Number:** 9828346514\n**Email Address:** Virat.vaibhan@gmail.com\n**Emergency Contact Name:** Rajesh Vaibhan\n**Relationship:** Father\n**Emergency Contact Phone:** 9828346514\n\n**Medical History (Answer Yes or No):**\n**Condition**  **Yes/No**\nDiabetes  No\nHypertension  No\nHeart Disease  No\nAsthma  Yes\nAllergies  No\nOther (specify)  No\n\n**Insurance Provider:**\n**Policy Number:** 9641496282415\n**Valid Till (DD/MM/YYYY):**\n\n**Declaration**\nI hereby declare that the information provided above is true and accurate to the best of my knowledge. I understand that providing false information may result in denial of medical services or legal consequences.\n**Signature:** (signature)\n**Date:** 06-05-2025",
+      "metrics": {
+        "rouge1_f1": 0.9115646258503401,
+        "rouge2_f1": 0.8630136986301369,
+        "rougeL_f1": 0.9115646258503401
+      },
+      "processing_time": 4.634518146514893
+    },
+    "paddle": {
+      "text": "Hospital Patient Registration Form\nPleset h fcrtmtnct\nFull Name:\nViat Valher\nDate of Birth (DD/MM/YYYY):\n28-05-1992\nGender (M/F/O):\nMale\nBlood Group:\no+\nNationality:\ngndian\nAddress:\nMadhyam Mag,Manoerna\nCity:\nJahun\nState/Province:\nRojasthow\nPostal Code:\n302018\nPhone Number:\n9828346514\nEmail Address:\nViiat.nubh@gmet.com\nEmergency Contact Name:\nq h15886\nRelationship:\nFalter\nEmergency Contact Phone:\n9828346514\nMedical History (Answer Yes or No)\nCondition\nDiabetes\nYes/No\nHypertension\nNo\nHeart Disease\nON\nAsthma\nNo\nAllergies\nOther (specify)\nON\nInsurance Provider:\nPolicy Number:\n9641496262415\nValid Till (DD/MM/YYYY):\nDeclaration\nSignature:_\nKaen\nDate06-05-2024",
+      "metrics": {
+        "rouge1_f1": 0.6473029045643154,
+        "rouge2_f1": 0.5020920502092051,
+        "rougeL_f1": 0.6390041493775934
+      },
+      "processing_time": 1.6037917137145996
+    }
+  },
+  "image7.jpg": {
+    "gemini": {
+      "text": "Here's a text version of the information extracted from the image:\n\n**Hospital Patient Registration Form**\n\n**Full Name:** Kartik Bairiva\n**Date of Birth (DD/MM/YYYY):** 04-06-2014\n**Gender (M/F/O):** Male\n**Blood Group:** B+\n**Nationality:** Indian\n**Address:** Raigro ka Mohalla, Sanganer\n**City:** Jeipur\n**State/Province:** Rajasthan\n**Postal Code:** 302029\n**Phone Number:** 9825643250\n**Email Address:** kertile.4@gmail.com\n**Emergency Contact Name:** Vijay Bairiva\n**Relationship:** Father\n**Emergency Contact Phone:** 9285364205\n\n**Medical History (Answer Yes or No):**\n**Diabetes:** No\n**Hypertension:** Yes\n**Heart Disease:** No\n**Asthma:** No\n**Allergies:** No\n**Other (specify):** No\n\n**Insurance Provider:**\n**Policy Number:**\n**Valid Till (DD/MM/YYYY):**\n\n**Declaration**\nI hereby declare that the information provided above is true and accurate to the best of my knowledge. I understand that providing false information may result in denial of medical services or legal consequences.\n\n**Signature:** Vijay\n**Date:** 08-05-2023",
+      "metrics": {
+        "rouge1_f1": 0.8771929824561404,
+        "rouge2_f1": 0.8127208480565371,
+        "rougeL_f1": 0.8631578947368421
+      },
+      "processing_time": 4.152172327041626
+    },
+    "paddle": {
+      "text": "Hospital Patient Registration Form\nPlease fut thi form occuratelyAllinformation s confidental\nKartih Baira\nFull Name:\nDate of Birth (DD/MM/YYYY)\n04-06-2014\nMale\nGender (M/F/O):\nBlood Group:\nB+\nNationality:\nIndian\nAddress:\nCity:\nqeipur\nState/Province:\nRajastha\nPostal Code:\n302029\nPhone Number:\n9825643250\nEmail Address:\nRutly@gmilcom\nEmergency Contact Name:\nVyjay Baina\nRelationship:\nEmergency Contact Phone:\n9285364205\nMedical History (Answer Yes or No):\nCondition\nYes/No\nDiabetes\nNo\nHypertension\nyS\nHeart Disease\nON\nAsthma\nN.\nAllergies\nNo\nOther specify\nN\nInsurance Provider:\nPolicy Number:\nValid Till (DD/MM/YYYY)\nDeclaration\nI hereby declare that the information provided above is true and accurate to the best of my knowledge.I understand that providing\nfalse information may result in denial of medical services or legal consequences.\nSignature:",
+      "metrics": {
+        "rouge1_f1": 0.8265682656826567,
+        "rouge2_f1": 0.7063197026022304,
+        "rougeL_f1": 0.8191881918819188
+      },
+      "processing_time": 2.64809513092041
+    }
+  },
+  "image8.jpg": {
+    "gemini": {
+      "text": "Hospital Patient Registration Form\nPlease fill out this form accurately. All information is confidential.\n\nFull Name:\nPrachi Singh\nDate of Birth (DD/MM/YYYY):\n28/10/1982\nGender (M/F/O):\nF\nBlood Group:\nB+\nNationality:\nIndian\nAddress:\nTonk Phatak, Jaipur\nCity:\nJaipur\nState/Province:\nRajasthan\nPostal Code:\n302018\nPhone Number:\n9828345610\nEmail Address:\nprachi2@gmail.com\nEmergency Contact Name:\nSanjay Singh\nRelationship:\nHusband\nEmergency Contact Phone:\n9234567018\nMedical History (Answer Yes or No):\nCondition\nYes/No\nDiabetes\nYes\nHypertension\nNo\nHeart Disease\nNo\nAsthma\nNo\nAllergies\nNo\nOther (specify)\nNo\nInsurance Provider:\nPolicy Number:\nValid Till (DD/MM/YYYY):\nDeclaration\nI hereby declare that the information provided above is true and accurate to the best of my knowledge. I understand that providing false information may result in denial of medical services or legal consequences.\nSignature:\nDate:  5/04/2025",
+      "metrics": {
+        "rouge1_f1": 0.9929078014184397,
+        "rouge2_f1": 0.9857142857142858,
+        "rougeL_f1": 0.9929078014184397
+      },
+      "processing_time": 4.002556085586548
+    },
+    "paddle": {
+      "text": "Hospital Patient Registration Form\nFull Name:\nPrachi singh\nDate of Birth DD/MM/YYYY)\n28101982\nGender (M/F/O):\nF\nBlood Group:\nB+\nNationality:\nIndian\nAddress:\nTonk Phatak,\nJaipin\nCity:\nJaipur\nState/Province:\nRajasthan\nPostal Code:\n302018\nPhone Number:\n9828345610\nEmail Address:\nprachix@gmeilcon\nEmergency Contact Name:\nSanjay singh\nRelationship:\nHusband\nEmergency Contact Phone:\n9234567018\nMedical History (Answer Yes or No\nCondition\nDiabetes\nYes/No\nHypertension\nYes\nHeart Disease\nNo\nAsthma\nNo\nAllergies\nNONO\nOther (specify)\nNo\nInsurance Provider:\nPolicy Number:\nValid Till DD/MM/YYYY):\nDeclaration\nIhereby declare that the information provided above is true and accurate to the best of my knowledge.I understand that providing\nfalse information may result in denial of medical services or legal consequences\nSignature:_\n504.\nDate:\n2025",
+      "metrics": {
+        "rouge1_f1": 0.8796992481203008,
+        "rouge2_f1": 0.7878787878787878,
+        "rougeL_f1": 0.8646616541353385
+      },
+      "processing_time": 2.063473701477051
+    }
+  },
+  "image9.jpg": {
+    "gemini": {
+      "text": "Here's a text version of the image content:\n\n**Hospital Patient Registration Form**\nPlease fill out this form accurately. All information is confidential.\n\n**Full Name:** Anant Rajput\n**Date of Birth (DD/MM/YYYY):** 28/05/2000\n**Gender (M/F/O):** M\n**Blood Group:** O+\n**Nationality:** Indian\n**Address:** 241, Shree Nagar, Durgapura\n**City:** Jaipur\n**State/Province:** Rajasthan\n**Postal Code:** 302018\n**Phone Number:** 9213456781\n**Email Address:** anantrajput@gmail.com\n**Emergency Contact Name:** Soumya Rajput\n**Relationship:** Father\n**Emergency Contact Phone:** 921345678/\n\n**Medical History (Answer Yes or No):**\n**Condition**     **Yes/No**\nDiabetes          No\nHypertension      No\nHeart Disease     No\nAsthma            No\nAllergies         No\nOther (specify)   No\n\n**Insurance Provider:**\n**Policy Number:** 24146823labe\n**Valid Till (DD/MM/YYYY):** XYZ Company\n\n**Declaration**\nI hereby declare that the information provided above is true and accurate to the best of my knowledge. I understand that providing false information may result in denial of medical services or legal consequences.\n\n**Signature:** [signature]\n**Date:** 19/05/2025",
+      "metrics": {
+        "rouge1_f1": 0.9364548494983278,
+        "rouge2_f1": 0.9023569023569024,
+        "rougeL_f1": 0.9364548494983278
+      },
+      "processing_time": 3.998466730117798
+    },
+    "paddle": {
+      "text": "Hospital Patient Registration Form\nPlese fot ths fom occuratelyAl inomation s confdentiol\nFull Name:\nAnant Rajbit\nDate of Birth (DD/MM/YYYY\n2805\n2000\nGender (M/F/O)\nM\nO+\nNationality:\nIndiar\nAddress:\n24Shre Nagar,Dorgapure\nCity:\nJaipuig\nState/Province:\nRajasthan\nPostal Code:\n30208\nPhone Number:\n9213456781\nEmail Address:\nanantrajfutegmeil.com\nEmergency Contact Name:\nSoumyg Ragput\nRelationship:\nFather\nEmergency Contact Phone:\n921345678/\nMedical History (Answer Yes or No):\nCondition\nYes/No\nDiabetes\nNo\nHypertension\nNO\nHeart Disease\nNO\nAsthma\nNO\nAllergies\nNO\nOther specify)\nND\nInsurance Provider:\nPolicy Number:\n24196823/46\nValid Till DD/MM/YYYY)\nxyzconpan\nDeclaration\nfalse information may result in denial of medical services or legal consequences.\nSignature:\nDate:19052025",
+      "metrics": {
+        "rouge1_f1": 0.689922480620155,
+        "rouge2_f1": 0.5546875,
+        "rougeL_f1": 0.689922480620155
+      },
+      "processing_time": 2.306349039077759
+    }
+  }
+}

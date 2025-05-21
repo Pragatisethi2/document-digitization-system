@@ -1,0 +1,14 @@
+{
+    "model": "meta-llama/Llama-3.2-11B-Vision-Instruct",
+    "total_images": 50,
+    "successful_images": 50,
+    "model_load_time_sec": 175.06981825828552,
+    "total_execution_time_sec": 1175.1887876987457,
+    "average_inference_time_sec": 23.108821473121644,
+    "initial_gpu_memory_mb": 13066.52783203125,
+    "peak_gpu_memory_mb": 14083.87939453125,
+    "initial_ram_memory_mb": 7569.6484375,
+    "peak_ram_memory_mb": 7773.453125,
+    "min_inference_time_sec": 22.960386991500854,
+    "max_inference_time_sec": 24.028060913085938
+}

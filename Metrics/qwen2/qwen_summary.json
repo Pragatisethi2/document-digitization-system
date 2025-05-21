@@ -1,0 +1,23 @@
+{
+  "model": "/kaggle/input/qwen2-vl/transformers/7b-instruct/1",
+  "receipts": {
+    "dataset": "Receipts",
+    "num_images": 5,
+    "avg_rouge1": 0.595105603460494,
+    "avg_rouge2": 0.46136507088047213,
+    "avg_rougeL": 0.5406569874124342,
+    "avg_inference_time": 38.67134499549866
+  },
+  "forms": {
+    "dataset": "Forms",
+    "num_images": 5,
+    "avg_rouge1": 0.7634137557783529,
+    "avg_rouge2": 0.7269018197137181,
+    "avg_rougeL": 0.7634137557783529,
+    "avg_inference_time": 46.49032025337219
+  },
+  "charts": {
+    "rouge_comparison": "./qwen_results/dataset_comparison.png",
+    "time_comparison": "./qwen_results/inference_time_comparison.png"
+  }
+}

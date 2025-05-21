@@ -1,0 +1,35 @@
+Hospital Patient Registration Form
+Please fill out this form accurately. All information is confidential.
+
+Full Name: Shanya Jain
+Date of Birth (DD/MM/YYYY): 02/05/2012
+Gender (M/F/O): M
+Blood Group: O+
+Nationality: Indian
+Address: Shikharpura, Sanganer
+City: Jaipur
+State/Province: Rajasthan
+Postal Code: 302029
+Phone Number: 9828114345
+Email Address: shanyajain@gmail.com
+Emergency Contact Name: Vikas Jain
+Relationship: Father
+Emergency Contact Phone: 9828114345
+
+Medical History (Answer Yes or No):
+Condition    Yes/No
+Diabetes     No
+Hypertension No
+Heart Disease No
+Asthma       No
+Allergies    No
+Other (specify) No
+
+Insurance Provider:
+Policy Number: 9414968432S
+Valid Till (DD/MM/YYYY):
+
+Declaration
+I hereby declare that the information provided above is true and accurate to the best of my knowledge. I understand that providing false information may result in denial of medical services or legal consequences.
+
+Signature: Shanya    Date: 04-05-2024

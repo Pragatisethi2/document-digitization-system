@@ -1,0 +1,1127 @@
+[
+    {
+        "image_file": "0000971160.png",
+        "ground_truth": "R&D : Suggestion: Date: Licensee Yes No 597005708 R&D QUALITY IMPROVEMENT SUGGESTION/ SOLUTION FORM Name / Phone Ext. : M. Hamann P. Harper, P. Martinez 9/ 3/ 92 R&D Group: J. S. Wigand Supervisor / Manager Discontinue coal retention analyses on licensee submitted product samples (Note : Coal Retention testing is not performed by most licensees. Other B&W physical measurements as ends stability and inspection for soft spots in ciparettes are thought to be sufficient measures to assure cigarette physical integrity. The proposed action will increase laboratory productivity . ) Suggested Solutions (s) : Delete coal retention from the list of standard analyses performed on licensee submitted product samples. Special requests for coal retention testing could still be submitted on an exception basis. Have you contacted your Manager/ Supervisor? Manager Comments: Manager, please contact suggester and forward comments to the Quality Council. qip . wp",
+        "ground_truth_length": 956,
+        "gemini": {
+            "text": "R&D R&D QUALITY IMPROVEMENT SUGGESTION/SOLUTION FORM Name/Phone Ext.: M. Hamann, P. Harper, P. Martinez Date: 9/3/92 Supervisor/Manager: J. S. Wigand R&D Group: Licensee Suggestion: Discontinue coal retention analyses on licensee submitted product samples. (Note: Coal Retention testing is not performed by most licensees. Other B&W physical measurements as ends stability and inspection for soft spots in cigarettes are thought to be sufficient measures to assure cigarette physical integrity. The proposed action will increase laboratory productivity.) Suggested Solution(s): Delete coal retention from the list of standard analyses performed on licensee submitted product samples. Special requests for coal retention testing could still be submitted on an exception basis. Have you contacted your Manager/Supervisor? Yes No Manager Comments: Manager, please contact suggester and forward comments to the Quality Council. qip.wp 597005708",
+            "text_length": 940,
+            "inference_time": 4.365529537200928,
+            "scores": {
+                "rouge1_f1": 0.9928571428571429,
+                "rouge2_f1": 0.8992805755395683,
+                "rougeL_f1": 0.9142857142857143
+            }
+        },
+        "paddle": {
+            "text": "R&D QUALITY IMPROVEMENT SUGGESTION/SOLUTION FORM Name/Phone Ext.:M.Hamann.P.Harper.P.Martinez Date: 9/3/92 Supervisor/Manager: L.S.Wigand R&D Croup_Licensee Suggestion: Discontinue coal retention analyses on licensee submitted product samples. Note Coal Retention testing is not performed by most licensees. Other B&w physical measurements as ends stability and inspection for soft spots in cigarettes are thought to be sufficient measures to assure cigarette physical integrity. The proposed action will increase laboratory productivity.) Suggested Solution(s: Delete coal retention from the list of standard analyses performed on licensee submitted product samples. Special requests for coal retention testing could still be submitted on an exception basis. Have you contacted your Manager/Supervisor? Yes No Manager Comnents: Manager, please contact suggester and forward comments to the Quality Council. qip.wp 597005708",
+            "text_length": 924,
+            "inference_time": 3.62739896774292,
+            "scores": {
+                "rouge1_f1": 0.9640287769784173,
+                "rouge2_f1": 0.8695652173913043,
+                "rougeL_f1": 0.8920863309352518
+            }
+        }
+    },
+    {
+        "image_file": "0000989556.png",
+        "ground_truth": "Brand: Style: PHOENIX Company: Country: Macket: CYPRUS NICOSIA Weights Adhesive: Supplier(s) Color Porosity substance Ecusta E.30639 None (coresta) Type Overall skip Dimension Positioning Swift Other N/A x Date: Date: 620419245 Date: Replaces: 05045 New Page 1 of 10 RESTRICTED BROWN & WILLIAMSON INTERNATIONAL TOBACCO PRODUCT SPECIFICATION HLB- KS B. A. T. CYPRUS Place of Manufacture: Licensee Ref. NO.: CIGARETTE MAKING Physical Characteristics Overall Cigarette Length Tobacco Rod Length Filter Plug Length Filter Plug Pressure Drop (unencap.) Filter Plug Pressure Drop encap. Cigarette Circumference Total Pressure Drop (unencap.) Total Pressure Drop (encap.) Tipping Length Print Position (from filter end) Moisture content (ex-catcher) Filter ventilation Rate 84 mm 64 mm 20 mm 56 mm 56 mm 24.75 mm 90 mm 110 mm 25 mm 27 mm 13.5 % Nil % Total Cigt. Wt. 974 mg 749 mg 245 mg/cc Net Tob. Rod Density Net Net Tobacco Tipping and Tipping Application Tipping Paper: Supplier Code No(s). Imitation Cork Perforation Type and No. of lines Print Description Brown on yellow Bobbin Width Robbin Length 36 gm/ m2 50 mm mm 2700 m (Indicate N/A If Not Applicable) Supplier (s) Supplier Code No (s) T.K. 9220 Printed Imitation cork Application Pattern: Glue Pree Area mm from mouth end mm x mm Prepared by: M. HAMERTON / enm May 1, 1985 Approved by: Director of Technical Operations, Brown & Williamson International Tobacco May 1, 1985 May 1, 1985",
+        "ground_truth_length": 1441,
+        "gemini": {
+            "text": "Brand: PHOENIX Style: HLB - KS Licensee Ref. No.: Company: B.A.T. CYPRUS Country: CYPRUS Market: Place of Manufacture: NICOSIA CIGARETTE MAKING Physical Characteristics Weights Overall Cigarette Length 84 mm Total Cigt. Wt. 974 mg Tobacco Rod Length 64 mm Filter Plug Length 20 mm Net Net Tobacco 749 mg Filter Plug Pressure Drop (unencap.) 56 mm Filter Plug Pressure Drop (encap.) 56 mm Net Tob. Rod Density 245 mg/cc Cigarette Circumference 24.75mm Total Pressure Drop (unencap.) 90 mm Total Pressure Drop (encap.) 110 mm Tipping Length 25 mm Print Position (from filter end) 27 mm Moisture Content (ex-catcher) 13.5 % Filter Ventilation Rate Nil Tipping and Tipping Application Tipping Paper: Supplier(s) Ecusta Adhesive: Supplier(s) Swift Supplier Code No(s). E.30639 Color Imitation Cork Supplier Code No(s). T.K.9220 Type Printed Imitation Cork Perforation Type and No. of lines None Application Pattern: (Coresta) Overall X Skip Other Porosity Print Description Brown on yellow 50 mm Bobbin Width Bobbin Length 2700 mm Glue Free Area: N/A Dimension mm x mm Substance 36 gm/m\u00b2 Positioning mm from mouth end (Indicate N/A If Not Applicable) Prepared by: M. HAMERTON / enm Date: May 1, 1985 Approved by: Director of Technical Operations, Brown & Williamson International Tobacco Date: May 1, 1985 Date: May 1, 1985 Replaces: New 0504S 620419245",
+            "text_length": 1348,
+            "inference_time": 5.093217611312866,
+            "scores": {
+                "rouge1_f1": 0.9501084598698482,
+                "rouge2_f1": 0.5708061002178648,
+                "rougeL_f1": 0.5119305856832972
+            }
+        },
+        "paddle": {
+            "text": "Page l of 10 RESTRICTED BROWN & WILLIAMSON INTERNATIONAL TOBACCO PRODUCT SPECIPICATION Brand: PHOENIX Company_B.A.T.CYPRUS Style: HLB-KS Country: Licensee Ref. No. CYPRUS Market: Place of Manufacture: .NICOSIA CIGARETTE MAKING Physical Characteristics weights Overall Cigarette Length 84 mm Total Cigt. Wt. 974 Tobacco Rod Length mg 64.mm Filter Plug Length 20_ Net Net robacco 749 Filter Plug Pressure Drop (unencap.) 6w 56 m Filter Plug Pressure Drop (encap.) 56 Net Tob.Rod Density 245.mg/cc Cigarette Circumference 24.75mm Total Pressure Drop (unencap.) 90mm Total Pressure Drop (encap.) 110 mm Tipping Length 25 mm Print Position (from filter end) 27mm Moisture Content (ex-catcher) 13.5 Filter Ventilation Rate Nil Tipping and Tipping Application Tipping Paper: Adhesive: Supplier(s) Ecusta Supplier(s) Swift Supplier Code No(s). E.30639 Supplier Code No(s).T.K.9220 color Imitation Cork Type Printed Imitation Cork Petforation Type and No.of lines None Application Pattern: Porosity (Coresta) overa11_x Skip Other Print Description Brown on yellow Bobbin Width 50mm mm Glue Pree Area: N/A Bobbin Length 2700 Dimension mm mm Substance 36 positioning mm from mouth end (Indicate N/A If Not Applicable) Prepared by: M.HAMERTON/enm Date: May 11985 Approved by: Director of Technical Operations, Brown & williamson International Date: May11985 Tobacco Replaces: New Date: May 1985 0504S 620419245",
+            "text_length": 1398,
+            "inference_time": 3.669257402420044,
+            "scores": {
+                "rouge1_f1": 0.9043478260869566,
+                "rouge2_f1": 0.5240174672489083,
+                "rougeL_f1": 0.5000000000000001
+            }
+        }
+    },
+    {
+        "image_file": "0000990274.png",
+        "ground_truth": "DATE: INITIATED BY: COMPLETION COUNTRY: PRODUCT: BELGIUM BY: DATE: NOTES: 620429480 RECEIVED SERVICE REQUEST FROM R & D BY INTERNATIONAL LICENSEE OPERATIONS REQUEST NO.: 25- 84 March 27, 1984 P. H. HARPER PHH TARGET DATE: April 13, 1984 LUCKY STRIKE Filter and VICEROY NATURE OF WORK: Advise if locally obtained Yucatan Honey (sample enclosed) is an acceptable substitute for HALWAY. R & D COMMENTS: Target the P A 29Mar 84 a) Nature of work should be specified in exact terms. b) R & D should advise if completion date cannot be met. c) Two copies of this form to be sent to R & D by initiator and R & D is to return to T. O. one completed copy. MH/ enm 0036/ (r) # 2894M APR 2 1984 P. H. H.",
+        "ground_truth_length": 692,
+        "gemini": {
+            "text": "SERVICE REQUEST FROM R&D BY INTERNATIONAL LICENSEE OPERATIONS REQUEST NO.: 25-84 DATE: March 27, 1984 INITIATED BY: P. H. HARPER COMPLETION TARGET DATE: April 13, 1984 COUNTRY: BELGIUM PRODUCT: LUCKY STRIKE Filter and VICEROY NATURE OF WORK: Advise if locally obtained Yucatan Roney (sample enclosed) is an acceptable substitute for HALWAY. R&D COMMENTS: Target Lite OK 28MAR84 BY: P.A. DATE: NOTES: a) Nature of work should be specified in exact terms. b) R&D should advise if completion date cannot be met. c) Two copies of this form to be sent to R&D by initiator and R&D is to return to T.O. one completed copy. RECEIVED APR 2 1984 P.H.H. 620429480",
+            "text_length": 652,
+            "inference_time": 3.430356502532959,
+            "scores": {
+                "rouge1_f1": 0.943089430894309,
+                "rouge2_f1": 0.7950819672131147,
+                "rougeL_f1": 0.8455284552845528
+            }
+        },
+        "paddle": {
+            "text": "SERVICE REQUEST FROM R&D BY INTERNATIONAL LICENSEE OPERATIONS RECEIVEn REOUEST NO.: 25-84 APR 21984 DATE: March 271984 INITIATED BY: P.H.H. P.E.HARPER COMPLETION TARGET DATE: Apri113,1984 COUNTRY: BELGIUM PRODUCT: LUCKY STRIKE Filter and VICEROY NATURE OF WORK Advise if locally obtained Yucatan Honey (sample enclosed) is an acceptable substitute for HALwAy. RSD COMMENTS: T-yx7 JA OK. 2AM8 BY: DATE: NOTES: a) Nature of work should be specified in exact terms. b) RD should advise if completion date cannot be met. c) Two copies of this form to be sent to RsD by initiator and RsD is to return to T.O. one completed copy. MH/enm 0036/r 2894M 620429480",
+            "text_length": 653,
+            "inference_time": 1.9080774784088135,
+            "scores": {
+                "rouge1_f1": 0.8395061728395062,
+                "rouge2_f1": 0.6556016597510373,
+                "rougeL_f1": 0.7242798353909465
+            }
+        }
+    },
+    {
+        "image_file": "0000999294.png",
+        "ground_truth": "SUBJECT: SAMPLE: CIGARETTES: TAR 9.1 NIC .88 MOIST 14.0 MENT .841 PREFERENCE: Bright 39 34 43 35 42 8 9 11 6 8 200 100 100 100 100 ATTRIBUTES: 53+++ 60+++ 46 56+++ 50 (n=) Total Male Female 35+ KL Bright KL Bright KL Bright KL Bright KL Bright 4.51 4.45 4.09** 4.59 4.31*** 3.60** 3.64*** 3.39*** 3.12*** 3.56*** 4.00 3.42 3.73** 3.58*** 4.94 3.04 3.46*** 3.28*** 2.78 3.24 3.96 4.02 3.69*** 3.02 2.78 3.21 3.95 3.99 3.44 2.97* 3.33** 3.70*** 3.47 3.43 4.85 4.71 3.41 5.02 3.06 2.78 3.26 3.96 4.35** 3.61* 3.63*** 3.45*** 3.17*** 3.52*** 4.07** 4.74 3.38 5.31 2.99 2.74 3.07 3.92 4.27 3.58 3.65*** 2.34** 3.08** 3.60* 3.94 4.45 3.46 4.61 2.08 2.82 3.39 3.99 620915734 +/-/* ++/--/** +++/---/*** Attribute scores reflectia a comparison of the test product to the smoker's most often brand NOTE TOP- LINES MENTHOL PRODUCT TEST C273- 82- 7 1982 102KL 1 of 4 PDC # PROJECT # PAGE # KOOL Lights KS vs. Bright KS Product Monitor 408 Menthol Lights / 105 Menthol Ultra, 111 Non- Menthol Lights / 92 Non- Menthol Ultras) September 13, 1982 FIELD DATE: # 839 / 869 # 369 / 839 KOOL Lights KS- white tip- ping masked .4 4 13. 5 .55 5. 5 masked / a certain proportion of the menthol result is pep- perrront oil; R&D is unable to determine the percentage. Bright KS white tipping- Total Menthol Smokers Total (205) Male (99) Female (106) 21- 34 (96) 35+ 109 KOOL Lights No Preference 21- 34 STRENGTH (7= Stronger) SMOOTHNESS (7= 5moother AMT MENTHOL (7= More) MENTHOL TASTE (7= Better SATISFYING (7= More APTERTASTE (7= Pleasant) EASE OF DRAW 17 Easier Directional Difference: 66 79% confidence Level 80- 94% confidence Level 95+% confidence Level Marginal Difference: Significant Difference:",
+        "ground_truth_length": 1680,
+        "gemini": {
+            "text": "TOP-LINES MENTHOL PRODUCT TEST PDC# C273-82-7 PROJECT # 1982-102KL PAGE #1 of 4 SUBJECT: KOOL Lights KS vs. Bright KS Product Monitor SAMPLE: 408 (100 Menthol Lights/105 Menthol Ultra, 111 Non-Menthol Lights/92 Non-Menthol Ultras) FIELD DATE: September 13, 1982 CIGARETTES: #839/869 KOOL Lights KS - white tip- TAR NIC MOIST MENT 9.1 .88 14.0 .474 ping masked #869/839 Bright KS white tipping - 5.5 .55 13.5 .841 masked/a certain proportion of the menthol result is pep- permint oil; R&D is unable to determine the percentage. Total Menthol Smokers Total Male Female 21-34 35+ PREFERENCE: (n=) (205) (99) (106) (96) (109) KOOL Lights 53++++ 60+++ 46 56+++ 50 Bright 39 34 43 35 42 No Preference 8 6 11 9 8 100 100 100 100 100 ATTRIBUTES: Total Male Female 21-34 35+ KL Bright KL Bright KL Bright KL Bright KL Bright STRENGTH 4.31*** 4.59 4.09** 4.45 4.51 4.71 4.35** 4.74 4.27 4.45 (7=Stronger) SMOOTHNESS 3.60** 3.42 3.73** 3.43 3.47 3.41 3.61* 3.38 3.58 3.46 (7=Smoother) AMT. MENTHOL 3.64*** 4.94 3.58*** 4.85 3.70*** 5.02 3.63*** 5.31 3.65*** 4.61 (7=More) MENTHOL TASTE 3.39*** 3.04 3.46*** 3.02 3.33** 3.06 3.45*** 2.99 3.34** 3.08 (7=Better) SATISFYING 3.12*** 2.78 3.28*** 2.78 2.97* 2.78 3.17*** 2.74 3.08** 2.82 (7=More) AFTERTASTE 3.56*** 3.24 3.69*** 3.21 3.44 3.26 3.52*** 3.07 3.60* 3.39 (7=Pleasant) CASE OF DRAW 4.00 3.96 4.02 3.95 3.99 3.96 4.07** 3.92 3.94 3.99 (7=Easier) Attribute scores reflect a comparison of the test product to the smoker's most often brand. +/-/* Directional Difference: 66-79% Confidence Level ++/--/** Marginal Difference: 80-94% Confidence Level +++/---/*** Significant Difference: 95+% Confidence Level 620915734",
+            "text_length": 1658,
+            "inference_time": 7.932184457778931,
+            "scores": {
+                "rouge1_f1": 0.9648382559774965,
+                "rouge2_f1": 0.6657263751763047,
+                "rougeL_f1": 0.35161744022503516
+            }
+        },
+        "paddle": {
+            "text": "PDC C273-82-7 TOP-LINES PROJECT#1982102KL MENTHOL PRODUCT TEST PAGE#L4 SUBJECT: KOOL Lights KS vs.Bright KS Product Monitor SAMPLE: 408 100 Menthol Lights/105 Mentho1 Ultra,111 Non-Menthol Lights/92 Non-Menthol Ultras) FIELD DATE: September13,1982 TAR NIC MOIST #839/869 KOOL Lights KS -white tip 9.1 .88 14.0 MENT CIGARETTES: 474 ping masked #869/839 Bright KS white tipping- .5.5 .55 13.5 .841 meske/a certain proporticn of the menthol result is pep- penmint oil R&D is uable to detenmine the percentage. Total Menthol Sokers Total PREFERENCE: Male Femrale 21-34 (=u 205 (66 106 96 109 KOOL Lghts 53+++ ++09 46 561++ 50 Bright 39 34 43 35 42 No Preference 8 6 11 9 8 100 100 100 100 100 ATTRIBUTES: Total Male Female 21-34 35 KL Bright KL Bright KL BrightKBrightK Brigh STRENGTH 4.31*** 4.59 4.09** 4.454.51.4.714.35**474.4.274.45. (7=Stronger) SMOOTHNESS 3.60* 3.42 3.73 3.43 3.47 3.413.613.383.583.46 7=Smoother AMT.MENTHOL 3.64*** 4.94 3.58*** 4.85 3.70***5.023.63***_5.313.65***61 7=More MENTHOL TASTE 3.39*** 3.04 3.46*** 3.02 3.33** 3.063.45***2.993.34**3.08 7=Better SATISFYING 3.12*** 2.78 3.28*** 2.78 2.97* 2.78 3.17*** 2.743.08**2.82 7=More AFTERTASTE 3.56*** 3.24 3.69*** 3.21 3.44 3.263.52***3.073.603.39 (7-Pleasant) CASE OF DRAW 4.00 3.96 4.02 3.95 3.99 3.96 4.07** 3.923.943.99 7Easier) +/-/ Directional Difference: 66-79% Confidence Level ++/- / Marginal Difference: 80-94% Confidence Level ++- /*** Significant Difference: 95+% Confidence Level 620915734",
+            "text_length": 1474,
+            "inference_time": 4.787594318389893,
+            "scores": {
+                "rouge1_f1": 0.800599700149925,
+                "rouge2_f1": 0.4842105263157895,
+                "rougeL_f1": 0.30884557721139433
+            }
+        }
+    },
+    {
+        "image_file": "0001118259.png",
+        "ground_truth": "B&W WCC 621800455 Reconstituted Tobacco Leaf Substitutions Export Formulas Revision Date: Allowable Grade Substitutions for Export CPCL Standard Grade Mark Allowable Substitutions PCFS Flue cured fines PCBS Burley fines MC- 4 Manufacturing fines MC -6 Stem Meal MC -7 Winnowers RXF Fine flue cured stem RBF Fine Burely stem RPCFS or RPCFS-O RPCBS OT RPCBS- O MC -4 -S MC -4 -PH MC -4 -RC MC -4 -W MC -1 C Stem RRXF or RRXF -O RRXM -B RRXM -T RRBF or RRBF -O RRB -B RRB -L RRB -T",
+        "ground_truth_length": 478,
+        "gemini": {
+            "text": "B&W Reconstituted Tobacco Leaf Substitutions Export Formulas Revision Date: 05/11/95 Allowable Grade Substitutions for Export CPCL Standard Grade Mark Allowable Substitutions PCFS Flue cured fines RPCFS or RPCFS-O PCBS Burley fines RPCBS or RPCBS-O WCC MC-4 Manufacturing fines MC-4-S MC-4-PH MC-4-RC MC-4-W MC-6 Stem Meal MC-1 MC-7 Winnowers C Stem RXF Fine flue cured stem RRXF or RRXF-O RRXM-B RRXM-T RBF Fine Burely stem RRBF or RRBF-O RRB-B RRB-L RRB-T $21800455",
+            "text_length": 467,
+            "inference_time": 3.3924319744110107,
+            "scores": {
+                "rouge1_f1": 0.9625668449197862,
+                "rouge2_f1": 0.8216216216216216,
+                "rougeL_f1": 0.7058823529411765
+            }
+        },
+        "paddle": {
+            "text": "Reconstituted Tobacco Leaf Substitutions B&W Export Formulas Revision Date: 05/11/95 Allowable Grade Substitutions for Export CPCL Standard Grade Mark Allowable Substitutions PCFS Flue cured fines RPCFS or RPCFS-O PCBS Burley fines RPCBS or RPCBS-O WCC MC-4 Manufacturing fines MC-4-S MC-4-PH MC-4-RC MC-4-W MC-6 Stem Meal MC-1 MC-7 Winnowers C Stem RXF Fine flue cured stem RRXF or RRXF-O RRXM-B RRXM-T RBF Fine Burely stem RRBF or RRBF-O RRB-B RRB-L 621800455 RRB-T",
+            "text_length": 467,
+            "inference_time": 1.7119441032409668,
+            "scores": {
+                "rouge1_f1": 0.9732620320855614,
+                "rouge2_f1": 0.7999999999999999,
+                "rougeL_f1": 0.6844919786096257
+            }
+        }
+    },
+    {
+        "image_file": "0001129658.png",
+        "ground_truth": "FAX: DATE: FROM: CHARGEBACK: RECIPIENT COMPANY FAX No. COMMENTS No: Name: Yes Confirmation: 2074956978 WINSTON & STRAWN Fax Cover Sheet MAMI TRIAL SITE, 2000 FIRST UNION FINANCIAL CENTER, 200 SOUTH BISCAYNE BOULEVARD MIAMI, FLORIDA 33131 (305) 400 6 06 200 PARK AVENUE NEWYORK NY 10166 4193 212 294-6700 400 L. STREET N WASHWINGTON DC 20005 3502 202 371 5700 35 WEST WACKER CHICAGO. IL 30601 312- 588 5800 21 AVENUE VICTOR HUGO 75 PARIS, FRANCE 33- 53 64 62 82 Fax Number: 305 400- 6107 Kevin Narko 10/ 13/ 99 4162/ 158 Please Deliver as soon Possible To: John Mulderig Gregory Little Philip Morris Philip Morris 917 -663 -5796 917- 663 5979 917- 663 3056 PHONE No. Total number of pages including this page: IF YOU DO NOT RECEIVE ALL THE PAGES, PLEASE CALL OUR FAX OPERATOR AS SOON AS POSSIBLE THANK YOU. 312- 558- 5948 The information contained in this facsimile message is attorncy privileged and confidential information intended only for the use of the individual or entity named above. If the reader of this message is not the intended recipient, or the employee or agent responsible to deliver it to the intended recipient, you are hereby notified that any dissemination, distribution or copying this communication strictly prohibited. If you have received this communication in error, please immediately notify us by telephone, and return the original message to us at the above address via the U. S. Postal Service. Thank you. Operator Initials:",
+        "ground_truth_length": 1454,
+        "gemini": {
+            "text": "WINSTON & STRAWN MIAMI TRIAL SITE, 3000 FIRST UNION FINANCIAL CENTER, 200 SOUTH BISCAYNE BOULEVARD, MIAMI, FLORIDA 33131 FAX: (305) 400-6106 200 PARK AVENUE NEW YORK, NY 10166-4193 212-294-6700 1400 L STREET, N.W. WASHINGTON, DC 20005-3502 202-371-5700 35 WEST WACKER CHICAGO, IL 60601 312-558-5600 Fax Number: 305 400-6107 Fax Cover Sheet 21 AVENUE VICTOR HUGO 75116 PARIS, FRANCE 33-1-53-64-02-82 FROM: Kevin Narko CHARGEBACK: 4162/158 DATE: 10/13/99 Please Deliver as Soon as Possible To: RECIPIENT John Mulderig Gregory Little COMPANY Philip Morris Philip Morris FAX NO. 917-663-5796 917-663-5979 PHONE NO. 917-663-3056 Total number of pages including this page: COMMENTS IF YOU DO NOT RECEIVE ALL THE PAGES, PLEASE CALL OUR FAX OPERATOR AS SOON AS POSSIBLE. THANK YOU. 312-558-5948 The information contained in this facsimile message is attorney privileged and confidential information intended only for the use of the individual or entity named above. If the reader of this message is not the intended recipient, or the employee or agent responsible to deliver it to the intended recipient, you are hereby notified that any dissemination, distribution or copying of this communication is strictly prohibited. If you have received this communication in error, please immediately notify us by telephone, and return the original message to us at the above address via the U.S. Postal Service. Thank you. Operator Initials: Confirmation: Yes Name: No:",
+            "text_length": 1453,
+            "inference_time": 5.734678745269775,
+            "scores": {
+                "rouge1_f1": 0.9349593495934959,
+                "rouge2_f1": 0.7673469387755102,
+                "rougeL_f1": 0.8333333333333334
+            }
+        },
+        "paddle": {
+            "text": "WINSTON & STRAWN Fax Cover Sheet MIAMITRIAL STE.3OOO FIRST UNION FINANCIAL CENTER, 2OO SOUTH QISCAYNE BOULEVARD,MIAMI, FLORIDA33131 FAx30540060 200PARK AV 1OO L STREET, N,W, 21 AVEXUEVICTOR HUGO NgWYK.NY 1166-4103 202-371-5700 WASMNGTON,DC20CO5-3502 CHCAGO,L 6OGO1 751PAFRNCE 212-294-8700 312-558-5600 FaxNumber:305400-6107 FROM: Kevin Narko CHARGEBACK: 4162/158 DATE: 10/13/99 Please Deliver as Soon as Possible To: RECIPIENT COMPANY FAXNO. PHONE NO. John Mulderig Philip Morris 917-663-5796 917-663-3056 Gregory Little Philip Morris 917-663-5979 Total number of pages including this page: COMMENTS IF YOU DO NOT RECEIVE ALL THE PAGES, PLEASE CALL OUR FAX OPERATOR AS SOON AS POSSIBLE. THANK YOU. 312-558-5948 The information contained in this facsimile message is attomcy privileged and confidential information intended only for the use of the individual or entity named above. If the reader of this message is not the intendcd recipient, or the employee or agent 2074956978 responsible to deliver it to the intended recipient, you are hereby notified that any dissemination, distribution or copying of this commumication is strictly prohibited. If you have received this communication in error, please immedistcly notify us by telephone, and retun the original message to us ar the above address via thc U.S. Postal Service. Thank you. Operator Initials: Confirmation:Yes Name: No:",
+            "text_length": 1385,
+            "inference_time": 3.0427587032318115,
+            "scores": {
+                "rouge1_f1": 0.8042553191489362,
+                "rouge2_f1": 0.6196581196581197,
+                "rougeL_f1": 0.6893617021276596
+            }
+        }
+    },
+    {
+        "image_file": "0001209043.png",
+        "ground_truth": "Brand Title Size Magazine Location SCORE BASE SCORE BASE COMMENTS PM6 OVERALL SEX: AGE: Male Female 214 TIME 1.0 (.97) 31 (167) (83) (84) 31 31 (51) (46) 2.0 0.0 (81) (86) 33 29 (42) (55) 2.4 0.0 4/19/74 770205964 33 (42) (125) 30 MAGAZINE SCORES AUDIENCE STUDIES SALEM (RJR) Project # Total Sample 74- 80 \"HEAD IN WATER\" Code # FULL PAGE Field Date WEEK OF MARCH 25, 1974 CHICAGO, DALLAS/ FORT WORTH, INDIANAPOLIS, LOS ANGELES MEMPHIS, PHILADELPHIA, PITTSBURGH Sample Description MALE AND FEMALE MENTHOL SMOKERS PROVED RECALL Tested among a half sample of smokers. Sub- group scores subject to wide variation because of small sample size and should be averaged across several ads for meaningful infor- mation. Under 25 25- 34 35- 44 45 & Over Under 35 35 & Over BRAND SMOKED: Test Brand Smokers All Other Smokers Date Sent PI- 7653",
+        "ground_truth_length": 832,
+        "gemini": {
+            "text": "MAGAZINE SCORES AUDIENCE STUDIES Brand SALEM (RJR) Title \"HEAD IN WATER\" Code# Size FULL PAGE Magazine TIME Project # 74-80 Total Sample 214 Field Date WEEK OF MARCH 25, 1974 Location CHICAGO, DALLAS/FORT WORTH, INDIANAPOLIS, LOS ANGELES MEMPHIS, PHILADELPHIA, PITTSBURGH Sample Description MALE AND FEMALE MENTHOL SMOKERS PM6 SCORE BASE PROVED RECALL SCORE BASE % OVERALL: 1.0 (97) 31 (167) SEX: Male 2.0 (51) 31 (83) Female 0.0 (46) 31 (84) AGE: Under 25 25-34 35-44 45 & Over Under 35 2.4 (42) 33 (81) 35 & Over 0.0 (55) 29 (86) BRAND SMOKED: Test Brand Smokers 33 (42) All Other Smokers 30 (125) COMMENTS Tested among a half sample of smokers. Sub-group scores subject to wide variation because of small sample size and should be averaged across several ads for meaningful infor- mation. Date Sent 4/19/74 (P1-7653) 770205964",
+            "text_length": 829,
+            "inference_time": 3.9824161529541016,
+            "scores": {
+                "rouge1_f1": 0.9932432432432432,
+                "rouge2_f1": 0.6258503401360545,
+                "rougeL_f1": 0.4797297297297297
+            }
+        },
+        "paddle": {
+            "text": "MAGAZINE SCORES AUDIENCESTUDIES Brand SALEMRJR Project # 74-80 Title HEAD IN WATER\" Total Sample 214 Code# Size FULL PAGE Magazine TIME Field Date WEEK OFMARCH 251974 Location CHICAGO,DALLAS/FORT WORTH,.INDIANAPOLIS LOS ANGELES MEMPHISPHILADELPHIA,PITTSBURG!I Sample Description MALE AND FEMALE MENTHOL SMOKERS PM6 PROVED RECALL COENNNES SCORE BASE SCORE BASE OVERALL: 1.0 .97) 31 267) Tested among a half sample of smokers.Sub-group scores subject to wide variation because of small 83 sample size and should be Male 2.0 31 averaged across several Female 0.0 31 84 ads for meaningful infor- mation. AGE: Under 25 25-34 35-44 45& Over Under 35 2.4 42 33 81 35 & Over 0.0 55 29 86 BRAND SMOKED Test Brand Smokers 33 42 All Other Smokers 30 Date Sent 4/19/74 P-7653 770205964",
+            "text_length": 773,
+            "inference_time": 2.872986316680908,
+            "scores": {
+                "rouge1_f1": 0.9027777777777779,
+                "rouge2_f1": 0.5384615384615385,
+                "rougeL_f1": 0.5763888888888888
+            }
+        }
+    },
+    {
+        "image_file": "0001239897.png",
+        "ground_truth": "SUBJECT: SAMPLE: CIGARETTES PROJECT REFERENCE ATTRIBUTES VICEROY Competitive 54% 46%46% 47% 53% VICEROY Competitive -13 -4 -7 +7* +14 +26* -15* +22 +1 +5 -5 +21 STRENGTH HARSHNESS AFTERTASTE TOP- LINES NON- MENTHOL PRODUCT TEST # 19 4- 26A 25% Replacement of Propylene Glycol With SORBITOL 250 VICEROY/ 125 Marlboro/ 125 Winston #627/ 647 - #647/ #627 - Current VICEROY B4 Current VICEROY 84 except with 25% of the propylene glycol replaced with SORBITOL. NOTICE IF THE FILM IMAGE IS LESS CLEAR THAN THIS NOTICE. IT IS DUE TO THE QUALITY OF THE DOCUMENT BEING FILMED 77905 6433 *Statistically Significant (#627/ 647 (#647/ 627) Current VICEROY 84 25% PG with SORBITOL Current VICEROY 84 (#647/ 647 25% PG w/ SORBITOL (#647/ 627) Current VICEROY 84 (#627/ 647) 25% PG w/ SORBITOL #647/ 627",
+        "ground_truth_length": 788,
+        "gemini": {
+            "text": "TOP-LINES NON-MENTHOL PRODUCT TEST PROJECT # 19.4-26A SUBJECT: 25% Replacement of Propylene Glycol With SORBITOL. SAMPLE: 250 VICEROY/125 Marlboro/125 Winston CIGARETTES: #627/#647 - Current VICEROY 84 #647/#627 - Current VICEROY 84 except with 25% of the propylene glycol replaced with SORBITOL. REFERENCE: (#627/647) Current VICEROY 84. (#647/627) 25% PG with SORBITOL VICEROY 47% 53% Competitive 54% 46% ATTRIBUTES: VICEROY Current 25% PG Current Competitive 25% PG VICEROY 84 (#627/647) w/SORBITOL (#647/627) VICEROY 84 (#627/647) w/SORBITOL (#647/627) STRENGTH +1 -15* -13 -7* HARSHNESS -5 -2 -14 +26* AFTERTASTE +22 +21 *Statistically Significant NOTICE IF THE FILM IMAGE IS LESS CLEAR THAN THIS NOTICE, IT IS DUE TO THE QUALITY OF THE DOCUMENT BEING FILMED. 77905 6 4 3 3",
+            "text_length": 778,
+            "inference_time": 4.234755039215088,
+            "scores": {
+                "rouge1_f1": 0.9541984732824428,
+                "rouge2_f1": 0.6307692307692307,
+                "rougeL_f1": 0.48854961832061067
+            }
+        },
+        "paddle": {
+            "text": "3377 TOP-LINES PROJEC 19,4-26 NON-MENTHOL PRODUCT TEST SUBJECT 25% Reolacement.of Propylene Clycol With SoRBITOL SAMPLE: 250 VCERQX/125 Maxlbox0/125 Winston CIGARETTESt #647/#627-Current VIcsR0r 84 except with 25% of the propylene glycol replaced with SORBITOL. 627/647 REFERENCE VICEROY Competitiy Current VICEROy_84 54% 647/627 25% PG with.SoRBIOL 53% 46% ATTRIDUTES VICEROY Competitive Current 25% PG Current 2 %G VICEROY 84 W/SORDITOL VICEROY 84 W/SORBITOL #627/647 #647/627 #627/647 #647/627 STRENGTH HARSHNESS AFTERTASTE +22 +21 *Statistically_Significant. NOTICE IF THE FILN LXAGE IS LESS CLEAR 779056 43 3 QOLITY OP TUC DOCUMANYBEING FILNED. THAN TIS NOTIL.IT IS DUE TO THE",
+            "text_length": 681,
+            "inference_time": 1.8728125095367432,
+            "scores": {
+                "rouge1_f1": 0.7235772357723576,
+                "rouge2_f1": 0.39344262295081966,
+                "rougeL_f1": 0.39024390243902435
+            }
+        }
+    },
+    {
+        "image_file": "0001438955.png",
+        "ground_truth": "Title OVERALL: SEX: AGE: BRAND SMOKER Male 465508326 Female 6 7 (17) (205) 3.1 4.2 (129) (95) 5 9 (117) (105) (63) (66) (46) (49) 3.2 3.0 4.4 4.0 1.9 5.0 (104) (120) 7 7 (101) (121) 3.4% (224) 7% (222) BELAIR 285 % % SCORE BASE SCORE BASE PM6 COMMENTS Brand NEWSPAPER SCORES AUDIENCE STUDIES \" KALEIDOSCOPE - - GONE WITH THE WIND \" * Project # Total Sample 72- 31 Code # Type of Ad Newspaper (Date) R/ BSS- 71- 19 PARADE, 1 Page, 4- Color PROVED RECALL *This was a combination ad with RALEIGH. Under 25 25- 34 35- 44 45 & Over Under 35 35 & Over Test Brand Smokers All Other Smokers Pittsburgh Pittsburgh PUTSBURGH PRESS (4 /23 /72 San Diego SAN DIEGO UNION (4 /23 /72 Dayton DAYTON NEWS (4 /23 /72) Birmingham BIRMINGHAM NEWS (4 /23 /72)\u00ef\u0153\u201a",
+        "ground_truth_length": 741,
+        "gemini": {
+            "text": "NEWSPAPER SCORES AUDIENCE STUDIES Brand BELAIR Project # 72-31 Title \"KALEIDOSCOPE--GONE WITH THE WIND\"* Total Sample 285 Code # R/BSS-71-19 Type Of Ad PARADE, 1 Page, 4-Color Newspaper (Date) Pittsburgh PITTSBURGH PRESS (4/23/72) San Diego SAN DIEGO UNION (4/23/72) Dayton DAYTON NEWS (4/23/72) Birmingham BIRMINGHAM NEWS (4/23/72) PM6 PROVED RECALL SCORE BASE SCORE BASE % % OVERALL: 3.4% (224) 78 (222) SEX: Male 1.9 (104) 7 (101) Female 5.0 (120) 7 (121) AGE: Under 25 3.2 (63) 25-34 3.0 (66) 35-44 4.4 (46) 45 & Over 4.0 (49) Under 35 3.1 (129) 5 (117) 35 & Over 4.2 (95) 9 (105) BRAND SMOKED: Test Brand Smokers 6 (17) All Other Smokers 7 (205) COMMENTS *This was a combination ad with RALEIGH. 465508326",
+            "text_length": 710,
+            "inference_time": 5.496516227722168,
+            "scores": {
+                "rouge1_f1": 0.9823321554770318,
+                "rouge2_f1": 0.5338078291814946,
+                "rougeL_f1": 0.33215547703180215
+            }
+        },
+        "paddle": {
+            "text": "NEWSPAPER SCORES AUDIENCE STUDIES Brand BELAIR Project # 72-31 Title KALEIDOSCOPE--GONE WITH THE WIND* Total Sample_285 Code # R/BSS-71-19 Type Of Ad PARADE1 Page4-Color Newspaper (Date) Pittsburgh PITTSBURGH PRESS 4/23/72 San Diego SAN DIEGO UNION 4/23/72 Dayton DAYTON NEWS 4/23/72 Birmingham BIRMINGHAM NEWS 4/23/72 PM6 PROVED RECALL COMMENTS SCORE BASE SCORE BASE % % QVERALL 3.4 224 7 222 *This was a combination ad with RALEIGH. SEX: Male 1.9 104 101 Female 5.0 120 21 AGE: Under 25 66 63 25-34 35-44 46 45&Over 4.0 49 Under 35 35&Over 105 BRAND SMOKED Test Brand Smokers 17) All Other Smokers 205 465508326",
+            "text_length": 613,
+            "inference_time": 2.5863540172576904,
+            "scores": {
+                "rouge1_f1": 0.8778625954198473,
+                "rouge2_f1": 0.523076923076923,
+                "rougeL_f1": 0.3435114503816794
+            }
+        }
+    },
+    {
+        "image_file": "0001456787.png",
+        "ground_truth": "SECRET Weights Supplier(s) Color Porosity Substance mm mm mm 13% mg mg N/A N/A N/A N/A 620753790 CHAMP S/ L TRIAL SPECIFICATION BWIT Suggestion HK Trial CIGARETTE MAKING Physical Characteristics Overall Cigarette Length Tobacco Rod Length Filter Plug Length Filter Plug Pressure Drop (unencap.) Filter Plug Pressure Drop (encap.) Cigarette Circumference Total Pressure Drop (unencap.) Total Pressure Drop (encap.) Tipping Length Print Position (from filter end) Moisture content (Packing) Filter Ventilation Rate Total Cigarette Weight Net Net Tobacco Tobacco Rod Density Tipping and Tipping Application Tipping Paper: Supplier Code No(s). Perforation Type & No. of lines Print Description Bobbin Width Dobbin Length ECUSTA/ B&W ECUSTA/ B & W Non Porous 64 mm 2500 M 36 nm/ M2 Non Porous 64 mm 2500 M 36 nm /47M2 243.6 mg/ cc 243.6 mg/ 858 mg 858 mg 35 mm 32 mm 32 mm 35 mm 13 % 24.8 mm 58.5 mm 24.8 mm 58.5 mm 62 mm 27 mm 72 mm 99 mm 99 mm 72 mm 27 mm",
+        "ground_truth_length": 952,
+        "gemini": {
+            "text": "Here's a transcription of the text from the provided image: **SECRET** **CHAMP S/L** **TRIAL SPECIFICATION** **CIGARETTE MAKING** **Physical Characteristics** **BWIT** **Suggestion** **HK Trial** Overall Cigarette Length 99 mm 99 mm \u2713 Tobacco Rod Length 72 mm 72 mm \u2713 Filter Plug Length 27 mm 27 mm \u2713 Filter Plug Pressure Drop (unencap.) mm 62 mm \u2713 Filter Plug Pressure Drop (encap.) 58.5 mm 58.5 mm \u2713 Cigarette Circumference 24.8 mm 24.8 mm \u2713 Total Pressure Drop (unencap.) mm mm Total Pressure Drop (encap.) mm mm Tipping Length 32 mm 32 mm Print Position (from filter end) 35 mm 35 mm Moisture Content (Packing) 13 % 13 % Filter Ventilation Rate **Weights** Total Cigarette Weight mg mg Net Net Tobacco 858 mg 858 mg Tobacco Rod Density 243.6 mg/cc 243.5 mg/cc **Tipping and Tipping Application** Tipping Paper: Supplier(s) ECUSTA/B&W ECUSTA/B & W Supplier Code No(s). Color Perforation Type & No. of lines N/A N/A Porosity Non Porous Non Porous Print Description N/A N/A Bobbin Width 64 mm 64 mm Bobbin Length 2500 M 2500 M Substance 36 gm/M\u00b2 36 gm/M\u00b2 **620753790**",
+            "text_length": 1069,
+            "inference_time": 4.338102579116821,
+            "scores": {
+                "rouge1_f1": 0.9293478260869565,
+                "rouge2_f1": 0.6448087431693988,
+                "rougeL_f1": 0.47826086956521735
+            }
+        },
+        "paddle": {
+            "text": "SECRET CHAMP S/L TRIAL SPECIFICATION CIGARETTE MAKING LIME Physical Characteristics Suggestion HK Trial Overall Cigarette Length 99 mo _99 mm Tobacco Rod Length 72 72 mm J Filter Plug Length 27 mm 27 mm Filter Plug Pressure Drop (unencap.) mt _62 mm Filter Plug Pressure Drop (encap.) 58.5mm 58.5 mm Cigarette Circunference 24.8 24.8mm Total Prossure Drop unencap.) mm Total Pressure Drop (encap.) Tipping Length 32 32. mm Print Position (from filter end) 35 mm 35 mm Moisture Content (Packing) 13. % 13% Filter Ventilation Rate Weights Total Cigarette Weight \"ng mg. Net Net Tobacco 858 mg 858 mg Tobacco Rod Density 243.6 mg/cc 243.6mg/cc Tipping and Tipping Application Tipping Paper: Supplier(s) ECUSTA/B&W ECUSTA/B &W Supplier Code Nos). Color Perforation Type & No. of lines N/A N/A Porosity Non Porous Non Porous Print Description N/A NA Sobbin Width 64mm 64mm Bobbin Length 2500M 2500 Substance 36cm/M 36/M2 620753790",
+            "text_length": 925,
+            "inference_time": 2.7387912273406982,
+            "scores": {
+                "rouge1_f1": 0.8563049853372433,
+                "rouge2_f1": 0.5132743362831858,
+                "rougeL_f1": 0.469208211143695
+            }
+        }
+    },
+    {
+        "image_file": "0001463282.png",
+        "ground_truth": "Date: Description: Budgeted: Yes Yes No No x x 23.3 Supplier Cost ($) Est. Travel Kapuler PROJECTED: Date Date Date Date Date cc: 1990 370,000.00 199,900.00 -35,675,00 -O- 164,225.00 205,775.00 Product Test 400 Kapuler Howard BARCLAY 670801704 6 No. MARKETING RESEARCH AUTHORIZATION (Recommended Proposal Attached) Y- 1 Ultra 100' s vs. Winston Ultra 100' s W. T. Carpenter Requested By: Research Request Attached: Original Budgeted Amount Competitive Proposals Obtained: Market Facts $ 33,675 + 10% Est. $ 35,000 + 10 % Est. Total Cost Cost Per Interview $ 35,675 $ 37000 $ 2000 $ 2000 $ 84.2 $ 87.5 Internal Init. Date 4/ 12/ 90 Ext. Auth. Date Wave (s) Field Complete Wave (s) 6/ 10/ 90 Final Report Due (Supplier Rpt.) Wave (s) 7/ 9/ 90 Summary of MRD Budget Total Area Budget: Current Bal. Available: This Change: (From Current Budget This Amount (From Next Year's Budget New Balance Commited to Date: (Current Year) Project Type (Product Test, A&U, etc.) Sample Size Recommended Supplier Reason (s) for Recommendation Lowest project costs Submitted by: Approved By: Approved By: Approved By: Budget Check: Original - MRD00005 (revised 3/ 20) PPs 0425 L. E. Gravely 5/ 2/ 90 5/3 90 5/ 3/ 90 1990- 488 Project No. Account Name Project File S. Willinger (3) K. A. Hutchison S. A. Howard",
+        "ground_truth_length": 1289,
+        "gemini": {
+            "text": "Date: 4/16/90 MARKETING RESEARCH AUTHORIZATION (Recommended Proposal Attached) No. 6 Description: Y-1 Ultra 100's vs. Winston Ultra 100's Requested By: W. T. Carpenter Research Request Attached: Yes x No Budgeted: Yes x No Original Budgeted Amount 23.3 Competitive Proposals Obtained: Est. Supplier Cost ($) Travel Total Cost Cost Per Interview Kapuler $33,675 \u00b110%Est. $2000 $35,675 $84.2 Market Facts $35,000 \u00b110%Est. $2000 $37,000 $87.5 PROJECTED: Summary of MRD Budget 1990 Internal Init. Date 4/10/90 Total Area Budget: 370,000.00 Ext. Auth. Date 4/12/90 Current Bal. Available: 199,900.00 Wave(s) This Change: -35,675.00 (From Current Budget) This Amount -0- Field Complete 6/10/90 (From Next Year's Budget) Wave(s) New Balance: 164,225.00 Final Report Due 7/9/90 Committed to Date: 205,775.00 (Supplier Rpt.) (Current Year) Wave(s) Project Type Product Test (Product Test, A&U, etc.) Sample Size: 400 Recommended Supplier: Kapuler Reason(s) for Recommendation: Lowest project costs Submitted By: P.W. Putney Date 5/2/90 Approved By: P.W. Putney Date 5/2/90 Approved By: L.E. Gravely Date Approved By: Date Budget Check: S.A. Howard Date 5/3/90 Original - Project File cc: S. Willinger (3) Project No. 1990-488 K. A. Hutchison/S. A. Howard Account Name BARCLAY MRD00006 (revised 3/90) PPS10425 670801704",
+            "text_length": 1309,
+            "inference_time": 5.71675181388855,
+            "scores": {
+                "rouge1_f1": 0.9393939393939394,
+                "rouge2_f1": 0.5608695652173914,
+                "rougeL_f1": 0.49350649350649345
+            }
+        },
+        "paddle": {
+            "text": "MARKETING RESEARCH AUTHORIZATIC Recommended Proposal Attached Date4/16/90 No. 6 Description: y-1 Ultra 100's vs.Winston u7tra 100's Requested By:W.I.Carpenter Research Request Attached: Yes_x No Yes _X No Original Budgeted Amount 23.3 Competitive Proposals Obtained: Est. Cost Per Supplier Cost $ Travel Iotal Cost Interview Kapuler. $33.675 +10%Est.$2000 $35675 $84.2 Market Facts $35.000+10%Est.$2000 $37000 $87.5 PROJECTED: Sumnary of MRD Budget 1990 Internal Init.Date 4/10/90 Tota7 Area Budget 370,000.00 Ext.Auth. Date 4/12/90 Current Bal.Available: 199.900.00 Wave(s) This Change: -35,67500 From Current Budget) This Amount -0- Field Complete 6/10/90 From Next Year's Budget) Wave(s) New Balance: 164,225.00 Final Report Due 7/9/90 Suppier Rpt. Comnitted to Date: 205,775.00 Waves) (Current Year) Project Type Product Test Product TestA&Uetc. Sample Size: 400 Recommended Supplier: Kapuler Reason(s for.Recommendation: Lowest pro.ject costs Submitted By: P.ie Date P.W.Putney Approved By: Date L.E. Approved By: Date Approved By: Date Budget Check: Date lowaro Original - Project File CC: S.Willinger3 Project No. 1990-486 K.A. Hutchison/S.A.loward Account Name BARCLAY RD00006 revised3/90 PPs10425 670801704",
+            "text_length": 1215,
+            "inference_time": 4.324319839477539,
+            "scores": {
+                "rouge1_f1": 0.8409090909090908,
+                "rouge2_f1": 0.4292237442922374,
+                "rougeL_f1": 0.44999999999999996
+            }
+        }
+    },
+    {
+        "image_file": "0001463448.png",
+        "ground_truth": "( ) ( ) ( ( ) B( ) ( ) ( ) ( ) ( ) ( ) ( ) ( ) ( ) BROWN & WILLAMSON 1994 COLLECTION PROTOCOPYING VARIANCE FORM This form was placed before Bates ID 6708105266 AT THE TIME OF REPRODUCTION, THE FOLLOWING NOTATTONS WERE MADE: DOCUMENT COPIES ARE IN THE SAME SEQUENCE AS THEY APPEARED IN THE ORIGINAL. PAGE NUMBER(S) WERE MISSING IN THE ORIGINAL. \u00e2\u02dc\u2018 ) POOR QUALITY ORIGINAL. faded OVERLAY ITEM COULD NOT BE REMOVED WITHOUT DAMAGE TO THE ORIGINAL. NG DOCUMENTS WERE FOUND WITHIN THE ORIGINAL: FILE FOLDER REDROPE EXPANDABLE FILE HANGING FILE ENVELOPE OTHER (SPECIFY) DOCUMENT COPIES WERE REPRODUCED IN COLOR PERMIT CORRECTION INTERPRETATION BATES NUMBER NOT USED. OTHER VARIANCE (EXPLAIN).",
+        "ground_truth_length": 686,
+        "gemini": {
+            "text": "BROWN & WILLIAMSON 1994 COLLECTION PHOTOCOPYING VARIANCE FORM This form was placed before Bates ID 670805266 AT THE TIME OF REPRODUCTION, THE FOLLOWING NOTATIONS WERE MADE: DOCUMENT COPIES ARE IN THE SAME SEQUENCE AS THEY APPEARED IN THE ORIGINAL. PAGE NUMBER(S) WERE MISSING IN THE ORIGINAL. POOR QUALITY ORIGINAL. faded OVERLAY ITEM COULD NOT BE REMOVED WITHOUT DAMAGE TO THE ORIGINAL. NO DOCUMENTS WERE FOUND WITHIN THE ORIGINAL: FILE FOLDER REDROPE EXPANDABLE FILE HANGING FILE ENVELOPE OTHER (SPECIFY) DOCUMENT COPIES WERE REPRODUCED IN COLOR TO PERMIT CORRECTION INTERPRETATION. BATES NUMBER NOT USED. OTHER VARIANCE (EXPLAIN).",
+            "text_length": 633,
+            "inference_time": 2.6020185947418213,
+            "scores": {
+                "rouge1_f1": 0.9368421052631579,
+                "rouge2_f1": 0.8723404255319149,
+                "rougeL_f1": 0.9368421052631579
+            }
+        },
+        "paddle": {
+            "text": "BROWN & WILLIAMSON 1994 COLLECTION PHOTOCOPYING VARIANCE.FORM This form was placed before Bates ID_7 AT THE TIME OF REPRODUCTION, THE FOLLOWING NOTATIONS WERE MADE: ( ) IN THE ORIGINAL. ( J PAGE NUMBER(S) WERE MISSING IN THE ORIGINAL. POOR QUALITY ORIGINAL. ( ) OVERLAY ITEM COULD NOT BE REMOVED WITHOUT DAMAGE TO THE ORIGINAL. ( ) NO DOCUMENTS WERE FOUND WITHIN THE ORIGINAL: ( FILE FOLDER (. ) REDROPE EXPANDABLE FILE ( ) HANGING FILE ( ) ENVELOPE ( ) OTHER (SPECIFY) ( ) DOCUMENT COPIES WERE REPRODUCED IN COLOR TO PERMIT CORRECTION INTERPRETATION. ( ) BATES NUMBER NOT USED. ( ) OTHER VARIANCE (EXPLAIN).",
+            "text_length": 608,
+            "inference_time": 2.917498826980591,
+            "scores": {
+                "rouge1_f1": 0.8666666666666667,
+                "rouge2_f1": 0.7640449438202246,
+                "rougeL_f1": 0.8666666666666667
+            }
+        }
+    },
+    {
+        "image_file": "0001476912.png",
+        "ground_truth": "COMMENTS Brand: Commercial: Supplier: Sample: Chicago: 8/8 98 336 (234) Overall CITY Chicago SEX AGE Male Female 16-25 26-35 36-45 1.7 0.0 3.3 0.0 3.3 0.0 0.0 0.0 9.3 465607116 0.0 5.0 P MR 1909 (3-69) 100 BROWN & WILLIAMSON TOBACCO CORPORATION FILTER SCORES RALEIGH (BELAIR portion not tested) Project # 1969- 105 LAKE- NEW PACK: 40 (with BELAIR Badmin- ton: 20) PM6 Base: Code #: BW- RT- 69- AUDIENCE STUDIES TEST DATES L. Angeles 8/5 and 6 PM6 SCORES This commercial was tested in color. Los 46 & Over 35 & Under 36 & Over",
+        "ground_truth_length": 525,
+        "gemini": {
+            "text": "MR 1909 (3-69) 100 BROWN & WILLIAMSON TOBACCO CORPORATION FILTER SCORES Brand: RALEIGH (BELAIR portion not tested) Project # 1969-105 Commercial: LAKE - NEW PACK :40 (with BELAIR Badmin- Sample: 336 ton :20) PM6 Base: (234) Code #: BW-RT-69-98 Supplier: AUDIENCE STUDIES TEST DATES L. Angeles: 8/5 and 6 Chicago: 8/8 PM6 SCORES COMMENTS Overall 1.7 This commercial was tested in color. CITY Los Angeles 0.0 Chicago 3.3 SEX Male 0.0 Female 3.3 AGE 16-25 0.0 26-35 0.0 36-45 0.0 46 & Over 9.3 35 & Under 0.0 36 & Over 5.0 465607116 P",
+            "text_length": 531,
+            "inference_time": 3.2769887447357178,
+            "scores": {
+                "rouge1_f1": 0.9953488372093023,
+                "rouge2_f1": 0.5915492957746479,
+                "rougeL_f1": 0.5488372093023256
+            }
+        },
+        "paddle": {
+            "text": "MR 19093-69100 BROWN & WILLIAMSON TOBACCO CORPORATION FILTER SCORES Brand: RALSIGH BELAIR portion not tested) Project # 1969-105 Commercial:LAKE -NEW PACK40 with BELAIR Badmin-Sample: 336 ton 20 PM6 Base 234 Code # BW-RT-69-98 Supplier:_AUDIENCE STUDIES TEST DATES L. Angeles 8/5 and 6 Chicago: 8/8 PM6 SCORES COMMENTS Overall 1.7 This commercial was tested in color CLIY Los Angeles 0.0 Chicago 3.3 SEX Male 0.0 Female 3.3 AGE 16-25 0.0 26-35 0.0 36-45 0.0 46&Over 9.3 35&Under 0.0 36&Over 5.0 465607116",
+            "text_length": 504,
+            "inference_time": 2.5335347652435303,
+            "scores": {
+                "rouge1_f1": 0.928909952606635,
+                "rouge2_f1": 0.5167464114832536,
+                "rougeL_f1": 0.4928909952606635
+            }
+        }
+    },
+    {
+        "image_file": "0001477983.png",
+        "ground_truth": "Retainer No. $ $ $ $ $ Other (please explain): Note: RIGL 22-10-2 (d) requires disclosure in a dollar amount of the compensation for lobbying activity. (from) (to) REVIEWED: ACCEPTED: STATE OF RHODE ISLAND AND PROVIDENCE PLANTATIONS Office of the Secretary of State James R. Langevin Secretary of State Monthly Organization/ Employer Report Room 43 State House Providence, Rhode Island 02903- 1105 401- 277- 2390 Due the 1st Monday of the month during the legislative session to report the previous months' activity. Reporting Period: Month of May Organization/ Employer Name: R. J. Reynolds Tobacco Lobbyist Name: Peter J. McGinn If any addresses or telephone numbers have changed since the last reporting period please check here and note the change in the space provided at the end of this form. Compensation/ Expenditure Information: (indicate if attached pages) Please print name of Employer or Designee FOR OFFICIAL USE Please indicate the capacity in which you are executing this document: Signature Employer or Designee List any changes of address telephone numbers: During this reporting period, have you made any expenditure or incurred any obligation of $ 25.00 or more per occurence to promote or oppose any legislation, including but not limited mailings, meals, print or broadcast advertisements, or gifts (yes or no) yes, please detail. including the names of the persons receiving and in whose behalf such expenditures have been made, the amount, date, place, and reason for the expenditure. If yes, please complete the following. Compensation received lobbying: Part of salary received for lobbying: Amount earned but not received: Reimbursements for expenses (please itemize): Contractual or agreed fee: Have you paid any type of compensation or incurred any obligation for payment to the above named lobbyist for lobbying? (yes or no)",
+        "ground_truth_length": 1853,
+        "gemini": {
+            "text": "STATE OF RHODE ISLAND AND PROVIDENCE PLANTATIONS Office of the Secretary of State James R. Langevin, Secretary of State Room 43, State House Providence, Rhode Island 02903-1105 401-277-2390 Monthly Organization/Employer Report Due the 1st Monday of the month during the legislative session to report the previous months' activity. Reporting Period: Month of May Organization/Employer Name: R. J. Reynolds Tobacco Lobbyist Name: Peter J. McGinn If any addresses or telephone numbers have changed since the last reporting period please check here _______ and note the change in the space provided at the end of this form. Compensation/Expenditure Information: Have you paid any type of compensation or incurred any obligation for payment to the above named lobbyist for lobbying? (yes or no) No. If yes, please complete the following. Compensation received for lobbying: $_________ Part of salary received for lobbying: $_________ Amount earned but not received: $_________ Reimbursements for expenses (please itemize):____________________________________________________________________ Other (please explain):___________________________________________________________________________________________ Note: RIGL 22-10-2(d) requires disclosure in a dollar amount of the compensation for lobbying activity. During this reporting period, have you made any expenditure or incurred any obligation of $25.00 or more per occurence to promote or oppose any legislation, including but not limited to mailings, meals, print or broadcast advertisements, or gifts? (yes or no) No If yes, please detail, including the names of the persons receiving and in whose behalf such expenditures have been made, the amount, date, place, and reason for the expenditure. ____________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________ List any changes of address or telephone numbers: (from)_______________________________________________________________________________ (to)________________________________________________________________________________ (indicate if attached pages) _______ Signature of Employer or Designee Please print name of Employer or Designee _______________________________________________________________________________ Please indicate the capacity in which you are executing this document:___________________________________________ FOR OFFICIAL USE ACCEPTED: REVIEWED: rev. 1/97",
+            "text_length": 2766,
+            "inference_time": 5.544075012207031,
+            "scores": {
+                "rouge1_f1": 0.9791666666666666,
+                "rouge2_f1": 0.8989547038327527,
+                "rougeL_f1": 0.6284722222222222
+            }
+        },
+        "paddle": {
+            "text": "STATE OF RHODE ISLAND AND PROVIDENCE PLANTATIONS Office of the Secretary of State ames R.Langevin. Secretary of State Room 43.State House Providence,Rhode Island 02903-1105 Monthly.Organization/Employer Report 401-277-2390 Due the Ist Monday of the month during the legislative session to report the previous months'activity. Reporting Period:Month of May Organization/Employer Name: R.J. Reynolds Tobacco Lobbyist Name: Peter J. McGinn If any addresses or telephone numbers have changed since the last reporting period please check here and note the change in the space provided at the end of this form. Compensation/Expenditure Information: Have you paid any type of compensation or incurred any obligation for payment to the above named lobbyist for lobbying?yes or no No .If yes, please complete the following. Compensation received for lobbying:S Part of salary received for lobbying:$ Retainer:$ Amount earned but not received:$ Contractual or agreed fee:$ Reimbursements for expenses (please itemize) Other (please explain) Note:RIGL 22-10-2d reguires disclosure in a dollar amount of the compensation for lobbying activity. During this reporting period,have you made any expenditure or incurred any obligation of $25.00 or print or broadcast advertisements, or gifts? (yes or no If yes, please detail, including the names of the persons receiving and in whose behalf such expenditures have been made, the amount, date, place, and reason for the expenditure. indicate if attached pages List any changes of address or telephone numbers: (from) (to+ Lnr-be Signature of Employer or Designee Please print name ofEmployer or Designee 58 Please indicate the capacity in which you are executing this document: FOR OFFICIAL USE S - ACCEPTED REVIEWED: 6/1A3",
+            "text_length": 1756,
+            "inference_time": 3.6964125633239746,
+            "scores": {
+                "rouge1_f1": 0.9399293286219081,
+                "rouge2_f1": 0.8262411347517731,
+                "rougeL_f1": 0.5830388692579506
+            }
+        }
+    },
+    {
+        "image_file": "00070353.png",
+        "ground_truth": "AUTHORS TITLE RECOMMENDATION: 533 Date x NOT APPROVE 00070353 Manuscript Review Form TOBACCO SCIENCE Registration No March 18, 1968 Andrew G. Kallianos, Richard K. Means, James D. Mold \"Effect of Nitrates in Tobacco on the Catechol Yield in Cigarette Smoke\" REVIEW COMPLETED PRESENT FORM: 3/ 29/ 68 APPROVE IN ITS (Give reasons below): APPROVE TENTATIVELY SUBJECT TO THE FOLLOWING SUGGESTED REVISIONS: (itemize below): Page 4 - Last line should be Mass spectrometric instead of Mass spectroscopic. NOTE- Execute in triplicate using additionall sheets if more space is required. Retain the third copy for your file Return the original (signed) and the first carbon (unsigned) along with the manuscript to this office The unsigned copy and the manuscript will be for returned to the author his consideration.",
+        "ground_truth_length": 806,
+        "gemini": {
+            "text": "Manuscript Review Form TOBACCO SCIENCE Registration No.. 533 Date March 18, 1968 AUTHORS Andrew G. Kallianos, Richard E. Means, James D. Mold TITLE \"Effect of Nitrates in Tobacco on the Catechol Yield in Cigarette Smoke\" REVIEW COMPLETED 3/29/68 RECOMMENDATION: \u2717 APPROVE IN ITS PRESENT FORM; NOT APPROVE (Give reasons below); APPROVE TENTATIVELY, SUBJECT TO THE FOLLOWING SUGGESTED REVISIONS: (itemize below): Page 4 - Last line should be Mass spectrometric, instead of Mass spectroscopic. NOTE-Execute in triplicate using additional sheets if more space is required. Retain the third copy for your file. Return the original (signed) and the first carbon (unsigned) along with the manuscript to this office. The unsigned copy and the manuscript will be returned to the author for his consideration.",
+            "text_length": 799,
+            "inference_time": 2.9208734035491943,
+            "scores": {
+                "rouge1_f1": 0.9758064516129032,
+                "rouge2_f1": 0.8373983739837398,
+                "rougeL_f1": 0.8951612903225806
+            }
+        },
+        "paddle": {
+            "text": "Manuscript Review Form TOBACCOSCIENCE Registration No... 533 Date.March 18,1968 AUTHORS Andraw G.KallianosRichard E.MeansJanes D.Mold TITLE Effect of Nitrates in Tobscco on tbe Catechol Yield in Cigarette Smoke\" REVIEW COMPLETED 3/29/68 RECOMMENDATION:_X APPROVE IN ITS PRESENT FORM;- NOT APPROVE Give reasons below) APPROVE TENTATIVELY, SUBJECT TO THE FOLLOWING SUGGESTED REVISIONS:(itemize below) Page 4 - Last line should be Mass spectrometric, instead of Mass spectroscopic. 00070353 NOTE-Execute in triplicate using additional sheets if more space is required. Retain the third copy for your file. Return the original (signed) and the first carbon (unsigned) along with the manuscript to this office. The unsigned copy and the manuscript will be returned to the author for his consideration.",
+            "text_length": 796,
+            "inference_time": 3.3895018100738525,
+            "scores": {
+                "rouge1_f1": 0.9230769230769231,
+                "rouge2_f1": 0.7346938775510203,
+                "rougeL_f1": 0.8259109311740891
+            }
+        }
+    },
+    {
+        "image_file": "00093726.png",
+        "ground_truth": "Date: on BLEND CASING RECASING Cigarettes Filters Responsibility apping Requirements Reports 6030 OGS OGS OGS OGS AMF 25. 0 554 Ammons Wicker Routh \" White Blue White \" 00093726 Maker Length Circumference Weight Paper Labels Closures Cartons Markings Laboratory Other Kind Process Circumference Weight Plasticizer Shipping September 21, 1976 Sample No. Type of Cigarette 85 mm Filter Batch Size 50 lbs. Original Request Made By Dr. A. W. Spears September 21, 1976 Sample Specifications Written By W. E. Routh FINAL FLAVOR Additional Spray 3. 4% PMO in EtoH 20 mm True plastic rod Rod Length Pressure Drop Plug Wrap Tipping Paper Filter Length Pressure Drop 85 mm To be det. (803 mg tobacco) To be determined 20 mm 30 mm Tear rape Sample No. on overwrap Tobacco Blend Filter Production Making & Packing Sample Requisition [Form 02: 02: 06] Brown /Routh 3 cartons 20, 000 cigts. Smoke Analysis PMO Analysis Laboratory Analysis Written by Original to Copies to Dr. F. J. Schulz Dr. H. J. Minnemeyer P. D. Schickedantz Dr. A. W. Spears Spray 50 lbs. tobacco with solution of 880 g (= 1. 94 lbs.) PMC in 1175 ml of denatured alcohol. This should give 3. 4% PMO add- on (3. 3% PMO contained) assuming 88% spraying efficiency. PMO delivery from 85 mm cigarette smoked to 30 mm butt should be 6. 5 mg/ cig. Special Requirements Manager, H.J. Minnemeyer Research",
+        "ground_truth_length": 1353,
+        "gemini": {
+            "text": "Date: September 21, 1976 Sample No. 6030 Type of Cigarette 85 mm Filter Batch Size 50 lbs. Original Request Made By Dr. A. W. Spears on September 21, 1976 Sample Specifications Written By W. E. Routh BLEND OGS CASING OGS RECASING OGS FINAL FLAVOR OGS Additional Spray MENHOL 3.4% PMO in EtOH Cigarettes Filters Maker AMF Kind 20 mm True plastic rod Length 85 mm Process Circumference 25.0 Rod Length Weight To be det. (803 mg tobacco) Pressure Drop Pressure Drop To be determined Circumference Filter Length 20 mm Weight Paper 554 Plasticizer Tipping Paper 30 mm Plug Wrap Responsibility Labels White Tobacco Blend Ammons Closures Blue Filter Production Wicker Tear Tape White Making & Packing Brown/Routh Cartons Shipping Routh Markings Sample No. on Sample Requisition overwrap [Form 02:02:06] Requirements Special Requirements Laboratory 3 cartons Spray 50 lbs. tobacco with solution of Other 20,000 cigts. 880 g (= 1.94 lbs.) PMO in 1175 ml of denatured alcohol. This should give Laboratory Analysis 3.4% PMO add-on (3.3% PMO contained) Smoke Analysis assuming 88% spraying efficiency. PMO PMO Analysis delivery from 85 mm cigarette smoked to 30 mm butt should be 6.5 mg/cig. Reports Written by P. D. Schickedantz Original to Dr. A. W. Spears Copies to Dr. F. J. Schultz Dr. H. J. Minnemeyer H. J. Minnemeyer Manager, Research & Development Research",
+            "text_length": 1353,
+            "inference_time": 4.813049077987671,
+            "scores": {
+                "rouge1_f1": 0.9760348583877995,
+                "rouge2_f1": 0.6039387308533917,
+                "rougeL_f1": 0.579520697167756
+            }
+        },
+        "paddle": {
+            "text": "Date:. September211/6 Samplc No. 6030 Type of Cigarette. 85 mm Filter Batch Size 50 lbs. Original Request Made By Dr.A.W. Spears on September 21,1976 Sample Specifications Written By W.E. Routh Additional Spray BLEND CASING RECASING FINAL FLAVOR OGS OGS OGS OGS 3.4% PMO in EtOH Cigarettes Filters Maker AMF Kind 20 mm True plastic rod Length 85mm Circumference 25.0 Process Weight To be det. 803 mq tobacco Rod Length Pressure Drop To be determined Pressure Drop Filter Length 20mm Circumference Paper 554 weignt Tipping Paper 30mm Plasticizer Plug Wrap_ epping Responsibility Labels Whi.te Tobacco Blend Ammons Closures Blue Filter Production Wicker Tear Tape White Making & Packing Brown/Routh Cartons Shipping Routh Markings Sample No. on Sample Requisition overwrap Form02:02:06] Reguirements Special Requirements Laboratory 3 cartons Spray 50 lbs. tobacco with solution of Other 20000 cigts. 880 g =1.94 lbs.) PM0 in 1l75 ml of denatured alcohol. This should give 3.4% PMO add-on 3.3% PMO contained) Laboratory Analysis assuming 88% spraying efficiency. PMO Smoke Analysis delivery from 85 mm cigarette smoked PMO Analysis to 30 mm butt should be 6.5 mg/cig. Reports 00093726 Writ.ten by P.D. Schi.ckedantz Original to Dr.A. W. Spcars Copies to Dr.F. J. Schnltz Dr.H.J.Minnemeyer Manayexxtxxoex Research",
+            "text_length": 1309,
+            "inference_time": 5.41933012008667,
+            "scores": {
+                "rouge1_f1": 0.8805309734513275,
+                "rouge2_f1": 0.5422222222222223,
+                "rougeL_f1": 0.5176991150442478
+            }
+        }
+    },
+    {
+        "image_file": "0011505151.png",
+        "ground_truth": "CAPRI DESCRIPTION: SUPPLIER: 466009457 47,218 9,442 14,165 -Pd. CUMULATIVE DEC FEB 9.442 21.240 3068230.682 77.900 PROJECT NO. 1987- 115- CA CAPRI EXPANSION A&U - CALIFORNIA - WAVE 4. Kapuler Marketing Research MR PERSONNEL: B. R. Pellett AUTHORIZED COST: 70,825 + +10 % (TOTAL 1987) +7.075 (2 -23 -88 77,900 TOTAL Int. Init. Date Ext. Autho. Date Field Complete Final Rpt. Due 11- 16- 87 12- -7 -87 1- 11- 88 RELEASED TO ACCTG PAID OUT OF 1989 BUDGET PAID 1987 DEC 1987 ACCRUAL CARRYOVER TO 1988 2- 25- 88 YEA - CAPRI -",
+        "ground_truth_length": 520,
+        "gemini": {
+            "text": "CAPRI 0595-622-1510-0 PROJECT NO. 1987-115-CA DESCRIPTION: CAPRI EXPANSION A&U - CALIFORNIA - WAVE 4. SUPPLIER: Kapuler Marketing Research MR PERSONNEL: B.R. Pellett AUTHORIZED COST: 70,825 \u00b110% (TOTAL 1987) +7,075 (2-23-88) 77,900 TOTAL Int. Init. Date 8-3-87 Ext.Autho.Date 11-16-87 Field Complete 12-7-87 Final Rpt. Due 1-11-88 PAID 1987 DEC 1987 ACCRUAL CARRYOVER TO 1988 47,218 9,442 -Pd. 14,165 RELEASED TO ACCTG PAID OUT OF 1988 BUDGET CUMULATIVE DEC YEA 9,442 CAPRI -21,240 2-25-88 FEB 30,682 77,900 466009457",
+            "text_length": 517,
+            "inference_time": 3.6601226329803467,
+            "scores": {
+                "rouge1_f1": 0.9458128078817734,
+                "rouge2_f1": 0.6865671641791045,
+                "rougeL_f1": 0.6108374384236454
+            }
+        },
+        "paddle": {
+            "text": "PROJECT NO. 1987-115-CA CAPRI 0595-622-1510-0 CAPRI EXPANSION A&U - CALIFORNIA WAVE4 DESCRIPTION: SUPPLIER: Kapuler Marketing Research MR PERSONNEL: B.R. Pellett AUTHORIZED COST: 7082510%TOTAL1987 +7.075 2-23-88 77.900 TOTAL Int.Init.Date 8--3-87 Ext.Autho.Date 11-16-87 Field Complete 12--7-87 Final Rpt.Due 1-11-88 PAID 1987 47,218 DEC 1987ACCRUAL 9442 Pd. CARRYOVER TO 1988 14,165 RELEASED PAID OUT OF TO ACCTG 1988 BUDGET CUMULATIVE DEC 9.442 -25-88 FEB 30682 77900 466009457",
+            "text_length": 479,
+            "inference_time": 3.1567223072052,
+            "scores": {
+                "rouge1_f1": 0.8105263157894738,
+                "rouge2_f1": 0.5425531914893617,
+                "rougeL_f1": 0.5368421052631579
+            }
+        }
+    },
+    {
+        "image_file": "0011838621.png",
+        "ground_truth": "Date: Description: Supplier: No. 27 Decrease Reasons: .08 .08 PROJECTED: 1.488.126.23 .08 0 1.488.126.15 1.471.873.85 cc: Date Date International. 464537440 MD Davis INTERNATIONAL MARKETING RESEARCH CHANGE OF AUTHORIZED COST 6/ 21/ 90 Hong Kong: Cigarette Market Monitor MDR. HK Total Cost 1990 Cost Previous Commitments This Project Amt. of Change: Increase X $ 43.335.00 $ 4.376.47 $ 47.711.47 (10% Change) Adjusted Total Cost of Project: $ 0.00 Original MRA did not include cost for the first month of the study (see L. Lee memo of September 11, 1989) Internal Init. Date Ext. Auth. Date Wave(s) Sumary of IMRD Budget $ 2.960.000.00 Total Area Budget: Current Bal. Available: This Change: (From Current Budget) Field Complete Wave(s) Final Report Due (Supplier Rpt.) Wave(s) New Balance: Committed to Date: (Current Year) This Amount (From Next Year's Budget) 6/ 21/ 90 4/ 22/ 90 Project No. Account Name 1989- 29 Submitted By: Approved By: Original- Project File MRA File N. W. Kremer N. W. Kremer M. b. Davis",
+        "ground_truth_length": 1013,
+        "gemini": {
+            "text": "INTERNATIONAL MARKETING RESEARCH CHANGE OF AUTHORIZED COST No. 27 Date: 6/21/90 Description: Hong Kong: Cigarette Market Monitor Supplier: MDR, HK Total Cost 1990 Cost Previous $ Commitments This Project $ 43,335.00 $ 0.00 Amt. of Change: Increase \u2717 Decrease $ 4,376.47 .08 (10% Change) Adjusted Total Cost of Project: $ 47,711.47 .08 Reasons: Original MRA did not include cost for the first month of the study (see L. Lee memo of September 11, 1989) PROJECTED: Summary of IMRD Budget Internal Init. Date Total Area Budget: $2,960,000.00 Ext. Auth. Date Current Bal. Available: 1,488,126.23 Wave(s) This Change: .08 (From Current Budget) This Amount 0 Field Complete (From Next Year's Budget) Wave(s) New Balance: 1,488,126.15 Final Report Due Committed to Date: (Supplier Rpt.) (Current Year) 1,471,873.85 Wave(s) Submitted By: Date 6/21/90 M. D. Davis Approved By: Date 6/22/90 N. W. Kremer Original - Project File Project No. 1989-29 cc: MRA File Account Name International N. W. Kremer 464537440",
+            "text_length": 999,
+            "inference_time": 4.434926271438599,
+            "scores": {
+                "rouge1_f1": 0.9750692520775622,
+                "rouge2_f1": 0.6518105849582173,
+                "rougeL_f1": 0.5706371191135734
+            }
+        },
+        "paddle": {
+            "text": "INTERNATIONAL MARKETING RESEARCH CHANGE OF AUTHORIZED COST Date:6/21/90 No.27 DescriptionHonq Kong: Cigarette Market Monitor Supplier_MDRHK Total Cost 1990 Cost Previous $ Commitments This Proiect 43.335.00 0.00 4.376.47 .08 Amt.of Change:Increase X.Decrease 10% Change Adjusted Tota Cost of Project 47.71.47 08. Reasons: Original MRA did not include cost for the first month of the study see L. Lee memo of September 111989 .. PROJECTED: Summary of IMRD Budget Internal Init.Date Total Area Budget: $2960.000.00 Ext.Auth.Date Current Bal.Available: 1.488126.23 Wave(s) This Change: .08 From Current Budget) This Amount 0 Field Complete From Next Year's Budget Waves) New Balance: 1,488.126.15 Final Report Due Supplier Rpt. Committed to Date: 1.471873.85 Wave(s) Current Year) Submitted By Date Davi 41-190 Approved By: Date N.W.Kremer Original Project File MRA File Project No._1989-29 CC: N.H.Kremer Account Name Internationa 464537440",
+            "text_length": 938,
+            "inference_time": 4.552210569381714,
+            "scores": {
+                "rouge1_f1": 0.8767908309455588,
+                "rouge2_f1": 0.547550432276657,
+                "rougeL_f1": 0.5157593123209169
+            }
+        }
+    },
+    {
+        "image_file": "0011845203.png",
+        "ground_truth": "TO: INSTRUCTIONS WELCOMED. ARE AGENCY THE FROM DESIGNS ALTERNATE FOR SUGGESTIONS THESE SHOULD BE SUBMITTED AS SEPARATE DOCUMENTS APPENDED TO THIS BID HOWEVER, 3. FAX NUMBER: 464565018 BROWN & WILLIAMSON BID REQUEST FORM (QUANTITATIVE RESEARCH) PROJECT NUMBER: 1991- 18 B&W ORIGINATOR: Mary D. Davis Mr. Johnny Pedersen - Gallup 1. THE FOLLOWING DOCUMENT IS DIVIDED INTO TWO SECTIONS. OTHER INFORMATION DATE REQUESTED: DEADLINE FOR BID RECEIPT: 2/ 22 by courier 3/1/91 Mary D. Davis 1- 502- 568- 8092 IF YOU HAVE ANY QUESTIONS, PLEASE CONTACT THE FOLLOWING PERSON: 2. IN ORDER TO ALLOW US TO COMPARE BIDS, WE REQUEST THAT YOU SUBMIT A BID FOR THE RESEARCH AS SPECIFIED IN SECTION ONE. 1- 502- 568 8092 FAX MUMBER: MS. JACKIE KEY B&W LOUISVILLE, KENTUCKY U. S. A. SECTION ONE SECTION TWO SHOULD BE COMPLETED BY THE RESEARCH AGENCY AND RETURNED BY FAX TO THE FOLLOWING PERSON: CONTAINS THE PROJECT DESCRIPTIONS AND SPECIFICATIONS FROM B&W. ALL BIDS SHOULD BE BASED ON THE SPECIFICATIONS IN THIS DOCUMENT.",
+        "ground_truth_length": 1001,
+        "gemini": {
+            "text": "BROWN & WILLIAMSON BID REQUEST FORM (QUANTITATIVE RESEARCH) PROJECT NUMBER: 1991-18 B&W ORIGINATOR: Mary D. Davis TO: Mr. Johnny Pedersen - Gallup INSTRUCTIONS 1. THE FOLLOWING DOCUMENT IS DIVIDED INTO TWO SECTIONS. SECTION ONE CONTAINS THE PROJECT DESCRIPTIONS AND SPECIFICATIONS FROM B&W. ALL BIDS SHOULD BE BASED ON THE SPECIFICATIONS IN THIS DOCUMENT. SECTION TWO SHOULD BE COMPLETED BY THE RESEARCH AGENCY AND RETURNED BY FAX TO THE FOLLOWING PERSON: MS. JACKIE KEY B&W LOUISVILLE, KENTUCKY U.S.A. FAX NUMBER: 1-502-568-8092 2. IN ORDER TO ALLOW US TO COMPARE BIDS, WE REQUEST THAT YOU SUBMIT A BID FOR THE RESEARCH AS SPECIFIED IN SECTION ONE. SUGGESTIONS FOR ALTERNATE DESIGNS FROM THE AGENCY ARE WELCOMED. HOWEVER, THESE SHOULD BE SUBMITTED AS SEPARATE DOCUMENTS APPENDED TO THIS BID FORM. 3. IF YOU HAVE ANY QUESTIONS, PLEASE CONTACT THE FOLLOWING PERSON: Mary D. Davis FAX NUMBER: 1-502-568-8092 OTHER INFORMATION DATE REQUESTED: 2/22 by courier DEADLINE FOR BID RECEIPT: 3/1/91 464565018",
+            "text_length": 998,
+            "inference_time": 3.9504027366638184,
+            "scores": {
+                "rouge1_f1": 0.9910979228486648,
+                "rouge2_f1": 0.7999999999999999,
+                "rougeL_f1": 0.39762611275964393
+            }
+        },
+        "paddle": {
+            "text": "BROMN &ILLIAMSON BID REQUEST FORM OUANTITATIVE RESEARCH PROJECT NUMBER: 1991-18 B&W ORIGINATOR:.Mary D..Davis TO:Mr.Johnny Pedersen.-Gallup INSTRUCHIONS 1. THE FOLLOWING DOCUMENT IS DIVIDED INTO TWO SECTIONS SECTION ONE CONTAINS THE PROJECT DESCRIPTIONS AND SPECIFICATIONS FROM SECTION TWO SHOULD BE COMPLETED BY THE RESEARCH AGENCY AND RETURNED BY FAX TO THE FOLLOWING PERSON: MS.JACKIE KEY B&W LOUISVILLE, KENTUCKY U.S.A. FAXNUMBER1-502-568-8092 2. IN ORDER TO ALLOW US TO COMPARE BIOS WE REQUEST THAT YOU SUBMIT A BID FOR THE RESEARCH AS SPECIFIED IN SECTION ONE. SUGGESTIONS FCR ALTERNATE DESIGNS FROM THE AGENCY ARE WELCOMED.HOWEVER FORM. 3. IF YOU HAVE ANY QUESTIONS,PLEASE CONTACT THE FOLLOWING PERSON: MaryD.Davis FAXNUMBER:1-502-568-8092 OTHER INFORMATION DATE REQUESTED: 2/22 by.courier DEADLINE FOR BID RECEIPT: 3/1/91 464565018",
+            "text_length": 839,
+            "inference_time": 3.704214096069336,
+            "scores": {
+                "rouge1_f1": 0.8478964401294499,
+                "rouge2_f1": 0.6579804560260586,
+                "rougeL_f1": 0.3883495145631068
+            }
+        }
+    },
+    {
+        "image_file": "0011856542.png",
+        "ground_truth": "DATE BD-FF 1/4/90 Marketing cc: PROJECT INITIATION FORM PROJECT CODE PROJECT NAME BULL DURHAM Full Flavor King Size Cigarettes J. F. Anders/ J. E. Mann PROJECT LEADER WORK REQUESTED BY PROJECT OBJECTIVE Develop 14- mg \"tar\" delivery king size cigarette for generic pricing directed toward young male smokers. Cigarette dimensions- 85 mm x 24.9 mm circumference- 20 mm filter- 24 mm tipping. Offshore tobacco blend with unique flavor formulation. Cork tipping. OTHER PERSONNEL ASSIGNED Approved by RSS RDC PHL PRC DRB Records Project Leader Other Personnel Assigned",
+        "ground_truth_length": 564,
+        "gemini": {
+            "text": "PROJECT INITIATION FORM PROJECT CODE BD-FF DATE 1/4/90 PROJECT NAME BULL DURHAM Full Flavor King Size Cigarettes PROJECT LEADER J. F. Anders/J. E. Mann WORK REQUESTED BY Marketing PROJECT OBJECTIVE Develop 14-mg \"tar\" delivery king size cigarette for generic pricing directed toward young male smokers. Cigarette dimensions - 85 mm x 24.9 mm circumference - 20 mm filter - 24 mm tipping. Offshore tobacco blend with unique flavor formulation. Cork tipping. OTHER PERSONNEL ASSIGNED Approved by cc: RSS RDC PHL PRC DRB Records Project Leader Other Personnel Assigned",
+            "text_length": 565,
+            "inference_time": 3.124436855316162,
+            "scores": {
+                "rouge1_f1": 1.0,
+                "rouge2_f1": 0.8777777777777779,
+                "rougeL_f1": 0.8901098901098901
+            }
+        },
+        "paddle": {
+            "text": "PROJECT INITIATION FORM PROJECT CODE BD-FF DATE 1/4/90 PROJECT NAME BULL DURHAM FuI Flayor King Size Cigarettes PROJECT LEADER JF.Anders/J.E.Mann WORK REQUESTED BY Marketing PROJECT OBJECTIVE Develop 14-mg tardelivery king size cigarette for generic pricing directed toward young male smokers Cigarette dimensions -85 mm x.24.9 mm circumference -20 mm filter-24 mm tipping. Offshore tobacco blend with unique flavor formulation. Cork tipping. OTHER PERSONNEL ASSIGNED Approved by CC: RSS RDC PHL PRC DRB Records Projcct Leader Othcr Personnel Assigned",
+            "text_length": 551,
+            "inference_time": 2.1506669521331787,
+            "scores": {
+                "rouge1_f1": 0.9222222222222223,
+                "rouge2_f1": 0.7528089887640451,
+                "rougeL_f1": 0.8111111111111112
+            }
+        }
+    },
+    {
+        "image_file": "0011859695.png",
+        "ground_truth": "Agency: Contact: Date: Client: Address: Product: Film Cleared: RECEIVED CF: cb AMERICAN BROADCASTING COMPANY TELEVISION NETWORK 1333 Avenue of the Americas, New York, New York 10019 LT 1- 7777 SSC&B, Inc September 25, 1969 Larry Odum 575 Lexington Avenue, New York, New York 10022 American Tobacco Company Pall Mail Filter tip VIDEO TAPE APPROVAL SEP 30 PERCY F. SMITH \"Presenter/ Girl Rev\" AT-M B-T-64 :60 \"Pall Mall Filter Tip\" AT-P/ F-T-317 :30 TAPE WILL FOLLOW AS SOON AS I RECEIVE IT FROM THE TAPE LIBRARY. PLEASE NOTIFY THIS DEPARTMENT OF ANY CHANGES IN THE CODE NUMBER(S). Final approval is, of course, dependent upon time and placement of the commercial(s\u00ef\u0153\u0192). Film(s) enclosed. Sincerely, American Broadcasting Company Cynthia Fates C.B Department BROADCAST STANDARDS AND PRACTICES XER 264/ REV 5/ 68",
+        "ground_truth_length": 809,
+        "gemini": {
+            "text": "AMERICAN BROADCASTING COMPANY TELEVISION NETWORK 1330 Avenue of the Americas, New York, New York 10019 LT 1-7777 September 25, 1969 Date: Contact: Larry Odum SSC&B, Inc Agency: Address: 575 Lexington Avenue, New York, New York 10022 Client: American Tobacco Company Product: Pall Mall Filter tip RECEIVED SEP 30 1969 PERCY F. SMITH VIDEO TAPE APPROVAL Film Cleared: \"Presenter/Girl Rev\" AT-M/B-T-64 :60 \"Pall Mall Filter Tip\" AT-P/F-T-317 :30 TAPE WILL FOLLOW AS SOON AS I RECEIVE IT FROM THE TAPE LIBRARY. PLEASE NOTIFY THIS DEPARTMENT OF ANY CHANGES IN THE CODE NUMBER(S). Final approval is, of course, dependent upon time and placement of the commercial(s). Film(s) enclosed. CF:cb Sincerely, American Broadcasting Company Cynthia Fates Department of BROADCAST STANDARDS AND PRACTICES XER - 264/B-3 REV 5/68",
+            "text_length": 810,
+            "inference_time": 3.6988072395324707,
+            "scores": {
+                "rouge1_f1": 0.9714285714285714,
+                "rouge2_f1": 0.7841726618705036,
+                "rougeL_f1": 0.8428571428571429
+            }
+        },
+        "paddle": {
+            "text": "AMERICAN BROADCASTING COMPANY TELEVISION NETWORK 1333 Avenue of the Americas.New York, New York 10019 LT1-7777 September 25,1969 Date: SSC&B Inc Contact: Larry Odum Agency Address: 575 Lexington AvenueNew YorkNew York 10022 Cliont:, American Tobacco Company RECEIVED Pall Mall Filter tip Product: SEP30 VIDEO TAPE APPROVAL PERCY .SMITH Film Cleared ..... \"presenter/Girl Rev\" AT-M/B-T-64 60 \"pall Mall Filter Tip\" AT-P/F-T-317 30 TAS WILL FOLLOW AS SCON AS I RECEIVE IT FEOM THE TAPE LISRARY. PLEASE NOTIFY THIS DEPARTMENT OF ANY CHANGES IN THE CODE NUMBER(S), Final approval is,of course, cependent upoa time and placement of the commercial(s) Films enclosed. Sincerely, C7cb Americen Broodcasting Compony Cynthia Fates Departaent of BROADCAST STANDARDS AND PRACTICES XER264/B-3REV5/68",
+            "text_length": 786,
+            "inference_time": 3.4580137729644775,
+            "scores": {
+                "rouge1_f1": 0.8178438661710037,
+                "rouge2_f1": 0.5917602996254681,
+                "rougeL_f1": 0.728624535315985
+            }
+        }
+    },
+    {
+        "image_file": "0011899960.png",
+        "ground_truth": "Attention Copies Department Subject 7 Publication Time Date RECEIVED 516007780 DR. HUGHES, MESSRS. ALAR, SANDEFUR, CORPORATE AFFAIRS BLOTT, BUTLER, MIDDLETON, CHRISTENSEN, PEPPLES, SACHS FREEDMAN T. HUMBER, M. BATEMAN L&M Lawsuit PRESS QUERY ADWEEK - Midwest Reporter/ Editor Fran Brock (312) 467- 6500 Received by Mark Ahearn 1: 45 P. M. 7/ 9/ 84 Deadline for response Already handled Describe the storyline, list the questions and proposed answers, and summarize handling, including clearances. Ms. Brock requested information regarding L&M lawsuit. I provided the approved prepared response. Reporter then requested clarification of generic cigarette vs. 'private label cigarette' and asked to be notified when further announcements regarding generics were made. J. M. A. JMA JUL 10 1984 JOHN ALAR",
+        "ground_truth_length": 800,
+        "gemini": {
+            "text": "--- Attention DR. HUGHES, MESSRS. ALAR, SANDEFUR, Department CORPORATE AFFAIRS BLOTT, BUTLER, MIDDLETON, CHRISTENSEN, PEPPLES, SACHS, FREEDMAN Copies T. HUMBER, M. BATEMAN Subject L&M Lawsuit PRESS QUERY Publication ADWEEK - Midwest Reporter/Editor Fran Brock (312) 467-6500 Received by Mark Ahearn Time 1:45 P.M. Date 7/9/84 Deadline for response Already handled Describe the storyline, list the questions and proposed answers, and summarize handling, including clearances. Ms. Brock requested information regarding L&M lawsuit. I provided the approved prepared response. Reporter then requested clarification of 'generic cigarette' vs. 'private label cigarette' and asked to be notified when further announcements regarding generics were made. J. M. A. RECEIVED JUL 10 1984 JOHN ALAR 05722000016",
+            "text_length": 797,
+            "inference_time": 3.5244057178497314,
+            "scores": {
+                "rouge1_f1": 0.982905982905983,
+                "rouge2_f1": 0.8534482758620691,
+                "rougeL_f1": 0.923076923076923
+            }
+        },
+        "paddle": {
+            "text": "Attention DR.HUGHES MESSRS.ALARSANDEFUR Department CORPORATE AFFAIRS BLOTTBUTLERMIDDLETONCHRISTENSENPEPPLESSACHSFREEOMAN Copies IHUMBER.M.BATEMAN Subject. L&M Lawsuit PRESS QUERY Publication ADWEEK-Midwest Reporter/Editor Fran 8rock 312.467-6500 Receiveo by..Mark Ahearn Time45P.M Date 7/9/84 Deadline for response. Already handled Describe the storyline, list the questions and proposed answers, and summarize handling, including clearances. Ms. Brock requested information regarding L&M lawsuit.I provided the approved prepared response. generics were made. .M. 516007780 RECEIVED UL101984 JOHN ALAR",
+            "text_length": 601,
+            "inference_time": 3.38252329826355,
+            "scores": {
+                "rouge1_f1": 0.743718592964824,
+                "rouge2_f1": 0.5482233502538072,
+                "rougeL_f1": 0.6733668341708544
+            }
+        }
+    },
+    {
+        "image_file": "0011906503.png",
+        "ground_truth": "0465E ($000) Title Purpose 1 2 3 4 7 5 6 Status Proposed Approved; TOTAL CAPITAL EXPENSE Completion Mo. Yr. Submission Yr. Start Mo. Yr. 88 x 80 80 0 88 11 88 7 CAPITAL EXPENSE CAPITAL EXPENSE 1989 80 0 JAN. -MAR. APR. -JUN. JUL. -DEC TOTAL EXPENSE CAPITAL -SEP OCT. YEAR EXPENSE CAPITAL 1990 1991 1992 1993 621099940J FA 956 (5- 85) g1 0081. (d) BROWN & WILLIAMSON TOBACCO CORPORATION CAPITAL BUDGET PROJECT R&D Date Submitted Capital Budget CICARETTE TEST STATION (CT5400) Maintenance of Existing Business Expansion of Existing Business New Products Cost Reduction Compliance with Outside Requirements Company Improvements & Administrative Requirements Quality Improvement This Project is Proposal No. Estimate Cost Project Dates PROJECT DESCRIPTION The Cigarette Test Station (CTS400) combines many of the stand- alone instruments that R&D currently uses to measure cigarette weight, pressure drop, ventilation, and hardness into one compact module. The CTS400 has the additional measurement of cigarette hardness in comparison with the CTS300. With this added, measurement R&D will be able to replace the Firmness Integrator that measures cigarette firmness in addition to other measurements that are mentioned above. The Firmness Integrator is no longer manufactured and parts are becoming difficult to obtain. Lastly, purchase of this instrument would provide similar capability as the Macon Plant and help facilitate comparisions between laboratories. ESTIMATED SPENDING SCHEDULE Balance to Spend Spent Prior to 1989 SPENDING BY QUARTER Approved by Submitted by W. O. Crain Beyond 1993",
+        "ground_truth_length": 1592,
+        "gemini": {
+            "text": "FA 956(5-85) gl 0081. (d) BROWN & WILLIAMSON TOBACCO CORPORATION CAPITAL BUDGET PROJECT R&D ($000) 0465E Date Submitted Capital Budget Title CIGARETTE TEST STATION (CTS400) Purpose 1 X Maintenance of Existing Business 2 Expansion of Existing Business 3 New Products 4 Cost Reduction Status This Project is X Proposed Approved; Proposal No. Project Dates Submission 88 Yr. Start 7 Mo. 88 Yr. Completion 11 Mo. 88 Yr. 5 Compliance with Outside Requirements 6 Company Improvements & Administrative Requirements 7 Quality Improvement Estimate Cost TOTAL 80 CAPITAL 80 EXPENSE 0 PROJECT DESCRIPTION The Cigarette Test Station (CTS400) combines many of the stand-alone instruments that R&D currently uses to measure cigarette weight, pressure drop, ventilation, and hardness into one compact module. The CTS400 has the additional measurement of cigarette hardness in comparison with the CTS300. With this added measurement R&D will be able to replace the Firmness Integrator that measures cigarette firmness in addition to other measurements that are mentioned above. The Firmness Integrator is no longer manufactured and parts are becoming difficult to obtain. Lastly, purchase of this instrument would provide similar capability as the Macon Plant and help facilitate comparisons between laboratories. ESTIMATED SPENDING SCHEDULE Spent Prior to 1989 Balance to Spend CAPITAL 80 CAPITAL EXPENSE 0 EXPENSE 1989 SPENDING BY QUARTER YEAR CAPITAL EXPENSE JAN.-MAR. APR.-JUN. JUL.-SEP. OCT.-DEC. TOTAL 1990 1991 1992 1993 Beyond 1993 Submitted by W. O. Crain Approved by 621099940J",
+            "text_length": 1571,
+            "inference_time": 4.909143447875977,
+            "scores": {
+                "rouge1_f1": 0.977319587628866,
+                "rouge2_f1": 0.7122153209109732,
+                "rougeL_f1": 0.6804123711340206
+            }
+        },
+        "paddle": {
+            "text": "FA 9565-85 gl0081.d BROWN & WILLIAMSON TOBACCO CORPORATION 0465E CAPITAL BUDGET PROJECT R&D Capital Budget $000 Date Submitted Tare CICARETTE TEST STATION CTS400 Purpose 1 X .Maintenance of Existing Business Expansion of Existing Business 5 Compliance with Outside Requirements 6 Company Improvements & Administrative New Products Cost Reduction Requirements 4 7 Quality Improvement Statns This Project is _X.Proposed TOTAL CAPITAL EXPENSE Approved; Proposal No. 80 80. 0 Project Dates Submission. Start 7 88 Completion 11 88 Mo. Yr. Mo. Yr. PROJECT DESCRIPTION The Cigarette Test Station (Crs4o0).combines many of the stand-alone instruments that R&D currently uses to measure cigarette weight, pressure drop, ventilation, and hardness into one compact module. The CTs4oo has the additional measurement of cigarette hardness in comparison with the CTs3oo. With this added measurement R&D will be able to replace the Firmness Integrator that measures cigarette firmness in addition to other measurements that are mentioned above. The Firmness Integrator is no longer manufactured and parts are becoming difficult to obtain. Lastly,purchase of this comparisions between laboratories. ESTIMATED SPENDING SCHEDULE 68 Balance to Spend CAPITAL 80 CAPITAL EXPENSE 0 EXPENSE 1989 SPENDING BY QUARTER YEAR CAPITAL EXPENSE JAN.-MAR APR-JUN JUL-SEP. OCT.-DEC. TOTAL 1990 CAPITAL .1991 RXNENEE 1992 1993 Beyond 1993 Submitted by Approved by W.0.Crain 621099940J",
+            "text_length": 1450,
+            "inference_time": 7.297252655029297,
+            "scores": {
+                "rouge1_f1": 0.9051724137931033,
+                "rouge2_f1": 0.6493506493506493,
+                "rougeL_f1": 0.6336206896551725
+            }
+        }
+    },
+    {
+        "image_file": "0011973451.png",
+        "ground_truth": "APPROVALS: Date: OBJECTIVE: Cartons: Cases: TIMETABLE: Manufacturing: Date TBD TBD TBD TBD 500 $250 670886182 Date Shipping: Start Up: VOLUME: NEW EXPORT PRODUCT DEVELOPMENT CHARTER 6/ 24/ 94 BRAND/PROJECT NAME: RICHLAND Kings (Soft Pack) -Duty Free (Phoenix) MARKET (S): World- wide Duty Free Generate incremental volume for B& W by providing a low price brand to various international duty- free markets. SOURCE OF BUSINESS: Major Competitive Brands: Target Audience: Value- conscious Smokers COST OR RETAIL PRICING: Est. Monthly Ongoing: INITIAL MATERIALS REQUIRED: Qty In Units Dollar Cost On Hand On Hand Pack Flats Labels: Product Specs Date: In- Market Arrival Date: Launch Date: Start Manufacture Date: Group Prod Dir Dir. Int' Admin Regional Dir/ VP VP Int'l Planning VP Int'l Marketing Senior VP Int'l",
+        "ground_truth_length": 811,
+        "gemini": {
+            "text": "NEW EXPORT PRODUCT DEVELOPMENT CHARTER Date: 6/24/94 BRAND/PROJECT NAME: RICHLAND Kings (Soft Pack) - Duty Free (Phoenix) MARKET(S): World-wide Duty Free OBJECTIVE: Generate incremental volume for B&W by providing a low price brand to various international duty-free markets. SOURCE OF BUSINESS: Major Competitive Brands: TBD Target Audience: Value-conscious Smokers COST OR RETAIL PRICING: TBD VOLUME: Start Up: TBD Est. Monthly Ongoing: TBD INITIAL MATERIALS REQUIRED: Pack Flats/Labels: Qty In Units Dollar Cost Cartons: On Hand Cases: On Hand 500 $250 TIMETABLE: Manufacturing: Product Specs Date: Start Manufacture Date: APPROVALS: Group Prod Dir Dir. Int'l Admin Regional Dir/VP Date Shipping: In-Market Arrival Date: Launch Date: VP Int'l Planning VP Int'l Marketing Senior VP Int'l 670886182 Date",
+            "text_length": 804,
+            "inference_time": 3.554072856903076,
+            "scores": {
+                "rouge1_f1": 0.9961089494163424,
+                "rouge2_f1": 0.7686274509803922,
+                "rougeL_f1": 0.7704280155642024
+            }
+        },
+        "paddle": {
+            "text": "NEW EXPORTPRODUCT DEVELOPMENT CHARTER Date:6/24/94 BRAND/PROJECT NAME: RICHLAND Kings (Soft Pack)- Duty Free (Phoenix) MARKET(S): World-wide Duty Free OBJECTIVE: Generate incremental volume for B&w by providing a low price brand to various international duty-free markets. SOURCE OF BUSINESS: Major Competitive Brands: Target Audience: TBD Value-conscious Smokers COST OR RETAIL PRICING: TBD VOLUME: Start Up: Est.Monthly Ongoing: TBD TBD INITIAL MATERIALS REQUIRED: Qty In Units Dollar Cost Pack Flats/Labels: On Hand Cartons: On Hand Cases: 500 $250 TIMETABLE: Manufacturing: Shipping: Product Specs Date: In-Market Arrival Date: Start Manufacture Date: Launch Date: APPROVALS: Date Date Group Prod Dir VP Int1Planning Dir.Int Admin VP Intt Marketing Regional Dir/VP Senior VP Int1 670886182",
+            "text_length": 793,
+            "inference_time": 2.963942766189575,
+            "scores": {
+                "rouge1_f1": 0.9482071713147411,
+                "rouge2_f1": 0.6987951807228915,
+                "rougeL_f1": 0.7250996015936255
+            }
+        }
+    },
+    {
+        "image_file": "0011974919.png",
+        "ground_truth": "To From: Date: Brand: Title: Eclipse Description: APAC 300 300 W25 APAC C: 602399 RESPONSE CODE REQUEST CONFIRMATION Joe Leinster Joyce Bagby September 10, 1996 PPS Program # Requested By: Sneak Preview Confirmation Call- Charlotte Tests Record of confirmation calls for sneak preview appointments Fullfillment Data Entry at Circulation Quantity: Estimated Response: Estimated Responders: Distribution Drop Date: 10/ 03/ 96 100.00 % Expiration Date: Response Code Assigned: Address, postal requirements, barcodes, document storage, and batch numbers to be supplied by: DE Fullfillment Vendor Suzi Hicks RJR- IR Karen Giddens Drew Huyett Jackson Roper Debbie Lockery Vanessa Oakley Melissa Andrews - TBM Tammi LaManna - M/ B 52251 2963",
+        "ground_truth_length": 734,
+        "gemini": {
+            "text": "RESPONSE CODE REQUEST CONFIRMATION To: Joe Leinster From: Joyce Bagby Date: September 10, 1996 Brand: Eclipse PPS Program #: 602399 Requested By: Title: Sneak Preview Confirmation Call-Charlotte Tests Description: Record of confirmation calls for sneak preview appointments Fullfillment Data Entry at: APAC Circulation Quantity: 300 Estimated Response: 100.00 % Estimated Responders: 300 Distribution Drop Date: 10/03/96 Expiration Date: Response Code Assigned: W25 Address, postal requirements, barcodes, document storage, and batch numbers to be supplied by: APAC DE Fulfillment Vendor C: Suzi Hicks, RJR-IR Debbie Lockery Karen Giddens Vanessa Oakley Drew Huyett Melissa Andrews - TBM Jackson Roper Tammi LaManna - M/B 52251 2963",
+            "text_length": 732,
+            "inference_time": 3.1001317501068115,
+            "scores": {
+                "rouge1_f1": 0.9904761904761905,
+                "rouge2_f1": 0.625,
+                "rougeL_f1": 0.780952380952381
+            }
+        },
+        "paddle": {
+            "text": "RESPONSE CODE REQUEST CONFIRMATION :01 Joe Leinster From_Joyce Bagby Date: September 10,1996 Brand: Eclipse PPS Program # 602399 Requested By Title: Sneak Preview Confirmation Call-Charlotte Tests Description Record of confirmation calls for sneak preview appointments Fullfillment Data Entry at APAC Circulation Quantity: 300 100.00% Estimated Response: Estimated Responders: 300 Distribution Drop Date 10/03/96 Expiration Date: Response Code Assigned: W25 Address,postal requirements,barcodes, document storage, and batch numbers to be supplied by: APAC DE Fullfillment Vendor CSuzi Hicks.RJR-IR Debbie Lockery Karen Giddens Vanessa Oakley 52251 Drew Huyett Melissa Andrews -TBM Jackson Roper Tammi LaManna-M/B 2963",
+            "text_length": 717,
+            "inference_time": 3.1095101833343506,
+            "scores": {
+                "rouge1_f1": 0.9760765550239234,
+                "rouge2_f1": 0.6280193236714976,
+                "rougeL_f1": 0.7751196172248804
+            }
+        }
+    },
+    {
+        "image_file": "0011976929.png",
+        "ground_truth": "Dates: 466603840 /934g /lr 700 Dundee State: Illinois SPECIAL EVENTS City/ Town: Type of Event: Beauty Contest Estimated Attendance March 3rd, 4th & 5th, Name of Event: Mrs. Illinois Beauty Pageant Contact (Name/ Telephone): Ms. Joy Weathers (Sales) 312/ 426 - 8000 Audience Concentration 90 % White - 10 % Black Age category 21 yrs. to 45 yrs. Recommended Brand(s) and Promotional Activity: BARCLAY sampling 2 - 12M cases mixed. To be placed on tables by B & W Reps.",
+        "ground_truth_length": 467,
+        "gemini": {
+            "text": "State: Illinois City/Town: Dundee Type of Event: Beauty Contest Estimated Attendance: 700 Dates: March 3rd, 4th & 5th, Name of Event: Mrs. Illinois Beauty Pageant Contact (Name/Telephone): Ms. Joy Weathers (Sales) 312/426-8000 Audience Concentration: 90% White - 10% Black Age category 21 yrs. to 45 yrs. Recommended Brand(s) and Promotional Activity: BARCLAY sampling 2 - 12M cases mixed. To be placed on tables by B & W Reps. 466603840",
+            "text_length": 437,
+            "inference_time": 2.4756340980529785,
+            "scores": {
+                "rouge1_f1": 0.9722222222222222,
+                "rouge2_f1": 0.8732394366197183,
+                "rougeL_f1": 0.9166666666666667
+            }
+        },
+        "paddle": {
+            "text": "SPECIAL EVENTS $tate: Illinois City/Town: Dundee Type of Event: Beauty Contest 700 Dates: March 3rd,4th & 5th, Estimated Attendance: Mrs. Illinois Beauty Pageant Name of Event: Contact Name/Telephone_Ms.Joy Weathers Sales) 312/426-8000 Audience Concentration: 90t White-10$ Black Age category 21 yrs. to 45 yrs Recommended Brand(s) and Promotional Activity: BARCLAY sampling 2-12M cases mixed. To be placcd on tables by B & W Reps 466603840 /1r/9349",
+            "text_length": 449,
+            "inference_time": 2.0861098766326904,
+            "scores": {
+                "rouge1_f1": 0.9324324324324325,
+                "rouge2_f1": 0.7397260273972603,
+                "rougeL_f1": 0.7972972972972974
+            }
+        }
+    },
+    {
+        "image_file": "0012178355.png",
+        "ground_truth": "BRAND Domestic X Export Description: Date ENDORSEMENTS Date CQA ELT Marketing APPROVAL Date CQA President Rationale Military Contract X Processing X X 10111 621626776 Attachment II SPECIFICATION CHANGE PROPOSAL ELI CUTTER KS SPECIFICATION CHANGE NUMBER 84- 79 TYPE OF SPECIFICATION CHANGE (Check all that apply) Packaging, Temporary Cigarette Design, Trial Tar Adjustment < 1 mg New Product Equivalent Additive Equivalent Filter/ Paper/ /Tipping Packaging, Permanent Cigarette Design, Permanent Tar Adjustment > 1 mg Discontinue Product Equivalent Packaging Material ELI CUTTER KS, for test market, using AMELIA \"B\" Blend (XLF -680G) *Cost Summary- REQUESTED IMPLEMENTATION DATE 9 /17 /84 COST SUMMARY Obsolete Material Cost Special Equipment/ Material Cost Est. Annual Product Cost Change ATTACHMENTS (Check if Included) Product Specification List Packaging Art Stat. Processing Detail Initial Production Requirement Cost Analysis Spec. Change Detail Casing Flavoring Formulae Blend Formulae Prepared By: D. M. Frank 10/ 10/ 84 RD&E - Product RD&E - Process",
+        "ground_truth_length": 1058,
+        "gemini": {
+            "text": "Attachment II SPECIFICATION CHANGE PROPOSAL SPECIFICATION CHANGE NUMBER 84-79 BRAND ELI CUTTER KS Domestic \u2717 Export Military Contract TYPE OF SPECIFICATION CHANGE (Check all that apply) Packaging, Temporary Packaging, Permanent Cigarette Design, Trial Cigarette Design, Permanent Tar Adjustment \u2264 1 mg Tar Adjustment > 1 mg New Product Discontinue Product \u2717 Equivalent Additive Equivalent Packaging Material Equivalent Filter/Paper/Tipping Processing Description: ELI CUTTER KS, for test market, using AMELIA \"B\" Blend (XLF-680G). *Cost Summary -- REQUESTED IMPLEMENTATION DATE 9/17/84 COST SUMMARY Obsolete Material Cost Special Equipment/Material Cost Est. Annual Product Cost Change ATTACHMENTS (Check if included) Rationale Cost Analysis Product Specification List \u2717 Spec. Change Detail Packaging Art Stat. \u2717 Casing/Flavoring Formulae Processing Detail Blend Formulae Initial Production Requirement Prepared By: D. M. Frank Date 10/10/84 ENDORSEMENTS Date CQA RD&E - Product RD&E - Process ELT Marketing APPROVAL Date CQA President 101lk 621626776",
+            "text_length": 1051,
+            "inference_time": 3.33817458152771,
+            "scores": {
+                "rouge1_f1": 0.9795918367346937,
+                "rouge2_f1": 0.7671232876712328,
+                "rougeL_f1": 0.673469387755102
+            }
+        },
+        "paddle": {
+            "text": "Attachment II SPECIFICATION CHANGE PROPOSAL BRAND ELI CUTTER KS SPECIFICATION CHANGS NUMEER 6-48 Domest ic.X. Export Military Contract TYPE OF SPECIFICATION CHANGE Check al1 that apply Packaging, Temporary Packaging,Permanent Cigarette Design, Trial Cigarette Design,Permanent Tar Adjustment 1 mg Tar Adjustment > 1 mg New Product X Discontinue Product Equivalent Additive Equivalent Packaging Material Equivalent Filter/Paper/Tipping Processing Description ELI CUTTER KSfor test market using AMELIA\"B\"Blend XLF-680G. *Cost Summary REQUESTED IMPLEMENTATION DATE 9/17/84 COST SUMMARY Obsolete Material Cost Special Equipment/Material Cost Est.Annual Product Cost Change ATTACHMENTS Check if Included Rationale Cost Analysis Product Specification List Spec.Change Detail Packaging Art Stat. Casing/Flavoring Formulae Processing Detail x Blend Formulae Iaitial Production Requirement Prepared By: D.M.Frank Date 10/10/84 ENDORSEMENTS Date CQA RD&E -Product RD&E-Process ELT Marketing APPROVAL Date COA President 1011k 621626776",
+            "text_length": 1024,
+            "inference_time": 6.129863500595093,
+            "scores": {
+                "rouge1_f1": 0.936026936026936,
+                "rouge2_f1": 0.6983050847457627,
+                "rougeL_f1": 0.6464646464646464
+            }
+        }
+    },
+    {
+        "image_file": "0012199830.png",
+        "ground_truth": "Customer B&W RECEIVED Technician 605110969 Toluene AARBERG -STRAHAN INKS & COATINGS CORP. Formula Composit Form DEC 1 1 1989 A. C. D. Falcon Green SKGC-4518 Formula No. Solids Composit Lecithin (Food Grade) Epoxidized Soy Bean Oil Cellulose Nitrate Wet w /2 Propanol Pigment, Yellow 34 Pigment, Blue 15: 4 Ester of Modified Tricyclic Carboxylic Acid Jonrez IM824 Total Solids Solvent Composit to % V. O. C. s Isopropyl Acetate N- Propyl Acetate Total V. O. C. s 100. 00% DLR 12/ 5/ 89",
+        "ground_truth_length": 484,
+        "gemini": {
+            "text": "Customer B&W Product Name Falcon Green Formula No. SKGC-4518 RECEIVED DEC 11 1989 A. C. D. Solids Composit Lecithin (Food Grade) Epoxidized Soy Bean Oil Cellulose Nitrate Wet w/2 Propanol Pigment, Yellow 34 Pigment, Blue 15:4 Ester of Modified Tricylic Carboxylic Acid Jonrez IH824 Total Solids Solvent Composit to % V.O.C.s Toluene Isopropyl Acetate N-Propyl Acetate Total V.O.C.s 100.00% Technician DLR 12/5/89 605110969",
+            "text_length": 422,
+            "inference_time": 2.932276487350464,
+            "scores": {
+                "rouge1_f1": 0.8930817610062893,
+                "rouge2_f1": 0.713375796178344,
+                "rougeL_f1": 0.7798742138364778
+            }
+        },
+        "paddle": {
+            "text": "AARBERG-STRAHAN INKS & COATINGS CORP. Formula Composit Form Customer RECEIVED B&W Product Name Falcon Green DEC111989 Formula No. SKGC-4518 A. C. D. Solids Composit Lecithin Food Grade Epoxidized Soy Bean Oil Cellulose Nitrate Wet w/2 Propanol PigmentYellow 34 Pigment Blue 15:4 Ester of Modified Tricylie Cerboxylie-Acid Jonrez THP2 Total Solids Solvent Composit to % V.O.C.s Toluene Isopropyl Acetate N-Propyl Acetate Total V.O.C.s 100.00% Technician DLR 12/5/89 605110969",
+            "text_length": 474,
+            "inference_time": 3.224177360534668,
+            "scores": {
+                "rouge1_f1": 0.9024390243902438,
+                "rouge2_f1": 0.7037037037037036,
+                "rougeL_f1": 0.7560975609756098
+            }
+        }
+    },
+    {
+        "image_file": "0012529284.png",
+        "ground_truth": "Date: Description: No. Supplier: Reasons: Increase Decrease PROJECTED: 1987 Com- cc: Date Date Date Date Date MRD00008 465915249 CHANGE OF AUTHORIZED COST 12- -4 -87 C -5-51 CAPRI A&U EXPANSION - CALIFORNIA: WAVE 2 (87 -113) , WAVE 3 (87 \u00e2\u20ac\u201c114) AND WAVE 4 (87 -115) . Kapuler Marketing Research Previous $ Commitments This Project $ 212, 475 + 10% Amt. of Change: $ NA ( % Change) $ 212, 475 + 10% Adjusted Total Cost of Project: Adjustment due to timing of projects falling into 1988. Internal Init. Date Ext. Auth. Date Field Complete Final Report Due (Supplier Rpt.) Summary of Research Budget (886, 220. 53) +14, 165. 00 Total Area Budget: Current Balance Available: This Change: (From Current Budget) This Amount (From Next Year' s Budget) -14, 165. 00 Start plete FR (872, 055. 53) 1, 652, 955. 53 12 -4 -87 12 /2 /87 1987 -113 /114 /115 -CA Project No. Account Name Original - Project File S. Willinger (3) G. D. Raphael V. Hansberry (If Int.) Budget Check Approved By: Approved By: Approved By: Submitted By: S. L. Willinger Committed To Date: New Balance: 87 -113 (70, 825) 9 /23 10 /11 11 /16 87 -114 (70. 825) 10 /13 10 /29 12 /7 87 -115 (70, 825 11 /16 12 /7 1 /11",
+        "ground_truth_length": 1177,
+        "gemini": {
+            "text": "Date: 12-4-87 CHANGE OF AUTHORIZED COST No. C-51 Description: CAPRI A&U EXPANSION - CALIFORNIA: WAVE 2 (87-113), WAVE 3 (87-114) AND WAVE 4 (87-115). Supplier: Kapuler Marketing Research Previous $ Commitments This Project $ 212,475 \u00b110% Amt. of Change: Increase Decrease $ NA (% Change) Adjusted Total Cost of Project: $ 212,475 \u00b110% Reasons: Adjustment due to timing of projects falling into 1988. PROJECTED: Summary of Research Budget Internal Init. Date Total Area Budget: 1987 780,900.00 Ext. Auth. Date Current Balance Available: (886,220.53) Field Complete This Change: +14,165.00 (From Current Budget) Final Report Due This Amount -14,165.00 (Supplier Rpt.) (From Next Year's Budget) Com- Start plete FR 87-113 (70,825) 9/23 10/11 11/16New Balance: (872,055.53) 87-114 (70,825) 10/13 10/29 12/7 87-115 (70,825) 11/16 12/7 1/11 Committed To Date: 1,652,955.53 Submitted By: S.L. Willinger Date 12-4-87 Approved By: Date Approved By: Date Approved By: Date Budget Check Date 12/7/87 Original - Project File Project No. 1987-113/114/115-CA cc: S. Willinger (3) Account Name CAPRI G. D. Raphael V. Hansberry (If Int.) MRD00008 465915249",
+            "text_length": 1140,
+            "inference_time": 5.345444679260254,
+            "scores": {
+                "rouge1_f1": 0.9760765550239234,
+                "rouge2_f1": 0.6826923076923077,
+                "rougeL_f1": 0.5167464114832536
+            }
+        },
+        "paddle": {
+            "text": "CHANGE OF AUTHORIZED COST Date:12-4-87 No. C-51 Description: CAPRI A&U EXPANSION -CALIFORNIA: WAVE287-113 WAVE387-114ANDWAVE487-115 Supplier: Kapuler Marketinq Research Previous $ Commitments This Project $21247510% Amt.of Change:Increase Decrease NA ( %Change) Adjusted Total Cost of Project: $212.4750% Reasons: Adjustment due to timing of projects falling into 1988. PROJECTED: Summary of Research Budget 1987 Internal Init. Date Total Area Budget: 780,900.00 Ext.Auth.Date Current Balance Available: 886,220.53 Field Complete This Change: +14,165.00 From Current Budget Final Report Due Supplier Rpt. This Amount-14,165.00 From Next Year's Budget Com- Start plete FR 87-11370,825 9/23 10/11 11/16New Balance: 872,055.53 87-114 70825 10/1310/2912/7 87-11570,82511/1612/7 1/11 Committed To Date: 1,652,955.53 Submitted By S.L. Willinger Date 12-4-87 Approved By: Date Approved By: Date Approved By: Date Budget Check Date K.F.Ly1 Oriyina-Project File CC: S.Wilinger3 Project No.1987-113/114/115-CA G.D.Raphae V. Hansberry (If Int.) Account Name CAPRI MRDO0008 465915249",
+            "text_length": 1071,
+            "inference_time": 4.547460556030273,
+            "scores": {
+                "rouge1_f1": 0.8320802005012532,
+                "rouge2_f1": 0.4987405541561713,
+                "rougeL_f1": 0.4360902255639098
+            }
+        }
+    },
+    {
+        "image_file": "0012529295.png",
+        "ground_truth": "Date: Supplier Projected: x -0- -O- Date Date Date Date Date Original cc: No. Yes No -0- CAPRI /lsbg1006 465915288 - MARKET RESEARCH AUTHORIZATION (Recommended Proposal Attached) 6DR IV per II Revised MRA request one on LS to be C- 40 10/ /9 87 Description: CAPRI Expansion: California- A&U Wave II Requested By: S. H. Trebilcock Research Request Attached: Competitive Proposals Obtained: Cost ($) Est. Travel Total Cost Cost Per Interview $47 .22 $74 .67 $112 000 +/ - 10% $70 ,825 + - 10% $70 70,825 +/ - 10% $112, 000 +/ - 10% Kapuler Market Research Market Facts, Inc. Initiation Date Field Start Field Complete Final Report Due 8/ 3/ 87 9/ 23/ 87* 10/ 11/ 87 11/ 16/ 87 Summary of Research Budget Total Area Budget: Current Bal. Available: This Change (From Current Budget) 780, 900. 00 (381, 583. 08) -70, 825. 00 New Balance (452 ,408, 08) 1, 233, 308. 08 Committed to Date: (Current Year) Sample Size 1. 500 Recommemded Supplier: Kapuler Marketing Research Reason(s) for Recommendation Low bidder. Submitted By: *Actual start date on the part of supplier Technically was due to start 9/ 7 (the) 10 week post intro period) See Project File Note) LJS 10/ 13/ 87 Approved By: Approved By: Approved By: Budget Check: L J L. J. Spurtier L. E. Gravely K. F. Lyle Project File S. Willinger (3) G. D. Raphael V. Hansberry (If Int.) Project No. Account Name 1987- 113CA 10/ 9/ 87 10/ 13/ 87 This Amount (From Next Year's Budget)",
+        "ground_truth_length": 1427,
+        "gemini": {
+            "text": "MARKET RESEARCH AUTHORIZATION (Recommended Proposal Attached) No. C-40 Date: 10/9/87 Description: CAPRI Expansion: California - AGU Wave II Research Request Attached: Yes x No Requested By: S. H. Trebilcock Competitive Proposals Obtained: Supplier Cost ($) Est. Travel Total Cost Cost Per Interview Kapuler Market Research $ 70,825 +/- 10% -0- $70,825 +/- 10% $47.22 Market Facts, Inc. $112,000 +/- 10% -0- $112,000 +/- 10% $74.67 Projected: Summary of Research Budget Initiation Date 8/3/87 Total Area Budget: 780,900.00 Field Start 9/23/87* Current Bal. Available: (381,583,08) Field Complete 10/11/87 This Change: -70,825,00 Final Report Due 11/16/87 (From Current Budget) *Actual start date on the This Amount -0- part of supplier. Technically (From Next Year's Budget) was due to start 9/7 (the) New Balance: (452,408,08) 10 week post-intro period) Committed to Date: 1,233,308.08 See Project File Note LJS 10/13/87 (Current Year) Sample Size: 1,500 Recommended Supplier: Kapuler Marketing Research Reason(s) for Recommendation: Low bidder. Submitted By: R.J. Spurrier Date 10/9/87 Approved By: L. J. Spurrier Date 10/13/87 Approved By: L. E. Gravely Date Approved By: Date Approved By: Date Budget Check: Date Original - Project File cc: K. F. Lyle S. Willinger (3) G. D. Raphael V. Hansberry (If Int.) Project No. 1987-113CA Account Name CAPRI 465915288 /1sbg1006",
+            "text_length": 1370,
+            "inference_time": 5.977790594100952,
+            "scores": {
+                "rouge1_f1": 0.9382716049382716,
+                "rouge2_f1": 0.6446280991735537,
+                "rougeL_f1": 0.48559670781893005
+            }
+        },
+        "paddle": {
+            "text": "AI-I Rerised per 60R Tsam mRA ome TS MARKET RESEARCH AUTHORIZATION Recom ended Proposal Attached) to Date:10/9/87 No. C-40 Description: CAPRI Expansion: California - A&U Wave II Requested By:_S. H.Trebilcock Research Request Attached: Yes x No Competitive Proposals Obtained: Est. Cost Per Supplier Cost $ Travel Total Cost Interview Kapuler Market Research $70825+/-10% -0- $70825+/-10% $47.22 Market FactsInc. $112000 +/-10% -0- $112000 +/-10% $74.67 Projected: Sumary of Research Budget Initiation Date 8/3/87 Total Area Budget: 780,900.00 Field Start 9/23/87* Current Bal. Available: 381583.08 Field Complete _10/11/87 This Change: -70825,00 From Current Budget Final Report Due 11/16/87 This Amount -0- A<tual strt dte on From Next Years Budget) due to stant 97 452408.08 1O weeR post-intro peniod) Se Praycct Fle N&te) Committed to Date: 1233308.08 O (Current Year) S101387 Sample Size:1500 Recommended Supplier: Kapuler Marketing Research Reason(s) for Recommendation: Low bidder. Submitted By: R.o.Spuhnon) Date 10/9/a7 L.J. Spurfier Approved By: Date / L.E.Gravely Approved By: Date Approved By: Date Budget Check: Date K.F.Lyle Original - Project File CC: S.Willinger 3 Project No.1987-113CA G.D.Raphael V.Hansberry (If Int.) Account Name CAPRI /1sbg1006 465915288",
+            "text_length": 1274,
+            "inference_time": 5.669597148895264,
+            "scores": {
+                "rouge1_f1": 0.7659574468085107,
+                "rouge2_f1": 0.4230769230769231,
+                "rougeL_f1": 0.4340425531914894
+            }
+        }
+    },
+    {
+        "image_file": "0012602424.png",
+        "ground_truth": "DATE: SUPPLIER: PREVIOUS $ COMMITMENTS THIS PROJECI: $ $ $ REASONS: COMMITTED TO DATE Year) (Current DATE DATE DATE DATE DATE BEATTY A. D. T. E. SPROUGE ALBERT A. B. ORIGINAL CC: PROJECTED: 681925147 CHANGE OF AUTHORIZED COST AUTHORIZATION NO.: NP -75 11/ 28/ 84 PROJECT NAME: GEMINI AWARENESS ATTITUDE & USAGE MONITOR. - PORTLAND BURKE MARKETING RESEARCH 220, 000 +1 ,000 (0 .5% CHANGE) 221, 000 AMOUNT OF CHANGE INCREASE ): (CIRCLE ONE) ADJUSTED TOTAL COST OF PROJECT: REVISED COST DUE TO A QUESTION ADDED TO THE SECOND WAVE AND CHANGES MADE IN WORDING OF OTHER QUESTIONS. THIS COVERS THE COST OF ADDITIONAL TELEPHONE INTERVIEW LENGTH, CODING OF THE OPEN- END, PROGRAMING CHANGES, TABULATION AND ANALYSIS. Field Start Field Complete Final Report Due Aug. 1984 Dec. 1984 Jan. 1985 TOTAL AREA BUDGET: CURRENT BAL. AVAILABLE: THIS CHANGE: (From Current Budget) THIS AMOUNT (From Next Year's Budget) NEW BALANCE: 16, 395. 66 200. 00 17 195. 66 -800. 00 1984 (REV) 3, 488, 000. 00 3, 493, 204. 34 11/ /29 /84 12 /10 /84 12- 10- 84 12/ 11/ 84 12 -11 SUBMITTED BY: APPROVED BY: APPROVED BY: APPROVED BY: APPROVED BY: - PROJECT FILE S. WILLINGER (3) \u00e2\u02dc\u2018 RESEARCH GROUP MANAGER A. J. MELLMAN L. R. GRAVELY B a PROJECT No. ACCOUNT NAME 1984- 175NP New Products",
+        "ground_truth_length": 1252,
+        "gemini": {
+            "text": "DATE: 11/28/84 AUTHORIZATION NO.: NP-75 PROJECT NAME: GEMINI AWARENESS ATTITUDE & USAGE MONITOR - PORTLAND SUPPLIER: BURKE MARKETING RESEARCH PREVIOUS $ COMMITMENTS THIS PROJECT: $ 220,000 AMOUNT OF CHANGE (INCREASE/DECREASE): $ +1,000 (0.5 CHANGE) (CIRCLE ONE) ADJUSTED TOTAL COST OF PROJECT: $ 221,000 REASONS: REVISED COST DUE TO A QUESTION ADDED TO THE SECOND WAVE AND CHANGES MADE IN WORDING OF OTHER QUESTIONS. THIS COVERS THE COST OF ADDITIONAL TELEPHONE INTERVIEW LENGTH, CODING OF THE OPEN-END, PROGRAMING CHANGES, TABULATION AND ANALYSIS. PROJECTED: Field Start Aug. 1984 Field Complete Dec. 1984 Final Report Due Jan. 1985 TOTAL AREA BUDGET: (REV) 1984 3,488,000.00 CURRENT BAL. AVAILABLE: 17,195.66 THIS CHANGE: -800.00 (From Current Budget) THIS AMOUNT 200.00 (From Next Year's Budget) NEW BALANCE: 16,395.66 COMMITTED TO DATE: 3,493,204.34 (Current Year) SUBMITTED BY: D. A. BEATTY 11/29/84 DATE APPROVED BY: T. E. ALBERT 12/10/84 DATE APPROVED BY: B. A. SPROULE 12-10-84 DATE APPROVED BY: L. E. GRAVELY 12/11/84 DATE APPROVED BY: A. J. MELLMAN 12-11 DATE ORIGINAL - PROJECT FILE CC: S. WILLINGER (3) PROJECT NO. 1984-175NP RESEARCH GROUP MANAGER ACCOUNT NAME New Products 681925147",
+            "text_length": 1196,
+            "inference_time": 5.593624591827393,
+            "scores": {
+                "rouge1_f1": 0.9688249400479617,
+                "rouge2_f1": 0.6457831325301204,
+                "rougeL_f1": 0.6235011990407675
+            }
+        },
+        "paddle": {
+            "text": "CHANGE OF AUTHORIZED COST DATE: 11/28/84 AUTHORIZATION NO.: NP-75 PROJECT NAME: GEMINI AWARENESS ATTITUDE & USAGE MONITOR -PORTLANI SUPPLIER: BURKE MARKETING RESEARCH PREVIOUS $ COMMITMENTS THIS PROJECI: $220,000 AMOWNT OF CHANGE INCREASED +1,000 0.5CHANGE CIRCLE ONE) ADJUSTeD TOTAL COST OF PROJECI: 221,000 REASONS: IN WORDING OF OTHER QUESTIONS. THIS COVERS THE COST OF ADDITIONAL TELEPHONE INTERVIEW LENGTH, CODING OF THE OPEN-ENDPROGRAMING CHANGESTABULATION AND ANALYSIS. 1984 PROJECTED TOTAL AREA BUDGET:REV) 3. 488,000.00 Field Start Aug. 1984 Field Complete Dec 1984 CURRENT BAL.AVAILABLE: 17,195.66 Final Report Due Jan. 1985 TEIS CHANGE: -800.00 (From Current Budget) THIS AMOUNT 200,00 From Next Year's Budget) NEW BALANCE: 16,395.66 COMMITTED TO DATE: 3493,204.34 (Current Year) SUBMITTED BY: APPROVED BY: ATE APPROVED BY: 12-10 SPROT DATE APPROVED BY: 8 JATE APPROVED BY: 1-11 DATE ORIGINAL - PROJECT FILE CC: S.WILLINGER 3 PROJECIO1984-175NP RESEARCH GROUP MANAGER AccouNr ilAME New Products 681925147",
+            "text_length": 1015,
+            "inference_time": 4.166255474090576,
+            "scores": {
+                "rouge1_f1": 0.7925531914893617,
+                "rouge2_f1": 0.5133689839572192,
+                "rougeL_f1": 0.5106382978723404
+            }
+        }
+    },
+    {
+        "image_file": "0012947358.png",
+        "ground_truth": "VIA: TO: FROM: Per DATE: VIA: RE: FOR IN Document(s) Served: Court: Remarks BY: Per (X) FLORIDA (X) (city) (State) (City) (Originating Agent) (State) (C T. Office) (Name State) (Address) 9. 8. 7. 6. 5. 4. 3. 2. 1. C T SYSTEM The Corporation Trust Company C T Corporation System and Associated Companies The Corporation Trust Company New York, New York C T Corporation System Phyllis G. Jennings Jacksonville, Florida 1- -27 -69 () Certified Mail Certified Air Mail Walliam Degenhardt Tax Director The American Tobacco Company 245 Park Avenue New York New York 1001 Recipienti Certified Mail () Messenger () Certified Air Mail PROCESS SERVED N. J. THE AMERICAN TOBACCO COMPANY Name of Company Enclosed are copies of legal proces served upon the statutory agent of the above company as follows: Title of Action: Reuben Sunstein, Plaintiff, v. The American Tobacco Company, a New Jorsey corporation, Defendant. Summons and Complaint Circuit Court, Dade County, Florida. No. 69 -1351 Nature of Action: For personal injuries resulting after smoking \"Pall Mall\" and \"Lucky Strike\" cigarettes manufactured by defendant, wherein plaintiff alleges breach of was- anties, seeks damages in excess of $5, 000 and demands trial by jury. On Whom Process was Served: Phyllis G. Jonnings, Asst. Socy,. The Corporation Company, Jacksonville, Florida Date and Hour of Service Appearance or Answer Dues Plaintiff's Attorney(s): Max A. Goldfarb 414 Biscayne Building Miami, Florida January 27, 1969 9: 00 a. m. Within 20 days after service, exclusive of day of service. RECEIVED AND FORWARDED ON 1 29/29/ 69 (Date) THE CORPORATION TRUST COMPANY V. Colvellm Asst. Secy. 277 Park Avenue New York, New York 10017 KINDLY ACKNOWLEDGE RECEIPT BY SIGNING AND RETURNING TO US THE ENCLOSED CARBON COPY OF THIS TRANSMITTAL FORM,",
+        "ground_truth_length": 1798,
+        "gemini": {
+            "text": "CT SYSTEM The Corporation Trust Company CT Corporation System and Associated Companies TO: William R. Degenhardt, Tax Director The American Tobacco Company 245 Park Avenue New York, New York 10017 (Authorized Recipient) VIA: (X) Certified Mail ( ) Messenger ( ) Certified Air Mail RE: PROCESS SERVED IN FLORIDA FOR THE AMERICAN TOBACCO COMPANY (Name of Company) Enclosed are copies of legal process served upon the statutory agent of the above company as follows: 1. Title of Action: Reuben Sunstein, Plaintiff, v. The American Tobacco Company, a New Jersey corporation, Defendant. 2. Document(s) Served: Summons and Complaint 3. Court: Circuit Court, Dade County, Florida. No. 69-1351 4. Nature of Action: For personal injuries resulting after smoking \"Pall Mall\" and \"Lucky Strike\" cigarettes manufactured by defendant, wherein plaintiff alleges breach of warranties, seeks damages in excess of $5,000 and demands trial by jury. 5. On Whom Process was Served: Phyllis G. Jennings, Asst. Socy., The Corporation Company, Jacksonville, Florida 6. Date and Hour of Service: January 27, 1969 9:00 a.m. 7. Appearance or Answer Due: Within 20 days after service, exclusive of day of service. 8. Plaintiff's Attorney(s): Max A. Goldfarb 414 Biscayne Building Miami, Florida 9. Remarks: TO: The Corporation Trust Company (CT Office) New York, New York (City) (State) FROM: CT Corporation System (Originating Agent) Per Phyllis G. Jennings Jacksonville, Florida (City) (State) DATE: 1-27-69 VIA: ( ) Certified Mail (X) Certified Air Mail RECEIVED AND FORWARDED ON 1/29/69 (Date) BY: THE CORPORATION TRUST COMPANY Per V. Colvell, Asst. Secy. 277 Park Avenue New York, New York 10017 KINDLY ACKNOWLEDGE RECEIPT BY SIGNING AND RETURNING TO US THE ENCLOSED CARBON COPY OF THIS TRANSMITTAL FORM.",
+            "text_length": 1782,
+            "inference_time": 6.291595220565796,
+            "scores": {
+                "rouge1_f1": 0.9333333333333332,
+                "rouge2_f1": 0.7183098591549296,
+                "rougeL_f1": 0.6736842105263158
+            }
+        },
+        "paddle": {
+            "text": "CT SYSTEM OThe Corporation Trust Company The Corporatjon TrstCompany (C 1 Oflke) . C T Corporation System New York,New York (City] (Stale) nd Asociatgd Cnpnls FROM C T Corporation System [Orlginating Agent 1O Williem R.DegenhardtTax Director Phyllis G.Jenninge The American Tobacco Company 245 Park Avenue Jacksonville, Florida New YorkNew York 10017 (Cny) [Stote) DATE: 1-27-69 VIA:()Certified Mail [Authorizad Reclpientj Cortifled Alr Moll VIAXCortified Mail ) Messenger ) Certified Air Moil REPROCESSSERVEDIN FLORIDA JAN301969 [Jurlsdition] FOR THE AMERICAN TOBACCO COMPANY N.J. [Nome ol Compony] Home State Enclosed are coples of legal process served upon the statutory agent of tho obove company as follows: 1.Titie o Action:Reuben Sunstein, Plaintiff, v. The American Tobacco Company, a New Jersey corporation, Defendant. 2.Documenls Seved: Summons and Complaint 3.Courl Circuit Court, Dade County,Florida. No. 69-1351 4.Noture of Action: For personal injuries resulting after smoking \"Pall Mall\"and \"Lucky Strike\" cigarattee manufactured by defendant, wherein plaintiff alleges breach of wa- anties, seeks damages in excess of $5,000 and demande trial by jury. 5.On Whom Process wus Serveds Phyllie G.Jonnings,Asst. Socy.,Tho Corporation Company, Jacksonvillo, Florida .Dale nd Hour of Servlce January27,1969 9:00a.m. 7.Appearonce or Answer Duet Within 2 days atr servico oxclusive of day of service, R.L.P. 8.Plaintiff's Atlorney(): Max A.Goldfarb F.G.A M.A. 414 Biscayne Building J.M.C. .J.F. Miami,Florida H.E.F. M.G. 9.Remarks: J.J.G. /29/69 RECEIVED AND FORWARDED ON KINDLY ACKNOWLEDGE RECEIPT BY SIGNING AND RETURNING TO BYTHE CORPORATION TRUST COMPANY US THE ENCLOSED CARBON COPY OF THIS TRANSMITIAL FORM. l.Colvelpre V.Colve2lAsst.Secy. 277 Park Ayenue New York, New York l0017 dreas 16ZIM 6-68 Sou stts",
+            "text_length": 1818,
+            "inference_time": 5.302783250808716,
+            "scores": {
+                "rouge1_f1": 0.7108843537414966,
+                "rouge2_f1": 0.46757679180887374,
+                "rougeL_f1": 0.5238095238095238
+            }
+        }
+    },
+    {
+        "image_file": "0013255595.png",
+        "ground_truth": "DATE: SUBJECT: WRITER: APPROVALS: Other: YES NO DATE PUBLIC COMMUNICATIONS APPROVAL SHEET The Tobacco Institute Attachment A NAME OR INITIALS Division Head Bill Kloepfer Sam Chilcote Legal Approval Recommended/ Required: SH &B C& B",
+        "ground_truth_length": 231,
+        "gemini": {
+            "text": "DATE: SUBJECT: WRITER: APPROVALS: PUBLIC COMMUNICATIONS APPROVAL SHEET The Tobacco Institute Division Head Bill Kloepfer Sam Chilcote Legal Approval Recommended/Required: SH&B C&B Other: Attachment A NAME OR INITIALS DATE YES NO",
+            "text_length": 228,
+            "inference_time": 1.7740864753723145,
+            "scores": {
+                "rouge1_f1": 1.0,
+                "rouge2_f1": 0.8181818181818182,
+                "rougeL_f1": 0.735294117647059
+            }
+        },
+        "paddle": {
+            "text": "Attachment A PUSLIC COMMUNICATIONS APPROVAL SHEET The Tobacco Institute DATE: SUBJECT: WRITER: APPROVALS: NAME OR INITIALS DATE Division Head Bill Kloepfer Sam Chilcote Legal Approval Recommended/Required: YES NO SH&B C&B Other:",
+            "text_length": 228,
+            "inference_time": 1.2512116432189941,
+            "scores": {
+                "rouge1_f1": 0.9705882352941176,
+                "rouge2_f1": 0.7272727272727273,
+                "rougeL_f1": 0.6764705882352942
+            }
+        }
+    },
+    {
+        "image_file": "00283813.png",
+        "ground_truth": "Date: on 5031 BLEND CASING RECASING Cigarettes: Brand Length Circumference Paper Firmness Draw Weight Print Wrappings: Labels Closures Cartons Markings Gold Requirements: Responsibility: Laboratory Others Shipping Reports: 00283913 - 7/ 16/ 68 7/ 10/ 68 Mr. C. L. Tucker, Jr. Original request made by Sample No. Sample specifications written by John H. M. Bohlken OLD GOLD STRAIGHT Tobacco Blend Control for Sample No. 5030 MENTHOL FLAVOR FINAL FLAVOR OLD GOLD STRAIGHT 85 mm. 25. 3 mm. Ecusta 556 OLD GOLD STRAIGHT OLD GOLD STRAIGHT OLD GOLD STRAIGHT OLD GOLD STRAIGHT Tipping Paper Filter Length OLD GOLD STRAIGHT Standard Blue OLD GOLD STRAIGHT Sample number on each pack and carton Tear Tape One Tray Laboratory Analysis: Benzo (A) Pyrene Analyses Tars and Nicotine, Taste Panel, Burning Time, Gas Phase Analysis, Tobacco Blend Filter Production Making & Packing Manufacturing - A. Kraus Product Development, John H. M. Bohlker Written by Original to Copies to John H. M. Bohlken Mr. C. L. Tucker, Jr. Dr. A. W. Spears",
+        "ground_truth_length": 1022,
+        "gemini": {
+            "text": "Date: 7/16/68 Sample No. 5031 Original request made by Mr. C. L. Tucker, Jr. on 7/10/68 (Sample specifications written by John H. M. Bohlken BLEND CASING RECASING FINAL FLAVOR MENTHOL FLAVOR OLD GOLD STRAIGHT Tobacco Blend Control for Sample No. 5030 Cigarettes: Brand OLD GOLD STRAIGHT Length 85 mm. Circumference 25.3 mm. Paper Ecusta 556 Firmness OLD GOLD STRAIGHT Draw OLD GOLD STRAIGHT Weight OLD GOLD STRAIGHT Tipping Paper Print OLD GOLD STRAIGHT (Filter Length--- Requirements: Laboratory Others One Tray Laboratory Analysis: 7/16/68 7/1/68 7/16/68 Tars and Nicotine, Taste Panel, Burning Time, Gas Phase Analysis, Benzo (A) Pyrene Analyses 7-16-68-C.L.classfied Responsibility: Tobacco Blend Manufacturing - A. Kraus Filter Production--- Making & Packing Product Development , John H. M. Bohlken Shipping Reports: Written by John H. M. Bohlken Original to Mr. C. L. Tucker, Jr. Copies to Dr. A. W. Spears ( Wrappings: Labels OLD GOLD STRAIGHT Closures--- Standard Blue Tear Tape-- Gold Cartons OLD GOLD STRAIGHT Markings Sample number on each pack and carton 00283813",
+            "text_length": 1076,
+            "inference_time": 4.363171339035034,
+            "scores": {
+                "rouge1_f1": 0.943952802359882,
+                "rouge2_f1": 0.6290801186943621,
+                "rougeL_f1": 0.536873156342183
+            }
+        },
+        "paddle": {
+            "text": "Date: 7/16/68 Sample No. 5031 Original request made by Mr. C. T.. Tucker, Jr on 7/10/68 Sample specifications written by John H. M. Bohlken BLEND CASING RECASING FINAL FLAVOR MENTHOL FLAVOR OLD GOLD STRAIGHT TobaCCO Blend Control.for Sample No. 5030 Cigarettes: Brand OLD GOLD STRAIGHT Length 85mm. Circumference 25.3mm. Paper Ecusta 556 Firmness OLD GOLD STRAIGHT Draw OLD GOLD STRAIGHT Weight OLD GOLD STRAIGHT Wrappings: Tipping Paper Print OLD GOLD STRAIGHT Label's OLD GOLD STRAIGHT Filter Length-- Closures Standard Blue Tear Tape-- Gold Requirements: Cartons OLD GOLD STRAIGHT Markings Sample number on each Laboratory pack and carton One Tray Others Laboratory Analysis: Tars and Nicotine, Taste Panel, Burning Time, Gas Phase Analy Benzo.A) Pyrene Analyses- 7-/6-CF-e.Lnsse Responsibility: Tobacco Blend -Manufacturing -A. Kraus Filter Production- Shipping Reports: Written by --John H. M. Bohlken 02838 Original to -Mr. C. L. Tucker, Jr Copies to ---Dr.A. W. Spears ( ..",
+            "text_length": 980,
+            "inference_time": 4.566265821456909,
+            "scores": {
+                "rouge1_f1": 0.91875,
+                "rouge2_f1": 0.5534591194968553,
+                "rougeL_f1": 0.58125
+            }
+        }
+    },
+    {
+        "image_file": "0030031163.png",
+        "ground_truth": "NAME Strokes NAME A <> <> SPORTS REGISTRATION 37TH ANNUAL MEETING AUGUST 15-18, 1996 RYE- TOWN HILTON HOTEL RYE, NEW YORK Make copies of this form if necessary. Complete applicable section (s) and return to NYSAWMD. LORILLARD TOBACCO COMPANY GOLF TOURNAMENT (Ladies & Men) . . . Friday, August 16, Tee off at 8:00 A. M. SHARP (no green fee) I will participate in the Golf Tournament My handicap is: FIRM NAME BROWN & WILLIAMSON TOBACCO CORPORATION TENNIS TOURNAMENT (Ladies & Men) . . . Friday, August 16, starting time is 3:00 P. M. I will participate in the Tennis Tournament I would classify myself as (please check appropriate box) <> Beginner <> Fair <> Good <> Excellent FIRM NAME NYSAWMD, INC. 211 EAST 43RD STREET, NEW YORK, NY 10017-4707 CONVFORM.96",
+        "ground_truth_length": 758,
+        "gemini": {
+            "text": "SPORTS REGISTRATION 37TH ANNUAL MEETING AUGUST 15-18, 1996 RYE-TOWN HILTON HOTEL RYE, NEW YORK Make copies of this form if necessary. Complete applicable section(s) and return to NYSAWMD. LORILLARD TOBACCO COMPANY GOLF TOURNAMENT (Ladies & Men)...Friday, August 16, Tee off at 8:00 A.M. SHARP (no green fee) I will participate in the Golf Tournament < > My handicap is: < > Strokes NAME FIRM NAME BROWN & WILLIAMSON TOBACCO CORPORATION TENNIS TOURNAMENT (Ladies & Men)...Friday, August 16, starting time is 3:00 P.M. I will participate in the Tennis Tournament I would classify myself as (please check appropriate box) < > Beginner < > Fair < > Good < > Excellent NAME FIRM NAME NYSAWMD, INC. 211 EAST 43RD STREET, NEW YORK, NY 10017-4707 CONVFORM.96 A",
+            "text_length": 752,
+            "inference_time": 3.3286995887756348,
+            "scores": {
+                "rouge1_f1": 1.0,
+                "rouge2_f1": 0.9583333333333334,
+                "rougeL_f1": 0.9669421487603306
+            }
+        },
+        "paddle": {
+            "text": "SPORTS REGISTRATION 37TH ANNUAL MEETING AUGUST 15-18,1996 RYE-TOWN HILTON HOTEL RYE,NEW YORK Make copies of this form if necessary. Complete applicable section(s) and return to NysAwMD. LORILLARD TOBACCO COMPANY GOLF TOURNAMENT Ladies & Men)...Friday Auqust 16,Tee off at 8:00 A.M. SHARP (no green fee) I will participate in the Golf Tournament < > My handicap is: >Strokes NAME FIRM NAME BROWN & WILLIAMSON TOBACCO CORPORATION TENNIS TOURNAMENT Ladies & Men...Friday, August 16, starting time is 3:00 P.M. I will participate in the Tennis Tournament I would classify myself as (please check appropriate box). < >Beginner < >Fair L >Good < >Excellent NAME FIRM NAME ******* NYSAWMD,INC. 211 EAST 43RD STREET,NEW YORKNY 10017-4707 A CONVFORM.96",
+            "text_length": 743,
+            "inference_time": 4.013772487640381,
+            "scores": {
+                "rouge1_f1": 0.9752066115702479,
+                "rouge2_f1": 0.9,
+                "rougeL_f1": 0.9421487603305785
+            }
+        }
+    },
+    {
+        "image_file": "0030041455.png",
+        "ground_truth": "5 0 2 A KOOL & GPC GOLF BAG SURVEY Section Number Section Sales Manager's Name Peter Hatch Please place the following order for KOOL and/ or GPC Golf Bags for my Section: KOOL Golf Bags GPC Golf Bags Send the completed survey to Linda Daniels in Field Supply via fax (502- 568- 7189) OR CC: Mail no later than June 7. 0022A wk4",
+        "ground_truth_length": 327,
+        "gemini": {
+            "text": "KOOL & GPC GOLF BAG SURVEY Section Number: 2 Section Sales Manager's Name: Peter Hatch Please place the following order for KOOL and/or GPC Golf Bags for my Section: KOOL Golf Bags 5 GPC Golf Bags 0 Send the completed survey to Linda Daniels in Field Supply via fax (502-568-7189) or CC:Mail no later than June 7. 0022A.wk4",
+            "text_length": 323,
+            "inference_time": 2.734722375869751,
+            "scores": {
+                "rouge1_f1": 0.9921259842519685,
+                "rouge2_f1": 0.8959999999999999,
+                "rougeL_f1": 0.9448818897637795
+            }
+        },
+        "paddle": {
+            "text": "KOOL & GPC GOLF BAG SURVEY Section Number: 2 Section Sales Manager's Name Peter Hatch Please place the following order for KOOL and/or GPC Golf Bags for my Section: KOOL Golf Bags 5 GPC Golf Bags 0 Send the completed survey to Linda Daniels in Field Supply via fax (502-568-7189) or CC:Mail no later than June 7 0022A.wk4 A",
+            "text_length": 323,
+            "inference_time": 1.2502686977386475,
+            "scores": {
+                "rouge1_f1": 1.0,
+                "rouge2_f1": 0.8888888888888888,
+                "rougeL_f1": 0.9375
+            }
+        }
+    },
+    {
+        "image_file": "0060000813.png",
+        "ground_truth": "Brand: Power: Pulse: Modules: Scorching: Cratering: Comments: Scorching: Cratering Comments: Module: Brand: Pulse: Scorching: Cratering: Comments: Scorching: Cratering: Comments: Power: 412 Insignificant. Insignificant. Week of: P. S. 73 -91 Date Received 1 /25 /91 LASER PERFORATED TIPPING APPEARANCE CHECK HOLE DEPTH, SCORCHING, CRATERING Shift & Date: CARLTON Filter 100's - 4 Mg Laser Mfg. for Taiwan FRONT CIGARETTES <1 mm 13 .0 mm from end None to insignificant. Excellent appearance (18 holes). Hole Depth: Hole Depth: <1 mm 13 .0 mm from end BACK CIGARETTES None to insignificant. Excellent appearance (18 holes). Shift & Date: FRONT CIGARETTES Hole Depth: BACK CIGARETTES Hole Depth: ATXO2 0062194",
+        "ground_truth_length": 706,
+        "gemini": {
+            "text": "P. S. 73-91 Week of: Date Received: 1/25/91 LASER PERFORATED TIPPING APPEARANCE CHECK HOLE DEPTH, SCORCHING, CRATERING Module: 412 Brand: CARLTON Filter 100's - 4 Mg Laser Shift & Date: Pulse: Mfg. for Taiwan Power: FRONT CIGARETTES Hole Depth: <1 mm 13.0 mm from end Scorching: Insignificant. Cratering: None to insignificant. Comments: Excellent appearance (18 holes). BACK CIGARETTES Hole Depth: <1 mm 13.0 mm from end Scorching: Insignificant. Cratering: None to insignificant. Comments: Excellent appearance (18 holes). Module: Shift & Date: Brand: Pulse: Power: FRONT CIGARETTES BACK CIGARETTES Hole Depth: Scorching: Cratering: Comments: Hole Depth: Scorching: Cratering: Comments: ATX02 0062194",
+            "text_length": 702,
+            "inference_time": 3.263134241104126,
+            "scores": {
+                "rouge1_f1": 0.9902912621359223,
+                "rouge2_f1": 0.6372549019607843,
+                "rougeL_f1": 0.6699029126213593
+            }
+        },
+        "paddle": {
+            "text": "73-91 Week of: Date Received 1/25/91 LASER PERFORATED TIPPING APPEARANCE CHECK HOLE DEPTH, SCORCHING, CRATERING Module: 412 Brand: CARLTON Filter l00's -4 Mg Laser Shift & Date: Pulse: Mfg. for Taiwan Power: FRONT CIGARETTES Hole Depth: <1mm 13.0 mm from end Scorching : Insignificant. Cratering : None to insignificant. Comments Excellent appearance (18 holes). BACK CIGARETTES Hole Depth: <1mm 13.0 mm from end Scorching. Insignificant. Cratering: None to insignificant. Comments Excellent appearance (18 holes). Module: Brand: Shift & Date: Pulse: Power: FRONT CIGARETTES Hole Depth: Scorching Cratering Comments BACK CIGARETTES Hole Depth: Scorching Cratering Comments ATX02 0062194",
+            "text_length": 686,
+            "inference_time": 2.8850491046905518,
+            "scores": {
+                "rouge1_f1": 0.9405940594059405,
+                "rouge2_f1": 0.5599999999999999,
+                "rougeL_f1": 0.6336633663366338
+            }
+        }
+    },
+    {
+        "image_file": "0060007216.png",
+        "ground_truth": "DATE PMRM Cigarette dimensions: ference. cc: RSS RDC PHL PRC BMC Records PROJECT INITIATION FORM PROJECT CODE PROJECT NAME PROJECT LEADER WORK REQUESTED BY PROJECT OBJECTIVE OTHER PERSONNEL ASSIGNED April 30, 1985 PALL MALL Regular Menthol J. F. Anders R. S. Sprinkle, III To develop a nonfilter menthol cigarette delivering 21- 24 mg \"tar\" as a menthol companion to PALL MALL Famous Cigarettes. 84 x 24.9 mm circum- E. P. Barbee Approved by Other Personnel Assigned Project Leader ATX02 0226607 R. S. Sprinkle III",
+        "ground_truth_length": 514,
+        "gemini": {
+            "text": "PROJECT INITIATION FORM PROJECT CODE PMRM DATE April 30, 1985 PROJECT NAME PALL MALL Regular Menthol PROJECT LEADER J. F. Anders WORK REQUESTED BY R. S. Sprinkle, III PROJECT OBJECTIVE To develop a nonfilter menthol cigarette delivering 21-24 mg \"tar\" as a menthol companion to PALL MALL Famous Cigarettes. Cigarette dimensions: 84 x 24.9 mm circumference. OTHER PERSONNEL ASSIGNED E. P. Barbee cc: RSS RDC PHL PRC BPC Records Project Leader Other Personnel Assigned Approved by R. S. Sprinkle, III ATX02 0226607",
+            "text_length": 512,
+            "inference_time": 2.429640054702759,
+            "scores": {
+                "rouge1_f1": 0.9704142011834319,
+                "rouge2_f1": 0.718562874251497,
+                "rougeL_f1": 0.6390532544378699
+            }
+        },
+        "paddle": {
+            "text": "PROJECT INITIATJON PORM PROJECT CODE PMRM DATE_Apri1 30,1985 PROJECT NAME PALL MALL Regular Menthol PROJECT LEADER J.F Anders WORK REQUESTED BY R.S. Sprinkle, III PROJECT OBJECTIVE To develop a nonfilter menthol cigarette delivering 21-24 mg \"tar\"as a menthol companion to PALL MALL Famous Cigarettes. Cigarette dimensions: 84x24.9mm circum- ference. OTHER PERSONNEL ASSIGNED E.P. Barbee Approved by CC: RSS RDC R. S.Sprinkle, PHL PRC BMC Records Project Leader Other Personnel Assiqned ATX02 0226607",
+            "text_length": 500,
+            "inference_time": 2.151808023452759,
+            "scores": {
+                "rouge1_f1": 0.9036144578313252,
+                "rouge2_f1": 0.6341463414634146,
+                "rougeL_f1": 0.5542168674698795
+            }
+        }
+    },
+    {
+        "image_file": "0060024314.png",
+        "ground_truth": "Facility: Permit#: DESCRIPTION: CAS# MANUFACTURER: No Inorganic PHONE Other Organic Yes 74880 6240 0001 CITY OF REIDSVILLE CHEMICAL MANAGEMENT PLAN 1993 INVENTORY CHEMICAL USAGE FACT SHEET Process Chemicals Used in Excess of 100 Pounds/ Day, Water Treatment Chemicals, Cleaning Compounds The American Tobacco Company CHEMICAL DESCRIPTION PRODUCT (CHEMICAL) NAME: Fuller G2315 DC Liquid Adhesive PRODUCT CLASSIFICATION (Circle Dne): CHEMICAL FORMULA: Vinyl Acetate PERCENT ACTIVES (Non -water): .5% H. B. Fuller Company 108 -05 -4 MSDS ON FILE? (Circle One): CHEMICAL USAGE 1993 ANNUAL USAGE (LBS.): 1993 AVG. MONTHLY USAGE (LBS.) APPLICATION (Circle One and Briefly Describe): Producion Process label adhesive Water Treatment: Housekeeping Cleaning ATXO2 0132045",
+        "ground_truth_length": 762,
+        "gemini": {
+            "text": "CITY OF REIDSVILLE CHEMICAL MANAGEMENT PLAN 1993 INVENTORY CHEMICAL USAGE FACT SHEET Process Chemicals Used in Excess of 100 Pounds/Day, Water Treatment Chemicals, Cleaning Compounds Facility: The American Tobacco Company Permit #: 0001 CHEMICAL DESCRIPTION PRODUCT (CHEMICAL) NAME: Fuller G2315 DC DESCRIPTION: Liquid Adhesive PRODUCT CLASSIFICATION (Circle One): Organic Inorganic CHEMICAL FORMULA: Vinyl Acetate CAS#: 108-05-4 MANUFACTURER: H. B. Fuller Company MSDS ON FILE? (Circle One): Yes No PERCENT ACTIVES (Non-water): < .5% PHONE #: 612-481-3300 CHEMICAL USAGE 1993 ANNUAL USAGE (LBS.): 74880 1993 AVG. MONTHLY USAGE (LBS.) 6240 APPLICATION (Circle One and Briefly Describe): Production Process: label adhesive Water Treatment: Housekeeping/Cleaning: Other: ATXO2 0132045",
+            "text_length": 782,
+            "inference_time": 3.964439868927002,
+            "scores": {
+                "rouge1_f1": 0.9674418604651164,
+                "rouge2_f1": 0.7136150234741784,
+                "rougeL_f1": 0.7627906976744188
+            }
+        },
+        "paddle": {
+            "text": "CITY OF REIDSVILLE CHEMICAL MANAGEMENT PLAN 1993INVENTORY CHEMICAL USAGE FACT SHEET Process Chemicals Used in Excess of 100 Pounds/Day Water Treatment Chemicals, Cleaning Compounds Facility: Permit #; The American Tobacco Company 0001 CHEMICAL DESCRIPTION PRODUCT (CHEMICAL)NAME FullerG2315 DC DESCRIPTION:Liquid Adhesive PRODUCT CLASSIFICATION (Circe One): Inorganic CHEMICALFORMULA: Vinyl Acetate CAS#: 108-05-4 PERCENT ACTIVES (Non-water MANUFACTURER: H.B. Fuller Company MSDS ON FILE Circle One No CHEMICAL,USAGE 1993 ANNUAL USAGE (LBS.) 74880 1993 AVG.MONTHLYUSAGE (LBS.) 6240 APPLICATION Circle One and Briefly Describe Production Process: label adhesive Water Treatnant: Housekeeping/Cleaning: Other. ATX02 0132045",
+            "text_length": 721,
+            "inference_time": 3.5658695697784424,
+            "scores": {
+                "rouge1_f1": 0.8725490196078433,
+                "rouge2_f1": 0.6039603960396039,
+                "rougeL_f1": 0.7352941176470589
+            }
+        }
+    },
+    {
+        "image_file": "0060025670.png",
+        "ground_truth": "Supplier: APPROVED Tester Manager TEST ADHESIVE EVALUATION Adhesive Code: Application: tipping, carton end flaps, etc.) Test Period: NOT APPROVED If not approved state reasons. Quality Control Local Purchasing Complete and return to D. R. Brickey, Department of Research and Development, as soon as possible. ATXO2 0083035",
+        "ground_truth_length": 322,
+        "gemini": {
+            "text": "TEST ADHESIVE EVALUATION Supplier: Adhesive Code: Application: (tipping, carton end flaps, etc.) Test Period: APPROVED NOT APPROVED If not approved state reasons. Tester Quality Control Local Purchasing Manager Complete and return to D. R. Brickey, Department of Research and Development, as soon as possible. ATX02 0083035",
+            "text_length": 323,
+            "inference_time": 2.030040979385376,
+            "scores": {
+                "rouge1_f1": 0.9782608695652174,
+                "rouge2_f1": 0.7777777777777778,
+                "rougeL_f1": 0.8913043478260869
+            }
+        },
+        "paddle": {
+            "text": "TEST ADIESIVE EVALUATION Supplier Adhesive Code: Application: (tipping,carton end flaps,etc.) Test Period: APPROVED NOT APPROVED If not approved state reasons. Tester Quality Control Local Purchasing Manager Complete and return to D. R. Brickey, Department of Research and Development, as soon as possible. ATX02 0083035",
+            "text_length": 320,
+            "inference_time": 1.4914796352386475,
+            "scores": {
+                "rouge1_f1": 0.9565217391304348,
+                "rouge2_f1": 0.7333333333333333,
+                "rougeL_f1": 0.8695652173913043
+            }
+        }
+    },
+    {
+        "image_file": "0060029036.png",
+        "ground_truth": "Brand(s) Company DATE SIGNATURE NAME Originator Manager DATE SECTION(S) SIGNATURE PAGE(S) Insurance Law 1-11-94 SME SPORTS MARKETING ENTERPRISES DOCUMENT CLEARANCE SHEET January 11, 1994 Date Routed: Contract No. 4011 00 00 Joe's Place Exhibits Contract Subject: SPEVCO, INC. Camel/ Winston Current Year Cost Total Contract Cost $ 1,340,000.00 1994-1995 Brief Description 2 Joe's Place Exhibits for use at Winston Cup, Winston Drag and Camel Super Bike Events. G/ L Code: Program Budget Code Michael Wright John Powell B J. Powell REVIEW ROUTING FS - Marketing * UP TO AND INCLUDING $ 25,000 ** OVER $ 25,000 Revised 10/26/92 13 Plaza 51669 8130 REVISIONS TO SHELL (Other than Term Compensation or Job APPROVAL ROUTING * Sr. Manager (B. J. Powell) * Director - (G. L. Littell) ** Sr. VP T. W. Robertson Return To: MARY SEAGRAVES Ext 1485",
+        "ground_truth_length": 837,
+        "gemini": {
+            "text": "SPORTS MARKETING ENTERPRISES DOCUMENT CLEARANCE SHEET Date Routed: January 11, 1994 Contract No. 4011 00 00 Contract Subject: Joe's Place Exhibits Company SPEVCO, INC. Brand(s) Camel/Winston Total Contract Cost $1,340,000.00 Current Year Cost 1994-1995 Brief Description 2 Joe's Place Exhibits for use at Winston Cup, Winston Drag and Camel Super Bike Events. G/L Code: Program Budget Code NAME SIGNATURE DATE Originator Michael Wright Manager John Powell B. J. Powell 1-11-94 REVIEW ROUTING SIGNATURE DATE Insurance Law FS - Marketing REVISIONS TO SHELL PAGE(S) SECTION(S) (Other than Term, Compensation or Job APPROVAL ROUTING * Sr. Manager (B. J. Powell) * Director - (G. L. Littell) ** Sr. VP T. W. Robertson Return To: MARY SEAGRAVES SME 13 Plaza Ext. 1485 * UP TO AND INCLUDING $25,000 **OVER $25,000 Revised 10/26/92",
+            "text_length": 823,
+            "inference_time": 3.645775318145752,
+            "scores": {
+                "rouge1_f1": 0.9929078014184397,
+                "rouge2_f1": 0.757142857142857,
+                "rougeL_f1": 0.6950354609929078
+            }
+        },
+        "paddle": {
+            "text": "SPORTS MARKETING ENTERPRISES DOCUMENTCLEARANCESHEET Date Routed: January 11,1994 Contract No. 40110000 Contract Subject: Joe's Place Exhibits Company SPEVCO,INC. Brand(s) Camel/Winston Total Contract Cost $1,340,000.00 Current Year Cost 1994-1995 Brief Description 2Joe's Place Exhibits for use at Winston Cup, Winston Drag and Camel Super Bike Events. G/L Code: Program Budget Code NAME SIGNATURE DATE Originator Michael Wright Manager John Powell b'g 1-11-94 REVIEWROUTING SIGNATURE DATE Insurance Law FS-Marketing REVISIONS TO SHELL PAGE(S) SECTION(S) (Other than Term, Compensation or Job APPROVAL ROUTING *Sr.ManagerB.J.Powell Director-(G.L.Littell) 51669 Sr.VP T.W.Robertson 8130 Return To: MARYSEAGRAVES SME 13 Plaza Ext.1485 UP TO AND INCLUDING $25,000 *OVER$25,000 Revised 10/26/92",
+            "text_length": 790,
+            "inference_time": 3.2894530296325684,
+            "scores": {
+                "rouge1_f1": 0.9163636363636363,
+                "rouge2_f1": 0.6373626373626374,
+                "rougeL_f1": 0.5963636363636363
+            }
+        }
+    },
+    {
+        "image_file": "0060068489.png",
+        "ground_truth": "DATE DESCRIPTION MEDIUM 3/17/82 Outdoor AGENCY BRAND NO. April THRU July SPACE CONTINGENCY 1,680 2.000.00 TOTAL APPROVALS Agency Product Media Sales Marketing Executive Accounting REMARKS: ADVERTISING AND SELLING AUTHORIZATION NYO 09 (10-81) The American Tobacco Company DIVISION OF AMERICAN BRANDS INC. 265 PARK AVENUE, NEW YORK, NEW YORK 00267 DO NOT MAKE ANY COMMITMENT OR AUTHORIZE ANY EXPENDITURE OF ANY KIND FOR. ACCOUNT OF THIS COMPANY UNTIL EXECUTIVE APPROVAL HAS BEEN OBTAINED HEREON. corporate Media Department 30 sheet Posters (White Background) LUCKY STRIKE LOW Tar Filters Box- 100% PERIOD. FROM ENTER ESTIMATES OF AMOUNTS TO BE EXPENDED BY MONTHS UNDER \"REMARKS\" OR ON ATTACHMENT. MAXIMUM EXPENDITURES AUTHORIZED 1,600 posters plus 5% overrun (80) $ 16.00 each $ 26,880,00 $ 28,880.00 For posting in Cincinnati, Covington and Tampa/St. Petersburg. Posters are captioned for identification, \"LUCKY STRIKES AGAIN (printed in red) with the word \"New\" printed in a snipe effect in the upper left corner. These posters have a white background and will be further identified as such in order to differentiate from a second design which will have a solid red background with white lettering. Posters are printed six colors (four color process and two impressions of red) on white 70# outdoor poster paper. Budget Allocation Authorization No. M- 49 L- 3a Estimated Freight Charges DISPLAY MATERIAL MECHANICAL PRODUCTION ART WORK AIR TIME 30 Sheet Posters",
+        "ground_truth_length": 1460,
+        "gemini": {
+            "text": "The American Tobacco Company A DIVISION OF AMERICAN BRANDS, INC. 245 PARK AVENUE, NEW YORK, NEW YORK 10167 NYO 89 (10-81) ADVERTISING AND SELLING AUTHORIZATION DO NOT MAKE ANY COMMITMENT OR AUTHORIZE ANY EXPENDITURE OF ANY KIND FOR ACCOUNT OF THIS COMPANY UNTIL EXECUTIVE APPROVAL HAS BEEN OBTAINED HEREON. AGENCY Corporate Media Department NO. DATE 3/17/82 BRAND MEDIUM LUCKY STRIKE Low Tar Outdoor Filters Box - 100% DESCRIPTION 30 Sheet Posters (White Background) PERIOD FROM. April THRU July ENTER ESTIMATES OF AMOUNTS TO BE EXPENDED BY MONTHS UNDER \"REMARKS\" OR ON ATTACHMENT. 1,680 AIR TIME 30 Sheet Posters SPACE ART WORK MECHANICAL PRODUCTION DISPLAY MATERIAL CONTINGENCY Estimated Freight Charges. MAXIMUM EXPENDITURES AUTHORIZED $26,880.00 1,600 posters plus 5% overrun (80) @ $16.00 each 2,000.00 TOTAL $ 28,880.00 APPROVALS Agency Product Media Sales Marketing Executive Accounting Budget Allocation L-3a Authorization No. M-49 REMARKS: For posting in Cincinnati, Covington and Tampa/St. Petersburg. Posters are captioned for identification, \"LUCKY STRIKES AGAIN\" (printed in red) with the word \"New\" printed in a snipe effect in the upper left corner. These posters have a white background and will be further identified as such in order to differentiate from a second design which will have a solid red background with white lettering. Posters are printed six colors (four color process and two impressions of red) on white 70# outdoor poster paper.",
+            "text_length": 1463,
+            "inference_time": 4.798858404159546,
+            "scores": {
+                "rouge1_f1": 0.9851380042462844,
+                "rouge2_f1": 0.814498933901919,
+                "rougeL_f1": 0.7048832271762209
+            }
+        },
+        "paddle": {
+            "text": "heAmeriean ctaeeo NVO89101) RANDE, INC. ADVERTISING AND SELLING AUTHORIZATION 245 PARK AVENUENEW VORK.NEWVORK J0167 DIVIEICN OF DO NOT MAKE ANY COMMITMENT OR AUTHORIZE ANY EXPENDITURE OF ANY KIND FOR ACCOUNT OF THIS COMPANY UNTIL EXECUTIVE APPROVAL HAS BEEN OBTAINED HEREON. AGENCY Corporate _Media Department NO. DATE3/17/82 BRAND MEDIUM DESCRIPTION LUCKY STRIKE LOW Tar Outdoor 30 Sheet Posters Filters Box - l00% (white Background) PERIOD-FROM April THRU July ENTER ESTIMATES OF AMOUNTS TO BE EXPENDED BY MONTHS UNDER REMARKSOR ON ATTACHMENT MAXIMUM EXPENDITURES AUTHORIZED 1.680 AIR TIME 30 Sheet Posters XXXR $26,880.00 1,600 posters plus 5%overrun80 SPACE $16.00 each ART WORK MECHANICAL PRODUCTION DISPLAY MATERIAL CONTINGENCY Estimated Freight Charges. 2.000.00 TOTAL $ 28,880.00 APPROVALS Agency REMARKS: Praduct For posting in Cincinnati, Covington and Tampa/st. Petersburg. Media Posters are captioned for identification, Sales \"LUCKY STRIKES AGAIN\" (printed in red with the word \"New\" printed in a snipe effect in the Marketing upper left corner.. These posters have a white Executive background and will be further identified as such in order to differentiate from a second Accounting design which will have a aolid red background with white lettering. Posters are printed six colora (four color Budget Allocation I~3a process and two impressions of red) on white 70# outdoor poster paper. Authorizatlon No. M-49",
+            "text_length": 1425,
+            "inference_time": 5.68273663520813,
+            "scores": {
+                "rouge1_f1": 0.891304347826087,
+                "rouge2_f1": 0.6681222707423581,
+                "rougeL_f1": 0.6608695652173914
+            }
+        }
+    },
+    {
+        "image_file": "0060080406.png",
+        "ground_truth": "02/04/91 DATE DESCRIPTION MEDIUM SALES BRAND ORIGINATOR THRU REMARKS LABELS DECALS MOBILES 35,000.00 APPROVALS JAN FEB MAR Agency Forecasting Marketing Sales Sales President 5060 Yr. 91 THE AMERICAN TOBACCO COMPANY SIX STAMFORD FORUM P. O. BOX 10380 STAMFORD CONNECTICUT 06904- 2380 AT [1- 89) ADVERTISING AND SELLING AUTHORIZATION DO NOT MAKE ANY COMMITMENT OR AUTHORIZE ANY EXPENDITURE OF ANY KIND FOR ACCOUNT OF THIS COMPANY UNTIL EXECUTIVE APPROVAL HAS BEEN OBTAINED HEREON (BE GUIDED BY PPM 60,020 IN COMPLETING THIS FORM) BULL DURHAM Filter Box BULL DURHAM Lights BOX JOB NO COLLATERAL MERCHANDISING MATERIALS PERIOD - FROM 01/ 91 03/ 91 To cover the cost of collateral merchandising materials to be used in 1991 in connection with the merchandising and promotion of BULL DURHAM. These costs will include but are not exclusive to the the following materials: CARTON END PANELS SCORED CARTONS SHELF DANGLERS SIDING INDOOR TALKERS PACKAGE I. D. STRIPS POSTERS (LARGE WINDOW) LIGHT THIEF JUMBO PACKS TOTALS $ ACCOUNTING DISTRIBUTION V. P. - Marketing Chairman/ CEO $ 10.000. $ 10.000. $ 15,000. Account Code Budget Code Auth No. 10- 320",
+        "ground_truth_length": 1139,
+        "gemini": {
+            "text": "THE AMERICAN TOBACCO COMPANY SIX STAMFORD FORUM P.O. BOX 10380 STAMFORD CONNECTICUT 06904-2380 AT 80-M-1 (1-89) ADVERTISING AND SELLING AUTHORIZATION DO NOT MAKE ANY COMMITMENT OR AUTHORIZE ANY EXPENDITURE OF ANY KIND FOR ACCOUNT OF THIS COMPANY UNTIL EXECUTIVE APPROVAL HAS BEEN OBTAINED HEREON. (BE GUIDED BY PPM 50.020 IN COMPLETING THIS FORM.) ORIGINATOR SALES JOB NO. DATE 02/04/91 BRAND MEDIUM BULL DURHAM Filter Box BULL DURHAM Lights Box DESCRIPTION COLLATERAL MERCHANDISING MATERIALS PERIOD - FROM 01/91 THRU 03/91 REMARKS To cover the cost of collateral merchandising materials to be used in 1991 in connection with the merchandising and promotion of BULL DURHAM. These costs will include but are not exclusive to the following materials: CARTON END PANELS DECALS LABELS JUMBO PACKS LIGHT THIEF MOBILES POSTERS (LARGE WINDOW) PACKAGE I.D. STRIPS SCORED CARTONS SHELF DANGLERS SIDING INDOOR TALKERS TOTAL $ 35,000.00 ACCOUNTING DISTRIBUTION APPROVALS Agency Forecasting Marketing Sales V.P. - Marketing Sales President Chairman/CEO JAN $ 10,000. FEB $ 10,000. MAR $ 15,000. Account Code 10- 320 Budget Code Auth. No. 5060 Yr. 91",
+            "text_length": 1137,
+            "inference_time": 4.656742334365845,
+            "scores": {
+                "rouge1_f1": 0.9837837837837837,
+                "rouge2_f1": 0.7608695652173914,
+                "rougeL_f1": 0.7405405405405405
+            }
+        },
+        "paddle": {
+            "text": "THE SIX STAMFORD FORUM AT 80-M-1 (1-89) AMERICAN P.O.BOX10380 STAMFORD CONNECTICUT O69O4-2380 ADVERTISINGAND TOBACCO SELLING AUTHORIZATION COMPANY IO NOT MAKE ANY COMITMENT OR AUTHCRIZE ANY EXPENDITURE OF ANY KIND FOR ACCOUNT OF THIS COMPANY UNTIL EXECUTIVEAPPROVAL HAS EEEN O3TAINED HEREON. BE GUIDED BY PPM 50.020 IN COMPLETING THIS FORM.) ORIGINATOR SALES JOBNO. DATE 02/04/91 BRAND MEDIUM DESCRIPTION BULL DURHAM Flter Box COLLATERALMERCHANDISIN SULL DURHAM Lights Box MATERIALS PERIOD-FROM 01/91 THRU 03/91 REMARKS To cover the cost of coilateral merchandising materials to be used in 9l These costs wiil include but are not exclusive to the the foilowing matertals: CARTON END PANELS LIGHT THIEF SCORED CARTONS DECALS MOBILES SHELF DANGLERS LABELS POSTERS (LARGE WINDOW SIDING INDOOR TALKERS UMBO PACKS PACKAGE I.D.STRIPS TOTAL$ 35,000.00 APPROVALS ACCOUNTING DISTRIBUTION Agency JAN$ 10,000. FEB 10000. Forecasting MAR$ 15,000. Marketing Sales V.P.-Marketing Account Code 10- 320 Sales President Budget Code Auth.No. $060 Yr. 91 Chairman/CEO",
+            "text_length": 1048,
+            "inference_time": 9.972697496414185,
+            "scores": {
+                "rouge1_f1": 0.8225352112676055,
+                "rouge2_f1": 0.4702549575070822,
+                "rougeL_f1": 0.552112676056338
+            }
+        }
+    },
+    {
+        "image_file": "0060091229.png",
+        "ground_truth": "Attention: MARDEN- KANE. INC. 666 FIFTH AVE. NEW YORK, N.Y. 10103 (212) 582-6600 TRAVEL INFORMATION SHEET This information will be used by Marden- Kane in making travel arrangements for your round- trip to Los Angeles, California. Finalist Name: Home Address: Home Telephone: Business Telephone: Name of Guests Relationship to Finalist: Major Airport Nearest your home: Distance from your home to airport: Do you prefer airline seats in smoking or non- smoking section: Any special dietary meal and/ you or your guest would prefer RETURN TO: Harden- Kane, Inc. 666 Fifth Avenue New York, N. Y. 10103 Ms. L. Sobel",
+        "ground_truth_length": 612,
+        "gemini": {
+            "text": "MARDEN-\u039a\u0391\u039dE. INC. 666 FIFTH AVE. NEW YORK. N. Y. 10103 (212) 582-6600 TRAVEL INFORMATION SHEET This information will be used by Marden-Kane in making travel arrangements for your round-trip to Los Angeles, California. Finalist Name: Home Address: Home Telephone: Business Telephone: Name of Guest: Relationship to Finalist: Major Airport Nearest your home: Distance from your home to airport: Do you prefer airline seats in smoking or non-smoking section: Any special dietary meal you and/or your guest would prefer RETURN TO: Marden-Kane, Inc. 666 Fifth Avenue New York, N.Y. 10103 Attention: Ms. L. Sobel",
+            "text_length": 606,
+            "inference_time": 2.7498159408569336,
+            "scores": {
+                "rouge1_f1": 0.9801980198019802,
+                "rouge2_f1": 0.92,
+                "rougeL_f1": 0.9603960396039604
+            }
+        },
+        "paddle": {
+            "text": "MARDEN-KANE.INC 666 FIFTH AVE.-NEW YORX.N.Y.10103 2125826600 TRAVEL INFORMATICN SHEET This information will be usedby Marden-Kane in meking travel arrangements for your round-trip to Los Angeles,California. Finalist Name: Hame Address: Hane Telephone: Business Telephone: Name of Guest Relationship to Finalist Major Airport Nearest your hame: Distance fram your hame to airport: Do you prefer airline seats in smoking or non-smoking section: Any special dietary meal you and/or your guest would prefer RETURN TO: Marden-Kane, Inc. 666 Fifth Avenue New YorkN.Y.10103 Attention: Ms.L. Sobel",
+            "text_length": 589,
+            "inference_time": 4.431623697280884,
+            "scores": {
+                "rouge1_f1": 0.8585858585858587,
+                "rouge2_f1": 0.6836734693877551,
+                "rougeL_f1": 0.8383838383838383
+            }
+        }
+    },
+    {
+        "image_file": "0060094595.png",
+        "ground_truth": "Weight Draw Tar Nicotine 0 5 7 12 23 0 1 0 11 5 4 4 23 1 0 0 Basic Basic Basic 80620665 Characteristic Tested BETWEEN THE ACTS 25 %% mm. Butt MADISON 25 mm. Butt Smoke Analysis Present Sample Mean of Last 12 Samples Present Sample Mean of Last 12 Samples 1 .089 0. .34 39. .7 4 .26 ction to Litmus 1 .106 0 .37 35 .6 3 .83 1 .111 0 .34 37 .8 3 .45 Basic 1 .132 0\u00ef\u0153\u0192 .37 31 .0 2 2.99 urn Test Static -Complete Cigar -1 /2 Cigar -1 /3 Cigar -Went out immediately Dynamic -Time in seconds -% Burned Completely SOC- 36 P. LORILLARD CO. , INC. RESEARCH DIVISION QUALITY CONTROL DEPARTMENT SMOKE ANALYSIS AND BURNING TEST REPORT WEEKLY PRODUCTION LITTLE CIGARS NON FILTERS WEEK ENDING 11/ 25 /66",
+        "ground_truth_length": 689,
+        "gemini": {
+            "text": "P. LORILLARD CO., INC. RESEARCH DIVISION QUALITY CONTROL DEPARTMENT ( SMOKE ANALYSIS AND BURNING TEST REPORT WEEKLY PRODUCTION LITTLE CIGARS NON FILTERS WEEK ENDING 11/25/66 BETWEEN-THE-ACTS MADISON Characteristic Tested 25 23 mm. Butt 25mm. Butt Smoke Analysis Present Sample Mean of Last Present Sample Mean of Last 12 Samples 12 Samples Weight 1.089 1.106 1.111 1.132 Draw 0.34 0.37 0.34 0.37 Tar 39.7 35.6 37.8 31.0 Nicotine 4.26 3.83 3.45 2.99 Reaction to Litmus Basic Basic Basic Basic Burn Test Static -Complete Cigar 0 23 11 23 -1/2 Cigar 5 0 5 0 -1/3 Cigar 7 1 4 1 -Went out immediately 12 0 4 0 Dynamic -Time in seconds -% Burned Completely ( SOC-36 80620665",
+            "text_length": 668,
+            "inference_time": 4.865532159805298,
+            "scores": {
+                "rouge1_f1": 0.967032967032967,
+                "rouge2_f1": 0.5977859778597786,
+                "rougeL_f1": 0.4249084249084249
+            }
+        },
+        "paddle": {
+            "text": "LORILLARD CO.INC RESEARCH DIVISION QUALITY CONTROL DEPARTMENT SMOKE ANALYSIS AND BURNING TEST REPONT WEEKLY PRODUCTION LITTLE CIGARS NON PILTERS WSEK ENDING 11/25/66 BETWEEN-THE-ACTS MADTSON Characteristic Tested 25. mm.Butt 25 mn.Butt Smoke Analysis Present Samplc Mean of Last Present Sample Mean of Last 12 Samples 12 Samples Weight 1.089 1.106 1.111 1.132 Draw 0.34 0.37 0.34 0.37 Tar 39.7 35.6 37.8 31.0 Nicotine 4.26 3.83 3.45 2.99 Basic Basic Basic Basic urn Test Static -Complete Cigar 0 23 11 23 -1/2 Cigar 5 0 5 -1/3 Cigar 7 1 4 1 -Went out immediately 12 4 0 Dynamic -Time in seconds %Burned Completely SQC-36 80620665",
+            "text_length": 629,
+            "inference_time": 3.6606268882751465,
+            "scores": {
+                "rouge1_f1": 0.9213483146067415,
+                "rouge2_f1": 0.5358490566037736,
+                "rougeL_f1": 0.4344569288389513
+            }
+        }
+    }
+]

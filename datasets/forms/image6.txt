@@ -1,0 +1,35 @@
+Hospital Patient Registration Form
+Please fill out this form accurately. All information is confidential.
+
+Full Name: Virat Vaibhav
+Date of Birth (DD/MM/YYYY): 28-05-1992
+Gender (M/F/O): Male
+Blood Group: O+
+Nationality: Indian
+Address: Madhyam Marg, Mansarovar
+City: Jaipur
+State/Province: Rajasthan
+Postal Code: 302018
+Phone Number: 9828346514
+Email Address: viratvaibhav@gmail.com
+Emergency Contact Name: Rajesh Vaibhav
+Relationship: Father
+Emergency Contact Phone: 9828346514
+
+Medical History (Answer Yes or No):
+Condition    Yes/No
+Diabetes     No
+Hypertension No
+Heart Disease No
+Asthma       No
+Allergies    No
+Other (specify) No
+
+Insurance Provider: 
+Policy Number: 964196282415
+Valid Till (DD/MM/YYYY): 
+
+Declaration
+I hereby declare that the information provided above is true and accurate to the best of my knowledge. I understand that providing false information may result in denial of medical services or legal consequences.
+
+Signature: Rajesh    Date: 06-05-2024

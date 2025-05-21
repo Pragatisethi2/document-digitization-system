@@ -1,0 +1,17 @@
+{
+    "total_images": 50,
+    "gemini": {
+        "success_rate": 1.0,
+        "avg_rouge1_f1": 0.9700734025544703,
+        "avg_rouge2_f1": 0.736089447874421,
+        "avg_rougeL_f1": 0.6851754667466463,
+        "avg_inference_time": 4.075324318144056
+    },
+    "paddle": {
+        "success_rate": 1.0,
+        "avg_rouge1_f1": 0.8821185520480767,
+        "avg_rouge2_f1": 0.6220520863196253,
+        "avg_rougeL_f1": 0.6270945209599182,
+        "avg_inference_time": 3.649171988169352
+    }
+}

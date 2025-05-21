@@ -1,0 +1,35 @@
+Hospital Patient Registration Form
+Please fill out this form accurately. All information is confidential.
+
+Full Name: Kartik Bairwa
+Date of Birth (DD/MM/YYYY): 04-06-2014
+Gender (M/F/O): Male
+Blood Group: B+
+Nationality: Indian
+Address: Raigro ka Mohalla, Sanganer
+City: Jaipur
+State/Province: Rajasthan
+Postal Code: 302029
+Phone Number: 9825643250
+Email Address: kartik.4@gmail.com
+Emergency Contact Name: Vijay Bairwa
+Relationship: Father
+Emergency Contact Phone: 9285364205
+
+Medical History (Answer Yes or No):
+Condition    Yes/No
+Diabetes     No
+Hypertension No
+Heart Disease No
+Asthma       No
+Allergies    No
+Other (specify) No
+
+Insurance Provider:
+Policy Number:
+Valid Till (DD/MM/YYYY):
+
+Declaration
+I hereby declare that the information provided above is true and accurate to the best of my knowledge. I understand that providing false information may result in denial of medical services or legal consequences.
+
+Signature: Vijay    Date: 18-05-2024

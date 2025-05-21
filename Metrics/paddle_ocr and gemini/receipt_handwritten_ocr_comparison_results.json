@@ -1,0 +1,102 @@
+{
+  "image1.jpg": {
+    "gemini": {
+      "text": "Date     19\n\nA PHOTOGRAPHERS PLACE\n133 MERCER STREET\nNEW YORK N Y 10012\n\nM\nNo.\nReg. No.\n\nClerk  8/5/81\nACCOUNT\nFORWARDED\n\n1\n2\n3  FLORA    85\n4  (3) PRINTS   10\n5\n6\n7  TAX     7 85\n8\n9\n10 TOTAL   102 85\n11\n12 RETURNS POLICY: In-print books\n13 within two weeks for store credit\n14 ONLY. Out-of-print books are\n15 bought back at 30% of their safe\n     price. Canvas & misc. items are\n     sold as is and are not returnable.\n     NO EXCEPTIONS.\n\nKW-2 Your account stated to date. If error is found, return at once.  930",
+      "metrics": {
+        "rouge1_f1": 0.8910891089108911,
+        "rouge2_f1": 0.76,
+        "rougeL_f1": 0.8712871287128714
+      },
+      "processing_time": 4.583548545837402
+    },
+    "paddle": {
+      "text": "APHOTOGRAPPERS PLA\nDate\nM\n133 MERCERSTREE\nNo.\nNEW-YORI\nNY-10012\nReg.No.\nClerk\nFORWARDED\nACCOUNT\n1\n2\n3\nFLORA\nS8\n4\n3RN3\n10\n5\n6\n7\n85\n8\n9\n10\nioz\nS8\n11\n12\nRETURNS POLICY:In-print books\nwithin two-weeks-for-store credit\n13\nONLY. Out-of-print bpoks\nbought back at 30% ot thetr\n14\nprice.Cayeras & misc.items\nsate\nsoid as-is\n are not reurnable.\nTare\n15\nJand\nEXCEPTIONS\nKW-2 Your account stated to date.f error is found return at once.930",
+      "metrics": {
+        "rouge1_f1": 0.6878306878306878,
+        "rouge2_f1": 0.40641711229946526,
+        "rougeL_f1": 0.5925925925925927
+      },
+      "processing_time": 1.7341852188110352
+    }
+  },
+  "image2.jpg": {
+    "gemini": {
+      "text": "9<sup>th</sup> January 1939\n\nMrs E Martin\nNo 8\nDr. to A Murphy\n\n2 weeks rent of cottage No 8\nfrom 15<sup>th</sup> to 23<sup>rd</sup> Jan 39 @ 3s7<sup>d</sup>  3 10 0\nSanitary fee  1 0\nCleaning fee  5 0\n\u00a33 16 0\n\nLess deposit paid  10 0\n\u00a33 6 0\n\n1 week from 23<sup>rd</sup> to 30<sup>th</sup> Jan 39  1 15 0\n\u00a35 1 0\n\nCleaning fee will be refunded\nif cottage is left clean.\n\nPaid\nby cash\nGeo Murphy\n9/1/39",
+      "metrics": {
+        "rouge1_f1": 0.8156424581005587,
+        "rouge2_f1": 0.7344632768361582,
+        "rougeL_f1": 0.8156424581005587
+      },
+      "processing_time": 3.3054463863372803
+    },
+    "paddle": {
+      "text": "ML\nto.wA.M.uphy\nwfcehs nent.oferttageolsf\nl53gan3935\n3\nm\n10\nanla\n160\nmog\n10\n#3\n60\n1weehom2330fon39\n50\nundid",
+      "metrics": {
+        "rouge1_f1": 0.09803921568627451,
+        "rouge2_f1": 0.0,
+        "rougeL_f1": 0.09803921568627451
+      },
+      "processing_time": 0.8962016105651855
+    }
+  },
+  "image5.jpg": {
+    "gemini": {
+      "text": "WILLIAMS' BOOK STORE\nEstablished 1908\n708 SOUTH PACIFIC AVENUE\nSan Pedro, Calif. 90731\n832-3631\n\nDate________2/10/1981\n\nName_Ellen Leonard\nAddress_1351 W 15th St\nCity_SP Zip_90732 Phone_832-3436\n\nSCOP MAIL CHARGE\nGreat Tastes of Chinese Cooking  12.95\n\nAuthor_________________________\nPublisher_Harper\n\nOrdered From_________________________\n\nON ORDERED BOOKS THERE\nIS A POSSIBILITY OF A\nPRICE INCREASE.\nWI\nno but\n\nSales Tax_.28\nTotal_13.23\nDeposit_______________\nBalance Due_______________\n\nMOORE BUSINESS FORMS, INC.-M",
+      "metrics": {
+        "rouge1_f1": 0.8918918918918918,
+        "rouge2_f1": 0.7260273972602739,
+        "rougeL_f1": 0.8243243243243243
+      },
+      "processing_time": 3.3665735721588135
+    },
+    "paddle": {
+      "text": "WILLIAMS'BOOK STORE\nEstablished 1908\n708 SOUTH PACIFIC AVENUE\nSan Pedro,Calif.90731\n832-3631\n2\n3\n18\nDate\nName\neona\nIS\n351\nAddress.\nCity\nZip.\nPhone\n90232\n832-3436\nSCOP\nMAIL\nCHARGE\n10ste\n105\n0\nAuthor\nHorpen\nPublisher\nOrdered\nFrom\n89\nON ORDERED BOOKS THERE\nSales Tax\nIS A POSSIBILITY\nOF\nA\n1393\nPRICE INCREASE\nTotal\nDeposit\nnB+\nBalance Due\nMOORE BUSINESS FORMS,INC.-M",
+      "metrics": {
+        "rouge1_f1": 0.7007299270072992,
+        "rouge2_f1": 0.4740740740740741,
+        "rougeL_f1": 0.6861313868613139
+      },
+      "processing_time": 1.4976351261138916
+    }
+  },
+  "image3.png": {
+    "gemini": {
+      "text": "RECEIPT\n\nPayer\nMrs Annie Green\n\nAddress\n5 Any Street\nGood Suburb\nForrest Town X2204Y\n\nDate of Payment\n41275\n\nReference\nAG500\n\nReceipt Number\n1020\n\nAmount of Payment\n$352.25\n\nPurpose of Payment\nFor 2 single pine beds - style 394\n\nPayee\nABC Furniture Co\n\nAddress\n101 Tree Stree\nLeafy Vale\nForrest Town X1203Y\n\nPhone\n987 1234 5678\n\nFax\n987 8765 4321\n\nEmail\nabcfurn@all.mail.com\n\nweb address\nwww.abcfurn.all.com",
+      "metrics": {
+        "rouge1_f1": 0.8714285714285714,
+        "rouge2_f1": 0.6811594202898551,
+        "rougeL_f1": 0.5142857142857142
+      },
+      "processing_time": 3.4995081424713135
+    },
+    "paddle": {
+      "text": "RECEIPT\nPayer\nPayee\nMrsAnnie Green\nABc Furnitre Co\nAddress\nAddress\n5 Any Street\n101 TreeStree\nGoodsuburb\nLeafy Vale\nForrest TownX2204Y\nForrestTownX1203Y\nDate of Payment\nPhone\n41275\n98712345678\nReference\nFax\nAG500\n98787654321\nReceipt Number\nEmail\n1020\nabcfurn@all.mail.com\nAmount of Payment\nweb address\n$352.25\nwww.abcfurn.all.com\nPurpose of Payment\nFor 2 singlepine beds~style 394",
+      "metrics": {
+        "rouge1_f1": 0.7751937984496123,
+        "rouge2_f1": 0.45669291338582674,
+        "rougeL_f1": 0.6821705426356589
+      },
+      "processing_time": 1.4727094173431396
+    }
+  },
+  "image4.png": {
+    "gemini": {
+      "text": "Here's a text version of the image:\n\n**MEDICAL BILL RECEIPT**\n\nReceipt Number: #14586\nDate: 10/12/2020\n\nName of Medical Institution: Clinic Tap\nPractitioner Name: Yap Chang Chu\nLicense Number: _\nAddress: 18, Jalan Kenanga & Indahpura\nCity/State/ZIP: 81000 Kulai Johor\n\nPatient Information:\nName: Lim Teck Re\nStreet Address: 1500, Jalan Teratai 38/76 Indahpura\nCity/State/ZIP: 81000 Kulai Johor\n\nOFFICIAL RECEIPT\n\nKLINIK ABC\n5, Jalan Anggerik, Taman Rekamas,\n75450, Ayer Keroh,\nMelaka.\n07-7235585\n\nDate: 11/12/2020\n\nReceived with thanks from: Lim Teck Heng\nThe sum of Ringgit Malaysia: One hundred only\nBeing payment of Consultation / Medicines / Lab / X-Ray fees etc: Medicines and consultation\nRM 100\nCash/Charger No: Cash",
+      "metrics": {
+        "rouge1_f1": 0.9210526315789473,
+        "rouge2_f1": 0.8495575221238938,
+        "rougeL_f1": 0.8596491228070176
+      },
+      "processing_time": 5.015423774719238
+    },
+    "paddle": {
+      "text": "MEDICALBILLRECEIPT\n#14586\nReceipt Number\nDate:10/12/2020\nClinic Tap\nName of Medical Institution:\nPractitioner Name: Yap Chan Chu\nLicense Number.\nAddress:8Jalan Kenangg & Indahpra\nCity/StateZIP_So00 KuJhor\nPatient Information:\nName:Lim Teck Re\nCity/StateZIPSo0D KuJohor\nOFFICIAL RECEIPT\nKLINIKABC\n5,Jalan Anggerik, Taman Rekamas,\n75450,Ayer Keroh,\nMelaka.\n07-7235585\nLim Teck Heng\nDate:11/12/2020\nReceived with thanks from\nDne hundred on\nThe sum of Ringgit Malaysia\nMeolicines and\nBeing payment of Consultation/Medicines/Lab/x-Ray fees etc\nonsutation\n100\nRM\nCash\nCash/Charger No:",
+      "metrics": {
+        "rouge1_f1": 0.7192118226600984,
+        "rouge2_f1": 0.5074626865671641,
+        "rougeL_f1": 0.5911330049261083
+      },
+      "processing_time": 1.565974473953247
+    }
+  }
+}
